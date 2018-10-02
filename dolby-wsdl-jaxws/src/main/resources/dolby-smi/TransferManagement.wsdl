@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This web service definition is protected under U.S. copyright laws as an unpublished work.
+  Do not copy.
+  Copyright 2009-$Date: 2009/03/20 $ by Dolby Laboratories Inc.
+  All rights reserved.
+-->
+<wsdl:definitions name="TransferManagement_v1"
+  targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1"
+  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+  xmlns:tns="http://www.dolby.com/dcinema/ws/smi/v1"
+  xmlns:tra="http://www.dolby.com/dcinema/ws/smi/v1/schemas/transfermanagement"
+  xmlns:com="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"
+  xmlns:flt="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"
+  xmlns:v1_0="http://www.dolby.com/dcinema/ws/smi/v1_0"
+  xmlns:v1_1="http://www.dolby.com/dcinema/ws/smi/v1_1" 
+  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Request/Response Schema Definitions -->
+  
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1_0">
+
+      <xsd:import schemaLocation="TransferManagement.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/transfermanagement"/>    
+      <xsd:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+      <xsd:import schemaLocation="Fault.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"/>
+
+      <!-- transferContent elements -->
+      
+      <xsd:element name="transferContentRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="transferType" type="tra:NetworkTransferType" minOccurs="0"/>
+            <xsd:element name="transferProtocolType" type="tra:TransferProtocolType" minOccurs="0"/>
+            <xsd:element name="contentType" type="com:ContentType" minOccurs="0"/>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="destinationContentStore" type="com:ContentStoreType" minOccurs="0"/>
+            <xsd:element name="url" type="xsd:anyURI"/>
+            <xsd:element name="userName" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="password" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="transferContentResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="transferId" type="com:UUID"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getTransfers elements -->
+
+      <xsd:element name="getTransfersRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="getTransfersResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="transferId" type="com:UUID" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getTransferInfos elements -->
+      
+      <xsd:element name="getTransferInfosRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="transferId" type="com:UUID" minOccurs="0"/>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="getTransferInfosResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="transferInfo" type="tra:TransferInfo" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- cancelTransfer elements -->
+      
+      <xsd:element name="cancelTransferRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="transferId" type="com:UUID"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="cancelTransferResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- clearTransferHistory elements -->
+      
+      <xsd:element name="clearTransferHistoryRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="clearTransferHistoryResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- base fault type -->
+      
+      <xsd:element name="fault" type="flt:Fault"/>
+      
+    </xsd:schema>
+    
+    <xsd:schema targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1_1">
+
+      <xsd:import schemaLocation="TransferManagement.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/transfermanagement"/>    
+      <xsd:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+      <xsd:import schemaLocation="Fault.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"/>
+      
+      <!-- transferContent2 elements -->
+      
+      <xsd:element name="transferContent2Request">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="transferType" type="tra:NetworkTransferType" minOccurs="0"/>
+            <xsd:element name="transferProtocolType" type="tra:TransferProtocolType" minOccurs="0"/>
+            <xsd:element name="contentType" type="com:ContentType" minOccurs="0"/>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="destinationContentStore" type="com:ContentStoreType" minOccurs="0"/>
+            <xsd:element name="url" type="xsd:anyURI"/>
+            <xsd:element name="userName" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="password" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="assetMapUrl" type="xsd:anyURI" minOccurs="0"/>
+            <xsd:element name="pklUrl" type="xsd:anyURI" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="transferContent2Response">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="transferId" type="com:UUID"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+    </xsd:schema>
+        
+  </wsdl:types>
+  
+  <!-- Message Specification -->
+    
+  <wsdl:message name="transferContentRequest">
+    <wsdl:part element="v1_0:transferContentRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="transferContentResponse">
+    <wsdl:part element="v1_0:transferContentResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="transferContent2Request">
+    <wsdl:part element="v1_1:transferContent2Request" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="transferContent2Response">
+    <wsdl:part element="v1_1:transferContent2Response" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getTransfersRequest">
+    <wsdl:part element="v1_0:getTransfersRequest" name="parameters"/>
+  </wsdl:message>  
+  <wsdl:message name="getTransfersResponse">
+    <wsdl:part element="v1_0:getTransfersResponse" name="result"/>
+  </wsdl:message>  
+  
+  <wsdl:message name="getTransferInfosRequest">
+    <wsdl:part element="v1_0:getTransferInfosRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getTransferInfosResponse">  
+    <wsdl:part element="v1_0:getTransferInfosResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="cancelTransferRequest">
+    <wsdl:part element="v1_0:cancelTransferRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="cancelTransferResponse">
+    <wsdl:part element="v1_0:cancelTransferResponse" name="result"/>
+  </wsdl:message>
+    
+  <wsdl:message name="clearTransferHistoryRequest">
+    <wsdl:part element="v1_0:clearTransferHistoryRequest" name="parameters"/>
+  </wsdl:message>  
+  <wsdl:message name="clearTransferHistoryResponse">
+    <wsdl:part element="v1_0:clearTransferHistoryResponse" name="result"/>
+  </wsdl:message>
+
+  <wsdl:message name="fault">
+    <wsdl:part element="v1_0:fault" name="fault"/>
+  </wsdl:message>
+  
+  <!-- Operation Specification -->
+  
+  <wsdl:portType name="TransferManagementService_v1_0">
+  
+    <!-- transferContent Operation -->
+    
+    <wsdl:operation name="transferContent">
+      <wsdl:documentation>
+          transferContent Operation
+              Transfers content over the network. 
+
+		  Parameters:
+		      networkTransferType (optional)- Indicates that content is to be pulled by this server. Only 'PULL' is currently
+                                              supported. This defaults to 'PULL' if not specified.
+              transferProtocolType (optional) - Indicates the mechanism in which content is being pulled by this server. Only
+                                                'FTP' is supported for this operation. This defaults to 'FTP' if not specified.
+              contentType (optional) - The type of content to transfer.  If specifying
+		         CLIP - The clip and all of its underlying assets will be transferred. The URL of the CPL must be specified.
+                        The CPL must be in the same directory as the PKL and ASSETMAP files for the transfer to succeed.
+                 SHOW - The show definition will be transferred. The show will be available in all connected auditoriums that have
+                        all the required content.
+                 LICENSE - The key delivery message will be transferred.
+		         No other contentTypes are currently supported for content transfer.  If no contentType is 
+		         specified, then only the file/directory at the specified url will be transferred.
+		      auditoriumNumber (optional) - The destination auditorium of the transfer.  Only useful 
+		          when calling the service on a TMS server.  If not specified then this will transfer the specified
+                  content onto the server location.
+		      destinationContentStore (optional) - The destination permanent storage. This defaults to 'MAINSTORE'
+                  if not specified. This is ignored for SPL transfers.
+		      url - The location of the content to transfer
+		      userName (optional) - The userName of the remote server to transfer from.
+		      password (optional) - The password of the remote server to transfer from.
+              If username and password are not specified then this will use 'anonymous' login.
+		  Response:
+              the unique identifier of the transfer job.
+
+		  Exceptions:
+		      ContentStoreFailure - If the destination content store is not available, or is not 
+		         permanent storage.
+		      InvalidAuditorium - If no auditorium with the specified number exists, or if '*' is specified.
+		      NotConnected - If the ContentPlayer component is not connected. If the content is a Show, then the 
+                             ContentPlayer connection status does not matter.
+
+          Related Services:
+		      getTransfers/getTransferInfos - These services can be used to determine what transfers exist 
+		          before and after the transferContent request.
+		      getClips/getClipInfos - These services can be used to determine what clips exist 
+		          before and after the transferContent request with a content type of CLIP or 
+		          PACKAGE.
+		      getShows/getShowInfos - These services can be used to determine what shows exist 
+		          before and after the transferContent request with a content type of SHOW.
+		      getLicense/getLicenseInfos - These services can be used to determine what licenses exist 
+		          before and after the transferContent request with a content type of LICENSE.
+        </wsdl:documentation>
+      <wsdl:input message="tns:transferContentRequest"/>
+      <wsdl:output message="tns:transferContentResponse"/>
+      <wsdl:fault message="tns:fault" name="transferContentFault"/>
+    </wsdl:operation>
+        
+    <!-- getTransfers Operation -->
+    
+    <wsdl:operation name="getTransfers">
+      <wsdl:documentation>
+          getTransfers Operation
+              Lists the transfers on the system.
+              
+		  Parameters:
+		      auditoriumNumber (optional) - The destination auditorium of the transfers.  Only useful 
+		          when calling the service on a TMS server.  If not specified then this will get the transfers
+                  to the server location. If '*' is specified, then this will get transfers regardless of location.
+
+          Response:
+              transferId (many) - The array of transfer identifiers.
+
+		  Exceptions:
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      NotConnected - If the ContentPlayer component is not connected.
+		      
+		  Related Services:
+		      getTransferInfos - This service can be used to get brief information about the transfers 
+		          that exist on the system.
+        </wsdl:documentation>
+      <wsdl:input message="tns:getTransfersRequest"/>
+      <wsdl:output message="tns:getTransfersResponse"/>
+      <wsdl:fault message="tns:fault" name="getTransfersFault"/>
+    </wsdl:operation>
+    
+    <!-- getTransferInfos Operation -->
+    
+    <wsdl:operation name="getTransferInfos">
+      <wsdl:documentation>
+          getTransferInfos Operation
+              Gets information about one or more transfers that match all of the provided query 
+              criteria.  If no transfer matches all of the provided query no transfer 
+              information will be returned.
+              
+		  Parameters:
+		      transferId (optional) - The unique identifier of the transfer information being retrieved.
+		          If not specified then transfer information will be returned regardless of their 
+		          unique identifier.
+		      auditoriumNumber (optional) - The destination auditorium of initiated transfers.
+		          Only useful when calling the service on a TMS server.  If not specified then this will get the
+                  transfer information from the server location. If '*' is specified, then this
+                  will get transfer information regardless of location.
+
+		  Response:
+		      transferInfo (many) - the transfer information which matched all the specified query criteria.
+
+		  Exceptions:
+              NotConnected - If no ContentPlayer component is connected.
+		      
+		  Related Services:
+		      getTransfers - This service can be used to easily detect what transfers exist within the system.
+        </wsdl:documentation>
+      <wsdl:input message="tns:getTransferInfosRequest"/>
+      <wsdl:output message="tns:getTransferInfosResponse"/>
+      <wsdl:fault message="tns:fault" name="getTransferInfosFault"/>
+    </wsdl:operation>
+    
+    <!-- cancelTransfer Operation -->
+    
+    <wsdl:operation name="cancelTransfer">
+      <wsdl:documentation>
+          cancelTransfer Operation
+              Cancels a transfer or ingest process that has been initiated.  Does nothing if the transfer or 
+              ingest process is already in a terminal state.
+              
+		  Parameters:
+		      transferId - The unique identifier of the transfer being cancelled.
+
+		  Response:
+              None
+
+		  Exceptions:
+		      NotFound - If no transfer with the matching uuid could be found.
+		      NotConnected - If the ContentPlayer component is not connected. If the content is a Show, then the
+                             ContentPlayer connection status does not matter.
+		      
+		  Related Services:
+		      ingestContent/transferContent - Transfers initiated by these services may 
+		          be cancelled when initiating cancelTransfer.
+		      getTransferInfos - This service can be used to ensure that the appropriate 
+		          transfer is cancelled.
+        </wsdl:documentation>
+      <wsdl:input message="tns:cancelTransferRequest"/>
+      <wsdl:output message="tns:cancelTransferResponse"/>
+      <wsdl:fault message="tns:fault" name="cancelTransferFault"/>
+    </wsdl:operation>
+    
+    <!-- clearTransferHistory Operation -->
+    
+    <wsdl:operation name="clearTransferHistory">
+      <wsdl:documentation>
+          clearTransferHistory Operation
+              Clears transfers that are in a terminal state.  Does nothing if there are no transfers 
+              in a terminal state.
+              
+		  Parameters:
+		      auditoriumNumber (optional) - The destination auditorium of the transfers.  Only useful
+		          when calling the service on a TMS server.  If not specified then this will clear
+                  transfers on the server location. If '*' is specified, this will clear transfers regardless of location.
+
+		  Response:
+              None
+
+		  Exceptions:
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      NotConnected - If the ContentPlayer component is not connected.
+		      
+		  Related Services:
+		      getTransfers/getTransferInfos - These services will no longer return transfers in the 
+		          terminal state upon initiating clearTransferHistory.
+        </wsdl:documentation>
+      <wsdl:input message="tns:clearTransferHistoryRequest"/>
+      <wsdl:output message="tns:clearTransferHistoryResponse"/>
+      <wsdl:fault message="tns:fault" name="clearTransferHistoryFault"/>
+    </wsdl:operation>
+  
+  </wsdl:portType>
+  
+  <wsdl:portType name="TransferManagementService_v1_1">
+
+    <!-- transferContent Operation -->
+    
+    <wsdl:operation name="transferContent">
+      <wsdl:documentation>
+          @see portType TransferManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:transferContentRequest"/>
+      <wsdl:output message="tns:transferContentResponse"/>
+      <wsdl:fault message="tns:fault" name="transferContentFault"/>
+    </wsdl:operation>
+        
+    <!-- getTransfers Operation -->
+    
+    <wsdl:operation name="getTransfers">
+      <wsdl:documentation>
+          @see portType TransferManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getTransfersRequest"/>
+      <wsdl:output message="tns:getTransfersResponse"/>
+      <wsdl:fault message="tns:fault" name="getTransfersFault"/>
+    </wsdl:operation>
+    
+    <!-- getTransferInfos Operation -->
+    
+    <wsdl:operation name="getTransferInfos">
+      <wsdl:documentation>
+          @see portType TransferManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getTransferInfosRequest"/>
+      <wsdl:output message="tns:getTransferInfosResponse"/>
+      <wsdl:fault message="tns:fault" name="getTransferInfosFault"/>
+    </wsdl:operation>
+    
+    <!-- cancelTransfer Operation -->
+    
+    <wsdl:operation name="cancelTransfer">
+      <wsdl:documentation>
+          @see portType TransferManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:cancelTransferRequest"/>
+      <wsdl:output message="tns:cancelTransferResponse"/>
+      <wsdl:fault message="tns:fault" name="cancelTransferFault"/>
+    </wsdl:operation>
+    
+    <!-- clearTransferHistory Operation -->
+    
+    <wsdl:operation name="clearTransferHistory">
+      <wsdl:documentation>
+          @see portType TransferManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:clearTransferHistoryRequest"/>
+      <wsdl:output message="tns:clearTransferHistoryResponse"/>
+      <wsdl:fault message="tns:fault" name="clearTransferHistoryFault"/>
+    </wsdl:operation>
+
+  
+    <!-- transferContent2 Operation: NOT IMPLEMENTED -->
+    
+    <wsdl:operation name="transferContent2">
+      <wsdl:documentation>
+          transferContent Operation: NOT IMPLEMENTED
+              Transfers content over the network, allowing the ASSETMAP and PKL to be in a different location than the CPL.
+
+		  Parameters:
+		      networkTransferType (optional)- Indicates that content is to be pulled by this server. Only 'PULL' is currently
+                                              supported. This defaults to 'PULL' if not specified.
+              transferProtocolType (optional) - Indicates the mechanism in which content is being pulled by this server. Only
+                                                'FTP' is supported for this operation. This defaults to 'FTP' if not specified.
+              contentType (optional) - The type of content to transfer.  If specifying
+		         CLIP - The clip and all of its underlying assets will be transferred. The URL of the CPL must be specified.
+                        If the ASSETMAP and PKL locations are not specified; then the CPL must be in the same directory as the 
+                        PKL and ASSETMAP files for the transfer to succeed.
+                 SHOW - The show definition will be transferred. The show will be available in all connected auditoriums that have
+                        all the required content.
+                 LICENSE - The key delivery message will be transferred.
+		         No other contentTypes are currently supported for content transfer.  If no contentType is 
+		         specified, then only the file/directory at the specified url will be transferred.
+		      auditoriumNumber (optional) - The destination auditorium of the transfer.  Only useful 
+		          when calling the service on a TMS server.  If not specified then this will transfer the specified
+                  content onto the server location.
+		      destinationContentStore (optional) - The destination permanent storage. This defaults to 'MAINSTORE'
+                  if not specified. This is ignored for SPL transfers.
+		      url - The location of the content to transfer
+		      userName (optional) - The userName of the remote server to transfer from.
+		      password (optional) - The password of the remote server to transfer from.
+                  If username and password are not specified then this will use 'anonymous' login.
+              assetMapUrl (optional) - If contentType is CLIP, then this may be used to specify the URL location of the ASSETMAP.
+              pklUrl (optional) - If contentType is CLIP, then this may be used to specify the URL location of the PKL.
+		  Response:
+              the unique identifier of the transfer job.
+
+		  Exceptions:
+		      ContentStoreFailure - If the destination content store is not available, or is not 
+		         permanent storage.
+		      InvalidAuditorium - If no auditorium with the specified number exists, or if '*' is specified.
+		      NotConnected - If the ContentPlayer component is not connected. If the content is a Show, then the 
+                             ContentPlayer connection status does not matter.
+
+          Related Services:
+              transferContent - Transfers content over the network, requiring the ASSETMAP and PKL to be in the 
+                  same location as the CPL.
+		      getTransfers/getTransferInfos - These services can be used to determine what transfers exist 
+		          before and after the transferContent request.
+		      getClips/getClipInfos - These services can be used to determine what clips exist 
+		          before and after the transferContent request with a content type of CLIP or 
+		          PACKAGE.
+		      getShows/getShowInfos - These services can be used to determine what shows exist 
+		          before and after the transferContent request with a content type of SHOW.
+		      getLicense/getLicenseInfos - These services can be used to determine what licenses exist 
+		          before and after the transferContent request with a content type of LICENSE.
+      </wsdl:documentation>
+      <wsdl:input message="tns:transferContent2Request"/>
+      <wsdl:output message="tns:transferContent2Response"/>
+      <wsdl:fault message="tns:fault" name="transferContent2Fault"/>
+    </wsdl:operation>
+    
+  </wsdl:portType>
+  
+  <!-- Binding Specification -->
+  
+  <wsdl:binding name="TransferManagementBinding_v1_0" type="tns:TransferManagementService_v1_0">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    
+    <wsdl:operation name="transferContent">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/transferContent"/>
+      <wsdl:input name="transferContentRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="transferContentResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="transferContentFault">
+        <soap:fault name="transferContentFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getTransfers">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getTransfers"/>
+      <wsdl:input name="getTransfersRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getTransfersResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getTransfersFault">
+        <soap:fault name="getTransfersFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>  
+    
+    <wsdl:operation name="getTransferInfos">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getTransferInfos"/>
+      <wsdl:input name="getTransferInfosRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getTransferInfosResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getTransferInfosFault">
+        <soap:fault name="getTransferInfosFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>  
+    
+    <wsdl:operation name="cancelTransfer">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/cancelTransfer"/>
+      <wsdl:input name="cancelTransferRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="cancelTransferResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="cancelTransferFault">
+        <soap:fault name="cancelTransferFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>   
+    
+    <wsdl:operation name="clearTransferHistory">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/clearTransferHistory"/>
+      <wsdl:input name="clearTransferHistoryRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="clearTransferHistoryResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="clearTransferHistoryFault">
+        <soap:fault name="clearTransferHistoryFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+  </wsdl:binding>
+
+  <wsdl:binding name="TransferManagementBinding_v1_1" type="tns:TransferManagementService_v1_1">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+    <wsdl:operation name="transferContent">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/transferContent"/>
+      <wsdl:input name="transferContentRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="transferContentResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="transferContentFault">
+        <soap:fault name="transferContentFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getTransfers">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getTransfers"/>
+      <wsdl:input name="getTransfersRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getTransfersResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getTransfersFault">
+        <soap:fault name="getTransfersFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>  
+    
+    <wsdl:operation name="getTransferInfos">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getTransferInfos"/>
+      <wsdl:input name="getTransferInfosRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getTransferInfosResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getTransferInfosFault">
+        <soap:fault name="getTransferInfosFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>  
+    
+    <wsdl:operation name="cancelTransfer">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/cancelTransfer"/>
+      <wsdl:input name="cancelTransferRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="cancelTransferResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="cancelTransferFault">
+        <soap:fault name="cancelTransferFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>   
+    
+    <wsdl:operation name="clearTransferHistory">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/clearTransferHistory"/>
+      <wsdl:input name="clearTransferHistoryRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="clearTransferHistoryResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="clearTransferHistoryFault">
+        <soap:fault name="clearTransferHistoryFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="transferContent2">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/transferContent2"/>
+      <wsdl:input name="transferContent2Request">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="transferContent2Response">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="transferContent2Fault">
+        <soap:fault name="transferContent2Fault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+  </wsdl:binding>
+  
+  <!-- Address Specification -->
+  
+  <wsdl:service name="TransferManagement_v1_0">
+    <wsdl:port binding="tns:TransferManagementBinding_v1_0" name="TransferManagementService_v1_0">
+      <soap:address location="http://www.dolby.com:8080/dcinema/ws/smi/v1/TransferManagementService"/>
+    </wsdl:port>
+  </wsdl:service>
+  
+  <wsdl:service name="TransferManagement_v1_1">
+    <wsdl:port binding="tns:TransferManagementBinding_v1_1" name="TransferManagementService_v1_0">
+      <soap:address location="http://www.dolby.com:8080/dcinema/ws/smi/v1/TransferManagementService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

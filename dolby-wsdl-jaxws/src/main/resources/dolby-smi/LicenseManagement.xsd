@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This web service definition is protected under U.S. copyright laws as an unpublished work.
+  Do not copy.
+  Copyright 2009-$Date: 2009/03/20 $ by Dolby Laboratories Inc.
+  All rights reserved.
+-->
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/licensemanagement" 
+    xmlns:ns="http://www.dolby.com/dcinema/ws/smi/v1/schemas/licensemanagement"
+    xmlns:com="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common" 
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
+    
+    <xs:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+    
+    <!-- Brief information about a license -->
+    
+    <xs:complexType name="LicenseInfo">
+      <xs:sequence>
+        <!-- The unique identifier of the license -->
+        <xs:element name="licenseId" type="com:UUID"/>
+        <!-- Status of the license -->
+        <xs:element name="licenseStatus" type="com:LicenseState"/>
+        <!-- The unique identifier of the clip this license refers to  -->
+        <xs:element name="clipId" type="com:UUID"/>
+        <!-- The name of the clip this license refers to -->
+        <xs:element name="clipTitle" type="xs:string" minOccurs="0"/>
+        <!-- Indicates if the clip is present on the MAINSTORE -->
+        <xs:element name="clipPresent" type="xs:boolean"/>
+        <!-- Gets the date before which the license is invalid -->
+        <xs:element name="notValidBefore" type="xs:dateTime"/>
+        <!-- Gets the date after which the license is invalid -->
+        <xs:element name="notValidAfter" type="xs:dateTime"/> 
+        <!-- Additional key/value properties of the license  -->
+        <xs:element name="properties" type="com:InfoPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <!-- Indicates the detailed state of license loading ingest operation. -->
+
+    <xs:complexType name="LicenseIngestState">
+        <xs:sequence>
+            <!-- Indicates the status of the ingest operation. -->
+            <xs:element name="ingestStatus" type="ns:LicenseIngestStatus"/>
+            <!-- Indicates the number of external licenses available for loading. -->
+            <xs:element name="externalLicenses" type="xs:int"/>
+            <!-- Indicates the number of licenses that successfully loaded. -->
+            <xs:element name="licensesSucceeded" type="xs:int"/>
+            <!-- Indicates the number of licenses that failed to load. -->
+            <xs:element name="licensesFailed" type="xs:int"/>
+            <!-- Indicates the location of the license ingest operation:  the auditorium number,
+                or "TMS" when the ingest is on a TMS server not running in an auditorium. -->
+            <xs:element name="location" type="xs:string"/>
+            <!-- Detailed information about individual licenses being ingested.  -->
+            <xs:element name="licenseIngestInfo" type="ns:LicenseIngestInfo" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Indicates the status of license ingest. -->
+    
+    <xs:complexType name="LicenseIngestStatus">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:LicenseIngestStatusEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+    <xs:simpleType name="LicenseIngestStatusEnum">
+		<xs:restriction base="xs:token">
+		    <!-- Represents a state when no licenses are being loaded. -->
+			<xs:enumeration value="IDLE"/>
+			<!-- Represents a state when licenses are being loaded. -->
+			<xs:enumeration value="LOADING"/>
+		    <!-- Represents a state when license loading operation is under way and was initiated
+		        outside of server control. This operation cannot be cancelled. -->
+			<xs:enumeration value="EXTERNAL_LOADING_IN_PROGRESS"/>
+			<!-- Represents a state when licenses found on a modem or FTP server are currently being loaded. -->
+			<xs:enumeration value="AUTO_LOADING_IN_PROGRESS"/>
+			<!-- Represents a state when license loading started but was subsequently suspended. -->
+			<xs:enumeration value="LOAD_SUSPENDED"/>
+			<!-- Represents a state when usage rights are being updated. -->
+			<xs:enumeration value="UPDATING"/>
+			<!-- Represents a state when usage rights are being copied. -->
+			<xs:enumeration value="COPYING"/>
+			<!-- Represents a state when license load state is unknown. -->
+			<xs:enumeration value="UNKNOWN"/>
+			<!-- An extended enumeration value is provided.  See extension attribute -->
+			<xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+	</xs:simpleType>    
+	
+	<!-- Detailed information about licenses being ingested -->
+	
+    <xs:complexType name="LicenseIngestInfo">
+      <xs:sequence>
+        <!-- The unique identifier of the license -->
+        <xs:element name="licenseId" type="com:UUID"/>
+        <!-- The unique identifier of the clip this license decrypts -->
+        <xs:element name="clipId" type="com:UUID"/>
+        <!-- The license file name -->
+        <xs:element name="fileName" type="xs:string"/>
+        <!-- Gets the date before which the license is invalid -->
+        <xs:element name="notValidBefore" type="xs:dateTime"/>
+        <!-- Gets the date after which the license is invalid -->
+        <xs:element name="notValidAfter" type="xs:dateTime"/> 
+        <!-- The status of loading this individual license -->
+        <xs:element name="licenseIngestInfoStatus" type="ns:LicenseIngestInfoStatus"/>
+        <!-- Additional key/value properties of the license -->
+        <xs:element name="properties" type="com:InfoPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+    <!-- Indicates the detailed status of loading an individual license -->
+
+    <xs:complexType name="LicenseIngestInfoStatus">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:LicenseIngestInfoStatusEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+    <xs:simpleType name="LicenseIngestInfoStatusEnum">
+		<xs:restriction base="xs:token">
+		    <!-- Loading Key Delivery Message is successful -->
+			<xs:enumeration value="SUCCESS"/>
+		    <!-- Decoder component is busy -->
+			<xs:enumeration value="BUSY"/>
+			<!-- License has expired -->
+			<xs:enumeration value="EXPIRED"/>
+			<!-- License does not match the installed Decoder component -->
+			<xs:enumeration value="WRONG_DECODER"/>
+			<!-- License was not able to be saved -->
+			<xs:enumeration value="SAVE_ERROR"/>
+			<!-- Connected projector is untrusted -->
+			<xs:enumeration value="PROJECTOR_UNTRUSTED"/>
+			<!-- Link encryption mismatch -->
+			<xs:enumeration value="LINK_ENCRYPTION_MISMATCH"/>
+			<!-- Forensic marking mismatch -->
+			<xs:enumeration value="FORENSIC_MARKING_MISMATCH"/>
+			<!-- Invalid signed certificate -->
+			<xs:enumeration value="SIGNER_CERT_INVALID"/>
+			<!-- License already exists on Decoder component -->
+			<xs:enumeration value="ALREADY_LOADED"/>
+			<!-- License loading was cancelled -->
+			<xs:enumeration value="CANCEL"/>
+			<!-- Decoder component is disconnected -->
+			<xs:enumeration value="DISCONNECTED_DECODER"/>
+			<!-- License loading is pending -->
+			<xs:enumeration value="PENDING"/>
+			<!-- Decoder component did not respond with some status about KDM loading in 
+			     allotted amount of time -->
+			<xs:enumeration value="TIMEDOUT"/>
+			<!-- License is currently being loaded -->
+			<xs:enumeration value="LOADING"/>
+			<!-- There was not enough space to load all licenses -->
+			<xs:enumeration value="NOT_ENOUGH_SPACE"/>
+			<!-- License is invalid for some unknown reason -->
+			<xs:enumeration value="INVALID"/>
+	        <!-- Represents a state when license info load state is unknown -->
+			<xs:enumeration value="UNKNOWN"/>
+			<!-- An extended enumeration value is provided.  See extension attribute -->
+			<!-- Current License Load Status values passed through EXTENSION:
+			     NOT_VALIDATED - Loading Key Delivery Message is successful, but not validated due to a disconnected decoder
+			-->
+			<xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+	</xs:simpleType> 
+	
+	<!-- Indicates the state of a "license send". --> 
+	
+	<xs:complexType name="LicenseLoadState">
+        <xs:sequence>
+            <!-- Indicates the status of any license send/ingest operation. -->
+            <xs:element name="loadStatus" type="ns:LicenseIngestStatus"/>
+            <!-- Indicates the location of the license ingest operation:  the auditorium number,
+                or "TMS" when the ingest is on a TMS server not running in an auditorium. -->
+            <xs:element name="location" type="xs:string"/>
+            <!-- Detailed information about individual licenses being ingested.  -->
+            <xs:element name="loadLogEntry" type="ns:LicenseLoadLogEntry" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <!-- Provides the progress, success or failure of loading an individual license. -->
+    
+	<xs:complexType name="LicenseLoadLogEntry">
+        <xs:sequence>
+            <!-- Date of the license load operation. -->
+            <xs:element name="loadDate" type="xs:dateTime"/>
+            <!-- Type of operation that was performed. -->
+            <xs:element name="operationType" type="ns:LicenseLogOperationType"/>
+            <!-- Name of the KDM file which the operation was performed upon.  -->
+            <xs:element name="fileName" type="xs:string"/>
+            <!-- Indicates the status of an individual license send/ingest operation. -->
+            <xs:element name="operationStatus" type="ns:LicenseIngestInfoStatus"/>
+            <!-- UUID of the license that was loaded or not available if parsing of the KDM file failed. -->
+            <xs:element name="licenseUUID" type="xs:string" minOccurs="0"/>
+            <!-- Content UUID for which the license was loaded or not available if KDM file parsing failed. -->
+            <xs:element name="contentUUID" type="xs:string" minOccurs="0"/>
+            <!-- The title of the content to which the license applies. -->
+            <xs:element name="contentTitle" type="xs:string" minOccurs="0"/>
+            <!-- Loaded license validity date range information or not available if parsing of the KDM file failed. -->
+            <xs:element name="notValidBefore" type="xs:dateTime" minOccurs="0"/>
+            <!-- Loaded license validity date range information or not available if parsing of the KDM file failed. -->
+            <xs:element name="notValidAfter" type="xs:dateTime" minOccurs="0"/>
+            <!-- Optional more detailed error message if the loading operation failed. -->
+            <xs:element name="errorDescr" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <!-- Indicates what operation was performed on an individual license. -->
+    
+    <xs:complexType name="LicenseLogOperationType">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:LicenseLogOperationTypeEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:simpleType name="LicenseLogOperationTypeEnum">
+		<xs:restriction base="xs:token">
+			<!-- The license was loaded. -->
+			<xs:enumeration value="ADDED"/>
+			<!-- The license was deleted. -->
+			<xs:enumeration value="DELETED"/>
+			<!-- The license expired. -->
+			<xs:enumeration value="EXPIRED"/>
+	        <!-- An unknown operation occurred with this license. -->
+			<xs:enumeration value="UNKNOWN"/>		
+			<!-- An extended enumeration value is provided.  See extension attribute -->
+			<xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+	</xs:simpleType> 
+
+</xs:schema>

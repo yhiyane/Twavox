@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<DCSubtitle Version="1.0">
+  <SubtitleID>275708b7-851e-4d90-8f4f-180944d55683</SubtitleID>
+  <MovieTitle>Unbroken</MovieTitle>
+  <ReelNumber>1</ReelNumber>
+  <Language>French</Language>
+  <LoadFont Id="Font1" URI="Arial_UNBROKEN_FV_FrenchSubtitles_R01.ttf"/>
+  <Font Size="42" Weight="normal" Script="normal" Underlined="no" Id="Font1" Color="FFFFFFFF" Effect="border" EffectColor="FF000000">
+    <Subtitle SpotNumber="1" TimeIn="00:00:50:083" TimeOut="00:00:53:198" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">INVINCIBLE</Text>
+    </Subtitle>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="2" TimeIn="00:01:00:218" TimeOut="00:01:03:229" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">une histoire vraie</Text>
+      </Subtitle>
+    </Font>
+    <Subtitle SpotNumber="3" TimeIn="00:11:39:239" TimeOut="00:11:41:135" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Mon chéri, de l&#39;alcool ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="4" TimeIn="00:11:42:041" TimeOut="00:11:42:239" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Pourquoi ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="5" TimeIn="00:11:44:093" TimeOut="00:11:46:125" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Pourquoi tu te comportes comme ça ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="6" TimeIn="00:11:49:000" TimeOut="00:11:50:145" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Je sais pas.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="7" TimeIn="00:11:52:208" TimeOut="00:11:54:041" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Comment tu oses ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="8" TimeIn="00:11:55:104" TimeOut="00:11:57:083" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Tu sais ce que tu nous infliges ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="9" TimeIn="00:11:57:125" TimeOut="00:12:01:073" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Les gens ne veulent pas de nous,</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">et toi, tu me fais ça ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="10" TimeIn="00:12:02:020" TimeOut="00:12:04:000" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Tu veux finir en prison ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="11" TimeIn="00:12:04:041" TimeOut="00:12:07:062" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Pourquoi tu continues à faire ça,</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">bon sang ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="12" TimeIn="00:12:07:104" TimeOut="00:12:09:187" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Pourquoi ?</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Regarde-moi dans les yeux.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="13" TimeIn="00:12:17:093" TimeOut="00:12:18:125" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Va te laver les mains.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="14" TimeIn="00:12:59:187" TimeOut="00:13:02:010" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Sainte Marie, mère de Dieu.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="15" TimeIn="00:13:03:198" TimeOut="00:13:06:000" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Veillez sur ma famille.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="16" TimeIn="00:13:07:229" TimeOut="00:13:10:083" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Et veillez sur mon petit Louie.</Text>
+    </Subtitle>
+  </Font>
+</DCSubtitle>

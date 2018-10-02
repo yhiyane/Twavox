@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- *** Digital Cinema XML Subtitle File *** -->
+<!-- *** Created by Deluxe Digital London - GC *** -->
+<!-- *** 02 September 2014 *** -->
+<DCSubtitle Version="1.1">
+<SubtitleID>4dd7e2fd-3f0d-4bc1-a1d9-67a7ecf740cb</SubtitleID>
+<MovieTitle>MazeRunner_FR</MovieTitle>
+<ReelNumber>Visa</ReelNumber>
+<Language>R0</Language>
+<LoadFont Id="Arial" URI="MazeRunner_FR_R0_Visa.ttf" />
+<Font Id="Arial"  Color="FFFFFFFF" Effect="shadow" EffectColor="FF000000" Italic="no" Size="42" Script="normal" Underlined="no" Weight="normal">
+<Subtitle SpotNumber="1" TimeIn="00:00:19:052" TimeOut="00:00:22:052" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Visa d'exploitation N° 140.231</Text></Subtitle>
+</Font></DCSubtitle>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompositionPlaylist xmlns="http://www.digicine.com/PROTO-ASDCP-CPL-20040511#">
+	<Id>urn:uuid:39ae8ea7-26b3-4cdd-bca0-edd2f7c3e5d4</Id>
+	<AnnotationText>VALLEYOFLOVE_FTR-17_S_255_FR-FR_51-VI_2K_20150602_M141_IOP_OV</AnnotationText>
+	<IssueDate>2015-06-02T13:41:43+02:00</IssueDate>
+	<Issuer>M141</Issuer>
+	<Creator>M141</Creator>
+	<ContentTitleText>VALLEYOFLOVE_FTR_S_FR-XX_FR_51_2K_SPE_20090912_DUK_i3D-ngb</ContentTitleText>
+	<ContentKind>feature</ContentKind>
+	<RatingList/>
+	<ReelList>
+		<Reel>
+			<Id>urn:uuid:9bc91c44-79c9-4700-9bd8-3db8e740fdc3</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:f1fbee35-93cc-4bfc-bee9-c17c385c9578</Id>
+					<AnnotationText>frm_000000.j2c</AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>199</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>199</Duration>
+					<Hash>8U3o50+yyn1ZDQEuXpt3hPQO0qc=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>2.39</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:ddd7e0d3-0dd3-444f-a686-afaf47e0f0e2</Id>
+					<AnnotationText>8 channel audio:        FRANCE INTER VS.wav </AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>199</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>199</Duration>
+					<Hash>nOVna9eoYU0B/KNY59jazd82whw=</Hash>
+				</MainSound>
+			</AssetList>
+		</Reel>
+		<Reel>
+			<Id>urn:uuid:787355c9-77ce-4bbf-aa83-0c043bb09ea5</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:812b39f1-d201-4e44-86d8-9f0cd0f32d2f</Id>
+					<AnnotationText>selection_off_fr_00000.dpx</AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>240</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>240</Duration>
+					<Hash>vXZ30xP2WuM6lSCsyutec9k4qSY=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>2.39</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:33e19767-8e63-4b52-8178-44f00bcd9204</Id>
+					<AnnotationText>8 channel audio:        CANNES VS.wav </AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>245</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>240</Duration>
+					<Hash>+Rrf1dldqSWkXJD+5yH+R5l3g8k=</Hash>
+				</MainSound>
+			</AssetList>
+		</Reel>
+		<Reel>
+			<Id>urn:uuid:e1fde4d4-0363-4087-9e1a-3cd8a3cda01d</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:d5f0995c-f742-4134-aece-2c97396fbfda</Id>
+					<AnnotationText>FrTV-TXT-XSN-09000188.j2c</AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>126</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>126</Duration>
+					<Hash>7UCdYx+MPW8dHn327QXkqjFoNkc=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>2.39</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:30acd806-407a-4c5f-be9d-6e21bfbb015e</Id>
+					<AnnotationText>8 channel audio:        LE PACTE VS.wav </AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>128</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>126</Duration>
+					<Hash>fwUYdh1Q5tTqYMv8MMflCdHfAiw=</Hash>
+				</MainSound>
+			</AssetList>
+		</Reel>
+		<Reel>
+			<Id>urn:uuid:c5746ec2-2fc8-4a78-b644-445272d9e758</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:8faf7697-d2c9-4bd7-b583-abeaa8f24e05</Id>
+					<AnnotationText>frm_000000.j2c</AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>144</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>144</Duration>
+					<Hash>w8SxsYB4Mxccr4mDflM5X5OaYoI=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>2.39</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:f770f85b-5607-491b-a69b-f3a23809af25</Id>
+					<AnnotationText>8 channel audio:        FTV VS.wav </AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>145</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>144</Duration>
+					<Hash>p685KoduASwOyQ3hh/DP1JjcjX4=</Hash>
+				</MainSound>
+			</AssetList>
+		</Reel>
+		<Reel>
+			<Id>urn:uuid:cc8cae66-df94-4804-b9b8-1ed2715abf15</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:c5dab8a7-d5d2-426f-b99c-94bf294e6f29</Id>
+					<AnnotationText>VOL DEDICACE_00000000.dpx</AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>120</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>120</Duration>
+					<Hash>uj/FWw4Ra/DjUxwIZvMGVxbjeLc=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>2.39</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:8d1cfb6e-4e37-4875-a3d3-734ed9bdfa9c</Id>
+					<AnnotationText>8 channel audio:        DEDICACE VS.wav </AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>121</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>120</Duration>
+					<Hash>MG/Xy1652mp75JzcwRSiu+pRKBc=</Hash>
+				</MainSound>
+			</AssetList>
+		</Reel>
+		<Reel>
+			<Id>urn:uuid:e3b89d61-8aad-4172-b66d-b9a05a84eb9a</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:f2d5f41e-5578-4c91-b9aa-fbb94baba7a0</Id>
+					<AnnotationText>00086400.dpx</AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>65710</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>65710</Duration>
+					<KeyId>urn:uuid:b441bded-46ef-4b6a-a164-64b4cee855a3</KeyId>
+					<Hash>2urj/PaU5b5DJjQANZgotTrUk/A=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>2.39</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:e3b3cfbb-56d2-4e5e-9a41-3c0287b3bd82</Id>
+					<AnnotationText>8 channel audio: 6T PRINTMASTER L_VALLEY OF LOVE REEL1 24FPS.wav 6T PRINTMASTER R_VALLEY OF LOVE REEL1 24FPS.wav 6T PRINTMASTER C_VALLEY OF LOVE REEL1 24FPS.wav 6T PRINTMASTER SW_VALLEY OF LOVE REEL1 </AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>65763</IntrinsicDuration>
+					<EntryPoint>48</EntryPoint>
+					<Duration>65710</Duration>
+					<Hash>aKYhv7aOpyTL2Va4M+dPtStwPJY=</Hash>
+				</MainSound>
+				<MainSubtitle>
+					<Id>urn:uuid:71e8b865-4974-45ad-9e79-7b98e27348a8</Id>
+					<AnnotationText>VALLEY OF LOVE DEF STFR 24 BOB 1 DCP1.xml</AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>65710</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>65710</Duration>
+					<Hash>ceUrrYjNcJor0PxEMgjMBMDz/Hc=</Hash>
+				</MainSubtitle>
+			</AssetList>
+		</Reel>
+		<Reel>
+			<Id>urn:uuid:8a94953b-94f8-457d-9898-d5cc8a3129b2</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:118507a9-3b9f-4549-8473-99621f432d2a</Id>
+					<AnnotationText>00086400.dpx</AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>66278</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>66200</Duration>
+					<KeyId>urn:uuid:c8050581-c933-41fc-a56e-1cd96dd1945f</KeyId>
+					<Hash>YCciJ1xKwxF2l+bP/E0yyvU3oBI=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>2.39</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:54d4fc53-0f51-47cc-829c-80121aa7a203</Id>
+					<AnnotationText>8 channel audio: 6T PRINTMASTER L_VALLEY OF LOVE REEL2 24FPS.wav 6T PRINTMASTER R_VALLEY OF LOVE REEL2 24FPS.wav 6T PRINTMASTER C_VALLEY OF LOVE REEL2 24FPS.wav 6T PRINTMASTER SW_VALLEY OF LOVE REEL2 </AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>66297</IntrinsicDuration>
+					<EntryPoint>48</EntryPoint>
+					<Duration>66200</Duration>
+					<Hash>3WxO0d0dzlF/7BEM03ig2nUcUmQ=</Hash>
+				</MainSound>
+				<MainSubtitle>
+					<Id>urn:uuid:a7f333c5-00c2-49af-be70-42fd3c41b2d8</Id>
+					<AnnotationText>VALLEY OF LOVE DEF STFR 24 BOB2 DCP1.xml</AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>66278</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>66200</Duration>
+					<Hash>9SqWh1m9kdbi5sRQegGxSWVpNpw=</Hash>
+				</MainSubtitle>
+			</AssetList>
+		</Reel>
+	</ReelList>
+</CompositionPlaylist>
+<!--Created by Fraunhofer IIS easyDCP Creator Version 2.2.2-->

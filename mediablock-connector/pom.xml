@@ -1,0 +1,92 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.cineapps</groupId>
+	<artifactId>mediablock-connector</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<repositories>
+		<repository>
+			<id>maven</id>
+			<url>http://repo.maven.apache.org/maven2/</url>
+		</repository>
+		<repository>
+			<id>thirdparty</id>
+			<url>http://services.cineapps.fr:8081/nexus/content/repositories/thirdparty</url>
+		</repository>
+	</repositories>
+
+	<build>
+		<plugins>
+			<!-- COMPILER -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.5</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<!-- THIRD PARTY -->
+		<dependency>
+			<groupId>cineapps</groupId>
+			<artifactId>commons-id</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>cineapps</groupId>
+			<artifactId>commore</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>cineapps</groupId>
+			<artifactId>dvidea-cmrIplugin-idl</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>cineapps</groupId>
+			<artifactId>dvidea-core</artifactId>
+			<version>1.4.2</version>
+		</dependency>
+		<dependency>
+			<groupId>cineapps</groupId>
+			<artifactId>dvidea-dolby</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>cineapps</groupId>
+			<artifactId>dvidea-doremi</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>cineapps</groupId>
+			<artifactId>dvidea-gdc</artifactId>
+			<version>0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>cineapps</groupId>
+			<artifactId>dvidea-qube</artifactId>
+			<version>0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>cineapps</groupId>
+			<artifactId>dvidea-sony</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>cineapps</groupId>
+			<artifactId>jaxrpc</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>cineapps</groupId>
+			<artifactId>smi-api</artifactId>
+			<version>1.0</version>
+		</dependency>
+	</dependencies>
+</project>

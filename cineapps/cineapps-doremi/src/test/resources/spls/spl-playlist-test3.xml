@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShowPlaylist xmlns:spl="http://doremilabs.com/schemas/1.0/SPL"
+              xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+	<Id>urn:uuid:a34cb019-52b1-40e9-8d9a-15b2fbf04e73</Id>
+	<ShowTitleText>TEST</ShowTitleText>
+	<AnnotationText>TEST</AnnotationText>
+	<IssueDate>2015-02-13T08:07:41Z</IssueDate>
+	<Creator>Doremi Labs -- CineLister 2.6.3-0</Creator>
+	<ContentVersion>
+		<Id>urn:uuid:e2ae44ef-d20f-4172-b1fb-8af2c247523f</Id>
+		<LabelText>urn:uuid:e2ae44ef-d20f-4172-b1fb-8af2c247523f</LabelText>
+	</ContentVersion>
+	<PackList>
+		<Pack>
+			<Id>urn:uuid:3232cf60-f800-4c77-86b9-09798c632c77</Id>
+			<EventList>
+				<Event>
+					<Id>urn:uuid:c45e4f2e-26e6-41eb-882d-432cdebf7938</Id>
+					<ElementList>
+						<MainElement>
+							<Composition>
+								<Id>urn:uuid:a1d61652-eaac-4e8a-8278-ca65265c789e</Id>
+								<CompositionPlaylistId>urn:uuid:935df425-2fd6-4924-8259-7f9ef582ea3b</CompositionPlaylistId>
+								<AnnotationText>IntoTheWoods_FTR-1_S_FR-FR_FR_51_2K_DI_20150111_TEU_IOP_VF</AnnotationText>
+								<IntrinsicDuration>179791</IntrinsicDuration>
+								<EditRate>24 1</EditRate>
+							</Composition>
+						</MainElement>
+					</ElementList>
+				</Event>
+			</EventList>
+		</Pack>
+	</PackList>
+</ShowPlaylist>

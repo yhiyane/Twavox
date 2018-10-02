@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cineapps-core" />
+        <module name="cineapps-dolby" />
+        <module name="cineapps-doremi" />
+        <module name="mock-mediablock" />
+        <module name="mock-mediablock (1)" />
+        <module name="mock-mediablock (2)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mock-mediablock" target="1.7" />
+      <module name="mock-mediablock (1)" target="1.7" />
+      <module name="mock-mediablock (2)" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

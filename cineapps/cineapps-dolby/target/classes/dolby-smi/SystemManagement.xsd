@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This web service definition is protected under U.S. copyright laws as an unpublished work.
+  Do not copy.
+  Copyright 2009-$Date: 2009/03/20 $ by Dolby Laboratories Inc.
+  All rights reserved.
+-->
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/systemmanagement" 
+    xmlns:ns="http://www.dolby.com/dcinema/ws/smi/v1/schemas/systemmanagement" 
+    xmlns:com="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
+    
+    <xs:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+    
+    <!-- Brief information about a device/component -->
+    
+    <xs:complexType name="DeviceComponentInfo">
+      <xs:sequence>    
+        <!-- The unique identifier of the device/component -->
+        <xs:element name="deviceComponentId" type="com:UUID"/>
+        <!-- Indicates where this content store is located. Returns the auditorium number,
+         or "TMS" when the content store is on a TMS server not running in an auditorium -->
+        <xs:element name="location" type="xs:string"/>
+        <!-- The type of the device/component -->
+        <xs:element name="deviceComponentType" type="com:DeviceComponentType"/>
+        <!-- The model of the device/component -->
+        <xs:element name="deviceComponentModel" type="xs:string"/>
+        <!-- Indicates if logs may be exported from this device/component using the SMI API -->
+        <xs:element name="supportsLogRetrieval" type="xs:boolean"/>
+        <!-- The properties of the device/component -->
+        <xs:element name="deviceComponentProperty" type="ns:DeviceComponentProperty" 
+            minOccurs="0" maxOccurs="unbounded"/>
+        <!-- Warning or error alarms that may be present on this device/component. Alarms existing on
+             a remote server are not available. -->
+        <xs:element name="deviceComponentAlarm" type="ns:DeviceComponentAlarm"
+            minOccurs="0" maxOccurs="unbounded"/>  
+      </xs:sequence>
+    </xs:complexType>
+    
+    <!-- Properties of device/components -->
+    
+    <xs:complexType name="DeviceComponentProperty">
+      <xs:sequence>    
+        <!-- The type of the device/component property -->
+        <xs:element name="type" type="ns:DeviceComponentPropertyType"/>
+        <!-- Descriptive name of the device/component property -->
+        <xs:element name="name" type="xs:string"/>
+        <!-- The value of the device/component property -->
+        <xs:element name="value" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+	<!-- Device/Component property types -->
+    
+    <xs:complexType name="DeviceComponentPropertyType">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:DeviceComponentPropertyTypeEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="DeviceComponentPropertyTypeEnum">
+		<xs:restriction base="xs:token">
+		   <!-- A property representing a version number -->
+		   <xs:enumeration value="VERSION"/>
+		   <!-- A property representing model information  -->
+		   <xs:enumeration value="MODEL"/>
+		   <!-- A property representing hardware information -->
+		   <xs:enumeration value="HARDWARE"/>
+		   <!-- A property representing network information -->
+		   <xs:enumeration value="NETWORK"/>
+		   <!-- A property representing audio information -->
+		   <xs:enumeration value="AUDIO"/>
+		   <!-- A property representing video information -->
+		   <xs:enumeration value="VIDEO"/>
+		   <!-- A property representing other system information -->
+		   <xs:enumeration value="SYSTEM"/>
+		   <!-- A property representing debug information -->
+		   <xs:enumeration value="DEBUG"/>
+		   <!-- unknown property type -->
+		   <xs:enumeration value="UNKNOWN"/>
+		   <!-- An extended enumeration value is provided.  See extension attribute -->
+		   <xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+    </xs:simpleType>
+
+    <!-- Alarms of device/components -->    
+    
+    <xs:complexType name="DeviceComponentAlarm">
+      <xs:sequence>    
+        <!-- The type of the device/component alarm -->
+        <xs:element name="type" type="ns:DeviceComponentAlarmType"/> 
+        <!-- The severity of the device/component alarm -->
+        <xs:element name="severity" type="ns:DeviceComponentAlarmSeverity"/>  
+        <!-- Descriptive name of the device/component alarm -->     
+        <xs:element name="name" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>  
+    
+	<!-- Device/Component alarm types -->
+    
+    <xs:complexType name="DeviceComponentAlarmType">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:DeviceComponentAlarmTypeEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="DeviceComponentAlarmTypeEnum">
+		<xs:restriction base="xs:token">
+            <!-- A storage device has a problem -->
+            <xs:enumeration value="STORAGE_DEVICE"/>
+            <!-- A fan failed  -->
+            <xs:enumeration value="FAN"/>
+            <!-- The temperature is not in the expected range -->
+            <xs:enumeration value="TEMPERATURE"/>
+            <!-- The hardware has a problem -->
+            <xs:enumeration value="HARDWARE"/>
+            <!-- The software has a problem -->
+            <xs:enumeration value="SOFTWARE"/>
+            <!-- An expected device/component is offline -->
+            <xs:enumeration value="OFFLINE"/>
+            <!-- A power related problem -->
+            <xs:enumeration value="POWER"/>
+            <!-- A playback related problem -->
+            <xs:enumeration value="PLAYBACK"/>
+            <!-- Unknown alarm type -->
+            <xs:enumeration value="UNKNOWN"/>
+            <!-- An extended enumeration value is provided.  See extension attribute -->
+            <xs:enumeration value="EXTENSION"/>
+        </xs:restriction>
+    </xs:simpleType> 
+    
+    <xs:simpleType name="DeviceComponentAlarmSeverity">
+		<xs:restriction base="xs:token">
+		   <!-- A device/component can continue to operate but has a problem -->
+		   <xs:enumeration value="WARNING"/>
+		   <!-- A device/component has a problem that will cause it to not function  -->
+		   <xs:enumeration value="ERROR"/>
+		   <!-- Unknown alarm severity -->
+		   <xs:enumeration value="UNKNOWN"/> 
+		</xs:restriction>
+    </xs:simpleType>  
+    
+    <!-- Information about permanent and removable media -->
+    
+    <xs:complexType name="ContentStoreInfo">
+      <xs:sequence>
+        <!-- Indicates where this content store is located. Returns the auditorium number,
+         or "TMS" when the content store is on a TMS server not running in an auditorium -->
+        <xs:element name="location" type="xs:string"/>
+        <!-- The type of content store -->
+        <xs:element name="contentStoreType" type="com:ContentStoreType"/>
+        <!-- The amount of available space on the content store in MB -->
+        <xs:element name="freeSpace" type="xs:long"/>
+        <!-- The total amount of space on the content store in MB -->
+        <xs:element name="totalSpace" type="xs:long"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+	<!-- Information about a log retrieval job -->
+	
+	<xs:complexType name="LogStatusInfo">
+      <xs:sequence>
+        <!-- The unique identifier of the log retrieval job -->
+        <xs:element name="logRetrievalId" type="com:UUID"/>
+        <!-- The unique identifier of the device/component whose log status are being 
+             retrieved -->
+        <xs:element name="deviceComponentId" type="com:UUID"/>
+        <!-- The auditorium that we are retrieving logs from -->
+        <xs:element name="auditoriumNumber" type="xs:string"/>
+        <!-- The type of device that we are retrieving logs from -->
+        <xs:element name="deviceComponentType" type="com:DeviceComponentType"/>
+        <!-- The percentage of the log transfer that has completed -->
+        <xs:element name="percentageComplete" type="com:Percentage"/>
+        <!-- Status of the log transfer -->
+        <xs:element name="transferStatus" type="ns:LogTransferStatus"/>
+        <!-- The location the logs are available at (if exists) -->
+        <xs:element name="uri" type="xs:anyURI" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+	
+	<xs:complexType name="LogTransferStatus">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:LogTransferStatusEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="LogTransferStatusEnum">
+		<xs:restriction base="xs:token">
+		   <!-- Indicates that no log retrieval operation has been performed -->
+		   <xs:enumeration value="IDLE"/>
+		   <!-- Indicates that the logs are being copied to the destination -->
+		   <xs:enumeration value="IN_PROGRESS"/>
+		   <!-- Indicates that the log transfer has finished -->
+		   <xs:enumeration value="FINISHED"/>
+		   <!-- Indicates that the log transfer was cancelled -->
+		   <xs:enumeration value="CANCELLED"/>
+		   <!-- Indicates that there was an error during the log extraction -->
+		   <xs:enumeration value="ERROR"/>
+		   <!-- An extended enumeration value is provided.  See extension attribute -->
+		   <xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!-- Information about secure time -->
+	
+    <xs:complexType name="SecureTimeInfo">
+      <xs:sequence>    
+        <!-- Auditorium number this secure time applies within. -->
+        <xs:element name="auditoriumNumber" type="xs:string"/>
+        <!-- Secure time as it was set at manufacturing time. -->
+        <xs:element name="nonAdjustedTime" type="xs:dateTime"/> 
+        <!-- Time adjustment in seconds that compensates for secure clock drift. Starts at 
+             zero and accumulates all adjustments made up to this point 
+             abs(mTimeAdjustment) <= abs(mMaximumDrift) -->
+        <xs:element name="timeAdjustement" type="xs:int"/>  
+        <!-- Maximum value of secure clock drift in seconds -->     
+        <xs:element name="maximumDrift" type="xs:int"/>
+        <!-- The approximate time it takes to retrieve secure time in seconds.  This does 
+             not include the time it takes for the response to reach the service caller.  Latency 
+             will increase when retrieving the secure time information for multiple auditoriums -->
+        <xs:element name="secureTimeLatency" type="xs:int"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <!-- Security Manager certificate chain information -->
+    
+    <xs:complexType name="SecurityManagerCertificateInfo">
+        <xs:sequence>
+            <!-- Auditorium number this certificate applies within. -->
+            <xs:element name="auditoriumNumber" type="xs:string"/>
+            <!-- Security manager certificate chain. -->
+            <xs:element name="securityManagerCertificate" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,2208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This web service definition is protected under U.S. copyright laws as an unpublished work.
+  Do not copy.
+  Copyright 2009-$Date: 2009/03/20 $ by Dolby Laboratories Inc.
+  All rights reserved.
+-->
+<wsdl:definitions name="SystemManagement_v1"
+  targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1"
+  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+  xmlns:tns="http://www.dolby.com/dcinema/ws/smi/v1"
+  xmlns:sys="http://www.dolby.com/dcinema/ws/smi/v1/schemas/systemmanagement"
+  xmlns:com="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"
+  xmlns:flt="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"
+  xmlns:v1_0="http://www.dolby.com/dcinema/ws/smi/v1_0" 
+  xmlns:v1_1="http://www.dolby.com/dcinema/ws/smi/v1_1" 
+  xmlns:v1_2="http://www.dolby.com/dcinema/ws/smi/v1_2" 
+  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1_0">
+
+      <xsd:import schemaLocation="SystemManagement.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/systemmanagement"/>    
+      <xsd:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+      <xsd:import schemaLocation="Fault.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"/>
+      
+      <!-- getAuditoriums elements -->
+
+      <xsd:element name="getAuditoriumsRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="getAuditoriumsResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getDeviceComponents elements -->
+      
+      <xsd:element name="getDeviceComponentsRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="getDeviceComponentsResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="deviceComponentId" type="com:UUID" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- getDeviceComponentInfos elements -->
+      
+      <xsd:element name="getDeviceComponentInfosRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="deviceComponentId" type="com:UUID" minOccurs="0"/>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="deviceComponentType" type="com:DeviceComponentType" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    
+      <xsd:element name="getDeviceComponentInfosResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="deviceComponentInfo" type="sys:DeviceComponentInfo" minOccurs="0" 
+                maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getContentStores elements -->
+      
+      <xsd:element name="getContentStoresRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    
+      <xsd:element name="getContentStoresResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="contentStoreInfo" type="sys:ContentStoreInfo" minOccurs="0" 
+                maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+            
+      <!-- getSystemLogs elements -->
+    
+      <xsd:element name="getSystemLogsRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="deviceComponentId" type="com:UUID" minOccurs="0"/>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="deviceComponentType" type="com:DeviceComponentType" minOccurs="0"/>
+            <xsd:element name="url" type="xsd:anyURI"/>
+            <xsd:element name="username" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="password" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="getSystemLogsResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="logRetrievalId" type="com:UUID" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getSystemLogsStatus elements -->
+    
+      <xsd:element name="getSystemLogsStatusRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="logRetrievalId" type="com:UUID" minOccurs="0"/>
+            <xsd:element name="deviceComponentId" type="com:UUID" minOccurs="0"/>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="deviceComponentType" type="com:DeviceComponentType" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="getSystemLogsStatusResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="systemLogStatusInfo" type="sys:LogStatusInfo" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getAuditLogs elements -->
+    
+      <xsd:element name="getAuditLogsRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="url" type="xsd:anyURI"/>
+            <xsd:element name="username" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="password" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="startDate" type="xsd:dateTime" minOccurs="0"/>
+            <xsd:element name="endDate" type="xsd:dateTime" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="getAuditLogsResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="logRetrievalId" type="com:UUID" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getAuditLogsStatus elements -->
+    
+      <xsd:element name="getAuditLogsStatusRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="logRetrievalId" type="com:UUID" minOccurs="0"/>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="getAuditLogsStatusResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditLogStatusInfo" type="sys:LogStatusInfo" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- cancelLogRetrieval elements -->
+    
+      <xsd:element name="cancelLogRetrievalRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="logRetrievalId" type="com:UUID"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="cancelLogRetrievalResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getSystemTime elements -->
+
+      <xsd:element name="getSystemTimeRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="getSystemTimeResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="time" type="xsd:dateTime"/>
+            <xsd:element name="timeZoneId" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- setTimeZone elements -->
+
+      <xsd:element name="setTimeZoneRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="timeZoneId" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="setTimeZoneResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getSecureTime elements -->
+    
+      <xsd:element name="getSecureTimeRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="getSecureTimeResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="secureTimeInfo" type="sys:SecureTimeInfo" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- setSecureTime elements -->
+    
+      <xsd:element name="setSecureTimeRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="secureTime" type="xsd:dateTime"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="setSecureTimeResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- base fault type -->
+      
+      <xsd:element name="fault" type="flt:Fault"/>
+      
+    </xsd:schema>
+    
+    <xsd:schema targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1_1">
+      <xsd:import schemaLocation="SystemManagement.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/systemmanagement"/>    
+      <xsd:import schemaLocation="Fault.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"/>
+      <xsd:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+      
+      <!-- getSecurityManagerCertificate elements -->
+    
+      <xsd:element name="getSecurityManagerCertificateRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="getSecurityManagerCertificateResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="securityManagerCertificateInfo" type="sys:SecurityManagerCertificateInfo" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- prepareAuditLogs elements -->
+    
+      <xsd:element name="prepareAuditLogsRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="startDate" type="xsd:dateTime" minOccurs="0"/>
+            <xsd:element name="endDate" type="xsd:dateTime" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="prepareAuditLogsResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="logRetrievalId" type="com:UUID" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- prepareSystemLogs elements -->
+    
+      <xsd:element name="prepareSystemLogsRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="deviceComponentId" type="com:UUID" minOccurs="0"/>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="deviceComponentType" type="com:DeviceComponentType" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="prepareSystemLogsResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="logRetrievalId" type="com:UUID" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+    </xsd:schema>
+    
+    <xsd:schema targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1_2">
+      <xsd:import schemaLocation="SystemManagement.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/systemmanagement"/>    
+      <xsd:import schemaLocation="Fault.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"/>
+      <xsd:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+      
+      <!-- getPlaybackLogs elements -->
+    
+      <xsd:element name="getPlaybackLogsRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="url" type="xsd:anyURI"/>
+            <xsd:element name="username" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="password" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="startDate" type="xsd:dateTime" minOccurs="0"/>
+            <xsd:element name="endDate" type="xsd:dateTime" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="getPlaybackLogsResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="logRetrievalId" type="com:UUID" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getPlaybackLogsStatus elements -->
+    
+      <xsd:element name="getPlaybackLogsStatusRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="logRetrievalId" type="com:UUID" minOccurs="0"/>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="getPlaybackLogsStatusResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="playbackLogStatusInfo" type="sys:LogStatusInfo" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- preparePlaybackLogs elements -->
+    
+      <xsd:element name="preparePlaybackLogsRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="startDate" type="xsd:dateTime" minOccurs="0"/>
+            <xsd:element name="endDate" type="xsd:dateTime" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="preparePlaybackLogsResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="logRetrievalId" type="com:UUID" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+            
+    </xsd:schema>
+  </wsdl:types>  
+  
+  <!-- Message Specification -->
+  
+  <wsdl:message name="getAuditoriumsRequest">
+    <wsdl:part element="v1_0:getAuditoriumsRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getAuditoriumsResponse">
+    <wsdl:part element="v1_0:getAuditoriumsResponse" name="result"/>
+  </wsdl:message>  
+  
+  <wsdl:message name="getDeviceComponentsRequest">
+    <wsdl:part element="v1_0:getDeviceComponentsRequest" name="parameters"/>
+  </wsdl:message>   
+  <wsdl:message name="getDeviceComponentsResponse">
+    <wsdl:part element="v1_0:getDeviceComponentsResponse" name="result"/>
+  </wsdl:message>  
+  
+  <wsdl:message name="getDeviceComponentInfosRequest">
+    <wsdl:part element="v1_0:getDeviceComponentInfosRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getDeviceComponentInfosResponse">
+    <wsdl:part element="v1_0:getDeviceComponentInfosResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getContentStoresRequest">
+    <wsdl:part element="v1_0:getContentStoresRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getContentStoresResponse">
+    <wsdl:part element="v1_0:getContentStoresResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getSystemLogsRequest">
+    <wsdl:part element="v1_0:getSystemLogsRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getSystemLogsResponse">
+    <wsdl:part element="v1_0:getSystemLogsResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getSystemLogsStatusRequest">
+    <wsdl:part element="v1_0:getSystemLogsStatusRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getSystemLogsStatusResponse">
+    <wsdl:part element="v1_0:getSystemLogsStatusResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getAuditLogsRequest">
+    <wsdl:part element="v1_0:getAuditLogsRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getAuditLogsResponse">
+    <wsdl:part element="v1_0:getAuditLogsResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getAuditLogsStatusRequest">
+    <wsdl:part element="v1_0:getAuditLogsStatusRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getAuditLogsStatusResponse">
+    <wsdl:part element="v1_0:getAuditLogsStatusResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="cancelLogRetrievalRequest">
+    <wsdl:part element="v1_0:cancelLogRetrievalRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="cancelLogRetrievalResponse">
+    <wsdl:part element="v1_0:cancelLogRetrievalResponse" name="result"/>
+  </wsdl:message>  
+  
+  <wsdl:message name="getSystemTimeRequest">
+    <wsdl:part element="v1_0:getSystemTimeRequest" name="parameters"/>
+  </wsdl:message>  
+  <wsdl:message name="getSystemTimeResponse">
+    <wsdl:part element="v1_0:getSystemTimeResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="setTimeZoneRequest">
+    <wsdl:part element="v1_0:setTimeZoneRequest" name="parameters"/>
+  </wsdl:message>  
+  <wsdl:message name="setTimeZoneResponse">
+    <wsdl:part element="v1_0:setTimeZoneResponse" name="result"/>
+  </wsdl:message>  
+  
+  <wsdl:message name="getSecureTimeRequest">
+    <wsdl:part element="v1_0:getSecureTimeRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getSecureTimeResponse">
+    <wsdl:part element="v1_0:getSecureTimeResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="setSecureTimeRequest">
+    <wsdl:part element="v1_0:setSecureTimeRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="setSecureTimeResponse">
+    <wsdl:part element="v1_0:setSecureTimeResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getSecurityManagerCertificateRequest">
+    <wsdl:part element="v1_1:getSecurityManagerCertificateRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getSecurityManagerCertificateResponse">
+    <wsdl:part element="v1_1:getSecurityManagerCertificateResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="prepareAuditLogsRequest">
+    <wsdl:part element="v1_1:prepareAuditLogsRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="prepareAuditLogsResponse">
+    <wsdl:part element="v1_1:prepareAuditLogsResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="prepareSystemLogsRequest">
+    <wsdl:part element="v1_1:prepareSystemLogsRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="prepareSystemLogsResponse">
+    <wsdl:part element="v1_1:prepareSystemLogsResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getPlaybackLogsRequest">
+    <wsdl:part element="v1_2:getPlaybackLogsRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getPlaybackLogsResponse">
+    <wsdl:part element="v1_2:getPlaybackLogsResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getPlaybackLogsStatusRequest">
+    <wsdl:part element="v1_2:getPlaybackLogsStatusRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getPlaybackLogsStatusResponse">
+    <wsdl:part element="v1_2:getPlaybackLogsStatusResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="preparePlaybackLogsRequest">
+    <wsdl:part element="v1_2:preparePlaybackLogsRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="preparePlaybackLogsResponse">
+    <wsdl:part element="v1_2:preparePlaybackLogsResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="fault">
+    <wsdl:part element="v1_0:fault" name="fault"/>
+  </wsdl:message>
+  
+  <!-- Operation Specification -->
+  
+  <wsdl:portType name="SystemManagementService_v1_0">
+  
+    <!-- getAuditoriums Operation -->
+  
+    <wsdl:operation name="getAuditoriums">
+      <wsdl:documentation>
+          getAuditoriums Operation
+              Lists the auditoriums on the system.
+
+		  Parameters:
+		      None.
+
+		  Response:
+		      auditoriumNumber (many) - The array of auditorium numbers.
+
+		  Exceptions:
+		      None
+		      
+		  Related Services:
+		      This service is useful when calling any other service on a TMS server.
+      </wsdl:documentation>
+      <wsdl:input message="tns:getAuditoriumsRequest"/>
+      <wsdl:output message="tns:getAuditoriumsResponse"/>
+      <wsdl:fault message="tns:fault" name="getAuditoriumsFault"/>
+    </wsdl:operation>
+  
+    <!-- getDeviceComponents Operation -->
+  
+    <wsdl:operation name="getDeviceComponents">
+      <wsdl:documentation>
+          getDeviceComponents Operation
+              Lists the connected devices/components on the system.
+
+		  Parameters:
+		      None.
+
+		  Response:
+		      deviceComponentId (many) - The array of component/device identifiers.
+
+		  Exceptions:
+		      None
+		      
+		  Related Services:
+		      This service is useful when calling other services on a SMS or TMS server 
+		      when the connection status of a device/component is important.
+		      getDeviceComponentInfos - This service can be used to get brief information about 
+		          the device/components that exist on the system.
+      </wsdl:documentation>
+      <wsdl:input message="tns:getDeviceComponentsRequest"/>
+      <wsdl:output message="tns:getDeviceComponentsResponse"/>
+      <wsdl:fault message="tns:fault" name="getDeviceComponentsFault"/>
+    </wsdl:operation>
+  
+    <!-- getDeviceComponentInfos Operation -->
+  
+    <wsdl:operation name="getDeviceComponentInfos">
+      <wsdl:documentation>
+          getDeviceComponentInfos Operation
+              Gets basic information about one or more connected devices/components that match 
+              all of the provided query criteria.  If no device/component matches all of the 
+              provided query information then an empty array will be returned.
+
+		  Parameters:
+		      deviceComponentId (optional) - The unique identifier of the device whose information 
+		          is to be retrieved.  If not specified then device component information will be 
+		          returned regardless of their unique identifier.
+		      auditoriumNumber (optional) - The auditorium to retrieve the device component information 
+		          from.  Only useful when calling this service on a TMS server. If not specified then 
+		          this will get the device component information from the server location.  If "*" is 
+		          specified, then this will get the device component information regardless of location.
+		      deviceComponentType (optional) - The type of device component to return information 
+		          about.  Note that setting this value does not guarantee that only one device 
+		          component will be returned (eg, multiple Projectors).
+
+		  Response:
+		      deviceComponentInfo (many) - the device component information which matched all the 
+		          specified query criteria.
+
+		  Exceptions:
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      
+		  Related Services:
+		      This service is useful when calling other services on a SMS or TMS server 
+		      when the connection status of a device/component is important.
+		      getDeviceComponents - This service can be used to easily detect what device/components 
+		          exist within the system.
+      </wsdl:documentation>
+      <wsdl:input message="tns:getDeviceComponentInfosRequest"/>
+      <wsdl:output message="tns:getDeviceComponentInfosResponse"/>
+      <wsdl:fault message="tns:fault" name="getDeviceComponentInfosFault"/>
+    </wsdl:operation>
+    
+    <!-- getContentStores Operation -->
+  
+    <wsdl:operation name="getContentStores">
+      <wsdl:documentation>
+          getContentStores Operation
+              Gets information about permanent and removable media that match all of the provided query 
+              criteria.  If no content store matches all of the provided query information then an empty 
+              array will be returned.
+
+		  Parameters:
+		      auditoriumNumber (optional) - The auditorium to retrieve the content stores from.  Only 
+		          useful when calling this service on a TMS server. If not specified then this will get 
+		          the content stores from the server location.  If "*" is specified, then this will get 
+		          the content stores regardless of location.
+
+		  Response:
+		      contentStoreInfo (many) - the content store information which matched all the specified query 
+		          criteria.
+
+		  Exceptions:
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      
+		  Related Services:
+		      ingestContent/transferContent - These services are useful for placing content on 
+		          specific permanent and/or removable media.
+      </wsdl:documentation>
+      <wsdl:input message="tns:getContentStoresRequest"/>
+      <wsdl:output message="tns:getContentStoresResponse"/>
+      <wsdl:fault message="tns:fault" name="getContentStoresFault"/>
+    </wsdl:operation>
+    
+    <!-- getSystemLogs Operation -->
+  
+    <wsdl:operation name="getSystemLogs">
+      <wsdl:documentation>
+          getSystemLogs Operation
+              Gets the system logs of one or more connected components in the system that are not 
+              currently transferring logs and match all of the provided query criteria.  The logs 
+              will be sent via ftp to the specified connection information. If no match is made with 
+              any of the provided criteria then an empty array will be returned.
+
+		  Parameters:
+		      deviceComponentId (optional) - The unique identifier of the device/component whose 
+		          logs to retrieve.  If not specified then logs will be returned regardless of the 
+		          device/component's unique identifier.
+		      auditoriumNumber (optional) - The auditorium to retrieve the system logs from.  Only 
+		          useful when calling this service on a TMS server. If not specified then this will get 
+		          the system logs from the server location.  If "*" is specified, then this will get 
+		          the system logs regardless of location.
+		      deviceComponentType (optional) - The type of device/component to return logs from.  If 
+		          not specified then device/component logs will be returned regardless of the type.
+		      uri - The ftp server directory location to send the logs to.
+		      username (optional) - The username of the ftp server to send the logs to.  If not 
+		          specified then a username of "anonymous" will be used.
+		      password (optional) - The username of the ftp server to send the logs to.  If not 
+		          specified then a password of "anonymous" will be used.
+
+		  Response:
+		      logRetrievalId (many) - unique identifier representing the log retrieval requests of each 
+		          device/component that matched the specified criteria.
+		          
+		  Exceptions:
+		      BusyFailure - If system logs are already being retrieved for the device/component in the 
+		          specified auditorium.
+              NotConnected - If the device/component with the specified deviceComponentId or deviceComponentType 
+                  is not connected.
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+              InvalidArgumentFailure - If the device/component specified in the request does not support log retrieval.
+
+          Related Services:
+		      getDeviceComponents/getDeviceComponentInfos - These services are useful in determining 
+		          what devices/components are present that logs may be obtained from.
+		      getSystemLogStatus - This service can be used to get the status of a getSystemLogs request. 
+		      cancelLogRetrieval - This service can be used to cancel a getSystemLogs request.     
+      </wsdl:documentation>
+      <wsdl:input message="tns:getSystemLogsRequest"/>
+      <wsdl:output message="tns:getSystemLogsResponse"/>
+      <wsdl:fault message="tns:fault" name="getSystemLogsFault"/>
+    </wsdl:operation>
+    
+    <!-- getSystemLogsStatus Operation -->
+  
+    <wsdl:operation name="getSystemLogsStatus">
+      <wsdl:documentation>
+          getSystemLogsStatus Operation
+              Gets the status of system log retrieval for one or more components in the system that match all 
+              of the provided query criteria.
+
+		  Parameters:
+		      logRetrievalId (optional) - The unique identifier of a system log retrieval job.  If 
+		          not specified then the system log status will be returned regardless of the log 
+		          retrieval unique identifier.
+		      deviceComponentId (optional) - The unique identifier of the device/component whose 
+		          log status to retrieve.  If not specified then log retrieval status will be returned 
+		          regardless of the device/component's unique identifier.
+		      auditoriumNumber (optional) - The auditorium to retrieve the system log status from.  Only 
+		          useful when calling this service on a TMS server. If not specified then this will get 
+		          the system log status from the server location.  If "*" is specified, then this will get 
+		          the system log status regardless of location.
+		      deviceComponentType (optional) - The type of device/component to return log status from.  
+		          If not specified then device/component log status will be returned regardless of the 
+		          type.
+
+		  Response:
+		      systemLogStatusInfo (many) - The system log status information which matched all the 
+		          specified query criteria.
+
+		  Exceptions:
+		      NotFound - If no system log retrieval job with the matching log retreival unique identifier 
+		          could be found.
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      
+		  Related Services:
+		      getSystemLogs - This service will initiate a process that will change the system log 
+		          retrieval state.
+      </wsdl:documentation>
+      <wsdl:input message="tns:getSystemLogsStatusRequest"/>
+      <wsdl:output message="tns:getSystemLogsStatusResponse"/>
+      <wsdl:fault message="tns:fault" name="getSystemLogsStatusFault"/>
+    </wsdl:operation>
+    
+    <!-- getAuditLogs Operation -->
+  
+    <wsdl:operation name="getAuditLogs">
+      <wsdl:documentation>
+          getAuditLogs Operation
+              Gets the audit logs of one or more auditoriums in the system that are not currently 
+              transferring logs and match all of the provided query criteria.  The logs will be sent via 
+              ftp to the specified connection information. If no match is made with any of the provided 
+              criteria then an empty array will be returned.
+
+		  Parameters:
+		      auditoriumNumber (optional) - The auditorium to retrieve the audit logs from.  Only 
+		          useful when calling this service on a TMS server. If not specified then this will get 
+		          the audit logs from the server location.  If "*" is specified, then this will get 
+		          the audit logs regardless of location.
+		      uri - The ftp server location to send the logs to.
+		      username (optional) - The username of the ftp server to send the logs to.  If not 
+		          specified then a username of "anonymous" will be used.
+		      password (optional) - The username of the ftp server to send the logs to.  If not 
+		          specified then a password of "anonymous" will be used.
+		      startDate (optional) - The start day of the range of audit log entries.  If not specified
+		          then the start day will be two weeks in the past.
+		      endDate (optional) - The end day of the range of audit log entries.  If not specified then 
+		          the end day will be now.
+
+		  Response:
+		      logRetrievalId (many) - unique identifier representing the log retrieval requests of each 
+		          device/component that matched the specified criteria.
+
+		  Exceptions:
+		      BusyFailure - If audit logs are already being retrieved in the specified auditorium.
+              NotConnected - If the PLAYER or DECODER components within the specified auditorium is not 
+                  connected.
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      
+		  Related Services:
+		      getAuditLogStatus - This service can be used to get the status of a getAuditLogs request.
+		      cancelLogRetrieval - This service can be used to cancel a getAuditLogs request. 	  
+      </wsdl:documentation>
+      <wsdl:input message="tns:getAuditLogsRequest"/>
+      <wsdl:output message="tns:getAuditLogsResponse"/>
+      <wsdl:fault message="tns:fault" name="getAuditLogsFault"/>
+    </wsdl:operation> 
+    
+    <!-- getAuditLogsStatus Operation -->
+  
+    <wsdl:operation name="getAuditLogsStatus">
+      <wsdl:documentation>
+          getAuditLogsStatus Operation
+              Gets the status of audit log retrieval for one or more components in the system that match all 
+              of the provided query criteria.  If no match is made with any of the provided criteria then an 
+              empty array will be returned.
+
+		  Parameters:
+		      logRetrievalId (optional) - The unique identifier of an audit log retrieval job.  If 
+		          not specified then the audit log status will be returned regardless of the log 
+		          retrieval unique identifier.
+		      auditoriumNumber (optional) - The auditorium to retrieve the audit log status from.  Only 
+		          useful when calling this service on a TMS server. If not specified then this will get 
+		          the audit log status from the server location.  If "*" is specified, then this will get 
+		          the audit log status regardless of location.
+
+		  Response:
+		      auditLogStatusInfo (many) - The audit log status information which matched all the 
+		          specified query criteria.
+
+		  Exceptions:
+		      NotFound - If no audit log retrieval job with the matching log retreival unique identifier 
+		          could be found.
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      
+		  Related Services:
+		      getAuditLogs - This service will initiate a process that will change the audit log 
+		          retrieval state.
+      </wsdl:documentation>
+      <wsdl:input message="tns:getAuditLogsStatusRequest"/>
+      <wsdl:output message="tns:getAuditLogsStatusResponse"/>
+      <wsdl:fault message="tns:fault" name="getAuditLogsStatusFault"/>
+    </wsdl:operation>
+    
+    <!-- cancelLogRetrieval Operation -->
+  
+    <wsdl:operation name="cancelLogRetrieval">
+      <wsdl:documentation>
+          cancelLogRetrieval Operation
+              Cancels log retrieval (eg, system or audit) of an ongoing log retrieval process in the system.  
+              Does nothing if the log retrieval process is in a terminal state.
+
+		  Parameters:
+		      logRetrievalId - unique identifier representing the ongoing log retrieval process.
+
+		  Response:
+		      None
+
+		  Exceptions:
+		      NotFound - If the log retrieval process with the specified unique identifier could not be found.
+		      
+		  Related Services:
+		      getSystemLogs/getAuditLogs - This service can be cancelled by initiating cancelLogRetrieval.
+      </wsdl:documentation>
+      <wsdl:input message="tns:cancelLogRetrievalRequest"/>
+      <wsdl:output message="tns:cancelLogRetrievalResponse"/>
+      <wsdl:fault message="tns:fault" name="cancelLogRetrievalFault"/>
+    </wsdl:operation>
+    
+    <!-- getSystemTime Operation -->
+    
+    <wsdl:operation name="getSystemTime">
+      <wsdl:documentation>
+          getSystemTime Operation
+              Provides the system time of the server within its set time zone.
+              
+		  Parameters:
+		      None
+
+		  Response:
+              time - The time of the server.
+              timeZoneId - Olson time zone unique identifier indicating the currently 
+                  set time zone of the server.
+
+		  Exceptions:
+		      None
+		      
+		  Related Services:
+		      None
+      </wsdl:documentation>
+      <wsdl:input message="tns:getSystemTimeRequest"/>
+      <wsdl:output message="tns:getSystemTimeResponse"/>
+      <wsdl:fault message="tns:fault" name="getSystemTimeFault"/>
+    </wsdl:operation>
+        
+    <!-- setTimeZone Operation -->
+    
+    <wsdl:operation name="setTimeZone">
+      <wsdl:documentation>
+          setTimeZone Operation
+              Sets the time zone setting of this server.
+              
+		  Parameters:
+		      timeZoneId - Olson time zone unique identifier indicating the new 
+		          time zone setting of this server.  If an invalid time zone identifier is 
+		          specified then the server time zone will default to GMT.
+
+		  Response:
+              None
+
+		  Exceptions:
+		      None
+		      
+		  Related Services:
+		      getSystemTime - This service can be used to get the current time zone.
+      </wsdl:documentation>
+      <wsdl:input message="tns:setTimeZoneRequest"/>
+      <wsdl:output message="tns:setTimeZoneResponse"/>
+      <wsdl:fault message="tns:fault" name="setTimeZoneFault"/>
+    </wsdl:operation>
+    
+    <!-- getSecureTime Operation -->
+    
+    <wsdl:operation name="getSecureTime">
+      <wsdl:documentation>
+          getSecureTime Operation
+              Provides the secure time of one or more Decoder components
+              
+		  Parameters:
+              auditoriumNumber (optional) - The auditorium to retrieve the secure time from.  Only 
+		          useful when calling this service on a TMS server. If not specified then this will get 
+		          the secure time from the server location.  If "*" is specified, then this will get 
+		          the secure time status regardless of location.      
+
+		  Response:
+              secureTimeInfo (many) - The secure time information which matched all the specified query 
+                  criteria.
+
+		  Exceptions:
+		      InvalidAuditorium - If no auditorium with the specified number exists, or if an auditorium 
+		          is not specified when calling on a TMS server not in an auditorium.
+		      NotConnected - If no Decoder component is connected.
+		      
+		  Related Services:
+		      setSecureTime - This service can be used to set the secure time.
+      </wsdl:documentation>
+      <wsdl:input message="tns:getSecureTimeRequest"/>
+      <wsdl:output message="tns:getSecureTimeResponse"/>
+      <wsdl:fault message="tns:fault" name="getSecureTimeFault"/>
+    </wsdl:operation>
+        
+    <!-- setSecureTime Operation -->
+    
+    <wsdl:operation name="setSecureTime">
+      <wsdl:documentation>
+          setSecureTime Operation
+              Sets the secure time of one or more Decoder components
+              
+		  Parameters:
+              auditoriumNumber (optional) - The auditorium to set the secure time on.  Only 
+		          useful when calling this service on a TMS server. If not specified then this 
+		          will set the secure time from the server location.  If "*" is specified, then 
+		          this will set the secure time status regardless of location.
+		      secureTime - The secure time to set. 	      
+
+		  Response:
+              None
+
+		  Exceptions:
+		      InvalidAuditorium - If no auditorium with the specified number exists, or if an auditorium 
+		          is not specified when calling on a TMS server not in an auditorium.
+		      InvalidArgumentFailure - If the specified secureTime is outside of the valid range of 
+		          one or more Decoder components.
+		      NotConnected - If no Decoder component is connected.
+		      
+		  Related Services:
+		      getSecureTime - This service can be used to get the secure time.
+      </wsdl:documentation>
+      <wsdl:input message="tns:setSecureTimeRequest"/>
+      <wsdl:output message="tns:setSecureTimeResponse"/>
+      <wsdl:fault message="tns:fault" name="setSecureTimeFault"/>
+    </wsdl:operation>
+  
+  </wsdl:portType>
+  
+  <wsdl:portType name="SystemManagementService_v1_1">
+
+    <!-- getAuditoriums Operation -->
+  
+    <wsdl:operation name="getAuditoriums">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getAuditoriumsRequest"/>
+      <wsdl:output message="tns:getAuditoriumsResponse"/>
+      <wsdl:fault message="tns:fault" name="getAuditoriumsFault"/>
+    </wsdl:operation>
+  
+    <!-- getDeviceComponents Operation -->
+  
+    <wsdl:operation name="getDeviceComponents">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getDeviceComponentsRequest"/>
+      <wsdl:output message="tns:getDeviceComponentsResponse"/>
+      <wsdl:fault message="tns:fault" name="getDeviceComponentsFault"/>
+    </wsdl:operation>
+  
+    <!-- getDeviceComponentInfos Operation -->
+  
+    <wsdl:operation name="getDeviceComponentInfos">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getDeviceComponentInfosRequest"/>
+      <wsdl:output message="tns:getDeviceComponentInfosResponse"/>
+      <wsdl:fault message="tns:fault" name="getDeviceComponentInfosFault"/>
+    </wsdl:operation>
+    
+    <!-- getContentStores Operation -->
+  
+    <wsdl:operation name="getContentStores">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getContentStoresRequest"/>
+      <wsdl:output message="tns:getContentStoresResponse"/>
+      <wsdl:fault message="tns:fault" name="getContentStoresFault"/>
+    </wsdl:operation>
+    
+    <!-- getSystemLogs Operation -->
+  
+    <wsdl:operation name="getSystemLogs">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0   
+      </wsdl:documentation>
+      <wsdl:input message="tns:getSystemLogsRequest"/>
+      <wsdl:output message="tns:getSystemLogsResponse"/>
+      <wsdl:fault message="tns:fault" name="getSystemLogsFault"/>
+    </wsdl:operation>
+    
+    <!-- getSystemLogsStatus Operation -->
+  
+    <wsdl:operation name="getSystemLogsStatus">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getSystemLogsStatusRequest"/>
+      <wsdl:output message="tns:getSystemLogsStatusResponse"/>
+      <wsdl:fault message="tns:fault" name="getSystemLogsStatusFault"/>
+    </wsdl:operation>
+    
+    <!-- getAuditLogs Operation -->
+  
+    <wsdl:operation name="getAuditLogs">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0	  
+      </wsdl:documentation>
+      <wsdl:input message="tns:getAuditLogsRequest"/>
+      <wsdl:output message="tns:getAuditLogsResponse"/>
+      <wsdl:fault message="tns:fault" name="getAuditLogsFault"/>
+    </wsdl:operation> 
+    
+    <!-- getAuditLogsStatus Operation -->
+  
+    <wsdl:operation name="getAuditLogsStatus">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getAuditLogsStatusRequest"/>
+      <wsdl:output message="tns:getAuditLogsStatusResponse"/>
+      <wsdl:fault message="tns:fault" name="getAuditLogsStatusFault"/>
+    </wsdl:operation>
+    
+    <!-- cancelLogRetrieval Operation -->
+  
+    <wsdl:operation name="cancelLogRetrieval">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:cancelLogRetrievalRequest"/>
+      <wsdl:output message="tns:cancelLogRetrievalResponse"/>
+      <wsdl:fault message="tns:fault" name="cancelLogRetrievalFault"/>
+    </wsdl:operation>
+    
+    <!-- getSystemTime Operation -->
+    
+    <wsdl:operation name="getSystemTime">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getSystemTimeRequest"/>
+      <wsdl:output message="tns:getSystemTimeResponse"/>
+      <wsdl:fault message="tns:fault" name="getSystemTimeFault"/>
+    </wsdl:operation>
+        
+    <!-- setTimeZone Operation -->
+    
+    <wsdl:operation name="setTimeZone">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:setTimeZoneRequest"/>
+      <wsdl:output message="tns:setTimeZoneResponse"/>
+      <wsdl:fault message="tns:fault" name="setTimeZoneFault"/>
+    </wsdl:operation>
+    
+    <!-- getSecureTime Operation -->
+    
+    <wsdl:operation name="getSecureTime">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getSecureTimeRequest"/>
+      <wsdl:output message="tns:getSecureTimeResponse"/>
+      <wsdl:fault message="tns:fault" name="getSecureTimeFault"/>
+    </wsdl:operation>
+        
+    <!-- setSecureTime Operation -->
+    
+    <wsdl:operation name="setSecureTime">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:setSecureTimeRequest"/>
+      <wsdl:output message="tns:setSecureTimeResponse"/>
+      <wsdl:fault message="tns:fault" name="setSecureTimeFault"/>
+    </wsdl:operation>
+
+    <!-- getSecurityManagerCertificate Operation -->
+    
+    <wsdl:operation name="getSecurityManagerCertificate">
+      <wsdl:documentation>
+          getSecurityManagerCertificate Operation
+              Gets the security manager certificate of one or more Decoder components
+              
+		  Parameters:
+              auditoriumNumber (optional) - The auditorium to get the security manager certificate from.  
+                  Only useful when calling this service on a TMS server. If not specified then this 
+		          will get the security manager certificate from the server location.  If "*" is specified, 
+		          then this will get the security manager certificate regardless of location.   
+
+		  Response:
+              securityManagerCertificateInfo (many):
+                - the auditorium where the certificate is applicable
+                - the certificate chain of the security manager.
+
+		  Exceptions:
+		      InvalidAuditorium - If no auditorium with the specified number exists, or if an auditorium 
+		          is not specified when calling on a TMS server not in an auditorium.
+		      NotConnected - If no Decoder component is connected.
+		      
+		  Related Services:
+		      N/A
+      </wsdl:documentation>
+      <wsdl:input message="tns:getSecurityManagerCertificateRequest"/>
+      <wsdl:output message="tns:getSecurityManagerCertificateResponse"/>
+      <wsdl:fault message="tns:fault" name="getSecurityManagerCertificateFault"/>
+    </wsdl:operation>
+    
+    <!-- prepareAuditLogs Operation: NOT IMPLEMENTED -->
+  
+    <wsdl:operation name="prepareAuditLogs">
+      <wsdl:documentation>
+          prepareAuditLogs Operation: NOT IMPLEMENTED
+              Collects the audit logs of one or more auditoriums in the system that are not currently 
+              extracting logs and match all of the provided query criteria.  The logs will be made 
+              available on the system for four hours beyond the completion of the collection process.  
+              If no match is made with any of the provided criteria then an empty array will be returned.
+
+		  Parameters:
+		      auditoriumNumber (optional) - The auditorium to collect the audit logs from.  Only 
+		          useful when calling this service on a TMS server. If not specified then this will collect 
+		          the audit logs from the server location.  If "*" is specified, then this will collect 
+		          the audit logs regardless of location.
+		      startDate (optional) - The start day of the range of audit log entries.  If not specified
+		          then the start day will be two weeks in the past.
+		      endDate (optional) - The end day of the range of audit log entries.  If not specified then 
+		          the end day will be now.
+
+		  Response:
+		      logRetrievalId (many) - unique identifier representing the log retrieval requests of each 
+		          device/component that matched the specified criteria.
+
+		  Exceptions:
+		      BusyFailure - If audit logs are already being retrieved in the specified auditorium.
+              NotConnected - If the PLAYER or DECODER components within the specified auditorium is not 
+                  connected.
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      
+		  Related Services:
+		      getAuditLogStatus - This service can be used to get the status and location of a prepareAuditLogs 
+		          request.
+		      cancelLogRetrieval - This service can be used to cancel a prepareAuditLogs request. 	  
+      </wsdl:documentation>
+      <wsdl:input message="tns:prepareAuditLogsRequest"/>
+      <wsdl:output message="tns:prepareAuditLogsResponse"/>
+      <wsdl:fault message="tns:fault" name="prepareAuditLogsFault"/>
+    </wsdl:operation> 
+
+    <!-- prepareSystemLogs Operation: NOT IMPLEMENTED -->
+  
+    <wsdl:operation name="prepareSystemLogs">
+      <wsdl:documentation>
+          prepareSystemLogs Operation: NOT IMPLEMENTED
+              Collects the system logs of one or more connected components in the system that are not 
+              currently extracting logs and match all of the provided query criteria.  The logs 
+              will be made available on the system for four hours beyond the completion of the collection
+              process. If no match is made with any of the provided criteria then an empty array will be returned.
+
+		  Parameters:
+		      deviceComponentId (optional) - The unique identifier of the device/component whose 
+		          logs to collect.  If not specified then logs will be collected regardless of the 
+		          device/component's unique identifier.
+		      auditoriumNumber (optional) - The auditorium to collect the system logs from.  Only 
+		          useful when calling this service on a TMS server. If not specified then this will collect 
+		          the system logs from the server location.  If "*" is specified, then this will collect 
+		          the system logs regardless of location.
+		      deviceComponentType (optional) - The type of device/component to collect logs from.  If 
+		          not specified then device/component logs will be collected regardless of the type.
+
+		  Response:
+		      logRetrievalId (many) - unique identifier representing the log retrieval requests of each 
+		          device/component that matched the specified criteria.
+		          
+		  Exceptions:
+		      BusyFailure - If system logs are already being retrieved for the device/component in the 
+		          specified auditorium.
+              NotConnected - If the device/component with the specified deviceComponentId or deviceComponentType 
+                  is not connected.
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+              InvalidArgumentFailure - If the device/component specified in the request does not support log retrieval.
+
+          Related Services:
+		      getDeviceComponents/getDeviceComponentInfos - These services are useful in determining 
+		          what devices/components are present that logs may be obtained from.
+		      getSystemLogStatus - This service can be used to get the status and location of a prepareSystemLogs 
+		          request. 
+		      cancelLogRetrieval - This service can be used to cancel a prepareSystemLogs request.     
+      </wsdl:documentation>
+      <wsdl:input message="tns:prepareSystemLogsRequest"/>
+      <wsdl:output message="tns:prepareSystemLogsResponse"/>
+      <wsdl:fault message="tns:fault" name="prepareSystemLogsFault"/>
+    </wsdl:operation>
+  
+  </wsdl:portType>
+  
+  <wsdl:portType name="SystemManagementService_v1_2">
+
+    <!-- getAuditoriums Operation -->
+  
+    <wsdl:operation name="getAuditoriums">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getAuditoriumsRequest"/>
+      <wsdl:output message="tns:getAuditoriumsResponse"/>
+      <wsdl:fault message="tns:fault" name="getAuditoriumsFault"/>
+    </wsdl:operation>
+  
+    <!-- getDeviceComponents Operation -->
+  
+    <wsdl:operation name="getDeviceComponents">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getDeviceComponentsRequest"/>
+      <wsdl:output message="tns:getDeviceComponentsResponse"/>
+      <wsdl:fault message="tns:fault" name="getDeviceComponentsFault"/>
+    </wsdl:operation>
+  
+    <!-- getDeviceComponentInfos Operation -->
+  
+    <wsdl:operation name="getDeviceComponentInfos">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getDeviceComponentInfosRequest"/>
+      <wsdl:output message="tns:getDeviceComponentInfosResponse"/>
+      <wsdl:fault message="tns:fault" name="getDeviceComponentInfosFault"/>
+    </wsdl:operation>
+    
+    <!-- getContentStores Operation -->
+  
+    <wsdl:operation name="getContentStores">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getContentStoresRequest"/>
+      <wsdl:output message="tns:getContentStoresResponse"/>
+      <wsdl:fault message="tns:fault" name="getContentStoresFault"/>
+    </wsdl:operation>
+    
+    <!-- getSystemLogs Operation -->
+  
+    <wsdl:operation name="getSystemLogs">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0   
+      </wsdl:documentation>
+      <wsdl:input message="tns:getSystemLogsRequest"/>
+      <wsdl:output message="tns:getSystemLogsResponse"/>
+      <wsdl:fault message="tns:fault" name="getSystemLogsFault"/>
+    </wsdl:operation>
+    
+    <!-- getSystemLogsStatus Operation -->
+  
+    <wsdl:operation name="getSystemLogsStatus">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getSystemLogsStatusRequest"/>
+      <wsdl:output message="tns:getSystemLogsStatusResponse"/>
+      <wsdl:fault message="tns:fault" name="getSystemLogsStatusFault"/>
+    </wsdl:operation>
+    
+    <!-- getAuditLogs Operation -->
+  
+    <wsdl:operation name="getAuditLogs">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0	  
+      </wsdl:documentation>
+      <wsdl:input message="tns:getAuditLogsRequest"/>
+      <wsdl:output message="tns:getAuditLogsResponse"/>
+      <wsdl:fault message="tns:fault" name="getAuditLogsFault"/>
+    </wsdl:operation> 
+    
+    <!-- getAuditLogsStatus Operation -->
+  
+    <wsdl:operation name="getAuditLogsStatus">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getAuditLogsStatusRequest"/>
+      <wsdl:output message="tns:getAuditLogsStatusResponse"/>
+      <wsdl:fault message="tns:fault" name="getAuditLogsStatusFault"/>
+    </wsdl:operation>
+    
+    <!-- cancelLogRetrieval Operation -->
+  
+    <wsdl:operation name="cancelLogRetrieval">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:cancelLogRetrievalRequest"/>
+      <wsdl:output message="tns:cancelLogRetrievalResponse"/>
+      <wsdl:fault message="tns:fault" name="cancelLogRetrievalFault"/>
+    </wsdl:operation>
+    
+    <!-- getSystemTime Operation -->
+    
+    <wsdl:operation name="getSystemTime">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getSystemTimeRequest"/>
+      <wsdl:output message="tns:getSystemTimeResponse"/>
+      <wsdl:fault message="tns:fault" name="getSystemTimeFault"/>
+    </wsdl:operation>
+        
+    <!-- setTimeZone Operation -->
+    
+    <wsdl:operation name="setTimeZone">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:setTimeZoneRequest"/>
+      <wsdl:output message="tns:setTimeZoneResponse"/>
+      <wsdl:fault message="tns:fault" name="setTimeZoneFault"/>
+    </wsdl:operation>
+    
+    <!-- getSecureTime Operation -->
+    
+    <wsdl:operation name="getSecureTime">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getSecureTimeRequest"/>
+      <wsdl:output message="tns:getSecureTimeResponse"/>
+      <wsdl:fault message="tns:fault" name="getSecureTimeFault"/>
+    </wsdl:operation>
+        
+    <!-- setSecureTime Operation -->
+    
+    <wsdl:operation name="setSecureTime">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:setSecureTimeRequest"/>
+      <wsdl:output message="tns:setSecureTimeResponse"/>
+      <wsdl:fault message="tns:fault" name="setSecureTimeFault"/>
+    </wsdl:operation>
+
+    <!-- getSecurityManagerCertificate Operation -->
+    
+    <wsdl:operation name="getSecurityManagerCertificate">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_1
+      </wsdl:documentation>
+      <wsdl:input message="tns:getSecurityManagerCertificateRequest"/>
+      <wsdl:output message="tns:getSecurityManagerCertificateResponse"/>
+      <wsdl:fault message="tns:fault" name="getSecurityManagerCertificateFault"/>
+    </wsdl:operation>
+    
+    <!-- prepareAuditLogs Operation: NOT IMPLEMENTED -->
+  
+    <wsdl:operation name="prepareAuditLogs">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_1
+      </wsdl:documentation>
+      <wsdl:input message="tns:prepareAuditLogsRequest"/>
+      <wsdl:output message="tns:prepareAuditLogsResponse"/>
+      <wsdl:fault message="tns:fault" name="prepareAuditLogsFault"/>
+    </wsdl:operation> 
+
+    <!-- prepareSystemLogs Operation: NOT IMPLEMENTED -->
+  
+    <wsdl:operation name="prepareSystemLogs">
+      <wsdl:documentation>
+          @see portType SystemManagementService_v1_1
+      </wsdl:documentation>
+      <wsdl:input message="tns:prepareSystemLogsRequest"/>
+      <wsdl:output message="tns:prepareSystemLogsResponse"/>
+      <wsdl:fault message="tns:fault" name="prepareSystemLogsFault"/>
+    </wsdl:operation>
+    
+    <!-- getPlaybackLogs Operation -->
+  
+    <wsdl:operation name="getPlaybackLogs">
+      <wsdl:documentation>
+          getPlaybackLogs Operation
+              Gets the playback logs of one or more auditoriums in the system that are not currently 
+              transferring logs and match all of the provided query criteria.  The logs will be sent via 
+              ftp to the specified connection information. If no match is made with any of the provided 
+              criteria then an empty array will be returned.
+
+		  Parameters:
+		      auditoriumNumber (optional) - The auditorium to retrieve the audit logs from.  Only 
+		          useful when calling this service on a TMS server. If not specified then this will get 
+		          the playback logs from the server location.  If "*" is specified, then this will get 
+		          the playback logs regardless of location.
+		      uri - The ftp server location to send the logs to.
+		      username (optional) - The username of the ftp server to send the logs to.  If not 
+		          specified then a username of "anonymous" will be used.
+		      password (optional) - The username of the ftp server to send the logs to.  If not 
+		          specified then a password of "anonymous" will be used.
+		      startDate (optional) - The start day of the range of playback log entries.  If not specified
+		          then the start day will be two weeks in the past.
+		      endDate (optional) - The end day of the range of playback log entries.  If not specified then 
+		          the end day will be now.
+
+		  Response:
+		      logRetrievalId (many) - unique identifier representing the log retrieval requests of each 
+		          device/component that matched the specified criteria.
+
+		  Exceptions:
+		      BusyFailure - If playback or audit logs are already being retrieved in the specified auditorium.
+              NotConnected - If the PLAYER or DECODER components within the specified auditorium is not 
+                  connected.
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      
+		  Related Services:
+		      getPlaybackLogStatus - This service can be used to get the status of a getPlaybackLogs request.
+		      cancelLogRetrieval - This service can be used to cancel a getPlaybackLogs request.   
+      </wsdl:documentation>
+      <wsdl:input message="tns:getPlaybackLogsRequest"/>
+      <wsdl:output message="tns:getPlaybackLogsResponse"/>
+      <wsdl:fault message="tns:fault" name="getPlaybackLogsFault"/>
+    </wsdl:operation> 
+    
+    <!-- getPlaybackLogsStatus Operation -->
+  
+    <wsdl:operation name="getPlaybackLogsStatus">
+      <wsdl:documentation>
+          getPlaybackLogsStatus Operation
+              Gets the status of playback log retrieval for one or more components in the system that match all 
+              of the provided query criteria.  If no match is made with any of the provided criteria then an 
+              empty array will be returned.
+
+		  Parameters:
+		      logRetrievalId (optional) - The unique identifier of an audit log retrieval job.  If 
+		          not specified then the playback log status will be returned regardless of the log 
+		          retrieval unique identifier.
+		      auditoriumNumber (optional) - The auditorium to retrieve the playback log status from.  Only 
+		          useful when calling this service on a TMS server. If not specified then this will get 
+		          the playback log status from the server location.  If "*" is specified, then this will get 
+		          the playback log status regardless of location.
+
+		  Response:
+		      playbackLoantgStatusInfo (many) - The playback log status information which matched all the 
+		          specified query criteria.
+
+		  Exceptions:
+		      NotFound - If no playback log retrieval job with the matching log retreival unique identifier 
+		          could be found.
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      
+		  Related Services:
+		      getPlaybackLogs - This service will initiate a process that will change the playback log 
+		          retrieval state.
+      </wsdl:documentation>
+      <wsdl:input message="tns:getPlaybackLogsStatusRequest"/>
+      <wsdl:output message="tns:getPlaybackLogsStatusResponse"/>
+      <wsdl:fault message="tns:fault" name="getPlaybackLogsStatusFault"/>
+    </wsdl:operation>
+    
+    <!-- preparePlaybackLogs Operation: NOT IMPLEMENTED -->
+  
+    <wsdl:operation name="preparePlaybackLogs">
+      <wsdl:documentation>
+          preparePLaybackLogs Operation: NOT IMPLEMENTED
+              Collects the playback logs of one or more auditoriums in the system that are not currently 
+              extracting logs and match all of the provided query criteria.  The logs will be made 
+              available on the system for four hours beyond the completion of the collection process.  
+              If no match is made with any of the provided criteria then an empty array will be returned.
+
+		  Parameters:
+		      auditoriumNumber (optional) - The auditorium to collect the playback logs from.  Only 
+		          useful when calling this service on a TMS server. If not specified then this will collect 
+		          the audit logs from the server location.  If "*" is specified, then this will collect 
+		          the audit logs regardless of location.
+		      startDate (optional) - The start day of the range of playback log entries.  If not specified
+		          then the start day will be two weeks in the past.
+		      endDate (optional) - The end day of the range of playback log entries.  If not specified then 
+		          the end day will be now.
+
+		  Response:
+		      logRetrievalId (many) - unique identifier representing the log retrieval requests of each 
+		          device/component that matched the specified criteria.
+
+		  Exceptions:
+		      BusyFailure - If no playback or audit logs are already being retrieved in the specified auditorium.
+              NotConnected - If the PLAYER componentwithin the specified auditorium is not connected.
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      
+		  Related Services:
+		      getPlaybackLogStatus - This service can be used to get the status and location of a preparePlaybackLogs 
+		          request.
+		      cancelLogRetrieval - This service can be used to cancel a preparePlaybackLogs request. 	  
+      </wsdl:documentation>
+      <wsdl:input message="tns:preparePlaybackLogsRequest"/>
+      <wsdl:output message="tns:preparePlaybackLogsResponse"/>
+      <wsdl:fault message="tns:fault" name="preparePlaybackLogsFault"/>
+    </wsdl:operation>
+  
+  </wsdl:portType>
+    
+  <!-- Binding Specification -->
+  
+  <wsdl:binding name="SystemManagementBinding_v1_0" type="tns:SystemManagementService_v1_0">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    
+    <wsdl:operation name="getAuditoriums">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getAuditoriums"/>
+      <wsdl:input name="getAuditoriumsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getAuditoriumsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getAuditoriumsFault">
+        <soap:fault name="getAuditoriumsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getDeviceComponents">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getDeviceComponents"/>
+      <wsdl:input name="getDeviceComponentsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getDeviceComponentsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getDeviceComponentsFault">
+        <soap:fault name="getDeviceComponentsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getDeviceComponentInfos">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getDeviceComponentInfos"/>
+      <wsdl:input name="getDeviceComponentInfosRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getDeviceComponentInfosResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getDeviceComponentInfosFault">
+        <soap:fault name="getDeviceComponentInfosFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getContentStores">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getContentStores"/>
+      <wsdl:input name="getContentStoresRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getContentStoresResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getContentStoresFault">
+        <soap:fault name="getContentStoresFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>     
+
+    <wsdl:operation name="getSystemLogs">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getSystemLogs"/>
+      <wsdl:input name="getSystemLogsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getSystemLogsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getSystemLogsFault">
+        <soap:fault name="getSystemLogsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getSystemLogsStatus">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getSystemLogsStatus"/>
+      <wsdl:input name="getSystemLogsStatusRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getSystemLogsStatusResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getSystemLogsStatusFault">
+        <soap:fault name="getSystemLogsStatusFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getAuditLogs">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getAuditLogs"/>
+      <wsdl:input name="getAuditLogsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getAuditLogsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getAuditLogsFault">
+        <soap:fault name="getAuditLogsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getAuditLogsStatus">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getAuditLogsStatus"/>
+      <wsdl:input name="getAuditLogsStatusRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getAuditLogsStatusResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getAuditLogsStatusFault">
+        <soap:fault name="getAuditLogsStatusFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="cancelLogRetrieval">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/cancelLogRetrieval"/>
+      <wsdl:input name="cancelLogRetrievalRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="cancelLogRetrievalResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="cancelLogRetrievalFault">
+        <soap:fault name="cancelLogRetrievalFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getSystemTime">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getSystemTime"/>
+      <wsdl:input name="getSystemTimeRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getSystemTimeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getSystemTimeFault">
+        <soap:fault name="getSystemTimeFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="setTimeZone">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setTimeZone"/>
+      <wsdl:input name="setTimeZoneRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="setTimeZoneResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setTimeZoneFault">
+        <soap:fault name="setTimeZoneFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getSecureTime">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getSecureTime"/>
+      <wsdl:input name="getSecureTimeRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getSecureTimeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getSecureTimeFault">
+        <soap:fault name="getSecureTimeFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="setSecureTime">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setSecureTime"/>
+      <wsdl:input name="setSecureTimeRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="setSecureTimeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setSecureTimeFault">
+        <soap:fault name="setSecureTimeFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+  </wsdl:binding>
+  
+  <wsdl:binding name="SystemManagementBinding_v1_1" type="tns:SystemManagementService_v1_1">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        
+    <wsdl:operation name="getAuditoriums">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getAuditoriums"/>
+      <wsdl:input name="getAuditoriumsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getAuditoriumsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getAuditoriumsFault">
+        <soap:fault name="getAuditoriumsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getDeviceComponents">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getDeviceComponents"/>
+      <wsdl:input name="getDeviceComponentsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getDeviceComponentsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getDeviceComponentsFault">
+        <soap:fault name="getDeviceComponentsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getDeviceComponentInfos">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getDeviceComponentInfos"/>
+      <wsdl:input name="getDeviceComponentInfosRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getDeviceComponentInfosResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getDeviceComponentInfosFault">
+        <soap:fault name="getDeviceComponentInfosFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getContentStores">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getContentStores"/>
+      <wsdl:input name="getContentStoresRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getContentStoresResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getContentStoresFault">
+        <soap:fault name="getContentStoresFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>     
+
+    <wsdl:operation name="getSystemLogs">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getSystemLogs"/>
+      <wsdl:input name="getSystemLogsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getSystemLogsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getSystemLogsFault">
+        <soap:fault name="getSystemLogsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getSystemLogsStatus">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getSystemLogsStatus"/>
+      <wsdl:input name="getSystemLogsStatusRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getSystemLogsStatusResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getSystemLogsStatusFault">
+        <soap:fault name="getSystemLogsStatusFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getAuditLogs">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getAuditLogs"/>
+      <wsdl:input name="getAuditLogsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getAuditLogsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getAuditLogsFault">
+        <soap:fault name="getAuditLogsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getAuditLogsStatus">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getAuditLogsStatus"/>
+      <wsdl:input name="getAuditLogsStatusRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getAuditLogsStatusResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getAuditLogsStatusFault">
+        <soap:fault name="getAuditLogsStatusFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="cancelLogRetrieval">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/cancelLogRetrieval"/>
+      <wsdl:input name="cancelLogRetrievalRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="cancelLogRetrievalResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="cancelLogRetrievalFault">
+        <soap:fault name="cancelLogRetrievalFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getSystemTime">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getSystemTime"/>
+      <wsdl:input name="getSystemTimeRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getSystemTimeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getSystemTimeFault">
+        <soap:fault name="getSystemTimeFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="setTimeZone">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setTimeZone"/>
+      <wsdl:input name="setTimeZoneRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="setTimeZoneResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setTimeZoneFault">
+        <soap:fault name="setTimeZoneFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getSecureTime">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getSecureTime"/>
+      <wsdl:input name="getSecureTimeRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getSecureTimeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getSecureTimeFault">
+        <soap:fault name="getSecureTimeFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="setSecureTime">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setSecureTime"/>
+      <wsdl:input name="setSecureTimeRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="setSecureTimeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setSecureTimeFault">
+        <soap:fault name="setSecureTimeFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getSecurityManagerCertificate">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getSecurityManagerCertificate"/>
+      <wsdl:input name="getSecurityManagerCertificateRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getSecurityManagerCertificateResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getSecurityManagerCertificateFault">
+        <soap:fault name="getSecurityManagerCertificateFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="prepareAuditLogs">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/prepareAuditLogs"/>
+      <wsdl:input name="prepareAuditLogsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="prepareAuditLogsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="prepareAuditLogsFault">
+        <soap:fault name="prepareAuditLogsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="prepareSystemLogs">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/prepareSystemLogs"/>
+      <wsdl:input name="prepareSystemLogsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="prepareSystemLogsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="prepareSystemLogsFault">
+        <soap:fault name="prepareSystemLogsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>  
+    
+  <wsdl:binding name="SystemManagementBinding_v1_2" type="tns:SystemManagementService_v1_2">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        
+    <wsdl:operation name="getAuditoriums">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getAuditoriums"/>
+      <wsdl:input name="getAuditoriumsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getAuditoriumsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getAuditoriumsFault">
+        <soap:fault name="getAuditoriumsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getDeviceComponents">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getDeviceComponents"/>
+      <wsdl:input name="getDeviceComponentsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getDeviceComponentsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getDeviceComponentsFault">
+        <soap:fault name="getDeviceComponentsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getDeviceComponentInfos">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getDeviceComponentInfos"/>
+      <wsdl:input name="getDeviceComponentInfosRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getDeviceComponentInfosResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getDeviceComponentInfosFault">
+        <soap:fault name="getDeviceComponentInfosFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getContentStores">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getContentStores"/>
+      <wsdl:input name="getContentStoresRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getContentStoresResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getContentStoresFault">
+        <soap:fault name="getContentStoresFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>     
+
+    <wsdl:operation name="getSystemLogs">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getSystemLogs"/>
+      <wsdl:input name="getSystemLogsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getSystemLogsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getSystemLogsFault">
+        <soap:fault name="getSystemLogsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getSystemLogsStatus">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getSystemLogsStatus"/>
+      <wsdl:input name="getSystemLogsStatusRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getSystemLogsStatusResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getSystemLogsStatusFault">
+        <soap:fault name="getSystemLogsStatusFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getAuditLogs">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getAuditLogs"/>
+      <wsdl:input name="getAuditLogsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getAuditLogsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getAuditLogsFault">
+        <soap:fault name="getAuditLogsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getAuditLogsStatus">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getAuditLogsStatus"/>
+      <wsdl:input name="getAuditLogsStatusRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getAuditLogsStatusResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getAuditLogsStatusFault">
+        <soap:fault name="getAuditLogsStatusFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="cancelLogRetrieval">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/cancelLogRetrieval"/>
+      <wsdl:input name="cancelLogRetrievalRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="cancelLogRetrievalResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="cancelLogRetrievalFault">
+        <soap:fault name="cancelLogRetrievalFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getSystemTime">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getSystemTime"/>
+      <wsdl:input name="getSystemTimeRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getSystemTimeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getSystemTimeFault">
+        <soap:fault name="getSystemTimeFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="setTimeZone">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setTimeZone"/>
+      <wsdl:input name="setTimeZoneRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="setTimeZoneResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setTimeZoneFault">
+        <soap:fault name="setTimeZoneFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getSecureTime">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getSecureTime"/>
+      <wsdl:input name="getSecureTimeRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getSecureTimeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getSecureTimeFault">
+        <soap:fault name="getSecureTimeFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="setSecureTime">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setSecureTime"/>
+      <wsdl:input name="setSecureTimeRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="setSecureTimeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setSecureTimeFault">
+        <soap:fault name="setSecureTimeFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getSecurityManagerCertificate">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getSecurityManagerCertificate"/>
+      <wsdl:input name="getSecurityManagerCertificateRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getSecurityManagerCertificateResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getSecurityManagerCertificateFault">
+        <soap:fault name="getSecurityManagerCertificateFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="prepareAuditLogs">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/prepareAuditLogs"/>
+      <wsdl:input name="prepareAuditLogsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="prepareAuditLogsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="prepareAuditLogsFault">
+        <soap:fault name="prepareAuditLogsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="prepareSystemLogs">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/prepareSystemLogs"/>
+      <wsdl:input name="prepareSystemLogsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="prepareSystemLogsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="prepareSystemLogsFault">
+        <soap:fault name="prepareSystemLogsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getPlaybackLogs">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPlaybackLogs"/>
+      <wsdl:input name="getPlaybackLogsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getPlaybackLogsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPlaybackLogsFault">
+        <soap:fault name="getPlaybackLogsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getPlaybackLogsStatus">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPlaybackLogsStatus"/>
+      <wsdl:input name="getPlaybackLogsStatusRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getPlaybackLogsStatusResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPlaybackLogsStatusFault">
+        <soap:fault name="getPlaybackLogsStatusFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="preparePlaybackLogs">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/preparePlaybackLogs"/>
+      <wsdl:input name="preparePlaybackLogsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="preparePlaybackLogsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="preparePlaybackLogsFault">
+        <soap:fault name="preparePlaybackLogsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+  </wsdl:binding>  
+  
+  <!-- Address Specification -->
+  
+  <wsdl:service name="SystemManagement_v1_0">
+    <wsdl:port binding="tns:SystemManagementBinding_v1_0" name="SystemManagementService_v1_0">
+      <soap:address location="http://www.dolby.com:8080/dcinema/ws/smi/v1/SystemManagementService"/>
+    </wsdl:port>
+  </wsdl:service>
+  
+  <wsdl:service name="SystemManagement_v1_1">
+    <wsdl:port binding="tns:SystemManagementBinding_v1_1" name="SystemManagementService_v1_0">
+      <soap:address location="http://www.dolby.com:8080/dcinema/ws/smi/v1/SystemManagementService"/>
+    </wsdl:port>
+  </wsdl:service>
+  
+  <wsdl:service name="SystemManagement_v1_2">
+    <wsdl:port binding="tns:SystemManagementBinding_v1_2" name="SystemManagementService_v1_0">
+      <soap:address location="http://www.dolby.com:8080/dcinema/ws/smi/v1/SystemManagementService"/>
+    </wsdl:port>
+  </wsdl:service>
+  
+</wsdl:definitions>

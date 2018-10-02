@@ -1,0 +1,43 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="status">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="show_uuid"/>
+              <xs:element name="show_position">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:short" name="total_duration"/>
+                      <xs:attribute type="xs:short" name="played_duration"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="show_name"/>
+              <xs:element type="xs:string" name="cpl_uuid"/>
+              <xs:element type="xs:string" name="cpl_name"/>
+              <xs:element name="cpl_position">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:byte" name="cpl_index"/>
+                      <xs:attribute type="xs:byte" name="total_duration"/>
+                      <xs:attribute type="xs:byte" name="played_duration"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="state"/>
+            <xs:attribute type="xs:string" name="error_description"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:float" name="version"/>
+      <xs:attribute type="xs:string" name="status"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

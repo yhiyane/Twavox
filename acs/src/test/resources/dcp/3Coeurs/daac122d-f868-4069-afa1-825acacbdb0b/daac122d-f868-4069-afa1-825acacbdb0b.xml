@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DCSubtitle Version="1.0">
+  <SubtitleID>daac122d-f868-4069-afa1-825acacbdb0b</SubtitleID>
+  <MovieTitle>Trois Coeurs</MovieTitle>
+  <ReelNumber>3</ReelNumber>
+  <Language>French</Language>
+  <LoadFont Id="Font1" URI="Arial_3Coeurs_DCPSME_24_235_R03.ttf"/>
+  <Font Id="Font1" Color="FFFFFFFF" Effect="border" EffectColor="FF000000" Size="42" Weight="normal">
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="1" TimeIn="00:00:00:239" TimeOut="00:00:02:093" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">J&#39;adore manger.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="2" TimeIn="00:00:03:031" TimeOut="00:00:05:187" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Mais je mange salement, vous aussi.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="3" TimeIn="00:00:05:229" TimeOut="00:00:07:041" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Si, si, si.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="4" TimeIn="00:00:08:083" TimeOut="00:00:10:187" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Sonnerie du téléphone</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="5" TimeIn="00:00:19:083" TimeOut="00:00:22:031" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="13.0">Pourquoi devenir antiquaire ?</Text>
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Pas de &#34;Je ne sais pas&#34;.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="6" TimeIn="00:00:23:114" TimeOut="00:00:25:145" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">J&#39;ai fait des études</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">d&#39;histoire de l&#39;art,</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="7" TimeIn="00:00:26:020" TimeOut="00:00:29:052" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="13.0">c&#39;était le magasin de ma mère,</Text>
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">on l&#39;a repris avec ma sœur.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="8" TimeIn="00:00:31:125" TimeOut="00:00:33:229" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Et votre père, il fait quoi ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="9" TimeIn="00:00:34:083" TimeOut="00:00:35:208" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Je ne sais pas.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="10" TimeIn="00:00:36:000" TimeOut="00:00:37:114" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Là, je peux vraiment le dire.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="11" TimeIn="00:00:42:062" TimeOut="00:00:44:177" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="13.0">&#34;Je ne sais pas...&#34;</Text>
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Vous ne voulez pas savoir ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="12" TimeIn="00:00:44:218" TimeOut="00:00:45:229" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Il est où ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="13" TimeIn="00:00:51:083" TimeOut="00:00:52:198" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Vous êtes fâchée.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="14" TimeIn="00:00:53:031" TimeOut="00:00:54:114" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Vous le jugez.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="15" TimeIn="00:00:55:239" TimeOut="00:00:57:229" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Je ne le juge pas, je le tue.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="16" TimeIn="00:01:01:031" TimeOut="00:01:04:104" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Sonnerie de téléphone</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="17" TimeIn="00:01:10:104" TimeOut="00:01:11:156" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Et vous, vos parents ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="18" TimeIn="00:01:15:020" TimeOut="00:01:16:073" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Morts.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="19" TimeIn="00:01:16:239" TimeOut="00:01:18:031" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Je suis orphelin.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="20" TimeIn="00:01:20:166" TimeOut="00:01:22:052" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Libre comme l&#39;air.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="21" TimeIn="00:01:35:198" TimeOut="00:01:37:041" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">C&#39;est calme.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="22" TimeIn="00:01:38:083" TimeOut="00:01:39:218" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">C&#39;est la province.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="23" TimeIn="00:02:02:229" TimeOut="00:02:04:218" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Explosions à l&#39;écran</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="24" TimeIn="00:02:05:010" TimeOut="00:02:07:020" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="19.0">Je vais partir.</Text>
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Quoi ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="25" TimeIn="00:02:09:229" TimeOut="00:02:11:229" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="19.0">J&#39;ai rencontré quelqu&#39;un.</Text>
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Quoi ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="26" TimeIn="00:02:14:010" TimeOut="00:02:15:208" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Je ne peux pas rester avec toi.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="27" TimeIn="00:02:19:156" TimeOut="00:02:21:125" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Je suis tombée amoureuse.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="28" TimeIn="00:02:24:020" TimeOut="00:02:25:218" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Je n&#39;y peux rien, je suis désolée.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="29" TimeIn="00:02:28:073" TimeOut="00:02:29:187" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">C&#39;est qui ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="30" TimeIn="00:02:32:000" TimeOut="00:02:33:093" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Je n&#39;ai pas le choix.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="31" TimeIn="00:02:34:052" TimeOut="00:02:36:010" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">On a toujours le choix.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="32" TimeIn="00:02:36:166" TimeOut="00:02:37:239" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Pardon.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="33" TimeIn="00:02:43:104" TimeOut="00:02:45:041" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Elle soupire.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="34" TimeIn="00:03:44:031" TimeOut="00:03:45:073" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Attends...</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="35" TimeIn="00:03:46:145" TimeOut="00:03:48:000" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Attends, attends.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="36" TimeIn="00:04:03:114" TimeOut="00:04:05:052" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">C&#39;est comme au lycée.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="37" TimeIn="00:04:52:198" TimeOut="00:04:55:156" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Gémissements</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="38" TimeIn="00:05:05:166" TimeOut="00:05:07:187" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="19.0">Ça va ?</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Oui, et vous ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="39" TimeIn="00:05:08:229" TimeOut="00:05:09:218" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Ouais.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="40" TimeIn="00:05:10:156" TimeOut="00:05:12:166" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="19.0">Je peux t&#39;aider ?</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Oui, je veux bien.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="41" TimeIn="00:05:16:239" TimeOut="00:05:19:198" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Sophie rit.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="42" TimeIn="00:05:23:052" TimeOut="00:05:26:052" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">- Raconte, qu&#39;est-ce qui n&#39;allait pas</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">dans les comptes ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="43" TimeIn="00:05:26:093" TimeOut="00:05:28:114" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Rien, je ne m&#39;y retrouvais pas.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="44" TimeIn="00:05:28:156" TimeOut="00:05:30:000" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Tu vois.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="45" TimeIn="00:05:30:187" TimeOut="00:05:32:000" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- N&#39;empêche que sans lui...</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="46" TimeIn="00:05:32:041" TimeOut="00:05:34:208" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="19.0">Tiens, quand on parle du loup...</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">On parlait de toi.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="47" TimeIn="00:05:35:093" TimeOut="00:05:36:239" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Il fait quoi dans la vie ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="48" TimeIn="00:05:37:031" TimeOut="00:05:38:145" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Il travaille aux impôts.</Text>
+      </Subtitle>
+    </Font>
+    <Subtitle SpotNumber="49" TimeIn="00:05:38:187" TimeOut="00:05:40:020" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="19.0"><Font Italic="yes" Color="FFFFFF00">- Quoi ?</Font></Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Oui.</Text>
+    </Subtitle>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="50" TimeIn="00:05:40:145" TimeOut="00:05:42:052" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Il est inspecteur des impôts.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="51" TimeIn="00:05:42:166" TimeOut="00:05:44:083" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="19.0"><Font Italic="yes">C&#39;est vrai ?</Font></Text>
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Ben oui.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="52" TimeIn="00:05:45:020" TimeOut="00:05:46:093" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Tu veux lui dire bonjour ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFFFF">
+      <Subtitle SpotNumber="53" TimeIn="00:05:47:031" TimeOut="00:05:48:145" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Oh, ben oui...</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="54" TimeIn="00:05:48:208" TimeOut="00:05:50:031" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Tu dis bonjour à Sylvie ?</Text>
+      </Subtitle>
+    </Font>
+    <Subtitle SpotNumber="55" TimeIn="00:05:50:208" TimeOut="00:05:53:000" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="19.0">J&#39;aide Gabriel.</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0"><Font Italic="yes" Color="FFFFFF00">- Je l&#39;ai pas vu.</Font></Text>
+    </Subtitle>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="56" TimeIn="00:05:53:041" TimeOut="00:05:54:083" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Tout dans le camion !</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="57" TimeIn="00:05:54:125" TimeOut="00:05:56:000" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Il fait son timide.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="58" TimeIn="00:05:57:198" TimeOut="00:05:59:031" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="19.0">- Bonjour.</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Salut.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="59" TimeIn="00:05:59:083" TimeOut="00:06:00:198" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Entrez, je vous en prie.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="60" TimeIn="00:06:02:052" TimeOut="00:06:03:010" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Bonjour.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="61" TimeIn="00:06:03:052" TimeOut="00:06:04:000" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Marc.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="62" TimeIn="00:06:09:062" TimeOut="00:06:10:104" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Non, allez-y.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="63" TimeIn="00:06:14:198" TimeOut="00:06:16:104" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Elles sont très mignonnes.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="64" TimeIn="00:06:17:062" TimeOut="00:06:19:145" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="13.0">C&#39;est vrai.</Text>
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Vous vous ressemblez un peu.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="65" TimeIn="00:06:20:031" TimeOut="00:06:21:020" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Non ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="66" TimeIn="00:06:21:062" TimeOut="00:06:23:166" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Des photos de nous,</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">il y en a dans l&#39;escalier.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="67" TimeIn="00:06:24:062" TimeOut="00:06:25:083" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Vous connaissez Sylvie ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="68" TimeIn="00:06:25:208" TimeOut="00:06:26:177" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Non.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="69" TimeIn="00:06:41:208" TimeOut="00:06:45:052" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Comment vous avez décidé</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">de devenir inspecteur des impôts ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="70" TimeIn="00:06:46:239" TimeOut="00:06:48:208" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Mon père faisait déjà ça.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="71" TimeIn="00:06:50:000" TimeOut="00:06:52:000" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">C&#39;est vrai. Et j&#39;aime bien.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="72" TimeIn="00:06:52:125" TimeOut="00:06:54:000" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">C&#39;est un métier que j&#39;aime.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="73" TimeIn="00:06:55:145" TimeOut="00:06:59:041" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="13.0">On a une image de l&#39;homme</Text>
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">un peu sinistre, mais c&#39;est pas vrai.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="74" TimeIn="00:06:59:083" TimeOut="00:07:00:218" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">C&#39;est un métier sympathique.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="75" TimeIn="00:07:01:010" TimeOut="00:07:02:229" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">On rencontre plein de gens,</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="76" TimeIn="00:07:03:020" TimeOut="00:07:05:041" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">on entre dans l&#39;intimité des gens.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="77" TimeIn="00:07:05:229" TimeOut="00:07:07:093" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Ça crée des liens,</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="78" TimeIn="00:07:08:041" TimeOut="00:07:10:156" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">un redressement fiscal. Je vous assure.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="79" TimeIn="00:07:11:135" TimeOut="00:07:13:104" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">On se fait des amis.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="80" TimeIn="00:07:13:145" TimeOut="00:07:15:000" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Pas toujours, mais quand même.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="81" TimeIn="00:07:15:041" TimeOut="00:07:16:104" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">On rencontre des femmes.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="82" TimeIn="00:07:16:145" TimeOut="00:07:19:093" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="13.0">C&#39;est ainsi que</Text>
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">j&#39;ai rencontré Sophie, aux impôts.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="83" TimeIn="00:07:19:135" TimeOut="00:07:22:000" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Elle était perdue dans les chiffres...</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="84" TimeIn="00:07:22:177" TimeOut="00:07:23:239" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">C&#39;est là que j&#39;interviens.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="85" TimeIn="00:07:24:031" TimeOut="00:07:26:073" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Je ne voyais pas cela</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">comme ça, mais...</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="86" TimeIn="00:07:27:093" TimeOut="00:07:30:114" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Les gens que j&#39;ai croisés aux impôts...</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="87" TimeIn="00:07:30:156" TimeOut="00:07:32:010" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Tu as fini, chérie ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="88" TimeIn="00:07:32:198" TimeOut="00:07:34:125" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Etaient moins sympathiques</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">que vous.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="89" TimeIn="00:07:34:166" TimeOut="00:07:36:145" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">C&#39;est gentil. C&#39;était délicieux.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="90" TimeIn="00:07:37:229" TimeOut="00:07:38:229" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Merci.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="91" TimeIn="00:07:49:010" TimeOut="00:07:50:218" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Elle est très belle, ta maman.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="92" TimeIn="00:07:51:125" TimeOut="00:07:54:083" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="19.0">Tu veux que je te laisse avec elle ?</Text>
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Ça t&#39;embête ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="93" TimeIn="00:07:56:052" TimeOut="00:07:57:135" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Assieds-toi.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="94" TimeIn="00:08:01:073" TimeOut="00:08:02:093" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Et voilà.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="95" TimeIn="00:08:05:208" TimeOut="00:08:07:187" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="13.0">Sophie m&#39;a dit</Text>
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">que vous habitez Paris ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="96" TimeIn="00:08:07:229" TimeOut="00:08:09:156" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Vous venez les week-ends ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="97" TimeIn="00:08:11:031" TimeOut="00:08:12:187" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">C&#39;est pas très pratique.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="98" TimeIn="00:08:12:229" TimeOut="00:08:14:218" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">C&#39;est quoi, cet interrogatoire ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="99" TimeIn="00:08:15:187" TimeOut="00:08:17:166" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Non, mais... Vous avez raison.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="100" TimeIn="00:08:17:208" TimeOut="00:08:19:125" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ce n&#39;est pas pratique du tout.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="101" TimeIn="00:08:22:041" TimeOut="00:08:24:020" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">J&#39;adore la province,</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="102" TimeIn="00:08:25:073" TimeOut="00:08:27:073" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">et j&#39;ai demandé ma mutation.</Text>
+      </Subtitle>
+    </Font>
+    <Subtitle SpotNumber="103" TimeIn="00:08:27:187" TimeOut="00:08:29:041" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="19.0"><Font Color="FFFFFF00">- Ah bon ?</Font></Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Oui.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="104" TimeIn="00:08:29:239" TimeOut="00:08:32:114" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="19.0"><Font Color="FFFFFF00">- Tu t&#39;engages...</Font></Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">C&#39;est formidable.</Text>
+    </Subtitle>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="105" TimeIn="00:08:32:156" TimeOut="00:08:34:114" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Je sais pourquoi je le fais.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="106" TimeIn="00:08:35:229" TimeOut="00:08:37:083" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">C&#39;est bon ou pas ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="107" TimeIn="00:08:37:145" TimeOut="00:08:38:083" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ouais.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="108" TimeIn="00:08:38:135" TimeOut="00:08:40:166" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="19.0">Je crois, c&#39;est bon.</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Je le lâche.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FF00FFFF">
+      <Subtitle SpotNumber="109" TimeIn="00:08:42:073" TimeOut="00:08:46:093" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">La vie est là, maintenant, pour Marc,</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">dans cette ville de province.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="110" TimeIn="00:08:46:135" TimeOut="00:08:47:114" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="19.0">- Là ?</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Hein ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FF00FFFF">
+      <Subtitle SpotNumber="111" TimeIn="00:08:47:156" TimeOut="00:08:51:166" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Lui et Sophie ne disent presque plus :</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">&#34;Je ne sais pas.&#34;</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="112" TimeIn="00:08:51:208" TimeOut="00:08:53:156" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Qu&#39;est-ce que je fais de ça ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="113" TimeIn="00:08:54:041" TimeOut="00:08:55:198" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Rien, tu t’assiérais dessus.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FF00FFFF">
+      <Subtitle SpotNumber="114" TimeIn="00:08:59:010" TimeOut="00:09:01:052" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Le soir, elle vient l&#39;attendre</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FF00FFFF">
+      <Subtitle SpotNumber="115" TimeIn="00:09:01:156" TimeOut="00:09:03:135" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">ou c&#39;est lui qui vient la chercher.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FF00FFFF">
+      <Subtitle SpotNumber="116" TimeIn="00:09:06:010" TimeOut="00:09:07:114" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Il est heureux.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FF00FFFF">
+      <Subtitle SpotNumber="117" TimeIn="00:09:12:218" TimeOut="00:09:15:104" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Les week-ends,</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">ils aménagent l&#39;appartement.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FF00FFFF">
+      <Subtitle SpotNumber="118" TimeIn="00:09:15:145" TimeOut="00:09:17:198" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Elle le fait avec passion.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FF00FFFF">
+      <Subtitle SpotNumber="119" TimeIn="00:09:17:239" TimeOut="00:09:20:198" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Peu à peu, ils en font un endroit à eux.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="120" TimeIn="00:09:22:062" TimeOut="00:09:23:187" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Un bouchon saute.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FF00FFFF">
+      <Subtitle SpotNumber="121" TimeIn="00:09:25:031" TimeOut="00:09:28:125" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Avec elle, il trouve un apaisement</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">qu&#39;il n&#39;a jamais connu.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FF00FFFF">
+      <Subtitle SpotNumber="122" TimeIn="00:09:29:000" TimeOut="00:09:31:062" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">C&#39;est une vie normale.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="123" TimeIn="00:09:31:104" TimeOut="00:09:34:031" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="13.0">Je ne sais pas trop</Text>
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">ce qu&#39;on dit dans ces cas-là.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="124" TimeIn="00:09:34:198" TimeOut="00:09:36:114" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Aux futurs mariés !</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="125" TimeIn="00:09:36:156" TimeOut="00:09:38:073" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Je suis très heureuse pour toi.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="126" TimeIn="00:09:40:198" TimeOut="00:09:42:031" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Je vous embrasse aussi.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="127" TimeIn="00:09:42:156" TimeOut="00:09:46:010" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Discussions et rires</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF00FF">
+      <Subtitle SpotNumber="128" TimeIn="00:10:30:166" TimeOut="00:10:33:218" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Musique intrigante</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="129" TimeIn="00:10:47:062" TimeOut="00:10:49:156" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Claquements du briquet</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="130" TimeIn="00:10:55:135" TimeOut="00:10:57:177" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="13.0">Ma mère voit toujours</Text>
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">les choses en grand.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="131" TimeIn="00:10:57:218" TimeOut="00:11:01:031" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Je voudrais une cinquantaine d&#39;invités.</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Que ce soit simple.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="132" TimeIn="00:11:03:083" TimeOut="00:11:04:104" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Pas toi ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="133" TimeIn="00:11:05:104" TimeOut="00:11:06:145" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Si, si.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="134" TimeIn="00:11:08:031" TimeOut="00:11:10:093" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Le téléphone sonne.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="135" TimeIn="00:11:21:198" TimeOut="00:11:23:229" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- J&#39;ai jamais été bonne en anglais.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="136" TimeIn="00:11:24:020" TimeOut="00:11:25:187" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Alors, comment tu fais ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="137" TimeIn="00:11:26:031" TimeOut="00:11:27:135" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Je fais des progrès.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="138" TimeIn="00:11:27:177" TimeOut="00:11:29:083" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Dis-moi quelque chose.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="139" TimeIn="00:11:30:031" TimeOut="00:11:31:177" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Vas-y, &#34;please&#34;.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="140" TimeIn="00:11:33:166" TimeOut="00:11:36:156" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Sylvie hésite.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FF00FF00">
+      <Subtitle SpotNumber="141" TimeIn="00:11:37:083" TimeOut="00:11:40:020" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- My English is much better.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="142" TimeIn="00:11:40:073" TimeOut="00:11:41:218" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Il y a des progrès à faire.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="143" TimeIn="00:11:42:010" TimeOut="00:11:44:062" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Fous-toi de ma gueule, t&#39;es con !</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="144" TimeIn="00:11:44:125" TimeOut="00:11:46:239" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Elles rient.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="145" TimeIn="00:11:47:052" TimeOut="00:11:48:177" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Tu t&#39;es vue ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="146" TimeIn="00:11:50:187" TimeOut="00:11:52:125" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Bon, il est où, l&#39;homme invisible ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="147" TimeIn="00:11:52:166" TimeOut="00:11:56:208" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">- Au boulot. Tu veux sa photo ?</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Je n&#39;en ai pas, il n&#39;aime pas ça.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="148" TimeIn="00:11:57:052" TimeOut="00:11:59:073" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Ben... Je le verrai en vrai.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="149" TimeIn="00:11:59:114" TimeOut="00:12:00:135" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Quand ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FF00FF00">
+      <Subtitle SpotNumber="150" TimeIn="00:12:01:073" TimeOut="00:12:02:229" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Very soon, I hope.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="151" TimeIn="00:12:03:031" TimeOut="00:12:04:156" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Oh ! Pas mal !</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="152" TimeIn="00:12:22:020" TimeOut="00:12:22:239" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ça va, chéri ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="153" TimeIn="00:12:26:145" TimeOut="00:12:27:104" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ouais.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF00FF">
+      <Subtitle SpotNumber="154" TimeIn="00:12:28:052" TimeOut="00:12:31:114" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Musique douce au piano</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="155" TimeIn="00:13:21:041" TimeOut="00:13:24:010" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ruissellement de l&#39;eau de la douche</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="156" TimeIn="00:14:08:114" TimeOut="00:14:10:010" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">La porte claque.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="157" TimeIn="00:14:27:093" TimeOut="00:14:31:239" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="13.0">- Je suis éleveur</Text>
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">de bœufs d&#39;Aquitaine.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="158" TimeIn="00:14:33:104" TimeOut="00:14:36:135" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Ce qui m&#39;a poussé</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">à adhérer à cette association...</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="159" TimeIn="00:14:55:198" TimeOut="00:14:57:145" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Fracas</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="160" TimeIn="00:15:17:156" TimeOut="00:15:19:177" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Bip d&#39;ouverture de Skype</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="161" TimeIn="00:15:27:000" TimeOut="00:15:29:135" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Bip d&#39;appel</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="162" TimeIn="00:15:30:083" TimeOut="00:15:31:145" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Sophie ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF00FF">
+      <Subtitle SpotNumber="163" TimeIn="00:15:52:156" TimeOut="00:15:55:187" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Musique triste au piano</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="164" TimeIn="00:15:58:000" TimeOut="00:16:01:041" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Respiration haletante</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="165" TimeIn="00:16:49:010" TimeOut="00:16:52:093" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">- Tu te souviens, quand on imaginait</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">nos robes de mariées ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="166" TimeIn="00:16:54:208" TimeOut="00:16:56:020" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Oui.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="167" TimeIn="00:16:56:177" TimeOut="00:16:58:177" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Elle est comment, la tienne ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="168" TimeIn="00:16:58:218" TimeOut="00:17:01:062" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Tu verras. T&#39;arrives quand ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="169" TimeIn="00:17:03:083" TimeOut="00:17:05:229" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Ben... Le jour même, je crois.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="170" TimeIn="00:17:06:020" TimeOut="00:17:09:135" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Tu sais, avec mon nouveau boulot,</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">je ne resterai pas...</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="171" TimeIn="00:17:09:177" TimeOut="00:17:11:156" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Je ne pourrai pas rester longtemps.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="172" TimeIn="00:17:13:083" TimeOut="00:17:16:052" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="19.0">- Christophe vient ?</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0"><Font Italic="yes">- Non, je ne crois pas.</Font></Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="173" TimeIn="00:17:17:208" TimeOut="00:17:19:229" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="19.0">- Ça va, vous deux ?</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0"><Font Italic="yes">- Oui.</Font></Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="174" TimeIn="00:17:21:093" TimeOut="00:17:22:156" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Et...</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFFFF00">
+      <Subtitle SpotNumber="175" TimeIn="00:17:24:020" TimeOut="00:17:26:010" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Et ça va se passer où ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="176" TimeIn="00:17:27:020" TimeOut="00:17:28:198" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- A la maison, dans le jardin.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="177" TimeIn="00:17:29:156" TimeOut="00:17:33:239" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Tu connais maman. Si on l&#39;écoutait,</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">on inviterait la terre entière.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="178" TimeIn="00:17:49:198" TimeOut="00:17:51:031" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Je suis content pour toi.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="179" TimeIn="00:17:52:062" TimeOut="00:17:54:031" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">C&#39;est Simon ? T&#39;as grandi !</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="180" TimeIn="00:17:55:166" TimeOut="00:17:56:166" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Laëtitia.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="181" TimeIn="00:17:57:073" TimeOut="00:17:58:156" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Merci d&#39;être venus.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="182" TimeIn="00:17:58:198" TimeOut="00:18:00:041" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Et ça, c&#39;est Coline.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="183" TimeIn="00:18:01:156" TimeOut="00:18:02:229" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">C&#39;est mon frère,</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">mon témoin.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="184" TimeIn="00:18:03:020" TimeOut="00:18:05:208" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="13.0">Et Jean-Louis,</Text>
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">le frère de ma belle-mère.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="185" TimeIn="00:18:06:198" TimeOut="00:18:07:218" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ça va ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="186" TimeIn="00:18:10:239" TimeOut="00:18:12:114" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Voilà ma belle-mère.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="187" TimeIn="00:18:12:156" TimeOut="00:18:14:218" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="19.0">Bonjour.</Text>
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">C&#39;est mon frère, il sera mon témoin.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="188" TimeIn="00:18:15:020" TimeOut="00:18:16:135" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="19.0">Bonjour.</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Bonjour.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="189" TimeIn="00:18:16:218" TimeOut="00:18:18:031" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Bonjour, madame.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="190" TimeIn="00:18:18:073" TimeOut="00:18:20:000" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Mademoiselle. Toi...</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="191" TimeIn="00:18:23:114" TimeOut="00:18:26:073" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Sylvie a raté la correspondance.</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ils seront en retard.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="192" TimeIn="00:18:26:114" TimeOut="00:18:28:073" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="13.0">C&#39;est pas grave,</Text>
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">elle nous rejoindra.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="193" TimeIn="00:18:28:114" TimeOut="00:18:30:000" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="7.9" VAlign="bottom" VPosition="7.0">Elle pourra pas être mon témoin.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="194" TimeIn="00:18:30:041" TimeOut="00:18:32:062" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="13.0">Elle signera plus tard,</Text>
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">ne t&#39;inquiète pas.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="195" TimeIn="00:18:32:104" TimeOut="00:18:34:000" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">Elle sera ton témoin.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="196" TimeIn="00:18:35:229" TimeOut="00:18:40:093" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Je vous rappelle que le mariage</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">vous donne des droits,</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="197" TimeIn="00:18:40:135" TimeOut="00:18:41:177" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">mais aussi des devoirs,</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="198" TimeIn="00:18:41:218" TimeOut="00:18:46:187" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">rappelés dans les articles 212 à 215</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">du chapitre 6 du Code civil.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="199" TimeIn="00:18:48:031" TimeOut="00:18:52:093" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Le mariage repose sur un consentement</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">librement donné par chaque époux</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="200" TimeIn="00:18:52:218" TimeOut="00:18:57:000" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">et suppose une volonté sincère</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">de se comporter comme mari et femme.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="201" TimeIn="00:18:57:218" TimeOut="00:19:01:083" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Les époux s&#39;obligent mutuellement</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">à une communauté de vie.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="202" TimeIn="00:19:02:198" TimeOut="00:19:06:020" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Les époux</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">se doivent mutuellement respect,</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="203" TimeIn="00:19:06:062" TimeOut="00:19:07:229" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">fidélité,</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="204" TimeIn="00:19:08:020" TimeOut="00:19:09:145" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">secours,</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="205" TimeIn="00:19:10:020" TimeOut="00:19:11:093" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">assistance.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="206" TimeIn="00:19:13:093" TimeOut="00:19:16:166" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Sophie Anne Elisabeth Bergé,</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">voulez-vous prendre pour époux</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="207" TimeIn="00:19:16:208" TimeOut="00:19:19:031" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">M. Marc Benoît Beaulieu,</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">ici présent ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="208" TimeIn="00:19:20:093" TimeOut="00:19:21:135" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Oui.</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="209" TimeIn="00:19:22:198" TimeOut="00:19:25:187" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">- Marc Benoît Beaulieu,</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">voulez-vous prendre pour épouse</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFF00">
+      <Subtitle SpotNumber="210" TimeIn="00:19:25:229" TimeOut="00:19:30:020" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Mlle Sophie Anne Elisabeth Bergé,</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">ici présente ?</Text>
+      </Subtitle>
+    </Font>
+    <Font Color="FFFFFFFF">
+      <Subtitle SpotNumber="211" TimeIn="00:19:34:041" TimeOut="00:19:35:052" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Oui.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes" Color="FFFF0000">
+      <Subtitle SpotNumber="212" TimeIn="00:19:41:125" TimeOut="00:19:44:031" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Applaudissements</Text>
+      </Subtitle>
+    </Font>
+  </Font>
+</DCSubtitle>

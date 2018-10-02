@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DCSubtitle Version="1.0">
+  <SubtitleID>1078b6c2-3b31-4d9f-95db-1877fa0bb772</SubtitleID>
+  <MovieTitle>Unbroken</MovieTitle>
+  <ReelNumber>8</ReelNumber>
+  <Language>French</Language>
+  <LoadFont Id="Font1" URI="Arial_UNBROKEN_OV_FrenchSubtitles_R08.ttf"/>
+  <Font Id="Font1" Color="FFFFFFFF" Effect="border" EffectColor="FF000000" Size="42" Weight="normal" Script="normal">
+    <Subtitle SpotNumber="1" TimeIn="00:00:11:031" TimeOut="00:00:13:020" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Prisonniers de Naoetsu,</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="2" TimeIn="00:00:14:145" TimeOut="00:00:15:218" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">la guerre</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="3" TimeIn="00:00:16:052" TimeOut="00:00:18:166" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">est arrivée à son terme.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="4" TimeIn="00:00:37:031" TimeOut="00:00:38:020" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Aujourd&#39;hui,</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="5" TimeIn="00:00:38:125" TimeOut="00:00:42:177" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">pour célébrer le nouvel avenir</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">de nos grandes nations,</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="6" TimeIn="00:00:44:052" TimeOut="00:00:46:125" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">nous invitons tous les prisonniers</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="7" TimeIn="00:00:47:041" TimeOut="00:00:49:187" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">à se baigner dans les eaux de la Hokura.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="8" TimeIn="00:00:55:208" TimeOut="00:00:57:052" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ça y est.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="9" TimeIn="00:00:59:041" TimeOut="00:01:00:135" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">On est morts.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="10" TimeIn="00:03:38:166" TimeOut="00:03:40:010" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ils nous ont vus !</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="11" TimeIn="00:03:40:145" TimeOut="00:03:41:114" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">C&#39;est fini !</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="12" TimeIn="00:03:41:156" TimeOut="00:03:43:156" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">La guerre est finie !</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="13" TimeIn="00:04:52:083" TimeOut="00:04:55:125" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">C&#39;est moi, ou les filles</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">sont plus jolies qu&#39;avant ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="14" TimeIn="00:07:23:229" TimeOut="00:07:25:052" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">T&#39;as pu venir.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="15" TimeIn="00:07:25:239" TimeOut="00:07:27:093" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Quelle allure !</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="16" TimeIn="00:07:34:093" TimeOut="00:07:35:218" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Viens là, maman.</Text>
+    </Subtitle>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="17" TimeIn="00:08:04:073" TimeOut="00:08:08:062" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="37">En 1946, Louie Zamperini a rencontré</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="31">et épousé Cynthia Applewhite.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="18" TimeIn="00:08:08:104" TimeOut="00:08:11:093" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="37">Ils ont eu une fille, Cissy,</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="31">et un fils, Luke.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="19" TimeIn="00:08:15:125" TimeOut="00:08:18:020" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="36">Le Lt Russell Phillips, dit Phil,</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="20" TimeIn="00:08:18:062" TimeOut="00:08:21:083" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="42">a survécu à la guerre</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="36">et épousé sa chère Cecy.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="21" TimeIn="00:08:21:125" TimeOut="00:08:24:187" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="42">Son amitié avec Louie</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="36">a duré bien après la guerre.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="22" TimeIn="00:08:28:187" TimeOut="00:08:31:000" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="38">Mutsuhiro Watanabe, dit l&#39;Oiseau,</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="23" TimeIn="00:08:31:041" TimeOut="00:08:35:010" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="44">a passé plusieurs années en cavale,</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="38">avant d&#39;être amnistié par les États-Unis,</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="24" TimeIn="00:08:35:052" TimeOut="00:08:38:020" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="44">dans le cadre de la réconciliation</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="38">avec le Japon.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="25" TimeIn="00:08:40:073" TimeOut="00:08:43:104" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Après avoir longtemps souffert</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">de stress post-traumatique,</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="26" TimeIn="00:08:43:145" TimeOut="00:08:46:020" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Louie a tenu sa promesse de servir Dieu,</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="27" TimeIn="00:08:46:062" TimeOut="00:08:48:187" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">décision qui, selon lui, l&#39;aurait sauvé.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="28" TimeIn="00:08:51:052" TimeOut="00:08:52:198" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Mû par sa foi,</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="29" TimeIn="00:08:52:239" TimeOut="00:08:56:020" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">il a compris que la solution</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">n&#39;était pas la vengeance,</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="30" TimeIn="00:08:56:062" TimeOut="00:08:57:052" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">mais le pardon.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="31" TimeIn="00:08:59:135" TimeOut="00:09:00:239" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Il est retourné au Japon,</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="32" TimeIn="00:09:01:031" TimeOut="00:09:03:187" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">où il a tendu la main</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">à ses anciens geôliers.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="33" TimeIn="00:09:03:229" TimeOut="00:09:06:052" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Seul l&#39;Oiseau a refusé de le rencontrer.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="34" TimeIn="00:09:09:177" TimeOut="00:09:13:239" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="39">Louie a finalement réalisé son rêve</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="33">et couru de nouveau aux JO.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="35" TimeIn="00:09:15:229" TimeOut="00:09:19:208" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="25">À l&#39;âge de 80 ans.</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="36" TimeIn="00:09:22:208" TimeOut="00:09:26:000" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="25">Au Japon.</Text>
+      </Subtitle>
+    </Font>
+    <Subtitle SpotNumber="37" TimeIn="00:09:54:104" TimeOut="00:09:59:156" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">INVINCIBLE</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="38" TimeIn="00:15:30:145" TimeOut="00:15:33:062" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Sous-titres : Quentin Rambaud</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="39" TimeIn="00:15:33:145" TimeOut="00:15:36:031" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Sous-titrage TITRA FILM Paris</Text>
+    </Subtitle>
+  </Font>
+</DCSubtitle>

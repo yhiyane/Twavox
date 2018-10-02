@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This web service definition is protected under U.S. copyright laws as an unpublished work.
+  Do not copy.
+  Copyright 2009-$Date: 2009/03/20 $ by Dolby Laboratories Inc.
+  All rights reserved.
+-->
+<wsdl:definitions name="ShowManagement_v1"
+  targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1"
+  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+  xmlns:tns="http://www.dolby.com/dcinema/ws/smi/v1"
+  xmlns:sho="http://www.dolby.com/dcinema/ws/smi/v1/schemas/showmanagement"
+  xmlns:com="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"
+  xmlns:flt="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"
+  xmlns:spl="http://www.dolby.com/dcinema/ws/smi/v1/SPL"
+  xmlns:v1_0="http://www.dolby.com/dcinema/ws/smi/v1_0" 
+  xmlns:v1_1="http://www.dolby.com/dcinema/ws/smi/v1_1"
+  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+  <!-- Request/Response Schema Definitions -->
+  
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1_0">
+
+      <xsd:import schemaLocation="ShowManagement.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/showmanagement"/>    
+      <xsd:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+      <xsd:import schemaLocation="Fault.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"/>
+
+      <!-- getShows elements -->
+
+      <xsd:element name="getShowsRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="getShowsResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="showId" type="com:UUID" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getShowInfos elements -->
+
+      <xsd:element name="getShowInfosRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="showId" type="com:UUID" minOccurs="0"/>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="getShowInfosResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="showInfo" type="sho:ShowInfo" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getSPL elements -->
+      
+      <xsd:element name="getSPLRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="showId" type="com:UUID"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="getSPLResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="show" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getCueInfos elements -->
+      
+      <xsd:element name="getCueInfosRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="getCueInfosResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="cueInfo" type="sho:CueInfo" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+  
+      <!-- createShow elements -->
+
+      <xsd:element name="createShowRequest">      
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="show" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="createShowResponse">      
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="showId" type="com:UUID"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- deleteShow elements -->
+      
+      <xsd:element name="deleteShowRequest">
+        <xsd:complexType>
+          <xsd:sequence>        
+            <xsd:element name="showId" type="com:UUID"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="deleteShowResponse">
+        <xsd:complexType>
+          <xsd:sequence/>        
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getShowTimes elements -->
+
+      <xsd:element name="getShowTimesRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="startTime" type="xsd:dateTime" minOccurs="0"/>
+            <xsd:element name="endTime" type="xsd:dateTime" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>      
+      
+      <xsd:element name="getShowTimesResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="showTimeId" type="com:UUID" minOccurs="0" maxOccurs="unbounded" nillable="true"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getShowTimeInfos elements -->
+      
+      <xsd:element name="getShowTimeInfosRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="showTimeId" type="com:UUID" minOccurs="0"/>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="startTime" type="xsd:dateTime" minOccurs="0"/>
+            <xsd:element name="endTime" type="xsd:dateTime" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>      
+      
+      <xsd:element name="getShowTimeInfosResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="showTimeInfo" type="sho:ShowTimeInfo" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>      
+      
+      <!-- createShowTimes elements -->
+      
+      <xsd:element name="createShowTimesRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="showTimeRequest" type="sho:ShowTimeRequest" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="createShowTimesResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="showTimeResponse" type="sho:ShowTimeResponse" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- deleteShowTimes elements -->
+      
+      <xsd:element name="deleteShowTimesRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="showTimeId" type="com:UUID" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="deleteShowTimesResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>  
+      
+      <!-- base fault type -->
+      
+      <xsd:element name="fault" type="flt:Fault"/>
+      
+    </xsd:schema>    
+    
+    <xsd:schema targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1_1">
+
+		<xsd:import schemaLocation="Common.xsd"
+			namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common" />
+		
+		<xsd:element name="getSPL2Request">
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name="showId" type="com:UUID" />
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+
+		<xsd:element name="getSPL2Response">
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name="show" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+  </wsdl:types>
+  
+  <!-- Message Specification -->
+  
+  <wsdl:message name="getShowsRequest">
+    <wsdl:part element="v1_0:getShowsRequest" name="parameters"/>
+  </wsdl:message> 
+  <wsdl:message name="getShowsResponse">
+    <wsdl:part element="v1_0:getShowsResponse" name="result"/>
+  </wsdl:message>  
+  
+  <wsdl:message name="getShowInfosRequest">
+    <wsdl:part element="v1_0:getShowInfosRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getShowInfosResponse">
+    <wsdl:part element="v1_0:getShowInfosResponse" name="result"/>
+  </wsdl:message>
+  
+  
+  <wsdl:message name="getSPLRequest">
+    <wsdl:part element="v1_0:getSPLRequest" name="parameters"/>  </wsdl:message>  
+  <wsdl:message name="getSPLResponse">
+    <wsdl:part element="v1_0:getSPLResponse" name="result"/>
+  </wsdl:message>
+  
+    <wsdl:message name="getSPL2Request">
+    <wsdl:part element="v1_1:getSPL2Request" name="parameters"/>
+  </wsdl:message>  
+    <wsdl:message name="getSPL2Response">
+    <wsdl:part element="v1_1:getSPL2Response" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getCueInfosRequest">
+    <wsdl:part element="v1_0:getCueInfosRequest" name="parameters"/>
+  </wsdl:message>  
+  <wsdl:message name="getCueInfosResponse">
+    <wsdl:part element="v1_0:getCueInfosResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="createShowRequest">
+    <wsdl:part element="v1_0:createShowRequest" name="parameters"/>
+  </wsdl:message>  
+  <wsdl:message name="createShowResponse">
+    <wsdl:part element="v1_0:createShowResponse" name="result"/>
+  </wsdl:message> 
+
+  <wsdl:message name="deleteShowRequest">
+    <wsdl:part element="v1_0:deleteShowRequest" name="parameters"/>
+  </wsdl:message>  
+  <wsdl:message name="deleteShowResponse">
+    <wsdl:part element="v1_0:deleteShowResponse" name="result"/>
+  </wsdl:message>   
+  
+  <wsdl:message name="getShowTimesRequest">
+    <wsdl:part element="v1_0:getShowTimesRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getShowTimesResponse">
+    <wsdl:part element="v1_0:getShowTimesResponse" name="result"/>
+  </wsdl:message>  
+  
+  <wsdl:message name="getShowTimeInfosRequest">
+    <wsdl:part element="v1_0:getShowTimeInfosRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getShowTimeInfosResponse">
+    <wsdl:part element="v1_0:getShowTimeInfosResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="createShowTimesRequest">
+    <wsdl:part element="v1_0:createShowTimesRequest" name="parameters"/>
+  </wsdl:message>  
+  <wsdl:message name="createShowTimesResponse">
+    <wsdl:part element="v1_0:createShowTimesResponse" name="result"/>
+  </wsdl:message>  
+  
+  <wsdl:message name="deleteShowTimesRequest">
+    <wsdl:part element="v1_0:deleteShowTimesRequest" name="parameters"/>
+  </wsdl:message>  
+  <wsdl:message name="deleteShowTimesResponse">  
+    <wsdl:part element="v1_0:deleteShowTimesResponse" name="result"/>
+  </wsdl:message>  
+  
+  <wsdl:message name="fault">
+    <wsdl:part element="v1_0:fault" name="fault"/>
+  </wsdl:message>
+  
+  <!-- Operation Specification v1_0 -->
+  
+  <wsdl:portType name="ShowManagementService_v1_0">
+  
+    <!-- getShows Operation -->
+  
+    <wsdl:operation name="getShows">
+      <wsdl:documentation>
+          getShows Operation
+              Lists the shows on the system.
+
+		  Parameters:
+		      None.
+
+		  Response:
+		      showId (many) - The list of show identifiers.
+
+		  Exceptions:
+		      None
+		      
+		  Related Services:
+		      getShowInfos - This service can be used to get brief information about the shows 
+		          that exist on the system.
+        </wsdl:documentation>
+      <wsdl:input message="tns:getShowsRequest"/>
+      <wsdl:output message="tns:getShowsResponse"/>
+      <wsdl:fault message="tns:fault" name="getShowsFault"/>
+    </wsdl:operation>
+  
+    <!-- getShowInfos Operation -->
+  
+    <wsdl:operation name="getShowInfos">
+      <wsdl:documentation>
+          getShowInfos Operation
+              Gets basic information about one or more shows that match all of the provided query 
+              criteria.  If no show matches all of the provided query information then an empty 
+              array will be returned.
+
+		  Parameters:
+		      showId (optional) - The unique identifier of the show whose information is to be retrieved.
+                  If not specified then show information for all known shows will be returned.
+              auditoriumNumber (optional) - The auditorium in whose context the show properties are
+                  to be evaluated (i.e. license status, playability, transferring and other flags).
+		          Only useful when calling this service on a TMS server.  If not specified then this
+     		      will get the show information from the server location.  If "*" is specified,
+     	          then this will get the show information regardless of location.
+
+		  Response:
+		      showInfo (many) - the show information which matched all the specified query criteria.
+
+		  Exceptions:
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+
+          Related Services:
+		      getShows - This service can be used to easily detect what shows exist within the system.
+        </wsdl:documentation>
+      <wsdl:input message="tns:getShowInfosRequest"/>
+      <wsdl:output message="tns:getShowInfosResponse"/>
+      <wsdl:fault message="tns:fault" name="getShowInfosFault"/>
+    </wsdl:operation>
+    
+    <!-- getSPL Operation -->
+    
+    <wsdl:operation name="getSPL">
+      <wsdl:documentation>
+          getSPL Operation
+              Gets the show play list (SPL) using the Dolby defined XML format.
+
+		  Parameters:
+		      showId - The unique identifier of the show whose show play list is being retrieved.
+
+		  Response:
+              show - A string representing the XML show play list.
+
+		  Exceptions:
+		      NotFound - If no show with the matching uuid could be found.
+		      
+		  Related Services:
+		      getShows - This service can be used to easily detect what shows exist within the system.
+        </wsdl:documentation>
+      <wsdl:input message="tns:getSPLRequest"/>
+      <wsdl:output message="tns:getSPLResponse"/>
+      <wsdl:fault message="tns:fault" name="getSPLFault"/>
+    </wsdl:operation>
+    
+    <!-- getCueInfos Operation -->
+    
+    <wsdl:operation name="getCueInfos">
+      <wsdl:documentation>
+          getCueInfos Operation
+              Gets basic information about one or more cues that match all of the provided query 
+              criteria.  If no cue matches all of the provided query information then an empty 
+              array will be returned.
+              
+		  Parameters:
+		      auditoriumNumber (optional) - The auditorium to retrieve the cue information from.  
+		          Only useful when calling this service on a TMS server. If not specified then this
+                  will get the cue information from the server location.  If "*" is specified, then
+                  this will get the cue information regardless of location.
+
+		  Response:
+		      cueInfo (many) - the cue information which matched all the specified query criteria
+
+		  Exceptions:
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      
+		  Related Services:
+		      createShow - Service used to place known cues within a show.
+        </wsdl:documentation>
+      <wsdl:input message="tns:getCueInfosRequest"/>
+      <wsdl:output message="tns:getCueInfosResponse"/>
+      <wsdl:fault message="tns:fault" name="getCueInfosFault"/>
+    </wsdl:operation>
+    
+    <!-- createShow Operation -->
+    
+    <wsdl:operation name="createShow">
+      <wsdl:documentation>
+          createShow Operation
+              Creates a new show within the system.  If a show with the same unique identifier 
+              already exists within the system, then this show will get replaced with the newly 
+              specified show.
+              
+		  Parameters:
+		      show - The new show to be created which contains a well-formed Dolby XML show play list.
+
+		  Response:
+              showId - The unique identifier of the created show.
+
+		  Exceptions:
+		      None
+		      
+		  Related Services:
+		      getClips - Service used to get known clips to put in the show.
+		      getCueInfos - Service used to get known cues to put in the show.
+		      getShows/getShowInfos - These services can be used to determine what shows exist 
+		          before and after the createShow request.
+        </wsdl:documentation>
+      <wsdl:input message="tns:createShowRequest"/>
+      <wsdl:output message="tns:createShowResponse"/>
+      <wsdl:fault message="tns:fault" name="createShowFault"/>
+    </wsdl:operation>
+    
+    <!-- deleteShow Operation -->
+    
+    <wsdl:operation name="deleteShow">
+      <wsdl:documentation>
+          deleteShow Operation
+              Deletes a show from all auditoriums of the system.  Does nothing if the 
+              specified show does not exist.
+
+		  Parameters:
+		      showId - The unique identifier of the show to delete.
+
+		  Response:
+              None
+
+		  Exceptions:
+		      None
+		      
+		  Related Services:
+		      getShows/getShowInfos - These services can be used to determine what shows exist 
+		          before and after the deleteShow request.
+        </wsdl:documentation>
+      <wsdl:input message="tns:deleteShowRequest"/>
+      <wsdl:output message="tns:deleteShowResponse"/>
+      <wsdl:fault message="tns:fault" name="deleteShowFault"/>
+    </wsdl:operation>
+    
+    <!-- getShowTimes Operation -->
+  
+    <wsdl:operation name="getShowTimes">
+      <wsdl:documentation>
+          getShowTimes Operation
+              Lists the show times on the system.
+
+		  Parameters:
+		      auditoriumNumber (optional) - The auditorium to retrieve the show times from.  
+		          Only useful when calling this service on a TMS server.  If not specified then
+                  this will get the show times from the server location.  If "*" is specified,
+                  then this will get the show times regardless of location.
+		      startTime (optional) - Indicates that all show times whose end time is after this 
+		          time will be retrieved.  If not specified then all show times whose end time is 
+		          after now will be retrieved.
+		      endTime (optional) - Indicates that all show times whose start time is before this 
+		          time will be retrieved.  If not specified then all show times whose start time is 
+		          within two weeks of now will be retrieved. 
+
+		  Response:
+		      showId (many) - The list of show identifiers ordered by the show time auditorium and start time.
+
+		  Exceptions:
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      
+		  Related Services:
+		      getShowTimeInfos - This service can be used to get brief information about the show 
+		          times that exist on the system.
+        </wsdl:documentation>
+      <wsdl:input message="tns:getShowTimesRequest"/>
+      <wsdl:output message="tns:getShowTimesResponse"/>
+      <wsdl:fault message="tns:fault" name="getShowTimesFault"/>
+    </wsdl:operation>
+  
+    <!-- getShowTimeInfos Operation -->
+  
+    <wsdl:operation name="getShowTimeInfos">
+      <wsdl:documentation>
+          getShowTimeInfos Operation
+              Gets the information about one or more show times that match all of the provided query 
+              criteria.  If no show time matches all of the provided query no show time information 
+              will be returned.
+
+		  Parameters:
+		      showTimeId (optional) - The unique identifier of the show time whose information to 
+		          retrieved.  If not specified then show time information will be returned regardless 
+		          of their unique identifier.
+		      auditoriumNumber (optional) - The auditorium to retrieve the show time information from.  
+		          Only useful when calling this service on a TMS server.  If not specified then this
+                  will get the show time information from the server location.  If "*" is specified,
+                  then this will get the show time information regardless of location.
+		      startTime (optional) - Indicates that the information of all show times whose end time 
+		          is after this time will be retrieved. Should be at or before endTime if both are specified.
+                  If not specified then the information of all show times whose end time is after
+                  now will be retrieved.
+		      endTime (optional) - Indicates that the information of all show times whose start time 
+		          is before this time will be retrieved. Should be at or after startTime if both are
+                  specified. If not specified then the information of all
+		          show times whose start time is within two weeks of now will be retrieved. 
+
+		  Response:
+		      showInfo (many) - the show time information which matched all the specified query criteria
+                  ordered by the show time auditorium and start time.
+
+          Exceptions:
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      
+		  Related Services:
+		      getShowTimes - This service can be used to easily detect what show times exist within the 
+		          system.
+        </wsdl:documentation>
+      <wsdl:input message="tns:getShowTimeInfosRequest"/>
+      <wsdl:output message="tns:getShowTimeInfosResponse"/>
+      <wsdl:fault message="tns:fault" name="getShowTimeInfosFault"/>
+    </wsdl:operation>
+    
+    <!-- createShowTimes Operation -->
+    
+    <wsdl:operation name="createShowTimes">
+      <wsdl:documentation>
+          createShowTimes Operation
+              Creates one or more show times within the system.  Note that this may 
+              create show times that are overlapping and thus may not get played automatically 
+              off of the schedule.  If a show time with the same unique identifier 
+              already exists within the system, then this show time will get replaced with the newly 
+              specified show time.
+
+          Parameters:
+		      showTime (many) - One or more show times to create.
+
+		  Response:
+              showTimeResponse (many) - The sequence of ShowTimeResponses  matching the number
+              and order of the parameters:
+                showTimeId - the unique identifier of the created show time or null if there was
+                    an error creating show time.
+                fault - the fault that prevented show time creation or null if the show time was
+                    successfully created. Possible faults:
+                        NotFound - if the show this show time corresponds to cannot be found.
+                        InvalidAuditorium - If no auditorium with the specified number exists.
+
+          Exceptions:
+                See Response.
+
+          Related Services:
+		      getShowTimes/getShowTimeInfos - These services can be used to determine what show
+		          times exist before and after the createShowTimes request.
+        </wsdl:documentation>
+      <wsdl:input message="tns:createShowTimesRequest"/>
+      <wsdl:output message="tns:createShowTimesResponse"/>
+      <wsdl:fault message="tns:fault" name="createShowTimesFault"/>
+    </wsdl:operation>
+    
+    <!-- deleteShowTimes Operation -->
+    
+    <wsdl:operation name="deleteShowTimes">
+      <wsdl:documentation>
+          deleteShow Operation
+              Deletes one or more show times within the system.
+
+		  Parameters:
+		      showTimeId (many) - The unique identifiers of the show times to delete.
+
+		  Response:
+              None
+
+		  Exceptions:
+		      None
+		      
+		  Related Services:
+		      getShowTimes/getShowTimeInfos - These services can be used to determine what show
+		          times exist before and after the deleteShowTimes request.
+        </wsdl:documentation>
+      <wsdl:input message="tns:deleteShowTimesRequest"/>
+      <wsdl:output message="tns:deleteShowTimesResponse"/>
+      <wsdl:fault message="tns:fault" name="deleteShowTimesFault"/>
+    </wsdl:operation>
+    
+  </wsdl:portType>
+    
+    
+      <!-- Operation Specification v1_1 -->
+  
+  <wsdl:portType name="ShowManagementService_v1_1">
+  
+      <!-- getShows Operation -->
+  
+    <wsdl:operation name="getShows">
+      <wsdl:documentation>
+           @see portType ShowManagementService_v1_0
+        </wsdl:documentation>
+      <wsdl:input message="tns:getShowsRequest"/>
+      <wsdl:output message="tns:getShowsResponse"/>
+      <wsdl:fault message="tns:fault" name="getShowsFault"/>
+    </wsdl:operation>
+  
+    <!-- getShowInfos Operation -->
+  
+    <wsdl:operation name="getShowInfos">
+      <wsdl:documentation>
+           @see portType ShowManagementService_v1_0
+        </wsdl:documentation>
+      <wsdl:input message="tns:getShowInfosRequest"/>
+      <wsdl:output message="tns:getShowInfosResponse"/>
+      <wsdl:fault message="tns:fault" name="getShowInfosFault"/>
+    </wsdl:operation>
+    
+    <!-- getSPL Operation -->
+    
+    <wsdl:operation name="getSPL">
+      <wsdl:documentation>
+          @see portType ShowManagementService_v1_0
+        </wsdl:documentation>
+      <wsdl:input message="tns:getSPLRequest"/>
+      <wsdl:output message="tns:getSPLResponse"/>
+      <wsdl:fault message="tns:fault" name="getSPLFault"/>
+    </wsdl:operation>
+    
+    <!-- getCueInfos Operation -->
+    
+    <wsdl:operation name="getCueInfos">
+      <wsdl:documentation>
+          @see portType ShowManagementService_v1_0
+        </wsdl:documentation>
+      <wsdl:input message="tns:getCueInfosRequest"/>
+      <wsdl:output message="tns:getCueInfosResponse"/>
+      <wsdl:fault message="tns:fault" name="getCueInfosFault"/>
+    </wsdl:operation>
+    
+    <!-- createShow Operation -->
+    
+    <wsdl:operation name="createShow">
+      <wsdl:documentation>
+           @see portType ShowManagementService_v1_0
+        </wsdl:documentation>
+      <wsdl:input message="tns:createShowRequest"/>
+      <wsdl:output message="tns:createShowResponse"/>
+      <wsdl:fault message="tns:fault" name="createShowFault"/>
+    </wsdl:operation>
+    
+    <!-- deleteShow Operation -->
+    
+    <wsdl:operation name="deleteShow">
+      <wsdl:documentation>
+           @see portType ShowManagementService_v1_0
+        </wsdl:documentation>
+      <wsdl:input message="tns:deleteShowRequest"/>
+      <wsdl:output message="tns:deleteShowResponse"/>
+      <wsdl:fault message="tns:fault" name="deleteShowFault"/>
+    </wsdl:operation>
+    
+    <!-- getShowTimes Operation -->
+  
+    <wsdl:operation name="getShowTimes">
+      <wsdl:documentation>
+           @see portType ShowManagementService_v1_0
+        </wsdl:documentation>
+      <wsdl:input message="tns:getShowTimesRequest"/>
+      <wsdl:output message="tns:getShowTimesResponse"/>
+      <wsdl:fault message="tns:fault" name="getShowTimesFault"/>
+    </wsdl:operation>
+  
+    <!-- getShowTimeInfos Operation -->
+  
+    <wsdl:operation name="getShowTimeInfos">
+      <wsdl:documentation>
+           @see portType ShowManagementService_v1_0
+        </wsdl:documentation>
+      <wsdl:input message="tns:getShowTimeInfosRequest"/>
+      <wsdl:output message="tns:getShowTimeInfosResponse"/>
+      <wsdl:fault message="tns:fault" name="getShowTimeInfosFault"/>
+    </wsdl:operation>
+    
+    <!-- createShowTimes Operation -->
+    
+    <wsdl:operation name="createShowTimes">
+      <wsdl:documentation>
+          @see portType ShowManagementService_v1_0
+        </wsdl:documentation>
+      <wsdl:input message="tns:createShowTimesRequest"/>
+      <wsdl:output message="tns:createShowTimesResponse"/>
+      <wsdl:fault message="tns:fault" name="createShowTimesFault"/>
+    </wsdl:operation>
+    
+    <!-- deleteShowTimes Operation -->
+    
+    <wsdl:operation name="deleteShowTimes">
+      <wsdl:documentation>
+           @see portType ShowManagementService_v1_0
+        </wsdl:documentation>
+      <wsdl:input message="tns:deleteShowTimesRequest"/>
+      <wsdl:output message="tns:deleteShowTimesResponse"/>
+      <wsdl:fault message="tns:fault" name="deleteShowTimesFault"/>
+    </wsdl:operation>
+    
+     <!-- getSPL2 Operation -->
+     
+    <wsdl:operation name="getSPL2">
+      <wsdl:documentation>
+          getSPL2 Operation
+              Gets the show play list (SPL) using the Dolby defined XML format.
+              The SPL includes the parameterized cue value elements with target
+              namespace 'http://www.dolby.com/dcinema/ws/smi/v11/SPL'
+
+		  Parameters:
+		      showId - The unique identifier of the show whose show play list is being retrieved.
+
+		  Response:
+              show - A string representing the XML show play list.
+
+		  Exceptions:
+		      NotFound - If no show with the matching uuid could be found.
+		      
+		  Related Services:
+		      getShows - This service can be used to easily detect what shows exist within the system.
+        </wsdl:documentation>
+      <wsdl:input message="tns:getSPL2Request"/>
+      <wsdl:output message="tns:getSPL2Response"/>
+      <wsdl:fault message="tns:fault" name="getSPL2Fault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  
+  <!-- Binding Specification v1_0 -->
+  
+  <wsdl:binding name="ShowManagementBinding_v1_0" type="tns:ShowManagementService_v1_0">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    
+    <wsdl:operation name="getShows">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getShows"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getShowsFault">
+        <soap:fault name="getShowsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>    
+    
+    <wsdl:operation name="getShowInfos">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getShowInfos"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getShowInfosFault">
+        <soap:fault name="getShowInfosFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getSPL">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getSPL"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getSPLFault">
+        <soap:fault name="getSPLFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getCueInfos">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getCueInfos"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getCueInfosFault">
+        <soap:fault name="getCueInfosFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="createShow">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/createShow"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="createShowFault">
+        <soap:fault name="createShowFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="deleteShow">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/deleteShow"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="deleteShowFault">
+        <soap:fault name="deleteShowFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getShowTimes">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getShowTimes"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getShowTimesFault">
+        <soap:fault name="getShowTimesFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>    
+    
+    <wsdl:operation name="getShowTimeInfos">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getShowTimeInfos"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getShowTimeInfosFault">
+        <soap:fault name="getShowTimeInfosFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="createShowTimes">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/createShowTimes"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="createShowTimesFault">
+        <soap:fault name="createShowTimesFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="deleteShowTimes">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/deleteShowTimes"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="deleteShowTimesFault">
+        <soap:fault name="deleteShowTimesFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+  </wsdl:binding>
+  
+  
+    <!-- Binding Specification v1_1 -->
+  
+  <wsdl:binding name="ShowManagementBinding_v1_1" type="tns:ShowManagementService_v1_1">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        
+            <wsdl:operation name="getShows">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getShows"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getShowsFault">
+        <soap:fault name="getShowsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>    
+    
+    <wsdl:operation name="getShowInfos">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getShowInfos"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getShowInfosFault">
+        <soap:fault name="getShowInfosFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getSPL">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getSPL"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getSPLFault">
+        <soap:fault name="getSPLFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getCueInfos">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getCueInfos"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getCueInfosFault">
+        <soap:fault name="getCueInfosFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="createShow">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/createShow"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="createShowFault">
+        <soap:fault name="createShowFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="deleteShow">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/deleteShow"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="deleteShowFault">
+        <soap:fault name="deleteShowFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getShowTimes">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getShowTimes"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getShowTimesFault">
+        <soap:fault name="getShowTimesFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>    
+    
+    <wsdl:operation name="getShowTimeInfos">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getShowTimeInfos"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getShowTimeInfosFault">
+        <soap:fault name="getShowTimeInfosFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="createShowTimes">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/createShowTimes"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="createShowTimesFault">
+        <soap:fault name="createShowTimesFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="deleteShowTimes">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/deleteShowTimes"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="deleteShowTimesFault">
+        <soap:fault name="deleteShowTimesFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+   <wsdl:operation name="getSPL2">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getSPL2"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getSPL2Fault">
+        <soap:fault name="getSPL2Fault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  
+  <!-- Address Specification -->
+  
+  <wsdl:service name="ShowManagement_v1_0">
+    <wsdl:port binding="tns:ShowManagementBinding_v1_0" name="ShowManagementService_v1_0">
+      <soap:address location="http://www.dolby.com:8080/dcinema/ws/smi/v1/ShowManagementService"/>
+    </wsdl:port>
+  </wsdl:service>
+  
+    <wsdl:service name="ShowManagement_v1_1">
+    <wsdl:port binding="tns:ShowManagementBinding_v1_1" name="ShowManagementService_v1_1">
+      <soap:address location="http://www.dolby.com:8080/dcinema/ws/smi/v1/ShowManagementService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

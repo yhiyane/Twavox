@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- *** Digital Cinema XML Subtitle File *** -->
+<!-- *** Created by Deluxe Digital London - GC *** -->
+<!-- *** 02 September 2014 *** -->
+<DCSubtitle Version="1.1">
+<SubtitleID>627aaf01-474e-4345-9892-0a6be9745d4f</SubtitleID>
+<MovieTitle>MazeRunner</MovieTitle>
+<ReelNumber>R4</ReelNumber>
+<Language>FR</Language>
+<LoadFont Id="Arial" URI="MazeRunner_FR_R4.ttf" />
+<Font Id="Arial"  Color="FFFFFFFF" Effect="shadow" EffectColor="FF000000" Italic="no" Size="42" Script="normal" Underlined="no" Weight="normal">
+<Subtitle SpotNumber="1" TimeIn="00:00:00:156" TimeOut="00:00:02:104" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Qu'est-ce qui se passe ?</Text></Subtitle>
+<Subtitle SpotNumber="2" TimeIn="00:00:03:031" TimeOut="00:00:04:104" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Les filles, c'est dément !</Text></Subtitle>
+<Subtitle SpotNumber="3" TimeIn="00:00:05:114" TimeOut="00:00:06:229" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Foutez-moi la paix !</Text></Subtitle>
+<Subtitle SpotNumber="4" TimeIn="00:00:09:145" TimeOut="00:00:11:062" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">T'en lances encore une et...</Text></Subtitle>
+<Subtitle SpotNumber="5" TimeIn="00:00:11:104" TimeOut="00:00:12:208" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">- Virez de là !</Text>
+<Text VAlign="bottom" VPosition="08.00">- On vient en amis.</Text></Subtitle>
+<Subtitle SpotNumber="6" TimeIn="00:00:13:000" TimeOut="00:00:15:177" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">- C'est quoi le problème ?</Text>
+<Text VAlign="bottom" VPosition="08.00">- Elle nous kiffe pas.</Text></Subtitle>
+<Subtitle SpotNumber="7" TimeIn="00:00:15:218" TimeOut="00:00:17:125" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">- Vous voulez quoi ?</Text>
+<Text VAlign="bottom" VPosition="08.00">- Te parler !</Text></Subtitle>
+<Subtitle SpotNumber="8" TimeIn="00:00:17:208" TimeOut="00:00:19:020" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Lâchez-moi !</Text></Subtitle>
+<Subtitle SpotNumber="9" TimeIn="00:00:19:062" TimeOut="00:00:20:135" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Aux abris, les Blocards !</Text></Subtitle>
+<Subtitle SpotNumber="10" TimeIn="00:00:21:239" TimeOut="00:00:24:031" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Arrête, c'est moi ! Thomas !</Text></Subtitle>
+<Subtitle SpotNumber="11" TimeIn="00:00:30:229" TimeOut="00:00:32:125" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Je vais monter, d'accord ?</Text></Subtitle>
+<Subtitle SpotNumber="12" TimeIn="00:00:39:010" TimeOut="00:00:40:041" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">J'y vais seul.</Text></Subtitle>
+<Subtitle SpotNumber="13" TimeIn="00:00:44:125" TimeOut="00:00:45:187" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Je monte !</Text></Subtitle>
+<Subtitle SpotNumber="14" TimeIn="00:00:53:156" TimeOut="00:00:54:156" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">C'est bon.</Text></Subtitle>
+<Subtitle SpotNumber="15" TimeIn="00:00:55:000" TimeOut="00:00:56:083" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">On se calme.</Text></Subtitle>
+<Subtitle SpotNumber="16" TimeIn="00:00:57:052" TimeOut="00:00:58:083" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Où je suis ?</Text></Subtitle>
+<Subtitle SpotNumber="17" TimeIn="00:00:58:218" TimeOut="00:01:00:020" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">C'est quoi, cet endroit ?</Text></Subtitle>
+<Subtitle SpotNumber="18" TimeIn="00:01:00:208" TimeOut="00:01:02:010" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Je me rappelle rien !</Text></Subtitle>
+<Subtitle SpotNumber="19" TimeIn="00:01:02:052" TimeOut="00:01:04:229" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">C'est complètement normal.</Text>
+<Text VAlign="bottom" VPosition="08.00">On a tous vécu ça.</Text></Subtitle>
+<Subtitle SpotNumber="20" TimeIn="00:01:07:135" TimeOut="00:01:10:072" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">Ton prénom va te revenir.</Text>
+<Text VAlign="bottom" VPosition="08.00">C'est la seule chose...</Text></Subtitle>
+<Subtitle SpotNumber="21" TimeIn="00:01:10:114" TimeOut="00:01:11:083" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Teresa.</Text></Subtitle>
+<Subtitle SpotNumber="22" TimeIn="00:01:13:031" TimeOut="00:01:13:208" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Pardon ?</Text></Subtitle>
+<Subtitle SpotNumber="23" TimeIn="00:01:14:020" TimeOut="00:01:15:020" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Mon prénom !</Text></Subtitle>
+<Subtitle SpotNumber="24" TimeIn="00:01:16:031" TimeOut="00:01:17:083" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">C'est Teresa.</Text></Subtitle>
+<Subtitle SpotNumber="25" TimeIn="00:01:19:114" TimeOut="00:01:21:062" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Moi, je suis Thomas.</Text></Subtitle>
+<Subtitle SpotNumber="26" TimeIn="00:01:24:083" TimeOut="00:01:25:218" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Mais tu le sais déjà.</Text></Subtitle>
+<Subtitle SpotNumber="27" TimeIn="00:01:26:031" TimeOut="00:01:27:072" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Enfin, je crois.</Text></Subtitle>
+<Subtitle SpotNumber="28" TimeIn="00:01:28:145" TimeOut="00:01:30:208" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">Il paraît que je t'appelais</Text>
+<Text VAlign="bottom" VPosition="08.00">dans mon sommeil.</Text></Subtitle>
+<Subtitle SpotNumber="29" TimeIn="00:01:31:187" TimeOut="00:01:32:166" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Tu es qui ?</Text></Subtitle>
+<Subtitle SpotNumber="30" TimeIn="00:01:37:145" TimeOut="00:01:38:135" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Je sais pas.</Text></Subtitle>
+<Subtitle SpotNumber="31" TimeIn="00:01:41:093" TimeOut="00:01:44:052" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Je m'en souviens pas. Personne ici,</Text></Subtitle>
+<Subtitle SpotNumber="32" TimeIn="00:01:44:093" TimeOut="00:01:46:104" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">ne se rappelle son passé.</Text></Subtitle>
+<Subtitle SpotNumber="33" TimeIn="00:01:47:197" TimeOut="00:01:49:229" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">On s'est réveillés ici un jour,</Text>
+<Text VAlign="bottom" VPosition="08.00">comme toi.</Text></Subtitle>
+<Subtitle SpotNumber="34" TimeIn="00:01:51:010" TimeOut="00:01:52:125" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">J'te promets...</Text></Subtitle>
+<Subtitle SpotNumber="35" TimeIn="00:01:56:083" TimeOut="00:01:57:166" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Je vais le prendre.</Text></Subtitle>
+<Subtitle SpotNumber="36" TimeIn="00:02:03:041" TimeOut="00:02:04:135" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Vous faites quoi, là-haut ?</Text></Subtitle>
+<Subtitle SpotNumber="37" TimeIn="00:02:08:083" TimeOut="00:02:09:208" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Elle descend ?</Text></Subtitle>
+<Subtitle SpotNumber="38" TimeIn="00:02:18:218" TimeOut="00:02:21:041" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Laissez-lui encore 2 minutes.</Text></Subtitle>
+<Subtitle SpotNumber="39" TimeIn="00:02:23:166" TimeOut="00:02:24:166" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Allez...</Text></Subtitle>
+<Subtitle SpotNumber="40" TimeIn="00:02:25:125" TimeOut="00:02:26:114" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Venez.</Text></Subtitle>
+<Subtitle SpotNumber="41" TimeIn="00:02:27:000" TimeOut="00:02:28:197" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Elles sont toutes comme ça ?</Text></Subtitle>
+<Subtitle SpotNumber="42" TimeIn="00:02:31:145" TimeOut="00:02:32:218" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Elle est grave folle.</Text></Subtitle>
+<Subtitle SpotNumber="43" TimeIn="00:02:37:125" TimeOut="00:02:39:010" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">"C'est la dernière".</Text></Subtitle>
+<Subtitle SpotNumber="44" TimeIn="00:02:39:229" TimeOut="00:02:40:145" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Ça veut dire quoi ?</Text></Subtitle>
+<Subtitle SpotNumber="45" TimeIn="00:02:41:010" TimeOut="00:02:42:031" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Je sais pas trop.</Text></Subtitle>
+<Subtitle SpotNumber="46" TimeIn="00:02:44:041" TimeOut="00:02:47:010" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">Depuis ton arrivée,</Text>
+<Text VAlign="bottom" VPosition="08.00">la Boîte n'est pas redescendue.</Text></Subtitle>
+<Subtitle SpotNumber="47" TimeIn="00:02:48:177" TimeOut="00:02:51:041" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Ça stresse un peu les autres.</Text></Subtitle>
+<Subtitle SpotNumber="48" TimeIn="00:02:53:156" TimeOut="00:02:55:010" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Surtout Gally.</Text></Subtitle>
+<Subtitle SpotNumber="49" TimeIn="00:02:58:208" TimeOut="00:03:00:125" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Il croit que c'est de ma faute.</Text></Subtitle>
+<Subtitle SpotNumber="50" TimeIn="00:03:05:072" TimeOut="00:03:07:041" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Tu te rappelles rien d'autre ?</Text></Subtitle>
+<Subtitle SpotNumber="51" TimeIn="00:03:09:145" TimeOut="00:03:11:041" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Je me souviens de l'eau.</Text></Subtitle>
+<Subtitle SpotNumber="52" TimeIn="00:03:12:062" TimeOut="00:03:13:208" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Comme si je me noyais.</Text></Subtitle>
+<Subtitle SpotNumber="53" TimeIn="00:03:15:229" TimeOut="00:03:18:010" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Ces gens qui me dévisageaient.</Text></Subtitle>
+<Subtitle SpotNumber="54" TimeIn="00:03:20:145" TimeOut="00:03:23:177" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Et la voix de cette femme qui répétait</Text></Subtitle>
+<Subtitle SpotNumber="55" TimeIn="00:03:23:218" TimeOut="00:03:25:177" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">- sans cesse...</Text>
+<Text VAlign="bottom" VPosition="08.00">- "WICKED est bon".</Text></Subtitle>
+<Subtitle SpotNumber="56" TimeIn="00:03:30:010" TimeOut="00:03:32:135" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">Depuis que je suis ici,</Text>
+<Text VAlign="bottom" VPosition="08.00">je fais des rêves.</Text></Subtitle>
+<Subtitle SpotNumber="57" TimeIn="00:03:33:010" TimeOut="00:03:34:239" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Je croyais que c'était des rêves...</Text></Subtitle>
+<Subtitle SpotNumber="58" TimeIn="00:03:38:041" TimeOut="00:03:39:062" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Tu...</Text></Subtitle>
+<Subtitle SpotNumber="59" TimeIn="00:03:40:135" TimeOut="00:03:42:031" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">tu es dans ces rêves.</Text></Subtitle>
+<Subtitle SpotNumber="60" TimeIn="00:03:45:052" TimeOut="00:03:45:218" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Tu y es</Text></Subtitle>
+<Subtitle SpotNumber="61" TimeIn="00:03:46:052" TimeOut="00:03:48:218" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">et tu me dis</Text>
+<Text VAlign="bottom" VPosition="08.00">que les choses vont changer.</Text></Subtitle>
+<Subtitle SpotNumber="62" TimeIn="00:03:52:093" TimeOut="00:03:53:208" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Comment ça ?</Text></Subtitle>
+<Subtitle SpotNumber="63" TimeIn="00:03:55:229" TimeOut="00:03:58:177" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">Je sais pas.</Text>
+<Text VAlign="bottom" VPosition="08.00">Je ne perçois que des flashs.</Text></Subtitle>
+<Subtitle SpotNumber="64" TimeIn="00:04:00:041" TimeOut="00:04:02:062" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Les autres n'ont plus de mémoire ?</Text></Subtitle>
+<Subtitle SpotNumber="65" TimeIn="00:04:02:166" TimeOut="00:04:03:156" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Non.</Text></Subtitle>
+<Subtitle SpotNumber="66" TimeIn="00:04:06:197" TimeOut="00:04:08:062" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Pourquoi on est différents ?</Text></Subtitle>
+<Subtitle SpotNumber="67" TimeIn="00:04:16:052" TimeOut="00:04:17:239" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">J'avais ça quand je suis montée.</Text></Subtitle>
+<Subtitle SpotNumber="68" TimeIn="00:04:25:031" TimeOut="00:04:26:229" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">"W.C.K.D"...</Text></Subtitle>
+<Subtitle SpotNumber="69" TimeIn="00:04:30:125" TimeOut="00:04:31:208" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">"WICKED est bon".</Text></Subtitle>
+<Subtitle SpotNumber="70" TimeIn="00:04:34:104" TimeOut="00:04:36:177" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">Et si on était là</Text>
+<Text VAlign="bottom" VPosition="08.00">pour accomplir un truc ?</Text></Subtitle>
+<Subtitle SpotNumber="71" TimeIn="00:04:41:052" TimeOut="00:04:41:218" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Alby...</Text></Subtitle>
+<Subtitle SpotNumber="72" TimeIn="00:04:43:052" TimeOut="00:04:44:229" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">On sait pas ce qu'il y a dedans,</Text></Subtitle>
+<Subtitle SpotNumber="73" TimeIn="00:04:45:093" TimeOut="00:04:48:145" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">ni qui les envoie,</Text>
+<Text VAlign="bottom" VPosition="08.00">ni pourquoi tu les avais sur toi.</Text></Subtitle>
+<Subtitle SpotNumber="74" TimeIn="00:04:48:239" TimeOut="00:04:51:072" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Et si cette seringue le tuait ?</Text></Subtitle>
+<Subtitle SpotNumber="75" TimeIn="00:04:52:000" TimeOut="00:04:53:145" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Il meurt déjà !</Text></Subtitle>
+<Subtitle SpotNumber="76" TimeIn="00:04:54:083" TimeOut="00:04:55:125" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Regarde-le.</Text></Subtitle>
+<Subtitle SpotNumber="77" TimeIn="00:04:56:135" TimeOut="00:04:59:041" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">Je vois pas</Text>
+<Text VAlign="bottom" VPosition="08.00">comment ça pourrait être pire.</Text></Subtitle>
+<Subtitle SpotNumber="78" TimeIn="00:05:00:187" TimeOut="00:05:02:156" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Ça vaut le coup d'essayer.</Text></Subtitle>
+<Subtitle SpotNumber="79" TimeIn="00:05:06:083" TimeOut="00:05:07:072" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">D'accord.</Text></Subtitle>
+<Subtitle SpotNumber="80" TimeIn="00:05:08:125" TimeOut="00:05:09:135" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Vas-y.</Text></Subtitle>
+<Subtitle SpotNumber="81" TimeIn="00:05:22:072" TimeOut="00:05:25:052" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">T'as rien à faire ici ! Non !</Text></Subtitle>
+<Subtitle SpotNumber="82" TimeIn="00:05:25:229" TimeOut="00:05:27:031" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Laisse-le !</Text></Subtitle>
+<Subtitle SpotNumber="83" TimeIn="00:05:29:218" TimeOut="00:05:31:145" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">La seringue ! Lâche-moi !</Text></Subtitle>
+<Subtitle SpotNumber="84" TimeIn="00:05:41:052" TimeOut="00:05:42:239" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Ça a marché.</Text></Subtitle>
+<Subtitle SpotNumber="85" TimeIn="00:05:43:156" TimeOut="00:05:44:229" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">A partir de maintenant,</Text></Subtitle>
+<Subtitle SpotNumber="86" TimeIn="00:05:45:020" TimeOut="00:05:48:000" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">je veux qu'on le veille jour et nuit.</Text></Subtitle>
+<Subtitle SpotNumber="87" TimeIn="00:05:56:239" TimeOut="00:05:59:041" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">La nuit tombe, le nouveau. On y va.</Text></Subtitle>
+<Subtitle SpotNumber="88" TimeIn="00:06:15:156" TimeOut="00:06:17:145" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Pourquoi tu me détestes ?</Text></Subtitle>
+<Subtitle SpotNumber="89" TimeIn="00:06:18:135" TimeOut="00:06:21:020" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Tout déconne depuis que tu es là.</Text></Subtitle>
+<Subtitle SpotNumber="90" TimeIn="00:06:22:000" TimeOut="00:06:24:052" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">D'abord Ben, ensuite Alby.</Text></Subtitle>
+<Subtitle SpotNumber="91" TimeIn="00:06:24:239" TimeOut="00:06:26:041" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Maintenant la fille...</Text></Subtitle>
+<Subtitle SpotNumber="92" TimeIn="00:06:27:229" TimeOut="00:06:30:031" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">On a tous vu qu'elle t'avait reconnu.</Text></Subtitle>
+<Subtitle SpotNumber="93" TimeIn="00:06:31:218" TimeOut="00:06:34:135" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Et à mon avis, tu la connais, toi aussi.</Text></Subtitle>
+<Subtitle SpotNumber="94" TimeIn="00:06:49:187" TimeOut="00:06:50:229" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Gally,</Text></Subtitle>
+<Subtitle SpotNumber="95" TimeIn="00:06:53:114" TimeOut="00:06:56:104" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">on peut pas passer notre vie au Bloc.</Text></Subtitle>
+<Subtitle SpotNumber="96" TimeIn="00:07:17:083" TimeOut="00:07:18:000" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Qui est là ?</Text></Subtitle>
+<Subtitle SpotNumber="97" TimeIn="00:07:19:072" TimeOut="00:07:20:041" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">C'est moi.</Text></Subtitle>
+<Subtitle SpotNumber="98" TimeIn="00:07:21:031" TimeOut="00:07:22:072" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Excuse, Chuck.</Text></Subtitle>
+<Subtitle SpotNumber="99" TimeIn="00:07:22:177" TimeOut="00:07:23:197" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Attrape.</Text></Subtitle>
+<Subtitle SpotNumber="100" TimeIn="00:07:24:020" TimeOut="00:07:26:020" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Tu courras mieux le ventre plein.</Text></Subtitle>
+<Subtitle SpotNumber="101" TimeIn="00:07:39:020" TimeOut="00:07:40:010" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Merci.</Text></Subtitle>
+<Subtitle SpotNumber="102" TimeIn="00:07:45:145" TimeOut="00:07:46:229" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">C'est quoi dans ta main ?</Text></Subtitle>
+<Subtitle SpotNumber="103" TimeIn="00:07:53:083" TimeOut="00:07:55:156" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">C'est super bien fait.</Text></Subtitle>
+<Subtitle SpotNumber="104" TimeIn="00:07:56:052" TimeOut="00:07:57:083" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Ça sert à quoi ?</Text></Subtitle>
+<Subtitle SpotNumber="105" TimeIn="00:07:58:218" TimeOut="00:08:00:083" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">C'est pour mes parents.</Text></Subtitle>
+<Subtitle SpotNumber="106" TimeIn="00:08:01:114" TimeOut="00:08:02:218" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Tu te souviens d'eux ?</Text></Subtitle>
+<Subtitle SpotNumber="107" TimeIn="00:08:04:125" TimeOut="00:08:05:093" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Non.</Text></Subtitle>
+<Subtitle SpotNumber="108" TimeIn="00:08:06:197" TimeOut="00:08:08:208" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Mais j'en ai forcément.</Text></Subtitle>
+<Subtitle SpotNumber="109" TimeIn="00:08:10:197" TimeOut="00:08:12:145" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Je dois sûrement leur manquer.</Text></Subtitle>
+<Subtitle SpotNumber="110" TimeIn="00:08:13:093" TimeOut="00:08:15:104" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Eux, pas. Vu que je m'en rappelle pas.</Text></Subtitle>
+<Subtitle SpotNumber="111" TimeIn="00:08:22:000" TimeOut="00:08:24:135" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Qu'est-ce que tu vas trouver demain ?</Text></Subtitle>
+<Subtitle SpotNumber="112" TimeIn="00:08:28:000" TimeOut="00:08:29:041" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">J'en sais rien.</Text></Subtitle>
+<Subtitle SpotNumber="113" TimeIn="00:08:31:114" TimeOut="00:08:34:197" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">Mais s'il y a une sortie, avec Minho,</Text>
+<Text VAlign="bottom" VPosition="08.00">on la trouvera.</Text></Subtitle>
+<Subtitle SpotNumber="114" TimeIn="00:08:41:041" TimeOut="00:08:42:041" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Tiens.</Text></Subtitle>
+<Subtitle SpotNumber="115" TimeIn="00:08:48:072" TimeOut="00:08:49:239" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Pourquoi tu me le donnes ?</Text></Subtitle>
+<Subtitle SpotNumber="116" TimeIn="00:08:52:187" TimeOut="00:08:54:135" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">J'ai plus de souvenirs d'eux.</Text></Subtitle>
+<Subtitle SpotNumber="117" TimeIn="00:08:56:135" TimeOut="00:08:59:125" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">Si tu trouves la sortie,</Text>
+<Text VAlign="bottom" VPosition="08.00">tu leur fileras pour moi.</Text></Subtitle>
+<Subtitle SpotNumber="118" TimeIn="00:09:02:135" TimeOut="00:09:03:229" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Je te laisse dormir.</Text></Subtitle>
+<Subtitle SpotNumber="119" TimeIn="00:09:13:229" TimeOut="00:09:15:010" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Attends, Chuck !</Text></Subtitle>
+<Subtitle SpotNumber="120" TimeIn="00:09:16:010" TimeOut="00:09:16:177" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Reviens.</Text></Subtitle>
+<Subtitle SpotNumber="121" TimeIn="00:09:21:114" TimeOut="00:09:22:187" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Donne ta main.</Text></Subtitle>
+<Subtitle SpotNumber="122" TimeIn="00:09:25:031" TimeOut="00:09:27:052" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Tu leur donneras toi-même.</Text></Subtitle>
+<Subtitle SpotNumber="123" TimeIn="00:09:29:062" TimeOut="00:09:30:114" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">On va sortir d'ici.</Text></Subtitle>
+<Subtitle SpotNumber="124" TimeIn="00:09:31:000" TimeOut="00:09:32:062" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Tous ensemble.</Text></Subtitle>
+<Subtitle SpotNumber="125" TimeIn="00:09:35:072" TimeOut="00:09:36:104" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Je te le promets.</Text></Subtitle>
+<Subtitle SpotNumber="126" TimeIn="00:09:39:114" TimeOut="00:09:40:114" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Allez...</Text></Subtitle>
+<Subtitle SpotNumber="127" TimeIn="00:09:42:020" TimeOut="00:09:43:197" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">- Bonne nuit.</Text>
+<Text VAlign="bottom" VPosition="08.00">- Salut, bonhomme.</Text></Subtitle>
+<Subtitle SpotNumber="128" TimeIn="00:09:59:197" TimeOut="00:10:01:020" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">C'est le grand jour.</Text></Subtitle>
+<Subtitle SpotNumber="129" TimeIn="00:10:01:083" TimeOut="00:10:02:145" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Toujours partant ?</Text></Subtitle>
+<Subtitle SpotNumber="130" TimeIn="00:10:03:114" TimeOut="00:10:05:197" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">- Fais pas le con. Sors-moi de là.</Text>
+<Text VAlign="bottom" VPosition="08.00">- O.K.</Text></Subtitle>
+<Subtitle SpotNumber="131" TimeIn="00:10:24:187" TimeOut="00:10:25:104" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Allons-y !</Text></Subtitle>
+<Subtitle SpotNumber="132" TimeIn="00:10:37:166" TimeOut="00:10:40:093" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">Par ici !</Text>
+<Text VAlign="bottom" VPosition="08.00">On n'est pas très loin du centre !</Text></Subtitle>
+<Subtitle SpotNumber="133" TimeIn="00:10:44:104" TimeOut="00:10:46:114" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Viens ! Suis-moi !</Text></Subtitle>
+<Subtitle SpotNumber="134" TimeIn="00:11:11:197" TimeOut="00:11:12:229" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">C'est bizarre.</Text></Subtitle>
+<Subtitle SpotNumber="135" TimeIn="00:11:13:135" TimeOut="00:11:14:135" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Quoi ?</Text></Subtitle>
+<Subtitle SpotNumber="136" TimeIn="00:11:14:177" TimeOut="00:11:16:229" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">La 7 n'est pas censée être ouverte.</Text></Subtitle>
+<Subtitle SpotNumber="137" TimeIn="00:11:24:072" TimeOut="00:11:26:072" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">C'est quoi, ces trucs ?</Text></Subtitle>
+<Subtitle SpotNumber="138" TimeIn="00:11:27:020" TimeOut="00:11:28:145" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Ce sont les lames.</Text></Subtitle>
+<Subtitle SpotNumber="139" TimeIn="00:11:47:208" TimeOut="00:11:48:239" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">C'est à Ben ?</Text></Subtitle>
+<Subtitle SpotNumber="140" TimeIn="00:11:49:229" TimeOut="00:11:51:031" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Oui.</Text></Subtitle>
+<Subtitle SpotNumber="141" TimeIn="00:11:52:093" TimeOut="00:11:54:052" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">C'est l'œuvre d'un Griffeur...</Text></Subtitle>
+<Subtitle SpotNumber="142" TimeIn="00:12:25:020" TimeOut="00:12:26:197" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Il nous montre le chemin.</Text></Subtitle>
+<Subtitle SpotNumber="143" TimeIn="00:12:33:208" TimeOut="00:12:35:156" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">- Non, attends.</Text>
+<Text VAlign="bottom" VPosition="08.00">- Quoi ?</Text></Subtitle>
+<Subtitle SpotNumber="144" TimeIn="00:12:38:072" TimeOut="00:12:39:177" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Par là. Viens.</Text></Subtitle>
+<Subtitle SpotNumber="145" TimeIn="00:13:03:197" TimeOut="00:13:06:000" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Tu es déjà venu ici ?</Text></Subtitle>
+<Subtitle SpotNumber="146" TimeIn="00:13:07:239" TimeOut="00:13:09:010" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Non.</Text></Subtitle>
+<Subtitle SpotNumber="147" TimeIn="00:13:30:229" TimeOut="00:13:32:177" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Encore un cul-de-sac !</Text></Subtitle>
+<Subtitle SpotNumber="148" TimeIn="00:14:00:104" TimeOut="00:14:01:208" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">T'es sûr de toi ?</Text></Subtitle>
+<Subtitle SpotNumber="149" TimeIn="00:14:05:114" TimeOut="00:14:06:135" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Non.</Text></Subtitle>
+<Subtitle SpotNumber="150" TimeIn="00:14:40:187" TimeOut="00:14:41:229" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Des Griffeurs...</Text></Subtitle>
+<Subtitle SpotNumber="151" TimeIn="00:14:54:052" TimeOut="00:14:55:187" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">C'est quoi, ce délire ?</Text></Subtitle>
+<Subtitle SpotNumber="152" TimeIn="00:15:01:135" TimeOut="00:15:03:010" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Tirons-nous.</Text></Subtitle>
+<Subtitle SpotNumber="153" TimeIn="00:15:03:125" TimeOut="00:15:05:000" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">File-moi la clé !</Text></Subtitle>
+<Subtitle SpotNumber="154" TimeIn="00:15:10:208" TimeOut="00:15:12:020" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Vite, magne-toi !</Text></Subtitle>
+<Subtitle SpotNumber="155" TimeIn="00:15:18:197" TimeOut="00:15:22:010" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">Faut se tirer.</Text>
+<Text VAlign="bottom" VPosition="08.00">On va se faire piéger !</Text></Subtitle>
+<Subtitle SpotNumber="156" TimeIn="00:15:22:104" TimeOut="00:15:23:156" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Fonce !</Text></Subtitle>
+<Subtitle SpotNumber="157" TimeIn="00:15:27:229" TimeOut="00:15:30:031" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Grouille-toi ! Vite !</Text></Subtitle>
+<Subtitle SpotNumber="158" TimeIn="00:15:40:135" TimeOut="00:15:41:072" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Minho !</Text></Subtitle>
+<Subtitle SpotNumber="159" TimeIn="00:15:41:145" TimeOut="00:15:43:052" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">On trace ! Dépêche-toi !</Text></Subtitle>
+<Subtitle SpotNumber="160" TimeIn="00:15:48:052" TimeOut="00:15:50:156" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">T'arrête pas ! Cours !</Text></Subtitle>
+<Subtitle SpotNumber="161" TimeIn="00:16:19:010" TimeOut="00:16:20:125" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Te retourne pas !</Text></Subtitle>
+<Subtitle SpotNumber="162" TimeIn="00:16:29:093" TimeOut="00:16:30:197" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Merde !</Text></Subtitle>
+<Subtitle SpotNumber="163" TimeIn="00:16:32:114" TimeOut="00:16:33:093" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Par là !</Text></Subtitle>
+<Subtitle SpotNumber="164" TimeIn="00:16:54:114" TimeOut="00:16:55:218" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">C'était quoi tout ce bordel ?</Text></Subtitle>
+<Subtitle SpotNumber="165" TimeIn="00:16:56:010" TimeOut="00:16:56:229" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">T'as fait quoi encore ?</Text></Subtitle>
+<Subtitle SpotNumber="166" TimeIn="00:16:57:072" TimeOut="00:17:00:041" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">On a trouvé un passage</Text>
+<Text VAlign="bottom" VPosition="08.00">qui conduirait à une sortie.</Text></Subtitle>
+<Subtitle SpotNumber="167" TimeIn="00:17:00:083" TimeOut="00:17:02:000" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">- Sérieux ?</Text>
+<Text VAlign="bottom" VPosition="08.00">- Oui.</Text></Subtitle>
+<Subtitle SpotNumber="168" TimeIn="00:17:02:041" TimeOut="00:17:04:145" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">On a ouvert une porte</Text>
+<Text VAlign="bottom" VPosition="08.00">que je connaissais pas.</Text></Subtitle>
+<Subtitle SpotNumber="169" TimeIn="00:17:04:187" TimeOut="00:17:06:104" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Sûrement le refuge des Griffeurs.</Text></Subtitle>
+<Subtitle SpotNumber="170" TimeIn="00:17:06:145" TimeOut="00:17:07:187" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Attendez !</Text></Subtitle>
+<Subtitle SpotNumber="171" TimeIn="00:17:07:229" TimeOut="00:17:11:062" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">Vous nous proposez d'aller</Text>
+<Text VAlign="bottom" VPosition="08.00">dans le refuge des Griffeurs ?</Text></Subtitle>
+<Subtitle SpotNumber="172" TimeIn="00:17:11:104" TimeOut="00:17:13:000" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Leur entrée est notre sortie.</Text></Subtitle>
+<Subtitle SpotNumber="173" TimeIn="00:17:13:041" TimeOut="00:17:15:135" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">Avec des Griffeurs</Text>
+<Text VAlign="bottom" VPosition="08.00">pour nous accueillir !</Text></Subtitle>
+<Subtitle SpotNumber="174" TimeIn="00:17:15:177" TimeOut="00:17:18:177" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">Thomas fait n'importe quoi,</Text>
+<Text VAlign="bottom" VPosition="08.00">comme d'habitude !</Text></Subtitle>
+<Subtitle SpotNumber="175" TimeIn="00:17:18:239" TimeOut="00:17:20:177" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Moi, au moins, j'agis !</Text></Subtitle>
+<Subtitle SpotNumber="176" TimeIn="00:17:20:218" TimeOut="00:17:23:239" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">Tu fais quoi, toi ?</Text>
+<Text VAlign="bottom" VPosition="08.00">A part te planquer au Bloc ?</Text></Subtitle>
+<Subtitle SpotNumber="177" TimeIn="00:17:24:072" TimeOut="00:17:28:052" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="14.50">Ça fait 3 jours que t'es là, le nouveau.</Text>
+<Text VAlign="bottom" VPosition="08.00">Moi, ça fait 3 ans...</Text></Subtitle>
+<Subtitle SpotNumber="178" TimeIn="00:17:28:093" TimeOut="00:17:30:166" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Et tu galères toujours ici !</Text></Subtitle>
+<Subtitle SpotNumber="179" TimeIn="00:17:30:218" TimeOut="00:17:33:104" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Change de stratégie, tu crois pas ?</Text></Subtitle>
+<Subtitle SpotNumber="180" TimeIn="00:17:33:145" TimeOut="00:17:35:177" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Tu veux être le chef, c'est ça ?</Text></Subtitle>
+<Subtitle SpotNumber="181" TimeIn="00:17:35:218" TimeOut="00:17:37:020" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Alby !</Text></Subtitle>
+<Subtitle SpotNumber="182" TimeIn="00:17:38:083" TimeOut="00:17:39:135" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Il s'est réveillé.</Text></Subtitle>
+</Font></DCSubtitle>

@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DCSubtitle Version="1.0">
+    <SubtitleID>71e8b865-4974-45ad-9e79-7b98e27348a8</SubtitleID>
+    <MovieTitle>VALLEY OF LOVE DEF STFR 24 BOB 1</MovieTitle>
+    <!--DLP/Interop subtitle file-->
+    <ReelNumber>1</ReelNumber>
+    <Language>French</Language>
+    <!--Supply font with file name: Arial.ttf-->
+    <LoadFont Id="Font1" URI="Arial.ttf"/>
+    <Font Id="Font1" Color="FFFFFFFF" Weight="normal" Size="42" Effect="border" EffectColor="FF000000" AspectAdjust="1.00">
+        <Subtitle SpotNumber="1" TimeIn="00:04:29:208" TimeOut="00:04:31:083" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Ça fait 14,90 $.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="2" TimeIn="00:05:28:083" TimeOut="00:05:30:218" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">J'ai exactement le même problème.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="3" TimeIn="00:05:31:031" TimeOut="00:05:32:218" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Ça ne capte pas, hein ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="4" TimeIn="00:05:33:010" TimeOut="00:05:34:052" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">C'est ça.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="5" TimeIn="00:05:34:083" TimeOut="00:05:35:083" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Vous êtes française ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="6" TimeIn="00:05:36:010" TimeOut="00:05:36:208" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Je vous ai entendue.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="7" TimeIn="00:05:36:239" TimeOut="00:05:38:156" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Oui, je suis française.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="8" TimeIn="00:05:39:125" TimeOut="00:05:41:062" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Mes enfants sont de sortie.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="9" TimeIn="00:05:41:145" TimeOut="00:05:43:145" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">J'ai décidé de rester ici.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="10" TimeIn="00:05:43:187" TimeOut="00:05:45:187" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Il fait trop chaud.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="11" TimeIn="00:05:46:145" TimeOut="00:05:50:062" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">Déjà, à Vegas,</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">j'ai cru mourir de chaud.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="12" TimeIn="00:05:50:208" TimeOut="00:05:53:114" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">Comment peut-on vivre</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">dans un tel endroit ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="13" TimeIn="00:05:53:239" TimeOut="00:05:56:125" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">À Vegas, il faisait 60 degrés.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="14" TimeIn="00:05:56:218" TimeOut="00:05:58:010" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Vous imaginez ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="15" TimeIn="00:05:58:052" TimeOut="00:05:59:156" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Sacrée chaleur !</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="16" TimeIn="00:06:00:041" TimeOut="00:06:01:218" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">D'où venez-vous ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="17" TimeIn="00:06:02:031" TimeOut="00:06:03:093" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">De Paris.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="18" TimeIn="00:06:04:062" TimeOut="00:06:06:083" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Mon mari et moi y étions il y a...</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="19" TimeIn="00:06:06:229" TimeOut="00:06:08:072" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">10 ans.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="20" TimeIn="00:06:08:135" TimeOut="00:06:11:072" FadeUpTime="0" FadeDownTime="0">
+            <Text Direction="horizontal" HAlign="center" VPosition="13.60" VAlign="bottom" HPosition="0.0">Nous avons visité</Text>
+            <Text Direction="horizontal" HAlign="center" VPosition="8.00" VAlign="bottom" HPosition="0.0"><Font Italic="yes">les châteaux de la Loire</Font>.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="21" TimeIn="00:06:13:093" TimeOut="00:06:15:010" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Le mien ne sonne même pas.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="22" TimeIn="00:06:15:125" TimeOut="00:06:17:239" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Mes enfants sont de sortie.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="23" TimeIn="00:06:18:104" TimeOut="00:06:19:197" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Quelle chaleur !</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="24" TimeIn="00:06:19:229" TimeOut="00:06:21:010" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Excusez-moi.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="25" TimeIn="00:08:34:083" TimeOut="00:08:36:208" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">Bonjour et bienvenue.</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Vous avez choisi ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="26" TimeIn="00:08:38:104" TimeOut="00:08:39:031" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Un café.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="27" TimeIn="00:08:39:197" TimeOut="00:08:40:125" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Deux.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="28" TimeIn="00:19:01:000" TimeOut="00:19:02:229" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">- Je peux ?</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">- Bien sûr.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="29" TimeIn="00:19:04:072" TimeOut="00:19:05:156" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Merci.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="30" TimeIn="00:19:08:135" TimeOut="00:19:10:041" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Je vous connais.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="31" TimeIn="00:19:10:072" TimeOut="00:19:11:052" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Pardon ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="32" TimeIn="00:19:12:000" TimeOut="00:19:13:187" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">- Vous êtes acteur ?</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">- Oui.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="33" TimeIn="00:19:13:218" TimeOut="00:19:17:177" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">En vous voyant dans la piscine,</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">je vous ai reconnu.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="34" TimeIn="00:19:18:197" TimeOut="00:19:20:197" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Merde... Vous étiez dans quoi ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="35" TimeIn="00:19:22:166" TimeOut="00:19:23:239" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Pas mal de films.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="36" TimeIn="00:19:24:083" TimeOut="00:19:26:010" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Je l'ai sur le bout de la langue.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="37" TimeIn="00:19:26:041" TimeOut="00:19:28:166" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">Ma femme est plus douée</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">que moi pour ça.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="38" TimeIn="00:19:30:093" TimeOut="00:19:33:000" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Je pourrais avoir un autographe ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="39" TimeIn="00:19:33:104" TimeOut="00:19:34:177" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Au cas où...</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="40" TimeIn="00:19:35:156" TimeOut="00:19:36:083" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Merde.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="41" TimeIn="00:19:36:114" TimeOut="00:19:38:000" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Au cas où...</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="42" TimeIn="00:19:38:031" TimeOut="00:19:41:052" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">où je ne vous reverrais pas</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">dans le coin.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="43" TimeIn="00:19:41:239" TimeOut="00:19:43:197" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">C'est pour...</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="44" TimeIn="00:19:43:229" TimeOut="00:19:47:104" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Paul et Katherine, avec un K.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="45" TimeIn="00:19:48:166" TimeOut="00:19:50:052" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">K-A-T-H-E...</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="46" TimeIn="00:19:50:208" TimeOut="00:19:52:166" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">R-I-N-E.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="47" TimeIn="00:19:54:125" TimeOut="00:19:55:135" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Génial.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="48" TimeIn="00:19:55:239" TimeOut="00:19:57:166" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Dommage, ma femme n'est pas là.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="49" TimeIn="00:19:57:197" TimeOut="00:20:00:000" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Elle pourrait citer tous vos films.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="50" TimeIn="00:20:00:125" TimeOut="00:20:01:239" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Elle est douée.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="51" TimeIn="00:20:02:093" TimeOut="00:20:03:093" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Super.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="52" TimeIn="00:20:03:125" TimeOut="00:20:05:177" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">- Merci.</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">- Merci à vous.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="53" TimeIn="00:28:46:208" TimeOut="00:28:48:104" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Vous trouvez ça drôle ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="54" TimeIn="00:28:49:031" TimeOut="00:28:51:000" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">De se moquer des gens ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="55" TimeIn="00:28:53:041" TimeOut="00:28:54:041" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Votre nom ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="56" TimeIn="00:28:54:072" TimeOut="00:28:56:010" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Ma femme sait qui vous êtes.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="57" TimeIn="00:28:57:000" TimeOut="00:28:59:072" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">J'étais sûr que vous étiez un connard.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="58" TimeIn="00:29:00:020" TimeOut="00:29:01:041" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Restons-en là.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="59" TimeIn="00:29:01:072" TimeOut="00:29:03:145" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">Comme vous avez joué</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">dans des films de merde,</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="60" TimeIn="00:29:03:177" TimeOut="00:29:06:104" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">vous méprisez les gens,</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">avec votre fric...</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="61" TimeIn="00:29:06:135" TimeOut="00:29:08:104" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Je ne suis pas vraiment riche.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="62" TimeIn="00:29:08:177" TimeOut="00:29:11:052" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">Respectez votre public.</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">J'ai été correct.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="63" TimeIn="00:29:12:010" TimeOut="00:29:13:187" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Votre mari se croit malin.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="64" TimeIn="00:29:14:114" TimeOut="00:29:16:218" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">Facile de se la jouer</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">quand on passe à la télé !</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="65" TimeIn="00:29:17:000" TimeOut="00:29:19:114" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Non, j'ai plutôt fait du cinéma.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="66" TimeIn="00:29:19:145" TimeOut="00:29:21:062" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Et c'était de la merde.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="67" TimeIn="00:29:21:093" TimeOut="00:29:23:177" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">Je suis désolé.</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Je vous paie un verre ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="68" TimeIn="00:29:25:166" TimeOut="00:29:27:114" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Ce n'est pas mon mari.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="69" TimeIn="00:29:28:125" TimeOut="00:29:31:000" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Pas quelqu'un de votre famille !</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="70" TimeIn="00:29:31:031" TimeOut="00:29:33:177" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">Les liens du sang sont forts,</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">ça doit être dur.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="71" TimeIn="00:29:34:135" TimeOut="00:29:38:135" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">Dites-moi si je me trompe,</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">mais moi, je trouverais ça dur !</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="72" TimeIn="00:29:38:166" TimeOut="00:29:40:062" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Je parle pour moi,</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="73" TimeIn="00:29:40:093" TimeOut="00:29:44:000" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">mais renier sa propre chair, son sang...</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="74" TimeIn="00:29:44:031" TimeOut="00:29:45:197" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Et je ne suis pas italienne.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="75" TimeIn="00:29:45:229" TimeOut="00:29:47:031" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Tous les mêmes.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="76" TimeIn="00:29:47:145" TimeOut="00:29:49:072" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Al Pacino est comme ça.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="77" TimeIn="00:29:49:135" TimeOut="00:29:51:062" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Vous en pensez quoi ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="78" TimeIn="00:29:51:197" TimeOut="00:29:52:125" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Honnêtement ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="79" TimeIn="00:29:52:156" TimeOut="00:29:56:031" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">Oui, honnêtement.</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">On n'a pas à être d'accord.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="80" TimeIn="00:29:56:104" TimeOut="00:29:59:072" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">Je suis toujours ouverte</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">aux avis des autres.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="81" TimeIn="00:29:59:218" TimeOut="00:30:03:031" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">Pacino est vraiment comme ça,</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">liens du sang et tout ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="82" TimeIn="00:30:03:114" TimeOut="00:30:04:197" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Affirmatif.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="83" TimeIn="00:30:04:229" TimeOut="00:30:06:135" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Quand on y pense,</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="84" TimeIn="00:30:06:187" TimeOut="00:30:09:093" FadeUpTime="0" FadeDownTime="0">
+            <Text Direction="horizontal" HAlign="center" VPosition="13.60" VAlign="bottom" HPosition="0.0">dans <Font Italic="yes">Le Parrain</Font></Text>
+            <Text Direction="horizontal" HAlign="center" VPosition="8.00" VAlign="bottom" HPosition="0.0">et plein d'autres films...</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="85" TimeIn="00:30:09:125" TimeOut="00:30:13:208" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">Comme s'appelle celui où il tue</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">tous les Portoricains ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="86" TimeIn="00:30:13:239" TimeOut="00:30:15:166" FadeUpTime="0" FadeDownTime="0">
+            <Text Direction="horizontal" HAlign="center" VPosition="13.60" VAlign="bottom" HPosition="0.0">- <Font Italic="yes">Scarface</Font>.</Text>
+            <Text Direction="horizontal" HAlign="center" VPosition="8.00" VAlign="bottom" HPosition="0.0">- Non...</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="87" TimeIn="00:30:15:208" TimeOut="00:30:17:041" FadeUpTime="0" FadeDownTime="0">
+            <Text Direction="horizontal" HAlign="center" VPosition="8.00" VAlign="bottom" HPosition="0.0">Si, <Font Italic="yes">Scarface</Font>.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="88" TimeIn="00:30:17:187" TimeOut="00:30:20:052" FadeUpTime="0" FadeDownTime="0">
+            <Text Direction="horizontal" HAlign="center" VPosition="13.60" VAlign="bottom" HPosition="0.0">- Si, <Font Italic="yes">Scarface</Font>.</Text>
+            <Text Direction="horizontal" HAlign="center" VPosition="8.00" VAlign="bottom" HPosition="0.0">- Où il est dealer.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="89" TimeIn="00:30:22:114" TimeOut="00:30:24:010" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Vous connaissez Al Pacino ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="90" TimeIn="00:30:24:041" TimeOut="00:30:25:218" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Non, mais ma femme, oui.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="91" TimeIn="00:30:26:083" TimeOut="00:30:27:135" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Vraiment ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="92" TimeIn="00:30:27:166" TimeOut="00:30:29:177" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Non, et je ne suis pas sa femme.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="93" TimeIn="00:30:29:208" TimeOut="00:30:31:166" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Oui, je dis "ma femme"...</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="94" TimeIn="00:30:32:041" TimeOut="00:30:33:218" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Je me sens bête.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="95" TimeIn="00:30:34:000" TimeOut="00:30:36:177" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Hollywood est enveloppé de mystère.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="96" TimeIn="00:30:36:208" TimeOut="00:30:39:062" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">On pose toujours des questions idiotes</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="97" TimeIn="00:30:39:093" TimeOut="00:30:41:156" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">face à des gens du métier.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="98" TimeIn="00:30:42:000" TimeOut="00:30:43:218" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Vous pourriez lire un truc ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="99" TimeIn="00:30:44:208" TimeOut="00:30:47:000" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">C'est une histoire que j'ai écrite.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="100" TimeIn="00:30:47:031" TimeOut="00:30:49:000" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Ça ferait un très bon film.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="101" TimeIn="00:30:49:114" TimeOut="00:30:50:208" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Je ne suis pas producteur.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="102" TimeIn="00:30:50:239" TimeOut="00:30:53:197" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">Qui est le plus connu en France,</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">vous ou lui ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="103" TimeIn="00:30:53:229" TimeOut="00:30:54:187" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Je ne sais pas.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="104" TimeIn="00:30:54:218" TimeOut="00:30:56:000" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Je vous admire.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="105" TimeIn="00:30:56:031" TimeOut="00:30:57:114" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Ça vous dérangerait ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="106" TimeIn="00:30:57:145" TimeOut="00:30:59:145" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">Ça doit être dur</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">de pleurer sur commande.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="107" TimeIn="00:30:59:177" TimeOut="00:31:01:177" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">- Quoi ?</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">- Que je vous envoie ça.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="108" TimeIn="00:31:01:208" TimeOut="00:31:03:239" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Quand je vois certaines actrices...</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="109" TimeIn="00:31:04:020" TimeOut="00:31:05:197" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Si je le reçois,</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="110" TimeIn="00:31:06:020" TimeOut="00:31:07:145" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">je ne lirai que le titre.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="111" TimeIn="00:31:07:177" TimeOut="00:31:08:145" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Meryl Streep...</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="112" TimeIn="00:31:08:177" TimeOut="00:31:10:135" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Si je n'aime pas, j'arrêterai là.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="113" TimeIn="00:31:12:229" TimeOut="00:31:13:208" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Sérieux ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="114" TimeIn="00:31:14:000" TimeOut="00:31:16:010" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Je suis fan, vraiment.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="115" TimeIn="00:31:16:041" TimeOut="00:31:18:020" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Excusez-moi, je suis fatiguée.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="116" TimeIn="00:31:18:083" TimeOut="00:31:20:218" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">C'est pour ça</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">que j'ai refusé plein de rôles.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="117" TimeIn="00:31:21:166" TimeOut="00:31:24:083" FadeUpTime="0" FadeDownTime="0">
+            <Text Direction="horizontal" HAlign="center" VPosition="8.00" VAlign="bottom" HPosition="0.0"><Font Italic="yes">Rain Man</Font>, <Font Italic="yes">E.T.</Font>, <Font Italic="yes">Le Parrain</Font>.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="118" TimeIn="00:31:24:208" TimeOut="00:31:26:187" FadeUpTime="0" FadeDownTime="0">
+            <Text Direction="horizontal" HAlign="center" VPosition="8.00" VAlign="bottom" HPosition="0.0">Vous avez refusé <Font Italic="yes">Le Parrain </Font>?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="119" TimeIn="00:31:27:031" TimeOut="00:31:28:135" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Oui, les trois.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="120" TimeIn="00:31:28:208" TimeOut="00:31:29:218" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Bonsoir.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="121" TimeIn="00:31:35:020" TimeOut="00:31:36:135" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Allez, au revoir.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="122" TimeIn="00:31:38:145" TimeOut="00:31:40:010" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Votre femme est charmante.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="123" TimeIn="00:31:40:104" TimeOut="00:31:42:041" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Enculé de ta mère !</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="124" TimeIn="00:31:44:041" TimeOut="00:31:46:031" FadeUpTime="0" FadeDownTime="0">
+            <Text Direction="horizontal" HAlign="center" VPosition="8.00" VAlign="bottom" HPosition="0.0">Il a refusé les trois <Font Italic="yes">Parrain</Font>.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="125" TimeIn="00:31:46:104" TimeOut="00:31:48:208" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">- Il fallait être italien...</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">- Enculé !</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="126" TimeIn="00:31:48:239" TimeOut="00:31:51:010" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">À ce niveau, pas d'importance.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="127" TimeIn="00:31:51:041" TimeOut="00:31:53:083" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Pacino est né à New York.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="128" TimeIn="00:31:53:177" TimeOut="00:31:55:218" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Et vous, où êtes-vous né ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="129" TimeIn="00:31:56:062" TimeOut="00:31:57:093" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">À Châteauroux.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="130" TimeIn="00:31:57:156" TimeOut="00:31:59:052" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Vous connaissez Châteauroux ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="131" TimeIn="00:31:59:177" TimeOut="00:32:01:000" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Ça me dit quelque chose.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="132" TimeIn="00:32:01:114" TimeOut="00:32:02:125" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Vers la Grèce ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="133" TimeIn="00:32:02:218" TimeOut="00:32:04:145" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Putain d'enculé !</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="134" TimeIn="00:32:06:000" TimeOut="00:32:07:177" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Là, j'en ai marre.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="135" TimeIn="00:43:10:156" TimeOut="00:43:11:145" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Merci.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="136" TimeIn="00:45:01:156" TimeOut="00:45:02:218" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Vous avez choisi ?</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="137" TimeIn="00:45:03:114" TimeOut="00:45:05:010" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="13.6" HPosition="0.0" Direction="horizontal">- Un autre whisky.</Text>
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">- Non.</Text>
+        </Subtitle>
+        <Subtitle SpotNumber="138" TimeIn="00:45:05:197" TimeOut="00:45:07:104" FadeUpTime="0" FadeDownTime="0">
+            <Text VAlign="bottom" HAlign="center" VPosition="8.0" HPosition="0.0" Direction="horizontal">Un autre whisky.</Text>
+        </Subtitle>
+    </Font>
+</DCSubtitle>

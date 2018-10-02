@@ -1,0 +1,7 @@
+Entry point : Main.java
+
+DEPLOYEMENT :
+
+- Run the command : java -jar acs-version.jar /path/to/acs.properties/file
+
+mvn clean install dependency:copy-dependencies

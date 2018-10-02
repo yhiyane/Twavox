@@ -1,0 +1,12 @@
+com/cineapps/mediablock/plugin/MediablockPlugin.class
+com/cineapps/mediablock/core/utils/Pair.class
+com/cineapps/mediablock/core/dcinema/Rate.class
+com/cineapps/mediablock/core/connection/ProtocolException.class
+com/cineapps/mediablock/core/connection/ConnectionException.class
+com/cineapps/mediablock/core/connection/ProtocolError.class
+com/cineapps/mediablock/core/utils/Utils.class
+com/cineapps/mediablock/core/dcinema/SPLElement.class
+com/cineapps/mediablock/core/logging/ErrorCommunicationLogger.class
+com/cineapps/mediablock/core/connection/IntelligentSocketConnection.class
+com/cineapps/mediablock/core/dcinema/SPLInfos.class
+com/cineapps/mediablock/core/dcinema/PluginStatus.class

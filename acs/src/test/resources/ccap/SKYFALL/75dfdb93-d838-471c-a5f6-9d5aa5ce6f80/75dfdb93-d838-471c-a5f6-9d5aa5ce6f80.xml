@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SubtitleReel xmlns="http://www.smpte-ra.org/schemas/428-7/2007/DCST">
+  <Id>urn:uuid:713fdb8f-21d3-4302-8e1e-7d093a87df34</Id>
+  <ContentTitleText>nl_skyfall_trlc_dc_v1.xml</ContentTitleText>
+  <IssueDate>2012-10-06T01:56:59+00:00</IssueDate>
+  <ReelNumber>1</ReelNumber>
+  <Language>Dutch</Language>
+  <EditRate>24 1</EditRate>
+  <TimeCodeRate>24</TimeCodeRate>
+  <StartTime>00:00:00:00</StartTime>
+  <LoadFont ID="arial">urn:uuid:d8a6f3b2-28da-5976-a8c3-191dfaf027e1</LoadFont>
+  <SubtitleList>
+    <Font Color="FFFFFFFF" Effect="border" EffectColor="FF000000" Size="42" Weight="bold" ID="arial">
+      <Subtitle SpotNumber="0001" TimeIn="00:00:04:03" TimeOut="00:00:05:17" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Wat zeg je over zo'n man?</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0002" TimeIn="00:00:05:20" TimeOut="00:00:07:01" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">IN MEMORIAM</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0003" TimeIn="00:00:07:12" TimeOut="00:00:10:17" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">Drie maanden geleden verloor</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">je de schijf met de identiteit</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0004" TimeIn="00:00:10:20" TimeOut="00:00:14:19" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="24.00" Halign="center" Hposition="0.00">van elke agent ter wereld</Text>
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">die in een terroristische</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">organisatie is geïnfiltreerd.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0005" TimeIn="00:00:14:22" TimeOut="00:00:16:12" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Ik moest een beslissing nemen.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0006" TimeIn="00:00:17:17" TimeOut="00:00:18:22" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">De weg houdt bijna op.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0007" TimeIn="00:00:20:10" TimeOut="00:00:21:15" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Schiet dan.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0008" TimeIn="00:00:27:03" TimeOut="00:00:28:05" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">OVERDENK JE ZONDEN</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0009" TimeIn="00:00:35:05" TimeOut="00:00:37:03" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">007 meldt zich.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0010" TimeIn="00:00:37:08" TimeOut="00:00:38:12" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Waar heb je gezeten?</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0011" TimeIn="00:00:38:15" TimeOut="00:00:40:03" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Ik heb van m'n dood genoten.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0012" TimeIn="00:00:41:08" TimeOut="00:00:44:05" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Waarom blijf je niet dood?</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0013" TimeIn="00:00:44:08" TimeOut="00:00:46:08" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">Geef gewoon toe</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">dat je een fout hebt gemaakt.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0014" TimeIn="00:00:47:03" TimeOut="00:00:49:13" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">- Ik ben je kwartiermeester.</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">- Je maakt een geintje.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0015" TimeIn="00:00:49:17" TimeOut="00:00:52:00" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Walther PPK/S 9mm kort.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0016" TimeIn="00:00:52:17" TimeOut="00:00:55:08" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">Hij leest je handafdruk.</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Alleen jij kan hem afvuren.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0017" TimeIn="00:00:55:12" TimeOut="00:00:58:20" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">Minder moordmachine,</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">veel persoonlijker.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0018" TimeIn="00:00:59:22" TimeOut="00:01:01:15" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">- Q.</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">- 007.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0019" TimeIn="00:01:04:12" TimeOut="00:01:05:22" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Ik wil je baas spreken.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0020" TimeIn="00:01:06:03" TimeOut="00:01:07:17" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Voorzichtig met wat je wenst.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0021" TimeIn="00:01:07:22" TimeOut="00:01:09:08" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">- Meneer?</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">- Bond.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0022" TimeIn="00:01:12:15" TimeOut="00:01:13:20" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">James Bond.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0023" TimeIn="00:01:14:12" TimeOut="00:01:16:12" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Wat weet je van angst?</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0024" TimeIn="00:01:17:07" TimeOut="00:01:18:07" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Alles.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0025" TimeIn="00:01:18:10" TimeOut="00:01:19:13" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Niet zo.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0026" TimeIn="00:01:20:07" TimeOut="00:01:21:10" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Niet zoals hij.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0027" TimeIn="00:01:23:05" TimeOut="00:01:25:17" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">Kijk nou,</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">achter spionnen aan zitten.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0028" TimeIn="00:01:27:20" TimeOut="00:01:29:22" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Engeland, het rijk...</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0029" TimeIn="00:01:31:22" TimeOut="00:01:33:05" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">MI6...</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0030" TimeIn="00:01:35:15" TimeOut="00:01:37:05" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Zo ouderwets.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0031" TimeIn="00:01:38:17" TimeOut="00:01:40:22" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">Ze stuurde je, wetende</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">dat je er niet klaar voor was,</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0032" TimeIn="00:01:41:01" TimeOut="00:01:42:12" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">dat je wellicht zou sterven.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0033" TimeIn="00:01:42:15" TimeOut="00:01:44:22" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Mama was heel stout.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0034" TimeIn="00:01:47:03" TimeOut="00:01:49:15" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">Er zijn twee overlevenden.</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Dat heeft ze van ons gemaakt.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0035" TimeIn="00:01:50:05" TimeOut="00:01:51:15" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Iedereen heeft een hobby.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0036" TimeIn="00:01:51:19" TimeOut="00:01:53:03" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Wat is de jouwe?</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0037" TimeIn="00:01:53:07" TimeOut="00:01:54:12" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Herrijzenis.</Text>
+      </Subtitle>
+    </Font>
+  </SubtitleList>
+</SubtitleReel>

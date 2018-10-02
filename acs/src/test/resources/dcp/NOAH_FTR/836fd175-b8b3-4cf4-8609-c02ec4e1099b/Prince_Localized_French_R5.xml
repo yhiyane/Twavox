@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--*** Digital Cinema XML Subtitle File *** -->
+<!--*** Created by Deluxe Digital Studios *** -->
+<!--*** 6 March 2014 *** -->
+<DCSubtitle Version="1.0">
+	<SubtitleID>836FD175-B8B3-4CF4-8609-C02EC4E1099B</SubtitleID>
+	<MovieTitle>Prince_R5</MovieTitle>
+	<ReelNumber>5</ReelNumber>
+	<Language>fr</Language>
+	<LoadFont Id="Arial" URI="arial_princ_loc_fre_r5.ttf" />
+	<Font Id="Arial" Color="FFFFFFFF" Effect="border" EffectColor="FF000000"
+		Size="42" Weight="normal">
+		<Subtitle SpotNumber="1" TimeIn="00:00:10:208" TimeOut="00:00:12:062">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Je t&apos;en prie, Noé.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="2" TimeIn="00:00:14:020" TimeOut="00:00:16:083">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">On doit pouvoir faire quelque chose.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="3" TimeIn="00:00:17:177" TimeOut="00:00:19:135">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">On peut lancer des cordes.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="4" TimeIn="00:00:20:197" TimeOut="00:00:23:031">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Il n&apos;y a pas que des soldats parmi eux.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="5" TimeIn="00:00:24:000" TimeOut="00:00:25:239">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Ce sont de pauvres gens.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="6" TimeIn="00:00:26:031" TimeOut="00:00:27:135">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Il y a de la place.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="7" TimeIn="00:00:27:177" TimeOut="00:00:29:145">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Il n&apos;y a pas de place pour eux.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="8" TimeIn="00:01:18:229" TimeOut="00:01:20:187">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Bientôt, tout aura disparu.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="9" TimeIn="00:01:23:156" TimeOut="00:01:26:104">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Tout ce qui reste de la Création</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">sera ici.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="10" TimeIn="00:01:28:052" TimeOut="00:01:29:020">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Et dehors,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="11" TimeIn="00:01:30:239" TimeOut="00:01:33:041">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">à nouveau les eaux du chaos.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="12" TimeIn="00:01:35:083" TimeOut="00:01:36:156">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Vous êtes en colère.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="13" TimeIn="00:01:37:197" TimeOut="00:01:39:010">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Vous me jugez.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="14" TimeIn="00:01:41:229" TimeOut="00:01:43:218">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Je vais vous conter une histoire.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="15" TimeIn="00:01:45:062" TimeOut="00:01:49:093">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">La première que mon père m&apos;a contée,</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">et que je vous ai contée.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="16" TimeIn="00:01:57:218" TimeOut="00:01:59:052">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Au commencement,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="17" TimeIn="00:02:00:166" TimeOut="00:02:01:229">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">il n&apos;y avait rien.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="18" TimeIn="00:02:04:020" TimeOut="00:02:06:197">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Rien que le silence d&apos;infinies ténèbres.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="19" TimeIn="00:02:07:218" TimeOut="00:02:11:187">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Mais le souffle du Créateur</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">murmura dans le vide :</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="20" TimeIn="00:02:11:229" TimeOut="00:02:13:031">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">&quot;Que la lumière soit !&quot;</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="21" TimeIn="00:02:14:072" TimeOut="00:02:15:177">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Et la lumière fut.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="22" TimeIn="00:02:16:052" TimeOut="00:02:17:156">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Et c&apos;était bien.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="23" TimeIn="00:02:18:020" TimeOut="00:02:19:145">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Le premier jour.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="24" TimeIn="00:02:20:114" TimeOut="00:02:22:062">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Puis la lumière informe</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="25" TimeIn="00:02:22:104" TimeOut="00:02:24:239">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">commença à prendre</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">de la substance, une forme.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="26" TimeIn="00:02:25:083" TimeOut="00:02:26:197">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Le deuxième jour.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="27" TimeIn="00:02:27:052" TimeOut="00:02:28:197">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Notre monde était né.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="28" TimeIn="00:02:29:135" TimeOut="00:02:31:239">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Notre magnifique et fragile demeure.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="29" TimeIn="00:02:32:031" TimeOut="00:02:34:218">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Une lumière forte nourrissait les jours.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="30" TimeIn="00:02:36:145" TimeOut="00:02:38:208">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Une lumière faible régnait sur les nuits.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="31" TimeIn="00:02:39:041" TimeOut="00:02:40:166">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Il y eut le soir.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="32" TimeIn="00:02:41:020" TimeOut="00:02:42:052">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Le matin.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="33" TimeIn="00:02:42:229" TimeOut="00:02:44:052">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Un autre jour.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="34" TimeIn="00:02:46:239" TimeOut="00:02:49:072">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Les eaux du monde se rassemblèrent,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="35" TimeIn="00:02:49:229" TimeOut="00:02:51:135">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">et au milieu d&apos;elles</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="36" TimeIn="00:02:51:218" TimeOut="00:02:53:145">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">émergea la terre ferme.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="37" TimeIn="00:02:54:114" TimeOut="00:02:56:010">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Un autre jour passa.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="38" TimeIn="00:02:56:249" TimeOut="00:02:59:041">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Et la terre fit croître des choses.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="39" TimeIn="00:02:59:083" TimeOut="00:03:02:156">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Une épaisse verdure</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">recouvrit la Création.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="40" TimeIn="00:03:03:156" TimeOut="00:03:06:031">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Les eaux aussi foisonnaient de vie.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="41" TimeIn="00:03:07:031" TimeOut="00:03:09:093">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Des créatures des abysses</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">qui ne sont plus.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="42" TimeIn="00:03:09:218" TimeOut="00:03:11:166">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Des multitudes de poissons</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="43" TimeIn="00:03:11:208" TimeOut="00:03:14:166">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">dont certains parcourent</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">peut-être encore ces mers.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="44" TimeIn="00:03:15:083" TimeOut="00:03:16:156">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Bientôt,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="45" TimeIn="00:03:16:197" TimeOut="00:03:18:239">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">le ciel fut sillonné d&apos;oiseaux.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="46" TimeIn="00:03:19:104" TimeOut="00:03:20:166">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Il y eut le soir.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="47" TimeIn="00:03:20:208" TimeOut="00:03:22:010">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Il y eut le matin.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="48" TimeIn="00:03:22:052" TimeOut="00:03:23:124">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Le cinquième jour.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="49" TimeIn="00:03:23:166" TimeOut="00:03:26:156">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">A présent, le monde</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">grouillait d&apos;êtres vivants.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="50" TimeIn="00:03:26:197" TimeOut="00:03:31:083">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Tout ce qui rampe, tout ce qui glisse.</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Toute bête qui foule le sol.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="51" TimeIn="00:03:31:124" TimeOut="00:03:33:229">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Et c&apos;était bien. Tout était bien.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="52" TimeIn="00:03:34:020" TimeOut="00:03:37:052">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Il y avait la lumière, l&apos;air,</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">l&apos;eau et le sol.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="53" TimeIn="00:03:37:093" TimeOut="00:03:38:249">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Propres et inaltérés.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="54" TimeIn="00:03:39:041" TimeOut="00:03:41:124">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Plantes, poissons, volatiles et bêtes.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="55" TimeIn="00:03:41:208" TimeOut="00:03:44:187">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Chacun selon son espèce.</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Parties du grand Tout.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="56" TimeIn="00:03:44:229" TimeOut="00:03:47:177">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Chacun à sa place.</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">L&apos;équilibre régnait.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="57" TimeIn="00:03:47:218" TimeOut="00:03:50:249">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">C&apos;était le paradis.</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Un joyau dans la main du Créateur.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="58" TimeIn="00:03:53:208" TimeOut="00:03:55:124">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Puis Il façonna l&apos;homme.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="59" TimeIn="00:03:55:166" TimeOut="00:03:57:083">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Et à son côté, la femme.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="60" TimeIn="00:03:57:249" TimeOut="00:03:59:145">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Nos père et mère à tous.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="61" TimeIn="00:04:01:031" TimeOut="00:04:02:229">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Il leur donna à choisir.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="62" TimeIn="00:04:06:083" TimeOut="00:04:08:083">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Céder à la tentation des ténèbres,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="63" TimeIn="00:04:09:104" TimeOut="00:04:12:083">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">ou rester</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">dans la bénédiction de la lumière.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="64" TimeIn="00:04:22:156" TimeOut="00:04:24:218">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Mais ils mangèrent le fruit défendu.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="65" TimeIn="00:04:26:020" TimeOut="00:04:27:218">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Leur innocence disparut.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="66" TimeIn="00:04:28:229" TimeOut="00:04:31:177">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Et depuis dix générations après Adam,</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">le péché</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="67" TimeIn="00:04:32:052" TimeOut="00:04:33:218">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">chemine en nous.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="68" TimeIn="00:04:36:145" TimeOut="00:04:37:145">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Frère contre frère.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="69" TimeIn="00:04:40:041" TimeOut="00:04:41:239">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Nation contre nation.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="70" TimeIn="00:04:42:218" TimeOut="00:04:44:135">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">L&apos;homme contre la Création.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="71" TimeIn="00:04:46:187" TimeOut="00:04:48:041">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Nous nous sommes entretués.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="72" TimeIn="00:04:50:249" TimeOut="00:04:53:062">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Nous avons ravagé le monde.</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Nous.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="73" TimeIn="00:04:53:249" TimeOut="00:04:55:166">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">L&apos;homme a fait cela.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="74" TimeIn="00:04:56:135" TimeOut="00:04:57:135">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Tout ce qui était beau.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="75" TimeIn="00:04:58:229" TimeOut="00:05:00:135">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Tout ce qui était bien.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="76" TimeIn="00:05:01:104" TimeOut="00:05:02:197">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Nous l&apos;avons écrasé.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="77" TimeIn="00:05:04:093" TimeOut="00:05:05:124">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">A présent,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="78" TimeIn="00:05:06:135" TimeOut="00:05:07:249">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">tout recommence.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="79" TimeIn="00:05:09:249" TimeOut="00:05:13:052">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Air, eau, terre, plante,</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">poisson, oiseau et bête.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="80" TimeIn="00:05:13:229" TimeOut="00:05:15:177">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Le paradis revient.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="81" TimeIn="00:05:16:177" TimeOut="00:05:18:010">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Mais cette fois,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="82" TimeIn="00:05:20:156" TimeOut="00:05:22:041">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">il n&apos;y aura aucun homme.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="83" TimeIn="00:05:23:083" TimeOut="00:05:25:114">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Si nous entrions dans le jardin,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="84" TimeIn="00:05:26:031" TimeOut="00:05:28:114">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">ce serait pour le détruire à nouveau.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="85" TimeIn="00:05:28:218" TimeOut="00:05:29:249">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Non.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="86" TimeIn="00:05:31:093" TimeOut="00:05:33:083">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Le Créateur nous a jugés.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="87" TimeIn="00:05:35:052" TimeOut="00:05:37:041">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">L&apos;humanité doit finir.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="88" TimeIn="00:05:39:114" TimeOut="00:05:40:104">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Sem et Ila,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="89" TimeIn="00:05:42:010" TimeOut="00:05:43:239">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">vous enterrerez votre mère et moi.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="90" TimeIn="00:05:45:041" TimeOut="00:05:45:208">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Cham,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="91" TimeIn="00:05:46:187" TimeOut="00:05:48:083">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">tu les enterreras.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="92" TimeIn="00:05:48:187" TimeOut="00:05:50:239">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Et Japhet te mettra en terre.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="93" TimeIn="00:05:52:124" TimeOut="00:05:54:020">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Toi, Japhet,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="94" TimeIn="00:05:55:031" TimeOut="00:05:57:010">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">tu seras le dernier homme.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="95" TimeIn="00:05:57:187" TimeOut="00:06:00:156">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Toi aussi,</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">tu retourneras à la poussière.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="96" TimeIn="00:06:01:020" TimeOut="00:06:03:062">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">La Création sera en paix.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="97" TimeIn="00:06:03:156" TimeOut="00:06:05:145">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Hors de danger et magnifique.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="98" TimeIn="00:06:09:166" TimeOut="00:06:11:041">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Je suis navré pour cette fille.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="99" TimeIn="00:06:12:239" TimeOut="00:06:14:166">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Et je suis navré pour toi.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="100" TimeIn="00:06:16:051" TimeOut="00:06:19:249">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Mais la tâche qui nous est confiée</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">compte plus que nos désirs.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="101" TimeIn="00:07:09:166" TimeOut="00:07:10:166">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Noé.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="102" TimeIn="00:07:11:176" TimeOut="00:07:13:093">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Sait-il que je suis là ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="103" TimeIn="00:07:15:083" TimeOut="00:07:16:156">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Non.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="104" TimeIn="00:07:23:239" TimeOut="00:07:25:176">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Pourquoi m&apos;aides-tu ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="105" TimeIn="00:07:30:218" TimeOut="00:07:31:239">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Il y avait une fille.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="106" TimeIn="00:07:36:083" TimeOut="00:07:37:218">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">J&apos;ai voulu l&apos;emmener.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="107" TimeIn="00:07:38:208" TimeOut="00:07:40:208">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Mais il l&apos;a laissée mourir.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="108" TimeIn="00:07:44:249" TimeOut="00:07:46:249">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Maintenant, tu veux te venger.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="109" TimeIn="00:07:50:031" TimeOut="00:07:51:031">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Non.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="110" TimeIn="00:07:51:145" TimeOut="00:07:53:020">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Mais si.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="111" TimeIn="00:07:59:156" TimeOut="00:08:01:010">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Mais si.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="112" TimeIn="00:08:21:020" TimeOut="00:08:22:114">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Il n&apos;y a plus de terre.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="113" TimeIn="00:08:27:031" TimeOut="00:08:29:072">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Tout doit être mort.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="114" TimeIn="00:08:34:218" TimeOut="00:08:36:156">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">C&apos;est forcément ce qu&apos;Il voulait.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="115" TimeIn="00:08:38:072" TimeOut="00:08:39:239">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Un monde sans hommes.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="116" TimeIn="00:08:46:104" TimeOut="00:08:47:124">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Tu comprends ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="117" TimeIn="00:08:54:083" TimeOut="00:08:55:197">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Je comprends</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="118" TimeIn="00:08:57:218" TimeOut="00:08:59:229">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">combien ça a été difficile pour toi.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="119" TimeIn="00:09:01:249" TimeOut="00:09:03:239">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Pour un homme qui respecte la vie.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="120" TimeIn="00:09:05:031" TimeOut="00:09:06:197">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Qui aime ses enfants.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="121" TimeIn="00:09:13:187" TimeOut="00:09:15:093">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Tu as été fort.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="122" TimeIn="00:09:17:135" TimeOut="00:09:18:249">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Mais c&apos;est fini.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="123" TimeIn="00:09:20:229" TimeOut="00:09:22:114">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">C&apos;est fini, maintenant.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="124" TimeIn="00:09:22:187" TimeOut="00:09:24:239">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Tu peux déposer ton fardeau.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="125" TimeIn="00:09:44:062" TimeOut="00:09:45:218">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Tout va bien.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="126" TimeIn="00:09:54:062" TimeOut="00:09:56:218">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Si ton père me trouve, il me tuera.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="127" TimeIn="00:09:58:062" TimeOut="00:10:01:104">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Il faut se tenir prêts.</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Mais je suis trop faible.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="128" TimeIn="00:10:14:124" TimeOut="00:10:15:145">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Que faites-vous ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="129" TimeIn="00:10:16:249" TimeOut="00:10:18:239">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Je dois reprendre des forces.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="130" TimeIn="00:10:19:083" TimeOut="00:10:21:051">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Il y a un seul couple de chaque espèce.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="131" TimeIn="00:10:21:176" TimeOut="00:10:23:229">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Mais il y a un seul moi.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="132" TimeIn="00:10:24:020" TimeOut="00:10:25:020">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">La pluie,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="133" TimeIn="00:10:25:062" TimeOut="00:10:27:031">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">ces miracles, c&apos;est pour eux.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="134" TimeIn="00:10:28:031" TimeOut="00:10:28:218">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Pour eux ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="135" TimeIn="00:10:30:083" TimeOut="00:10:33:010">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Ton père sauve les bêtes</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">et laisse les enfants se noyer.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="136" TimeIn="00:10:33:208" TimeOut="00:10:36:124">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Il te rabaisse</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">en te forçant à les servir.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="137" TimeIn="00:10:38:239" TimeOut="00:10:40:072">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Les bêtes nous servent.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="138" TimeIn="00:10:44:166" TimeOut="00:10:46:135">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">C&apos;est la grandeur de l&apos;homme.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="139" TimeIn="00:10:47:218" TimeOut="00:10:49:104">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Quand le Créateur a fini</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="140" TimeIn="00:10:49:145" TimeOut="00:10:52:072">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">de faire le ciel, la terre, la mer,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="141" TimeIn="00:10:52:114" TimeOut="00:10:53:208">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">et cette bête,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="142" TimeIn="00:10:54:041" TimeOut="00:10:55:218">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Il n&apos;était pas satisfait.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="143" TimeIn="00:10:56:051" TimeOut="00:10:58:218">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Il lui fallait quelque chose</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">de plus grand.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="144" TimeIn="00:10:59:051" TimeOut="00:11:02:176">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Quelque chose qui domine ce monde</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">et le soumette.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="145" TimeIn="00:11:05:229" TimeOut="00:11:07:176">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Alors, Il nous a faits à Son image.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="146" TimeIn="00:11:08:083" TimeOut="00:11:09:135">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Nous.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="147" TimeIn="00:11:17:166" TimeOut="00:11:19:072">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">C&apos;est ton monde, Cham.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="148" TimeIn="00:11:20:062" TimeOut="00:11:21:072">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Saisis-le.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="149" TimeIn="00:12:09:239" TimeOut="00:12:11:103">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Grand-père...</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="150" TimeIn="00:12:14:228" TimeOut="00:12:15:166">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Qu&apos;y a-t-il ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="151" TimeIn="00:12:23:114" TimeOut="00:12:25:041">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Tu n&apos;es pas souffrante.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="152" TimeIn="00:12:28:072" TimeOut="00:12:29:239">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">C&apos;est impossible.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="153" TimeIn="00:12:43:166" TimeOut="00:12:45:093">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Quoi ? Qu&apos;y a-t-il ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="154" TimeIn="00:12:48:041" TimeOut="00:12:49:020">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Noé.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="155" TimeIn="00:12:52:114" TimeOut="00:12:53:176">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">C&apos;est sa descendance.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="156" TimeIn="00:13:12:062" TimeOut="00:13:13:010">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Qu&apos;y a-t-il ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="157" TimeIn="00:13:15:020" TimeOut="00:13:15:239">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Père.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="158" TimeIn="00:13:19:072" TimeOut="00:13:21:083">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Nous demandons ta bénédiction.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="159" TimeIn="00:13:23:083" TimeOut="00:13:24:051">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Je ne comprends pas.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="160" TimeIn="00:13:26:156" TimeOut="00:13:27:187">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Je porte un enfant.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="161" TimeIn="00:13:34:187" TimeOut="00:13:35:156">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">C&apos;est impossible.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="162" TimeIn="00:13:38:166" TimeOut="00:13:40:020">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Tu es inféconde.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="163" TimeIn="00:13:41:197" TimeOut="00:13:43:249">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Tu ne peux concevoir.</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Comment est-ce possible ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="164" TimeIn="00:13:44:041" TimeOut="00:13:44:249">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Grand-père.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="165" TimeIn="00:13:47:228" TimeOut="00:13:49:249">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">- Je lui ai demandé.</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">- Quoi donc ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="166" TimeIn="00:13:50:041" TimeOut="00:13:51:176">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">De contredire le Créateur ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="167" TimeIn="00:13:51:218" TimeOut="00:13:53:218">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">De donner un avenir à nos enfants.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="168" TimeIn="00:13:54:114" TimeOut="00:13:55:197">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Et à l&apos;humanité.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="169" TimeIn="00:13:56:062" TimeOut="00:13:57:197">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Te rends-tu compte ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="170" TimeIn="00:13:59:041" TimeOut="00:14:00:187">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Toutes ces vies,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="171" TimeIn="00:14:00:228" TimeOut="00:14:02:114">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">tous ces gens,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="172" TimeIn="00:14:02:197" TimeOut="00:14:03:208">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">pour rien.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="173" TimeIn="00:14:04:176" TimeOut="00:14:07:051">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Sais-tu ce que cela m&apos;oblige à faire ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="174" TimeIn="00:14:44:051" TimeOut="00:14:45:083">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Je T&apos;en prie !</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="175" TimeIn="00:14:46:239" TimeOut="00:14:47:239">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Je T&apos;en prie !</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="176" TimeIn="00:14:48:093" TimeOut="00:14:50:072">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Je ne peux pas faire ça.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="177" TimeIn="00:14:50:114" TimeOut="00:14:52:166">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Dis-moi que je n&apos;y suis pas obligé.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="178" TimeIn="00:14:53:041" TimeOut="00:14:54:093">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Je T&apos;en prie.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="179" TimeIn="00:14:55:187" TimeOut="00:14:57:083">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">N&apos;ai-je pas fait</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="180" TimeIn="00:14:57:124" TimeOut="00:14:59:135">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">tout ce que Tu m&apos;as demandé ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="181" TimeIn="00:14:59:208" TimeOut="00:15:01:124">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">N&apos;est-ce pas assez ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="182" TimeIn="00:15:04:041" TimeOut="00:15:06:083">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Pourquoi ne me réponds-Tu pas ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="183" TimeIn="00:15:08:031" TimeOut="00:15:09:083">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Pourquoi ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="184" TimeIn="00:15:28:145" TimeOut="00:15:30:062">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Je ne Te faillirai pas.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="185" TimeIn="00:15:31:124" TimeOut="00:15:33:103">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Je ne Te faillirai pas.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="186" TimeIn="00:15:35:145" TimeOut="00:15:37:072">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Je ne Te faillirai pas.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="187" TimeIn="00:15:41:176" TimeOut="00:15:43:020">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Ce sera fait.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="188" TimeIn="00:16:07:145" TimeOut="00:16:09:072">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Ce sera fait.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="189" TimeIn="00:16:23:145" TimeOut="00:16:24:083">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Père.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="190" TimeIn="00:16:33:114" TimeOut="00:16:34:156">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Les pluies ont cessé.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="191" TimeIn="00:16:36:041" TimeOut="00:16:38:093">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Le Créateur sourit à notre enfant.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="192" TimeIn="00:16:39:218" TimeOut="00:16:42:156">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Les pluies ont cessé</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">à cause de ton enfant.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="193" TimeIn="00:16:43:187" TimeOut="00:16:45:051">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Mais Il ne sourit pas.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="194" TimeIn="00:16:48:156" TimeOut="00:16:50:041">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Si c&apos;est un garçon,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="195" TimeIn="00:16:51:051" TimeOut="00:16:52:156">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">il remplacera Japhet,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="196" TimeIn="00:16:52:197" TimeOut="00:16:54:103">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">il sera le dernier homme.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="197" TimeIn="00:16:59:156" TimeOut="00:17:00:145">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Si c&apos;est une fille,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="198" TimeIn="00:17:02:062" TimeOut="00:17:04:020">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">qui pourrait enfanter un jour,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="199" TimeIn="00:17:07:135" TimeOut="00:17:08:145">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">elle devra mourir.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="200" TimeIn="00:17:13:197" TimeOut="00:17:15:041">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Tu es devenu fou ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="201" TimeIn="00:17:16:124" TimeOut="00:17:17:145">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">C&apos;est mon enfant.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="202" TimeIn="00:17:26:218" TimeOut="00:17:28:135">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Si tu portes une fille,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="203" TimeIn="00:17:29:218" TimeOut="00:17:31:166">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">au moment de sa naissance,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="204" TimeIn="00:17:32:020" TimeOut="00:17:33:062">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">je prendrai sa vie.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="205" TimeIn="00:18:23:083" TimeOut="00:18:24:249">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Mère, mon oiseau !</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="206" TimeIn="00:18:38:135" TimeOut="00:18:39:124">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Rien.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="207" TimeIn="00:18:39:166" TimeOut="00:18:40:124">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Pas de boue.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="208" TimeIn="00:18:55:093" TimeOut="00:18:56:030">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Rien.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="209" TimeIn="00:18:58:051" TimeOut="00:18:59:187">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Nous partons quand même.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="210" TimeIn="00:19:02:239" TimeOut="00:19:04:062">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Il n&apos;y a rien.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="211" TimeIn="00:19:05:062" TimeOut="00:19:06:114">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Vous ne trouverez rien.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="212" TimeIn="00:19:07:187" TimeOut="00:19:10:218">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">Vous emportez des vivres.</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Pour quelques semaines ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="213" TimeIn="00:19:11:187" TimeOut="00:19:13:020">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">- Un mois ?</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">- Un mois.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="214" TimeIn="00:19:19:249" TimeOut="00:19:20:208">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Attendez.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="215" TimeIn="00:19:22:041" TimeOut="00:19:23:239">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Que l&apos;oiseau puisse se poser.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="216" TimeIn="00:19:24:062" TimeOut="00:19:24:249">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Je vous en prie.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="217" TimeIn="00:19:26:041" TimeOut="00:19:27:239">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="15.74">- Renvoie-le.</Text>
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">- Il est épuisé.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="218" TimeIn="00:19:28:030" TimeOut="00:19:29:114">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Réveilles-en un autre.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="219" TimeIn="00:19:29:155" TimeOut="00:19:30:072">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Tiens.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="220" TimeIn="00:19:32:051" TimeOut="00:19:34:249">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Qu&apos;il nous trouve un endroit où vivre.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="221" TimeIn="00:19:45:124" TimeOut="00:19:46:083">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Non.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="222" TimeIn="00:19:51:155" TimeOut="00:19:52:228">
+			<Text HAlign="center" HPosition="0.00" VAlign="bottom"
+				VPosition="10.00">Nous partons aujourd&apos;hui.</Text>
+		</Subtitle>
+	</Font>
+</DCSubtitle>

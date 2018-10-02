@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This web service definition is protected under U.S. copyright laws as an unpublished work.
+  Do not copy.
+  Copyright 2009-$Date: 2009/03/20 $ by Dolby Laboratories Inc.
+  All rights reserved.
+-->
+<wsdl:definitions name="LicenseManagement_v1"
+  targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1"
+  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+  xmlns:tns="http://www.dolby.com/dcinema/ws/smi/v1"
+  xmlns:lic="http://www.dolby.com/dcinema/ws/smi/v1/schemas/licensemanagement"
+  xmlns:com="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"
+  xmlns:flt="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"
+  xmlns:v1_0="http://www.dolby.com/dcinema/ws/smi/v1_0"
+  xmlns:v1_1="http://www.dolby.com/dcinema/ws/smi/v1_1"
+  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+  <!-- Request/Response Schema Definitions -->
+  
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1_0">
+
+      <xsd:import schemaLocation="LicenseManagement.xsd" 
+          namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/licensemanagement"/>     
+      <xsd:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+      <xsd:import schemaLocation="Fault.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"/>
+
+      <!-- getLicenses elements -->
+      
+      <xsd:element name="getLicensesRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    
+      <xsd:element name="getLicensesResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="licenseId" type="com:UUID" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+            
+      <!-- getLicenseInfos elements -->
+    
+      <xsd:element name="getLicenseInfosRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="licenseId" type="com:UUID" minOccurs="0"/>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="getLicenseInfosResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="licenseInfo" type="lic:LicenseInfo" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getKDM elements -->
+    
+      <xsd:element name="getKDMRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="licenseId" type="com:UUID"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="getKDMResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="license" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- ingestLicenses elements -->
+      
+      <xsd:element name="ingestLicensesRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="ingestLicensesResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getLicenseIngestInfo elements -->
+      
+      <xsd:element name="getLicenseIngestInfoRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>            
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="getLicenseIngestInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="ingestState" type="lic:LicenseIngestState" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- cancelLicenseIngest elements -->
+      
+      <xsd:element name="cancelLicenseIngestRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>            
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>   
+      
+      <xsd:element name="cancelLicenseIngestResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>   
+      
+      <!-- base fault type -->
+      
+      <xsd:element name="fault" type="flt:Fault"/>
+      
+    </xsd:schema>
+    
+    <xsd:schema targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1_1">
+
+      <xsd:import schemaLocation="LicenseManagement.xsd" 
+          namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/licensemanagement"/>
+      <xsd:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+      <xsd:import schemaLocation="Fault.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"/>
+      
+      <!-- sendLicense elements -->
+      
+      <xsd:element name="sendLicenseRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="keyDeliveryMessage" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>   
+      
+      <xsd:element name="sendLicenseResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="licenseId" type="com:UUID"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="getLicenseLoadStateRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>  
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>   
+      
+      <xsd:element name="getLicenseLoadStateResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="licenseLoadState" type="lic:LicenseLoadState" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>       
+      
+    </xsd:schema>
+  </wsdl:types>
+  
+  <!-- Message Specification -->
+    
+  <wsdl:message name="getLicensesRequest">
+    <wsdl:part element="v1_0:getLicensesRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getLicensesResponse">
+    <wsdl:part element="v1_0:getLicensesResponse" name="result"/>
+  </wsdl:message>  
+  
+  <wsdl:message name="getLicenseInfosRequest">
+    <wsdl:part element="v1_0:getLicenseInfosRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getLicenseInfosResponse">
+    <wsdl:part element="v1_0:getLicenseInfosResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getKDMRequest">
+    <wsdl:part element="v1_0:getKDMRequest" name="parameters"/>
+  </wsdl:message>  
+  <wsdl:message name="getKDMResponse">
+    <wsdl:part element="v1_0:getKDMResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="ingestLicensesRequest">
+    <wsdl:part element="v1_0:ingestLicensesRequest" name="parameters"/>
+  </wsdl:message>  
+  <wsdl:message name="ingestLicensesResponse">
+    <wsdl:part element="v1_0:ingestLicensesResponse" name="result"/>
+  </wsdl:message> 
+  
+  <wsdl:message name="getLicenseIngestInfoRequest">
+    <wsdl:part element="v1_0:getLicenseIngestInfoRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getLicenseIngestInfoResponse">
+    <wsdl:part element="v1_0:getLicenseIngestInfoResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="cancelLicenseIngestRequest">
+    <wsdl:part element="v1_0:cancelLicenseIngestRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="cancelLicenseIngestResponse">
+    <wsdl:part element="v1_0:cancelLicenseIngestResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="sendLicenseRequest">
+    <wsdl:part element="v1_1:sendLicenseRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="sendLicenseResponse">
+    <wsdl:part element="v1_1:sendLicenseResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getLicenseLoadStateRequest">
+    <wsdl:part element="v1_1:getLicenseLoadStateRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getLicenseLoadStateResponse">
+    <wsdl:part element="v1_1:getLicenseLoadStateResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="fault">
+    <wsdl:part element="v1_0:fault" name="fault"/>
+  </wsdl:message>
+  
+  <!-- Operation Specification -->
+  
+  <wsdl:portType name="LicenseManagementService_v1_0">
+  
+    <!-- getLicenses Operation -->
+  
+    <wsdl:operation name="getLicenses">
+      <wsdl:documentation>
+          getLicenses Operation
+              Lists the licenses on the system.
+
+		  Parameters:
+		      auditoriumNumber (optional) - The auditorium to retrieve the licenses from.  Only 
+		          useful when calling the service on a TMS server.  If not specified then this will
+                  get licenses from the server location.  If "*" is specified, then this will
+                  get licenses regardless of location.
+
+          Response:
+		      licenseId (many) - The array of license identifiers.
+
+		  Exceptions:
+		      None
+
+          Related Services:
+		      getLicenseInfos - This service can be used to get brief information about the licenses 
+		          that exist on the system.
+      </wsdl:documentation>
+      <wsdl:input message="tns:getLicensesRequest"/>
+      <wsdl:output message="tns:getLicensesResponse"/>
+      <wsdl:fault message="tns:fault" name="getLicensesFault"/>
+    </wsdl:operation>
+  
+    <!-- getLicenseInfos Operation -->
+  
+    <wsdl:operation name="getLicenseInfos">
+      <wsdl:documentation>
+          getLicenseInfos Operation
+              Gets basic information about one or more licenses that match all of the
+              provided query criteria.  If no license matches all of the provided query no license 
+              information will be returned.
+
+		  Parameters:
+		      licenseId (optional) - The unique identifier of the license whose information to retrieved.
+		          If not specified then license information will be returned regardless of their 
+		          unique identifier.
+		      auditoriumNumber (optional) - The auditorium to retrieve the licenses information from.  
+		          Only useful when calling this service on a TMS server.  If not specified then this will
+                  get the license information from the server location.  If "*" is specified, then this will
+                  get license information regardless of location.
+
+          Response:
+              licenseInfo (many) - The license information which matched all the specified query criteria.
+
+		  Exceptions:
+		      None
+		      
+		  Related Services:
+		      getLicenses - This service can be used to easily detect what licenses exist within the system.
+      </wsdl:documentation>
+      <wsdl:input message="tns:getLicenseInfosRequest"/>
+      <wsdl:output message="tns:getLicenseInfosResponse"/>
+      <wsdl:fault message="tns:fault" name="getLicenseInfosFault"/>
+    </wsdl:operation>
+    
+    <!-- getKDM Operation -->
+    
+    <wsdl:operation name="getKDM">
+      <wsdl:documentation>
+          getKDM Operation
+              Gets the SMPTE Key Delivery Message (KDM).
+
+		  Parameters:
+		      licenseId - The unique identifier of the license whose key delivery message is being retrieved.
+
+		  Response:
+              license - A string representing the XML key delivery message.  
+
+		  Exceptions:
+		      NotFound - If no license with the matching uuid could be found.
+		      NotConnected - If the Decoder component is not connected.
+          
+          Related Services:
+		      getLicenses - This service can be used to easily detect what licenses exist within the system.
+      </wsdl:documentation>
+      <wsdl:input message="tns:getKDMRequest"/>
+      <wsdl:output message="tns:getKDMResponse"/>
+      <wsdl:fault message="tns:fault" name="getKDMFault"/>
+    </wsdl:operation>
+    
+    <!-- ingestLicenses Operation -->
+    
+    <wsdl:operation name="ingestLicenses">
+      <wsdl:documentation>
+          ingestLicenses Operation
+              Ingests licenses from removable media to the Decoder component.  Note that ingesting 
+              licenses to a TMS server will automatically cause those licenses to appropriately 
+              distribute to all connected Decoder components.
+
+		  Parameters:
+		      auditoriumNumber (optional) - The auditorium to ingest licenses on.  Only useful 
+		          when calling the service on a TMS server.  If not specified then this will
+                  ingest licenses from the server location.  If "*" is specified, then this will
+                  ingest licenses regardless of location.
+
+		  Response:
+              None
+
+		  Exceptions:
+		      InvalidTransportStateFailure - If the TransportState is PLAYING while ingesting licenses.
+		      BusyFailure - If an auditorium is already ingesting licenses.
+		      NotFound - If no licenses are found on removable media.
+		      NotConnected - If the ContentPlayer or Decoder component is not connected. 
+		      
+		  Related Services:
+		      getLicenses/getLicenseInfos - These services can be used to determine what licenses 
+		          exist on what content stores before and after initiating ingestLicenses.
+		      getLicenseIngestInfo - This service can be used to get the status of an 
+		          ingestLicense request.
+		      cancelLicenseIngest - This service can be used to cancel an ingestLicense request.
+      </wsdl:documentation>
+      <wsdl:input message="tns:ingestLicensesRequest"/>
+      <wsdl:output message="tns:ingestLicensesResponse"/>
+      <wsdl:fault message="tns:fault" name="ingestLicensesFault"/>
+    </wsdl:operation>
+    
+    <!-- getLicenseIngestInfo Operation -->
+    
+    <wsdl:operation name="getLicenseIngestInfo">
+      <wsdl:documentation>
+          getLicenseIngestInfo Operation
+              Gets information about the the availability and progress of license ingest.
+
+		  Parameters:
+		      auditoriumNumber (optional) - The auditorium to get the information about license 
+		          ingest.  Only useful when calling the service on a TMS server.
+                  If not specified then this will get the license ingest information from the server
+                  location.  If "*" is specified, then this will get the license ingest information
+                  regardless of location.
+
+		  Response:
+              ingestState (many) - detailed information about license ingest operation:
+                  ingestStatus - The status of the license loading process.
+                  externalLicenses - The number of licenses on removable media.
+                  licensesSucceeded - The number of licenses that successfully loaded during the
+                        last license ingest.  Gets set back to 0 when externalLicenses become 0.
+                  licenseFailed - The number of licenses that did not successfully load during the
+                        last license ingest.  Gets set back to 0 when externalLicenses become 0.
+                  location - the location of the license ingest operation:  the auditorium number,
+                        or "TMS" when the ingest is on a TMS server not running in an auditorium.
+                   licenseIngestInfo (many) - Detailed information about the licenses on the removable
+                        media that are being loaded.
+
+		  Exceptions:
+		      NotConnected - If the ContentPlayer component is not connected. 
+		      
+		  Related Services:
+		      ingestLicenses - This service will initiate a process that will change the ingest state.
+      </wsdl:documentation>
+      <wsdl:input message="tns:getLicenseIngestInfoRequest"/>
+      <wsdl:output message="tns:getLicenseIngestInfoResponse"/>
+      <wsdl:fault message="tns:fault" name="getLicenseIngestInfoFault"/>
+    </wsdl:operation>
+    
+    <!-- cancelLicenseIngest Operation -->
+    
+    <wsdl:operation name="cancelLicenseIngest">
+      <wsdl:documentation>
+          cancelLicenseIngest Operation
+              Cancels any operation to ingest licenses that were initiated by a SMI API.  Does
+              nothing if there is no license ingest process in progress.
+
+		  Parameters:
+		      auditoriumNumber (optional) - The auditorium to cancel license ingest.  Only useful 
+		          when calling the service on a TMS server.  If not specified then this will
+                  cancel license ingest from the server location. If "*" is specified, then this
+                  will cancel license ingest regardless of location.
+
+		  Response:
+		      None
+
+		  Exceptions:
+		      NotConnected - If the ContentPlayer component is not connected. 
+		      
+		  Related Services:
+		      ingestLicense - This service will be cancelled when initiating cancelLicenseIngest.
+      </wsdl:documentation>
+      <wsdl:input message="tns:cancelLicenseIngestRequest"/>
+      <wsdl:output message="tns:cancelLicenseIngestResponse"/>
+      <wsdl:fault message="tns:fault" name="cancelLicenseIngestFault"/>
+    </wsdl:operation>
+    
+  </wsdl:portType>
+
+  <wsdl:portType name="LicenseManagementService_v1_1">
+  
+    <!-- getLicenses Operation -->
+  
+    <wsdl:operation name="getLicenses">
+      <wsdl:documentation>
+          @see portType LicenseManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getLicensesRequest"/>
+      <wsdl:output message="tns:getLicensesResponse"/>
+      <wsdl:fault message="tns:fault" name="getLicensesFault"/>
+    </wsdl:operation>
+  
+    <!-- getLicenseInfos Operation -->
+  
+    <wsdl:operation name="getLicenseInfos">
+      <wsdl:documentation>
+          @see portType LicenseManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getLicenseInfosRequest"/>
+      <wsdl:output message="tns:getLicenseInfosResponse"/>
+      <wsdl:fault message="tns:fault" name="getLicenseInfosFault"/>
+    </wsdl:operation>
+    
+    <!-- getKDM Operation -->
+    
+    <wsdl:operation name="getKDM">
+      <wsdl:documentation>
+          @see portType LicenseManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getKDMRequest"/>
+      <wsdl:output message="tns:getKDMResponse"/>
+      <wsdl:fault message="tns:fault" name="getKDMFault"/>
+    </wsdl:operation>
+    
+    <!-- ingestLicenses Operation -->
+    
+    <wsdl:operation name="ingestLicenses">
+      <wsdl:documentation>
+          @see portType LicenseManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:ingestLicensesRequest"/>
+      <wsdl:output message="tns:ingestLicensesResponse"/>
+      <wsdl:fault message="tns:fault" name="ingestLicensesFault"/>
+    </wsdl:operation>
+    
+    <!-- getLicenseIngestInfo Operation -->
+    
+    <wsdl:operation name="getLicenseIngestInfo">
+      <wsdl:documentation>
+          @see portType LicenseManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getLicenseIngestInfoRequest"/>
+      <wsdl:output message="tns:getLicenseIngestInfoResponse"/>
+      <wsdl:fault message="tns:fault" name="getLicenseIngestInfoFault"/>
+    </wsdl:operation>
+    
+    <!-- cancelLicenseIngest Operation -->
+    
+    <wsdl:operation name="cancelLicenseIngest">
+      <wsdl:documentation>
+          @see portType LicenseManagementService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:cancelLicenseIngestRequest"/>
+      <wsdl:output message="tns:cancelLicenseIngestResponse"/>
+      <wsdl:fault message="tns:fault" name="cancelLicenseIngestFault"/>
+    </wsdl:operation>
+  
+    <!-- sendLicense Operation -->
+    
+    <wsdl:operation name="sendLicense">
+      <wsdl:documentation>
+          sendLicense Operation
+              Sends the license onto the appropriate Decoder within the system.  If a license with the same 
+              unique identifier is on the system then no operation occurs.
+
+		  Parameters:
+              keyDeliveryMessage - The license which contains a well-formed SMPTE key delivery message.
+
+		  Response:
+		      licenseId - The key delivery message UUID
+
+		  Exceptions:
+		      BusyFailure - If the appropriate Decoder is already ingesting licenses.
+		      NotConnected - If the appropriate ContentPlayer or Decoder component is not connected.
+              InvalidArgument - If the provided licenses is not targeted for any of the known media blocks
+              InvalidTransportStateFailure - If the TransportState is PLAYING while sending the license.
+		      
+		  Related Services:
+		      transferContent - This service can be used to place new licenses from a remote ftp server 
+		          onto the system.
+		      getLicenses/getLicenseInfos - These services can be used to determine what licenses 
+		          exist on what content stores before and after initiating ingestLicenses.
+		      getLicenseLoadState - This service can be used to get the status of a sendLicense operation.
+        </wsdl:documentation>
+      <wsdl:input message="tns:sendLicenseRequest"/>
+      <wsdl:output message="tns:sendLicenseResponse"/>
+      <wsdl:fault message="tns:fault" name="sendLicenseFault"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="getLicenseLoadState">
+      <wsdl:documentation>
+          getLicenseLoadState Operation
+              Gets the status of current or past license loading operations.
+
+		  Parameters:
+		      auditoriumNumber (optional) - The auditorium to retrieve the license load state of.  Only useful 
+		          when calling the service on a TMS server.  If not specified then this will
+                  get the license load state from the server location. If "*" is specified, then this
+                  will get the license load state from all locations.	      
+
+		  Response:
+		      licenseLoadState (many) - Detailed information about license loading:
+                  licenseLoadStatus - The status of the license loading process.
+                  location - the location of the license load operation:  the auditorium number,
+                        or "TMS" when the ingest is on a TMS server not running in an auditorium.
+                  licenseLoadLogEntry (many) - Detailed information about a single license which was 
+                        loaded or attempted to be loaded.
+
+		  Exceptions:
+		      NotConnected - If the ContentPlayer or Decoder component is not connected. 
+		      
+		  Related Services:
+		      sendLicense/transferContent - These services can be used to place new licenses onto the system.
+		      getLicenses/getLicenseInfos - These services can be used to determine what licenses 
+		          exist on what content stores before and after initiating ingestLicenses.
+        </wsdl:documentation>
+      <wsdl:input message="tns:getLicenseLoadStateRequest"/>
+      <wsdl:output message="tns:getLicenseLoadStateResponse"/>
+      <wsdl:fault message="tns:fault" name="getLicenseLoadStateFault"/>
+    </wsdl:operation>
+  
+  </wsdl:portType>
+    
+  <!-- Binding Specification -->
+  
+  <wsdl:binding name="LicenseManagementBinding_v1_0" type="tns:LicenseManagementService_v1_0">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    
+    <wsdl:operation name="getLicenses">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getLicenses"/>
+      <wsdl:input name="getLicensesRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getLicensesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getLicensesFault">
+        <soap:fault name="getLicensesFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>    
+    
+    <wsdl:operation name="getLicenseInfos">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getLicenseInfos"/>
+      <wsdl:input name="getLicenseInfosRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getLicenseInfosResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getLicenseInfosFault">
+        <soap:fault name="getLicenseInfosFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getKDM">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getKDM"/>
+      <wsdl:input name="getKDMRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getKDMResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getKDMFault">
+        <soap:fault name="getKDMFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="ingestLicenses">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/ingestLicenses"/>
+      <wsdl:input name="ingestLicensesRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ingestLicensesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ingestLicensesFault">
+        <soap:fault name="ingestLicensesFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getLicenseIngestInfo">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getLicenseIngestInfo"/>
+      <wsdl:input name="getLicenseIngestInfoRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getLicenseIngestInfoResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getLicenseIngestInfoFault">
+        <soap:fault name="getLicenseIngestInfoFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>  
+    
+    <wsdl:operation name="cancelLicenseIngest">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/cancelLicenseIngest"/>
+      <wsdl:input name="cancelLicenseIngestRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="cancelLicenseIngestResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="cancelLicenseIngestFault">
+        <soap:fault name="cancelLicenseIngestFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>  
+    
+  </wsdl:binding>
+  
+  <wsdl:binding name="LicenseManagementBinding_v1_1" type="tns:LicenseManagementService_v1_1">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+    <wsdl:operation name="getLicenses">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getLicenses"/>
+      <wsdl:input name="getLicensesRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getLicensesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getLicensesFault">
+        <soap:fault name="getLicensesFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>    
+    
+    <wsdl:operation name="getLicenseInfos">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getLicenseInfos"/>
+      <wsdl:input name="getLicenseInfosRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getLicenseInfosResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getLicenseInfosFault">
+        <soap:fault name="getLicenseInfosFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getKDM">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getKDM"/>
+      <wsdl:input name="getKDMRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getKDMResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getKDMFault">
+        <soap:fault name="getKDMFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="ingestLicenses">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/ingestLicenses"/>
+      <wsdl:input name="ingestLicensesRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ingestLicensesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ingestLicensesFault">
+        <soap:fault name="ingestLicensesFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getLicenseIngestInfo">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getLicenseIngestInfo"/>
+      <wsdl:input name="getLicenseIngestInfoRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getLicenseIngestInfoResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getLicenseIngestInfoFault">
+        <soap:fault name="getLicenseIngestInfoFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>  
+    
+    <wsdl:operation name="cancelLicenseIngest">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/cancelLicenseIngest"/>
+      <wsdl:input name="cancelLicenseIngestRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="cancelLicenseIngestResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="cancelLicenseIngestFault">
+        <soap:fault name="cancelLicenseIngestFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation> 
+    
+    <wsdl:operation name="sendLicense">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/sendLicense"/>
+      <wsdl:input name="sendLicenseRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="sendLicenseResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="sendLicenseFault">
+        <soap:fault name="sendLicenseFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getLicenseLoadState">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getLicenseLoadState"/>
+      <wsdl:input name="getLicenseLoadStateRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getLicenseLoadStateResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getLicenseLoadStateFault">
+        <soap:fault name="getLicenseLoadStateFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation> 
+
+  </wsdl:binding>   
+  
+  <!-- Address Specification -->
+  
+  <wsdl:service name="LicenseManagement_v1_0">
+    <wsdl:port binding="tns:LicenseManagementBinding_v1_0" name="LicenseManagementService_v1_0">
+      <soap:address location="http://www.dolby.com:8080/dcinema/ws/smi/v1/LicenseManagementService"/>
+    </wsdl:port>
+  </wsdl:service>
+  
+  <wsdl:service name="LicenseManagement_v1_1">
+    <wsdl:port binding="tns:LicenseManagementBinding_v1_1" name="LicenseManagementService_v1_0">
+      <soap:address location="http://www.dolby.com:8080/dcinema/ws/smi/v1/LicenseManagementService"/>
+    </wsdl:port>
+  </wsdl:service>
+  
+</wsdl:definitions>

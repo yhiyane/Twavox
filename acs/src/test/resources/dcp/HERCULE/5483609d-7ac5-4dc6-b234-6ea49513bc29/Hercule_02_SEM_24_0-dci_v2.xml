@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DCSubtitle Version="1.0"><!--MonalExport Ver Monal 2008 - 5.2.2.4 --><!--Sync - "FFP" - 00:00:00:00 --><!--Running Speed - 24fps -->
+	<SubtitleID>5483609d-7ac5-4dc6-b234-6ea49513bc29</SubtitleID>
+	<MovieTitle>Hercule</MovieTitle>
+	<ReelNumber>2AB</ReelNumber>
+	<Language>French</Language>
+	<Font Effect="border" Size="42">
+		<Subtitle SpotNumber="1" TimeIn="00:00:01:156" TimeOut="00:00:03:072">
+			<Text HAlign="left" HPosition="43.6" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Ah, Iphiclès.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="2" TimeIn="00:00:04:145" TimeOut="00:00:05:156">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">Où étais-tu ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="3" TimeIn="00:00:06:229" TimeOut="00:00:08:010">
+			<Text HAlign="center" HPosition="-12.5" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Enlève-moi ça.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="4" TimeIn="00:00:08:197" TimeOut="00:00:10:020">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Pourquoi ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="5" TimeIn="00:00:10:052" TimeOut="00:00:11:010">
+			<Text HAlign="center" HPosition="10.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">C'est la peau</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="6" TimeIn="00:00:11:041" TimeOut="00:00:13:020">
+			<Text HAlign="right" HPosition="12.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">du lion de Némée.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="7" TimeIn="00:00:14:000" TimeOut="00:00:15:020">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">Lion</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="8" TimeIn="00:00:15:052" TimeOut="00:00:16:041">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">que j'ai tué</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="9" TimeIn="00:00:16:072" TimeOut="00:00:17:135">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">il y a 2 heures.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="10" TimeIn="00:00:17:166" TimeOut="00:00:19:135">
+			<Text HAlign="center" HPosition="5.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Voyez-vous la marque de sa patte ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="11" TimeIn="00:00:19:166" TimeOut="00:00:20:187">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">Je vais bien.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="12" TimeIn="00:00:20:218" TimeOut="00:00:22:041">
+			<Text HAlign="right" HPosition="10.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Ça n'a pas touché l'œil.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="13" TimeIn="00:00:22:072" TimeOut="00:00:23:000">
+			<Text HAlign="left" HPosition="44.1" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Et ton frère</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="14" TimeIn="00:00:23:031" TimeOut="00:00:24:114">
+			<Text HAlign="center" HPosition="-5.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">se trouvait où ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="15" TimeIn="00:00:25:197" TimeOut="00:00:26:239">
+			<Text HAlign="left" HPosition="45.7" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Alcide ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="16" TimeIn="00:00:30:229" TimeOut="00:00:33:093">
+			<Text HAlign="center" HPosition="5.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Il a fui au premier signe de danger.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="17" TimeIn="00:00:34:114" TimeOut="00:00:35:197">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">N'as-tu jamais vu</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="18" TimeIn="00:00:35:229" TimeOut="00:00:38:010">
+			<Text HAlign="right" HPosition="23.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">mon frère fuir face au danger ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="19" TimeIn="00:00:38:041" TimeOut="00:00:39:177">
+			<Text HAlign="center" HPosition="-13.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">L'as-tu vu, princesse ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="20" TimeIn="00:00:41:062" TimeOut="00:00:43:072">
+			<Text HAlign="left" HPosition="33.2" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Non. Jamais.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="21" TimeIn="00:00:43:104" TimeOut="00:00:44:166">
+			<Text HAlign="left" HPosition="34.1" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Bien.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="22" TimeIn="00:00:46:000" TimeOut="00:00:48:177">
+			<Text HAlign="center" HPosition="-10.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Je croyais que tu le connaissais mieux.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="23" TimeIn="00:00:51:041" TimeOut="00:00:52:114">
+			<Text HAlign="left" HPosition="55.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">(-C'est pas vrai.)</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="24" TimeIn="00:00:52:145" TimeOut="00:00:54:052">
+			<Text HAlign="left" HPosition="31.7" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Dites-leur, père.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="25" TimeIn="00:00:54:083" TimeOut="00:00:55:104">
+			<Text HAlign="right" HPosition="23.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Pour que ça rentre</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="26" TimeIn="00:00:55:135" TimeOut="00:00:56:135">
+			<Text HAlign="center" HPosition="-3.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">dans leur tête</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="27" TimeIn="00:00:56:166" TimeOut="00:00:57:177">
+			<Text HAlign="right" HPosition="15.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">vite.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="28" TimeIn="00:00:59:197" TimeOut="00:01:00:229">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Mon ami,</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="29" TimeIn="00:01:01:010" TimeOut="00:01:02:145">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">roi Tallas le Brave,</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="30" TimeIn="00:01:02:177" TimeOut="00:01:04:145">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">souverain de Crète,</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="31" TimeIn="00:01:04:177" TimeOut="00:01:05:156">
+			<Text HAlign="right" HPosition="8.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">nous avons toujours</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="32" TimeIn="00:01:05:187" TimeOut="00:01:08:000">
+			<Text HAlign="center" HPosition="-5.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">pris plaisir à commercer ensemble.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="33" TimeIn="00:01:08:031" TimeOut="00:01:09:135">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">Nous allons conclure</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="34" TimeIn="00:01:09:166" TimeOut="00:01:11:041">
+			<Text HAlign="right" HPosition="8.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">un plus grand marché.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="35" TimeIn="00:01:11:114" TimeOut="00:01:13:093">
+			<Text HAlign="center" HPosition="-10.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">La paix entre nos 2 nations</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="36" TimeIn="00:01:13:125" TimeOut="00:01:15:114">
+			<Text HAlign="center" HPosition="4.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">sera scellée dans 4 lunes,</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="37" TimeIn="00:01:15:145" TimeOut="00:01:16:218">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">à la lune des moissons,</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="38" TimeIn="00:01:17:000" TimeOut="00:01:18:177">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">lorsque mon héritier,</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="39" TimeIn="00:01:18:208" TimeOut="00:01:19:187">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">Iphiclès,</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="40" TimeIn="00:01:19:218" TimeOut="00:01:21:145">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">prendra la princesse de Crète</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="41" TimeIn="00:01:21:177" TimeOut="00:01:22:125">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">pour femme.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="42" TimeIn="00:01:22:156" TimeOut="00:01:23:229">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF0000">Acclamations</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="43" TimeIn="00:01:24:010" TimeOut="00:01:29:187">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF0000">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="44" TimeIn="00:01:30:041" TimeOut="00:01:31:052">
+			<Text HAlign="left" HPosition="52.9" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Oh mon Dieu.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="45" TimeIn="00:01:31:083" TimeOut="00:01:32:125">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">Musique dramatique</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="46" TimeIn="00:01:32:156" TimeOut="00:01:44:125">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="47" TimeIn="00:01:45:083" TimeOut="00:01:47:020">
+			<Text HAlign="left" HPosition="38.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Hébé ! Hébé, attends !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="48" TimeIn="00:01:52:020" TimeOut="00:01:53:072">
+			<Text HAlign="center" HPosition="5.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Ya, ya !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="49" TimeIn="00:02:00:072" TimeOut="00:02:02:156">
+			<Text HAlign="center" HPosition="5.0" VAlign="bottom" VPosition="13">
+				<Font Color="FFFFFFFF">-Peux-tu m'éclairer</Font>
+			</Text>
+			<Text HAlign="center" HPosition="5.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">sur ce qui vient</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="50" TimeIn="00:02:02:187" TimeOut="00:02:03:166">
+			<Text HAlign="center" HPosition="13.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">de se passer ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="51" TimeIn="00:02:03:197" TimeOut="00:02:07:156">
+			<Text HAlign="center" HPosition="-5.0" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">-Votre annonce a dû quelque peu</Font>
+			</Text>
+			<Text HAlign="center" HPosition="-5.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">les surprendre, père.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="52" TimeIn="00:02:07:187" TimeOut="00:02:09:031">
+			<Text HAlign="left" HPosition="52.9" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Ce qui me surprend,</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="53" TimeIn="00:02:09:062" TimeOut="00:02:11:197">
+			<Text HAlign="center" HPosition="15.0" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">c'est que tu la laisses</Font>
+			</Text>
+			<Text HAlign="center" HPosition="15.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">se comporter ainsi</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="54" TimeIn="00:02:11:229" TimeOut="00:02:14:000">
+			<Text HAlign="center" HPosition="15.0" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">sans bouger...</Font>
+			</Text>
+			<Text HAlign="center" HPosition="15.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">tueur de lion !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="55" TimeIn="00:02:16:114" TimeOut="00:02:18:114">
+			<Text HAlign="left" HPosition="28.7" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Qu'aurais-je dû faire ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="56" TimeIn="00:02:18:145" TimeOut="00:02:20:177">
+			<Text HAlign="left" HPosition="35.8" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Je suis Amphitryon le Conquérant,</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="57" TimeIn="00:02:20:208" TimeOut="00:02:24:218">
+			<Text HAlign="center" HPosition="3.5" VAlign="bottom" VPosition="13">
+				<Font Color="FFFFFFFF">souverain de ce royaume.</Font>
+			</Text>
+			<Text HAlign="center" HPosition="3.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">J'ai vaincu Argos. Tu es mon fils,</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="58" TimeIn="00:02:25:000" TimeOut="00:02:29:104">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13">
+				<Font Color="FFFFFFFF">et tu as laissé ta future femme</Font>
+			</Text>
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">te ridiculiser aux yeux de tous,</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="59" TimeIn="00:02:29:135" TimeOut="00:02:31:239">
+			<Text HAlign="center" HPosition="15.0" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">et aux miens,</Font>
+			</Text>
+			<Text HAlign="center" HPosition="15.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">face à notre plus grande menace,</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="60" TimeIn="00:02:32:020" TimeOut="00:02:33:187">
+			<Text HAlign="center" HPosition="-11.0" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">la Crète...</Font>
+			</Text>
+			<Text HAlign="center" HPosition="-11.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Regarde-les.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="61" TimeIn="00:02:33:218" TimeOut="00:02:35:093">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">Ils te croient faible.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="62" TimeIn="00:02:37:031" TimeOut="00:02:39:000">
+			<Text HAlign="left" HPosition="25.3" VAlign="bottom" VPosition="19">
+				<Font Color="FFFFFFFF">-Je m'excuse, père.</Font>
+			</Text>
+			<Text HAlign="left" HPosition="48.8" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Je ne veux pas</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="63" TimeIn="00:02:39:031" TimeOut="00:02:42:031">
+			<Text HAlign="center" HPosition="12.0" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">de tes excuses.</Font>
+			</Text>
+			<Text HAlign="center" HPosition="12.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Je veux que tu sois un homme.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="64" TimeIn="00:02:42:062" TimeOut="00:02:45:208">
+			<Text HAlign="center" HPosition="10.0" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">Tu es le futur roi de Tirynthe,</Font>
+			</Text>
+			<Text HAlign="center" HPosition="10.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">comporte-toi comme tel.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="65" TimeIn="00:02:50:052" TimeOut="00:02:51:010">
+			<Text HAlign="left" HPosition="61.7" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Hébé.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="66" TimeIn="00:02:51:041" TimeOut="00:02:53:072">
+			<Text HAlign="center" HPosition="-10.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Hébé, attends. Arrête-toi.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="67" TimeIn="00:02:53:197" TimeOut="00:02:54:208">
+			<Text HAlign="left" HPosition="17.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Arrête-toi !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="68" TimeIn="00:03:05:093" TimeOut="00:03:06:145">
+			<Text HAlign="center" HPosition="-5.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Viens.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="69" TimeIn="00:03:10:000" TimeOut="00:03:13:020">
+			<Text HAlign="center" HPosition="-3.0" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">-Je ne l'épouserai pas.</Font>
+			</Text>
+			<Text HAlign="center" HPosition="-3.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Je préfère mourir.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="70" TimeIn="00:03:16:041" TimeOut="00:03:17:114">
+			<Text HAlign="center" HPosition="-2.5" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Je t'aime.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="71" TimeIn="00:03:20:197" TimeOut="00:03:22:093">
+			<Text HAlign="left" HPosition="51.8" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Moi aussi, je t'aime.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="72" TimeIn="00:03:24:010" TimeOut="00:03:27:031">
+			<Text HAlign="center" HPosition="10.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Il faut que tu sois forte. L'es-tu ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="73" TimeIn="00:03:30:145" TimeOut="00:03:33:062">
+			<Text HAlign="center" HPosition="-5.5" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">-Je veux m'enfuir avec toi.</Font>
+			</Text>
+			<Text HAlign="center" HPosition="-5.5" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Cette nuit.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="74" TimeIn="00:03:36:125" TimeOut="00:03:37:197">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">Musique dramatique</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="75" TimeIn="00:03:37:229" TimeOut="00:03:50:031">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="76" TimeIn="00:03:50:062" TimeOut="00:03:54:062">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13">
+				<Font Color="FFFFFFFF">-Si nous atteignons la rivière Tyga,</Font>
+			</Text>
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">ils ne nous suivront pas.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="77" TimeIn="00:03:54:093" TimeOut="00:04:02:156">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="78" TimeIn="00:04:02:187" TimeOut="00:04:04:000">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Plus vite !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="79" TimeIn="00:04:04:031" TimeOut="00:04:07:135">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="80" TimeIn="00:04:07:166" TimeOut="00:04:09:000">
+			<Text HAlign="center" HPosition="-10.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFF00">Ils sont là !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="81" TimeIn="00:04:09:072" TimeOut="00:04:10:072">
+			<Text HAlign="right" HPosition="22.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Va vers l'ouest.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="82" TimeIn="00:04:10:104" TimeOut="00:04:11:083">
+			<Text HAlign="left" HPosition="38.6" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Je ne te laisserai pas.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="83" TimeIn="00:04:11:114" TimeOut="00:04:12:125">
+			<Text HAlign="left" HPosition="40.7" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Je serai pas loin.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="84" TimeIn="00:04:12:156" TimeOut="00:04:13:166">
+			<Text HAlign="right" HPosition="8.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">Fonce, allez !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="85" TimeIn="00:04:15:104" TimeOut="00:04:16:197">
+			<Text HAlign="left" HPosition="42.4" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Rattrapez-les !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="86" TimeIn="00:04:17:010" TimeOut="00:04:18:093">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">Musique rythmée</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="87" TimeIn="00:04:18:125" TimeOut="00:04:20:145">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="88" TimeIn="00:04:20:177" TimeOut="00:04:22:041">
+			<Text HAlign="left" HPosition="35.6" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Vous deux, arrêtez-la.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="89" TimeIn="00:04:22:072" TimeOut="00:04:23:020">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">Vite !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="90" TimeIn="00:04:25:052" TimeOut="00:04:26:218">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">Vous avez entendu</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="91" TimeIn="00:04:27:000" TimeOut="00:04:29:114">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">les ordres. Ne blessez pas le prince.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="92" TimeIn="00:04:29:145" TimeOut="00:04:45:031">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="93" TimeIn="00:04:45:062" TimeOut="00:04:46:072">
+			<Text HAlign="left" HPosition="44.2" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Elle est là !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="94" TimeIn="00:04:46:104" TimeOut="00:04:51:166">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="95" TimeIn="00:04:51:197" TimeOut="00:04:53:000">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">Plus vite !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="96" TimeIn="00:04:53:031" TimeOut="00:04:59:041">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="97" TimeIn="00:04:59:072" TimeOut="00:05:01:031">
+			<Text HAlign="right" HPosition="18.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Arrêtez-vous !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="98" TimeIn="00:05:01:062" TimeOut="00:05:02:125">
+			<Text HAlign="left" HPosition="36.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Alcide !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="99" TimeIn="00:05:02:156" TimeOut="00:05:06:197">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="100" TimeIn="00:05:06:229" TimeOut="00:05:08:062">
+			<Text HAlign="left" HPosition="51.4" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Hébé !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="101" TimeIn="00:05:08:166" TimeOut="00:05:09:208">
+			<Text HAlign="left" HPosition="41.9" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Au secours !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="102" TimeIn="00:05:10:145" TimeOut="00:05:12:020">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Alcide !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="103" TimeIn="00:05:13:166" TimeOut="00:05:14:229">
+			<Text HAlign="center" HPosition="15.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Au secours !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="104" TimeIn="00:05:15:010" TimeOut="00:05:16:104">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">Musique dramatique</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="105" TimeIn="00:05:16:135" TimeOut="00:05:22:197">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="106" TimeIn="00:05:22:229" TimeOut="00:05:24:114">
+			<Text HAlign="left" HPosition="38.4" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Ils sont dans la rivière.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="107" TimeIn="00:05:24:145" TimeOut="00:05:25:218">
+			<Text HAlign="left" HPosition="46.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Alcide !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="108" TimeIn="00:05:26:000" TimeOut="00:05:27:218">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="109" TimeIn="00:05:28:000" TimeOut="00:05:29:041">
+			<Text HAlign="center" HPosition="-25.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Alcide !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="110" TimeIn="00:05:30:197" TimeOut="00:05:33:093">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Par ici. On va les récupérer.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="111" TimeIn="00:05:33:125" TimeOut="00:05:35:166">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="112" TimeIn="00:05:35:197" TimeOut="00:05:37:083">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">On les tient !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="113" TimeIn="00:05:37:114" TimeOut="00:05:45:197">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="114" TimeIn="00:05:45:229" TimeOut="00:05:47:135">
+			<Text HAlign="center" HPosition="-5.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFF00">Encerclez-les !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="115" TimeIn="00:05:47:166" TimeOut="00:05:50:187">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="116" TimeIn="00:05:50:218" TimeOut="00:05:52:239">
+			<Text HAlign="center" HPosition="20.0" VAlign="bottom"
+				VPosition="55">
+				<Font Color="FFFFFFFF">Ça y est, on les tient.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="117" TimeIn="00:05:53:020" TimeOut="00:06:01:156">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="118" TimeIn="00:06:04:114" TimeOut="00:06:05:229">
+			<Text HAlign="left" HPosition="39.3" VAlign="bottom" VPosition="37">
+				<Font Color="FFFFFFFF">-Commandant Sotiris.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="119" TimeIn="00:06:06:145" TimeOut="00:06:09:052">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="13">
+				<Font Color="FFFFFFFF">Le 4e bataillon</Font>
+			</Text>
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">est-il prêt à lever l'ancre ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="120" TimeIn="00:06:09:083" TimeOut="00:06:12:208">
+			<Text HAlign="right" HPosition="14.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-160 hommes à bord, prêts à en découdre.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="121" TimeIn="00:06:13:062" TimeOut="00:06:15:177">
+			<Text HAlign="center" HPosition="-24.5" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">-Parfait.</Font>
+			</Text>
+			<Text HAlign="center" HPosition="-24.5" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">N'en prends que la moitié.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="122" TimeIn="00:06:15:208" TimeOut="00:06:17:083">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">C'est suffisant.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="123" TimeIn="00:06:17:114" TimeOut="00:06:18:114">
+			<Text HAlign="left" HPosition="40.1" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-La moitié ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="124" TimeIn="00:06:18:145" TimeOut="00:06:23:114">
+			<Text HAlign="center" HPosition="-19.0" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">-Tu es jeune,</Font>
+			</Text>
+			<Text HAlign="center" HPosition="-19.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">apprends déjà à en commander 80.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="125" TimeIn="00:06:29:041" TimeOut="00:06:30:052">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Tu désapprouves ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="126" TimeIn="00:06:33:052" TimeOut="00:06:34:135">
+			<Text HAlign="left" HPosition="45.7" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Non, votre Altesse.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="127" TimeIn="00:06:37:010" TimeOut="00:06:40:000">
+			<Text HAlign="center" HPosition="14.0" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">Nous serons victorieux</Font>
+			</Text>
+			<Text HAlign="center" HPosition="14.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">pour vous honorer.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="128" TimeIn="00:06:40:031" TimeOut="00:06:41:104">
+			<Text HAlign="left" HPosition="67.0" VAlign="bottom" VPosition="49">
+				<Font Color="FFFFFFFF">-Je l'ai retrouvé.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="129" TimeIn="00:06:50:208" TimeOut="00:06:53:218">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Nos petits arrangements te déplaisent ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="130" TimeIn="00:06:54:000" TimeOut="00:06:55:031">
+			<Text HAlign="right" HPosition="8.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Vos arrangements</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="131" TimeIn="00:06:55:062" TimeOut="00:06:57:135">
+			<Text HAlign="center" HPosition="15.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">prendront fin à la lune de la moisson.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="132" TimeIn="00:06:58:135" TimeOut="00:07:00:000">
+			<Text HAlign="left" HPosition="32.1" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Tu te trompes.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="133" TimeIn="00:07:00:031" TimeOut="00:07:01:229">
+			<Text HAlign="center" HPosition="-8.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Tu pars pour l'Égypte demain.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="134" TimeIn="00:07:05:229" TimeOut="00:07:07:052">
+			<Text HAlign="right" HPosition="8.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">Il y a eu une révolte</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="135" TimeIn="00:07:07:083" TimeOut="00:07:10:093">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">à Héliopolis, au nord du delta du Nil.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="136" TimeIn="00:07:10:187" TimeOut="00:07:13:166">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13">
+				<Font Color="FFFFFF00">Tu savoureras la guerre</Font>
+			</Text>
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">et oublieras tout ça.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="137" TimeIn="00:07:13:197" TimeOut="00:07:16:072">
+			<Text HAlign="left" HPosition="17.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Je n'ai aucune crainte pour ta survie.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="138" TimeIn="00:07:16:229" TimeOut="00:07:18:187">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">Puissent les dieux de ta mère</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="139" TimeIn="00:07:18:218" TimeOut="00:07:20:239">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">être avec toi, s'ils existent.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="140" TimeIn="00:07:22:208" TimeOut="00:07:23:166">
+			<Text HAlign="left" HPosition="23.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Demandez-lui</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="141" TimeIn="00:07:23:197" TimeOut="00:07:25:010">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">pour Hébé.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="142" TimeIn="00:07:25:125" TimeOut="00:07:26:208">
+			<Text HAlign="left" HPosition="39.6" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Une dernière chose.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="143" TimeIn="00:07:28:000" TimeOut="00:07:30:052">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Ton frère semble obsédé</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="144" TimeIn="00:07:30:083" TimeOut="00:07:33:114">
+			<Text HAlign="center" HPosition="-5.5" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">à l'idée que tu aies pris</Font>
+			</Text>
+			<Text HAlign="center" HPosition="-5.5" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">la virginité de sa promise.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="145" TimeIn="00:07:33:145" TimeOut="00:07:35:104">
+			<Text HAlign="center" HPosition="-5.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Pourrais-tu le rassurer ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="146" TimeIn="00:07:35:135" TimeOut="00:07:38:010">
+			<Text HAlign="right" HPosition="22.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Je peux lui assurer une chose.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="147" TimeIn="00:07:38:114" TimeOut="00:07:39:229">
+			<Text HAlign="center" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Je t'assure, mon frère,</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="148" TimeIn="00:07:42:072" TimeOut="00:07:43:187">
+			<Text HAlign="center" HPosition="5.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">que ça ne te regarde pas.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="149" TimeIn="00:07:57:114" TimeOut="00:08:00:031">
+			<Text HAlign="left" HPosition="41.7" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Je te souhaite des victoires sans fin</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="150" TimeIn="00:08:00:062" TimeOut="00:08:02:239">
+			<Text HAlign="center" HPosition="-11.0" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">à la guerre.</Font>
+			</Text>
+			<Text HAlign="center" HPosition="-11.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Si tu reviens ici, je te tue.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="151" TimeIn="00:08:03:020" TimeOut="00:08:04:135">
+			<Text HAlign="center" HPosition="10.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Je te le jure.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="152" TimeIn="00:08:12:020" TimeOut="00:08:13:197">
+			<Text HAlign="left" HPosition="36.6" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Alcide, tu dois comprendre</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="153" TimeIn="00:08:13:229" TimeOut="00:08:16:083">
+			<Text HAlign="right" HPosition="19.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">que ta mission sur terre va au-delà</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="154" TimeIn="00:08:16:114" TimeOut="00:08:19:187">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="19">
+				<Font Color="FFFFFFFF">de ce désir.</Font>
+			</Text>
+			<Text HAlign="center" HPosition="-20.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">-Ma mission est d'épouser Hébé.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="155" TimeIn="00:08:19:218" TimeOut="00:08:22:010">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">Je maudis le roi qui m'en empêche</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="156" TimeIn="00:08:22:041" TimeOut="00:08:23:000">
+			<Text HAlign="center" HPosition="10.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">et les dieux</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="157" TimeIn="00:08:23:031" TimeOut="00:08:24:062">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">qui me l'ont enlevée.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="158" TimeIn="00:08:24:093" TimeOut="00:08:27:041">
+			<Text HAlign="left" HPosition="55.0" VAlign="bottom" VPosition="19">
+				<Font Color="FFFFFFFF">-Non, Hercule !</Font>
+			</Text>
+			<Text HAlign="right" HPosition="8.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Votre Majesté, non.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="159" TimeIn="00:08:27:177" TimeOut="00:08:29:041">
+			<Text HAlign="right" HPosition="8.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">Votre Majesté.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="160" TimeIn="00:08:31:010" TimeOut="00:08:32:156">
+			<Text HAlign="left" HPosition="9.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Comment m'avez-vous appelé ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="161" TimeIn="00:08:33:208" TimeOut="00:08:35:000">
+			<Text HAlign="left" HPosition="41.1" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Tu n'es pas le fils</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="162" TimeIn="00:08:35:031" TimeOut="00:08:39:000">
+			<Text HAlign="center" HPosition="7.5" VAlign="bottom" VPosition="13">
+				<Font Color="FFFFFFFF">d'Amphitryon. Je le jure</Font>
+			</Text>
+			<Text HAlign="center" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">sur l'amour que j'ai pour toi.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="163" TimeIn="00:08:39:177" TimeOut="00:08:41:010">
+			<Text HAlign="center" HPosition="10.5" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Tu es Hercule.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="164" TimeIn="00:08:41:125" TimeOut="00:08:42:218">
+			<Text HAlign="center" HPosition="5.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Car Héra l'a permis.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="165" TimeIn="00:08:43:000" TimeOut="00:08:44:020">
+			<Text HAlign="center" HPosition="10.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Tu es le fils de Zeus.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="166" TimeIn="00:08:45:052" TimeOut="00:08:46:000">
+			<Text HAlign="left" HPosition="32.6" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Chiron.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="167" TimeIn="00:08:46:031" TimeOut="00:08:47:041">
+			<Text HAlign="left" HPosition="63.2" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Mon prince ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="168" TimeIn="00:08:47:072" TimeOut="00:08:49:062">
+			<Text HAlign="left" HPosition="25.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-En a-t-elle parlé à quelqu'un ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="169" TimeIn="00:08:49:093" TimeOut="00:08:51:104">
+			<Text HAlign="right" HPosition="12.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Non. Je peux t'assurer</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="170" TimeIn="00:08:51:135" TimeOut="00:08:52:114">
+			<Text HAlign="center" HPosition="31.5" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">que non.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="171" TimeIn="00:08:52:145" TimeOut="00:08:53:229">
+			<Text HAlign="left" HPosition="29.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Car la jalousie du roi</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="172" TimeIn="00:08:54:010" TimeOut="00:08:55:114">
+			<Text HAlign="left" HPosition="27.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">est maladive.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="173" TimeIn="00:08:55:145" TimeOut="00:08:57:218">
+			<Text HAlign="center" HPosition="-6.5" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Il pourrait croire cette pure folie.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="174" TimeIn="00:09:01:072" TimeOut="00:09:02:208">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">Musique dramatique</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="175" TimeIn="00:09:02:239" TimeOut="00:09:05:218">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="176" TimeIn="00:09:06:000" TimeOut="00:09:07:104">
+			<Text HAlign="left" HPosition="40.3" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Ouvrez les portes !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="177" TimeIn="00:09:07:135" TimeOut="00:09:19:041">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="178" TimeIn="00:09:19:166" TimeOut="00:09:20:229">
+			<Text HAlign="right" HPosition="8.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Suivez-moi !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="179" TimeIn="00:09:21:010" TimeOut="00:09:31:114">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="180" TimeIn="00:09:31:145" TimeOut="00:09:32:208">
+			<Text HAlign="left" HPosition="56.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Alcide !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="181" TimeIn="00:09:33:031" TimeOut="00:09:36:020">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="182" TimeIn="00:09:36:052" TimeOut="00:09:37:197">
+			<Text HAlign="left" HPosition="19.1" VAlign="bottom" VPosition="19">
+				<Font Color="FFFFFFFF">-Halte !</Font>
+			</Text>
+			<Text HAlign="left" HPosition="45.6" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Soldats,</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="183" TimeIn="00:09:37:229" TimeOut="00:09:40:156">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="19">
+				<Font Color="FFFFFF00">halte !</Font>
+			</Text>
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Tiens bon, mon amour.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="184" TimeIn="00:09:40:187" TimeOut="00:09:42:135">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">Je serai vite de retour.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="185" TimeIn="00:09:42:166" TimeOut="00:09:45:000">
+			<Text HAlign="center" HPosition="-6.5" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Et alors, nous nous marierions.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="186" TimeIn="00:09:45:125" TimeOut="00:09:46:218">
+			<Text HAlign="center" HPosition="-15.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFF00">Dans 3 lunes.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="187" TimeIn="00:09:50:041" TimeOut="00:09:51:020">
+			<Text HAlign="left" HPosition="45.6" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Soldats,</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="188" TimeIn="00:09:51:052" TimeOut="00:09:52:052">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">en avant !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="189" TimeIn="00:09:52:197" TimeOut="00:09:54:114">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">Musique dramatique</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="190" TimeIn="00:09:54:145" TimeOut="00:10:22:052">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="191" TimeIn="00:10:22:083" TimeOut="00:10:51:052">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="192" TimeIn="00:10:51:083" TimeOut="00:10:53:083">
+			<Text HAlign="right" HPosition="13.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Qu'est-ce qui te perturbe ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="193" TimeIn="00:10:55:187" TimeOut="00:10:57:093">
+			<Text HAlign="left" HPosition="8.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-J'avais un bataillon entier.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="194" TimeIn="00:10:57:229" TimeOut="00:10:59:177">
+			<Text HAlign="center" HPosition="-14.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Mais le roi m'en a repris</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="195" TimeIn="00:10:59:208" TimeOut="00:11:03:072">
+			<Text HAlign="center" HPosition="-22.5" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">la moitié.</Font>
+			</Text>
+			<Text HAlign="center" HPosition="-22.5" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Il n'y a aucune campagne en cours.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="196" TimeIn="00:11:03:104" TimeOut="00:11:07:125">
+			<Text HAlign="center" HPosition="-21.0" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">La paix est assurée en Crète,</Font>
+			</Text>
+			<Text HAlign="center" HPosition="-21.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">2 divisions se prélassent au camp.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="197" TimeIn="00:11:07:156" TimeOut="00:11:10:218">
+			<Text HAlign="center" HPosition="-24.0" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">Pourquoi ne pas m'accorder</Font>
+			</Text>
+			<Text HAlign="center" HPosition="-24.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">un bataillon ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="198" TimeIn="00:11:11:000" TimeOut="00:11:13:031">
+			<Text HAlign="left" HPosition="13.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Nous ignorons ce qui nous attend.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="199" TimeIn="00:11:14:000" TimeOut="00:11:15:072">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">Musique dramatique</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="200" TimeIn="00:11:15:104" TimeOut="00:11:28:072">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="201" TimeIn="00:11:29:010" TimeOut="00:11:30:083">
+			<Text HAlign="left" HPosition="46.8" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Halte.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="202" TimeIn="00:11:30:114" TimeOut="00:11:31:166">
+			<Text HAlign="left" HPosition="46.4" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Halte !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="203" TimeIn="00:11:33:239" TimeOut="00:11:35:072">
+			<Text HAlign="right" HPosition="8.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Le passage d'Horus.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="204" TimeIn="00:11:35:229" TimeOut="00:11:39:010">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13">
+				<Font Color="FFFFFFFF">Nous y serons au coucher</Font>
+			</Text>
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">du soleil et y camperons.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="205" TimeIn="00:11:39:041" TimeOut="00:11:41:052">
+			<Text HAlign="left" HPosition="41.8" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Il n'y a pas d'autre route ?</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="206" TimeIn="00:11:41:083" TimeOut="00:11:43:239">
+			<Text HAlign="left" HPosition="30.7" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Cette route nous fait gagner du temps.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="207" TimeIn="00:11:44:020" TimeOut="00:11:46:208">
+			<Text HAlign="center" HPosition="-1.0" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">Votre père veut que nous arrivions</Font>
+			</Text>
+			<Text HAlign="center" HPosition="-1.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">un jour plus tôt.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="208" TimeIn="00:11:46:239" TimeOut="00:11:48:114">
+			<Text HAlign="center" HPosition="-10.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Éclaireurs, en avant !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="209" TimeIn="00:11:48:145" TimeOut="00:11:49:229">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">Musique dramatique</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="210" TimeIn="00:11:50:010" TimeOut="00:11:57:072">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="211" TimeIn="00:11:57:239" TimeOut="00:11:59:145">
+			<Text HAlign="left" HPosition="39.8" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Attendez les ordres.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="212" TimeIn="00:12:03:114" TimeOut="00:12:04:239">
+			<Text HAlign="left" HPosition="37.8" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Il y a de l'eau pour tous.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="213" TimeIn="00:12:07:052" TimeOut="00:12:08:166">
+			<Text HAlign="center" HPosition="-25.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Claire, et fraîche.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="214" TimeIn="00:12:09:010" TimeOut="00:12:12:000">
+			<Text HAlign="center" HPosition="17.5" VAlign="bottom"
+				VPosition="13">
+				<Font Color="FFFFFFFF">-Ça fait longtemps</Font>
+			</Text>
+			<Text HAlign="center" HPosition="17.5" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">que les éclaireurs sont partis.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="215" TimeIn="00:12:13:000" TimeOut="00:12:14:010">
+			<Text HAlign="left" HPosition="41.7" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Montons le camp.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="216" TimeIn="00:12:14:041" TimeOut="00:12:15:156">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">Nourrissons hommes et chevaux.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="217" TimeIn="00:12:15:187" TimeOut="00:12:19:135">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="13">
+				<Font Color="FFFFFFFF">Je veux 20 volontaires à pied</Font>
+			</Text>
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">pour sécuriser le passage.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="218" TimeIn="00:12:20:093" TimeOut="00:12:22:041">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF0000">Cris d'oiseaux</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="219" TimeIn="00:12:22:072" TimeOut="00:12:26:114">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF0000">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="220" TimeIn="00:12:26:145" TimeOut="00:12:29:177">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13">
+				<Font Color="FFFFFFFF">Certains disent que l'aigle doré</Font>
+			</Text>
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">est un signe de Zeus.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="221" TimeIn="00:12:29:208" TimeOut="00:12:31:166">
+			<Text HAlign="left" HPosition="44.2" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-D'autres que ce n'est qu'un oiseau.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="222" TimeIn="00:12:33:145" TimeOut="00:12:34:208">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">Musique dramatique</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="223" TimeIn="00:12:34:239" TimeOut="00:13:03:052">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="224" TimeIn="00:13:03:187" TimeOut="00:13:04:218">
+			<Text HAlign="center" HPosition="16.5" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Sotiris.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="225" TimeIn="00:13:09:031" TimeOut="00:13:09:208">
+			<Text HAlign="left" HPosition="30.6" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Soldats.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="226" TimeIn="00:13:11:072" TimeOut="00:13:12:177">
+			<Text HAlign="right" HPosition="8.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Retournons au camp.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="227" TimeIn="00:13:24:104" TimeOut="00:13:25:229">
+			<Text HAlign="right" HPosition="8.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Ils sont tous morts.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="228" TimeIn="00:13:26:010" TimeOut="00:13:27:062">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">Musique lourde</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="229" TimeIn="00:13:27:093" TimeOut="00:13:47:083">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="230" TimeIn="00:13:47:114" TimeOut="00:13:50:072">
+			<Text HAlign="center" HPosition="-10.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Il faut battre en retraite par où</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="231" TimeIn="00:13:50:104" TimeOut="00:13:51:052">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">nous sommes venus.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="232" TimeIn="00:13:51:083" TimeOut="00:14:01:177">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="233" TimeIn="00:14:01:208" TimeOut="00:14:03:104">
+			<Text HAlign="center" HPosition="-10.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">En formation de combat.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="234" TimeIn="00:14:03:135" TimeOut="00:14:07:166">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="235" TimeIn="00:14:07:197" TimeOut="00:14:08:208">
+			<Text HAlign="left" HPosition="44.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-En tortue !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="236" TimeIn="00:14:08:239" TimeOut="00:14:18:145">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="237" TimeIn="00:14:18:177" TimeOut="00:14:19:093">
+			<Text HAlign="left" HPosition="45.2" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFF00">-Archers !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="238" TimeIn="00:14:19:125" TimeOut="00:14:21:000">
+			<Text HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">Musique rythmée</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="239" TimeIn="00:14:21:031" TimeOut="00:14:50:052">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="240" TimeIn="00:14:50:083" TimeOut="00:15:19:104">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="241" TimeIn="00:15:19:135" TimeOut="00:15:47:208">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="242" TimeIn="00:15:47:239" TimeOut="00:15:50:166">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="243" TimeIn="00:15:50:197" TimeOut="00:15:52:145">
+			<Text HAlign="center" HPosition="17.0" VAlign="bottom"
+				VPosition="7">
+				<Font Color="FFFFFFFF">Archers. En formation.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="244" TimeIn="00:15:53:052" TimeOut="00:15:54:041">
+			<Text HAlign="center" HPosition="5.0" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Allez !</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="245" TimeIn="00:15:54:114" TimeOut="00:16:10:208">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="246" TimeIn="00:16:10:239" TimeOut="00:16:12:093">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">Il ne reste que nous 2.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="247" TimeIn="00:16:12:125" TimeOut="00:16:14:031">
+			<Text HAlign="left" HPosition="39.8" VAlign="bottom" VPosition="7">
+				<Font Color="FFFFFFFF">-Je les veux vivants.</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="248" TimeIn="00:16:14:062" TimeOut="00:16:29:114">
+			<Text HAlign="left" HPosition="7.5" VAlign="bottom" VPosition="7">
+				<Font Color="FFFF00FF">...</Font>
+			</Text>
+		</Subtitle>
+	</Font>
+</DCSubtitle>

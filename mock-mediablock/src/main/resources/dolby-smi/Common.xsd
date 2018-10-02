@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This web service definition is protected under U.S. copyright laws as an unpublished work.
+  Do not copy.
+  Copyright 2009-$Date: 2009/03/20 $ by Dolby Laboratories Inc.
+  All rights reserved.
+-->
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common" 
+    xmlns:ns="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common" 
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
+    
+    <!-- Name/Value pairs of elements used to further describe other info types -->
+    
+    <xs:complexType name="InfoPropertyType">
+      <xs:sequence>
+        <xs:element name="keyName" type="xs:token"/>
+        <xs:element name="keyValue" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+	<!-- Types of physical devices or logical components that may exist within the system -->
+    
+    <xs:complexType name="DeviceComponentType">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:DeviceComponentTypeEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="DeviceComponentTypeEnum">
+		<xs:restriction base="xs:token">
+		   <!-- SERVER software component responsible for hosting web services -->
+		   <xs:enumeration value="SERVER"/>
+		   <!-- PLAYER component responsible for content management and streaming to decoder -->
+		   <xs:enumeration value="PLAYER"/>
+		   <!-- DECODER component responsible for encoding/decoding and streaming to projector  -->
+		   <xs:enumeration value="DECODER"/>
+		   <!-- PROJECTOR component responsible for displaying content -->
+		   <xs:enumeration value="PROJECTOR"/>
+		   <!-- AUTOMATION component responsible for firing cues -->
+		   <xs:enumeration value="AUTOMATION"/>
+		   <!-- AUDIO component responsible for sound -->
+		   <xs:enumeration value="AUDIO"/>
+		   <!-- AUDIO-ADAPTER component responsible for audio format settings -->
+		   <xs:enumeration value="AUDIO_ADAPTER"/>
+		   <!-- FILTER-CONTROLLER component responsible for filtering displayed content.  For 
+		        example, 2D versus 3D filter wheel control -->
+		   <xs:enumeration value="FILTER_CONTROLLER"/>
+		   <!-- unknown component -->
+		   <xs:enumeration value="UNKNOWN"/>
+		   <!-- An extended enumeration value is provided.  See extension attribute -->
+		   <xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+    </xs:simpleType>
+    
+	<!-- Categorization of content types -->
+    
+    <xs:complexType name="ContentType">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:ContentTypeEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="ContentTypeEnum">
+		<xs:restriction base="xs:token">
+		   <!-- package file -->
+		   <xs:enumeration value="PACKAGE"/>
+		   <!-- clip -->
+		   <xs:enumeration value="CLIP"/>
+		   <!-- show -->
+		   <xs:enumeration value="SHOW"/>
+		   <!-- license -->
+		   <xs:enumeration value="LICENSE"/>
+		   <!-- unknown package asset type -->
+		   <xs:enumeration value="UNKNOWN"/>
+		   <!-- An extended enumeration value is provided.  See extension attribute -->
+		   <xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+	</xs:simpleType>
+    
+    <!-- Describes the type of content that may be played back -->
+    
+	<xs:simpleType name="PlayableContentType">
+		<xs:restriction base="xs:token">
+		    <!-- The content being described is a clip -->
+			<xs:enumeration value="CLIP"/>
+			<!-- The content being described is a show -->
+			<xs:enumeration value="SHOW"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!-- Provides the state of transport -->
+	
+	<xs:complexType name="TransportState">
+		<xs:sequence>
+			<xs:element name="transportStateType" type="ns:TransportStateType"/>
+			<xs:element name="transportStateUnavailableReason" type="ns:TransportStateUnavailableReason" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="TransportStateType">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:TransportStateTypeEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+		
+	<xs:simpleType name="TransportStateTypeEnum">
+		<xs:restriction base="xs:token">
+		    <!-- The player has selected content and it is ready for playback -->
+			<xs:enumeration value="READY"/>
+			<!-- The player is in the process of selecting new content -->
+			<xs:enumeration value="SELECTING"/>
+			<!-- The player component is recovering its state when starting up -->
+			<xs:enumeration value="RECOVERING"/>
+			<!-- A show is schedule but the start time has passed -->
+			<xs:enumeration value="LATE"/>
+			<!-- The current playable content is playing -->
+			<xs:enumeration value="PLAYING"/>
+			<!-- The current playable content is stopped -->
+			<xs:enumeration value="STOPPED"/>
+			<!-- The current playable content is paused -->
+			<xs:enumeration value="PAUSED"/>
+			<!-- No content is selected -->
+			<xs:enumeration value="UNSELECTED"/>
+			<!-- The player is seeking to a new position in the selected content -->
+			<xs:enumeration value="SEEKING"/>
+			<!-- The player component is not available for playback. See TransportStateUnavailableReason -->
+			<xs:enumeration value="UNAVAILABLE"/>
+			<!-- An extended enumeration value is provided.  See extension attribute -->
+            <!-- Current transport state values passed through EXTENSION:
+                PREP_SUITE - the player is validating security constraints on clips of a show
+                PURGE_SUITE - the player is processing security logs
+                ALTERNATIVE_INPUT - the decoder is consuming content from an alternative input connection (eg, hdmi, hd-sdi)
+            -->
+			<xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="TransportStateUnavailableReason">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:TransportStateUnavailableReasonEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+    <xs:simpleType name="TransportStateUnavailableReasonEnum">
+		<xs:restriction base="xs:token">
+		    <!-- There is a problem with the Network Time Protocol which prevents the player from 
+		         synchronizing with a decoder -->
+			<xs:enumeration value="NTP_ERROR"/>
+			<!-- There is a problem with the external reference signal on a decoder -->
+			<xs:enumeration value="EXTERNAL_REFERENCE_ERROR"/>
+			<!-- There is a problem connecting to a required device -->
+			<xs:enumeration value="CONNECTION_ERROR"/>
+			<!-- There is a cinelink error with the device -->
+			<xs:enumeration value="CINELINK_ERROR"/>
+			<!-- The transport state is unavailable for unknown reasons -->
+			<xs:enumeration value="UNKNOWN"/>
+			<!-- An extended enumeration value is provided:
+			   MEDIABLOCK_VERSION_ERROR - the media block version number does not match the one expected by the player
+			   MEDIABLOCK_UPGRADE_IN_PROGRESS - the media block software is currently being upgraded
+			   DATA_CONNECTION_ERROR - there is a problem with data connection between the showstore and the media block
+			  -->
+			<xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+    <xs:complexType name="LicenseState">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:LicenseStateEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+    <xs:simpleType name="LicenseStateEnum">
+		<xs:restriction base="xs:token">
+		    <!-- No license needed for playback -->
+			<xs:enumeration value="NOT_NEEDED"/>
+			<!-- Received when examining content that is not on a playback device -->
+			<xs:enumeration value="NOT_RELEVANT"/>
+			<!-- The license is valid and will stay valid for the next 48 hours -->
+			<xs:enumeration value="OK"/>
+			<!-- No license is currently valid but there are valid licenses in the future -->
+			<xs:enumeration value="FUTURE"/>
+			<!-- No license will be valid within 48 hours -->
+			<xs:enumeration value="ABOUT_TO_EXPIRE"/>
+			<!-- There are only licenses in the past -->
+			<xs:enumeration value="EXPIRED"/>
+			<!-- No licenses have ever been loaded -->
+			<xs:enumeration value="MISSING"/>
+			<!-- A license is present but it has an error -->
+			<xs:enumeration value="ERROR"/>
+			<!-- The license state is unknown -->
+			<xs:enumeration value="UNKNOWN"/>
+			<!-- An extended enumeration value is provided.  See extension attribute -->
+			<xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+	</xs:simpleType>
+		
+    <xs:complexType name="ContentStoreType">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:ContentStoreTypeEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="ContentStoreTypeEnum">
+		<xs:restriction base="xs:token">
+		   <!-- Primary internal storage -->
+		   <xs:enumeration value="MAINSTORE"/>
+		   <!-- External permanent storage -->
+		   <xs:enumeration value="EXTERNALSTORE"/>
+		   <!-- Removable hard drive storage -->
+		   <xs:enumeration value="REMOVABLE"/>
+		   <!-- DVD storage -->
+		   <xs:enumeration value="DVD"/>
+		   <!-- USB storage -->
+		   <xs:enumeration value="USB"/>
+		   <!-- The storage type is unknown -->
+		   <xs:enumeration value="UNKNOWN"/>
+			<!-- An extended enumeration value is provided.  See extension attribute -->
+		   <xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+    <!-- Rating information. -->
+	
+	<xs:complexType name="Rating">
+      <xs:sequence>
+        <!-- The label of the rating -->
+        <xs:element name="label" type="xs:string"/>
+        <!-- The agency that this rating label belongs to -->
+        <xs:element name="ratingAgency" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+	
+    <xs:simpleType name="UUID">
+		<xs:restriction base="xs:anyURI">
+			<xs:pattern value="urn:uuid:[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!-- Percentage type -->
+	
+	<xs:simpleType name="Percentage">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+		
+</xs:schema>

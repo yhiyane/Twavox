@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompositionPlaylist xmlns="http://www.digicine.com/PROTO-ASDCP-CPL-20040511#">
+  <Id>urn:uuid:4101c295-496c-43ab-bef9-4ea6e2ba043e</Id>
+  <AnnotationText>AsterixLeDomainedesDieux_FTR-2D_F_FR-FR_FR_51_2K_SND_20141113_ECL_IOP_OV</AnnotationText>
+  <IssueDate>2014-11-12T18:03:43+01:00</IssueDate>
+  <Issuer>Doremi Labs, Inc.</Issuer>
+  <Creator>orca_wrapping 3.2.0</Creator>
+  <ContentTitleText>AsterixLeDomainedesDieux_FTR-2D_F_FR-FR_FR_51_2K_SND_20141113_ECL_IOP_OV</ContentTitleText>
+  <ContentKind>Feature</ContentKind>
+  <RatingList/>
+  <ReelList>
+    <Reel>
+      <Id>urn:uuid:29e3b247-86b6-4dfb-9647-086047e05918</Id>
+      <AssetList>
+        <MainPicture>
+          <Id>urn:uuid:d95a81c2-301d-40a8-a6b3-3f508cfe31c4</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>29495</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>29495</Duration>
+          <KeyId>urn:uuid:a5286b79-9c9b-49f3-ab18-554a473ff9b1</KeyId>
+          <Hash>L/agT4APs+CWmoqXFBIhR3Cr2yQ=</Hash>
+          <FrameRate>24 1</FrameRate>
+          <ScreenAspectRatio>1.85</ScreenAspectRatio>
+        </MainPicture>
+        <MainSound>
+          <Id>urn:uuid:9c522654-ba5d-4c63-aa67-6817538475d1</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>29495</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>29495</Duration>
+          <KeyId>urn:uuid:19137210-2fa2-418c-afa2-4e8ea8f6f836</KeyId>
+          <Hash>mPSbFdKH7X9Z5lkjfbi5sgRPVaI=</Hash>
+        </MainSound>
+      </AssetList>
+    </Reel>
+    <Reel>
+      <Id>urn:uuid:d60f023a-30ca-4c23-a921-8c48ea797ff9</Id>
+      <AssetList>
+        <MainPicture>
+          <Id>urn:uuid:c9d2d800-8755-4789-8ca3-faabd1c91641</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>28017</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>28017</Duration>
+          <KeyId>urn:uuid:7e244415-2dd5-4457-9dc4-749fd1b67641</KeyId>
+          <Hash>21OOwnezh0TZnUSCjJ8cgN0qdaY=</Hash>
+          <FrameRate>24 1</FrameRate>
+          <ScreenAspectRatio>1.85</ScreenAspectRatio>
+        </MainPicture>
+        <MainSound>
+          <Id>urn:uuid:f37fcb44-7aeb-4fbb-9ac5-a233f9a18355</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>28017</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>28017</Duration>
+          <KeyId>urn:uuid:6db35596-3eed-4d07-8d1f-77a44736cffc</KeyId>
+          <Hash>+NvBQ0Ejya+XN5HRczRo/mfKrS8=</Hash>
+        </MainSound>
+      </AssetList>
+    </Reel>
+    <Reel>
+      <Id>urn:uuid:414863e9-ff95-474c-aa3a-eaa739e96098</Id>
+      <AssetList>
+        <MainPicture>
+          <Id>urn:uuid:67e89597-0b4c-4fcc-96a5-749af3bb7482</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>24664</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>24664</Duration>
+          <KeyId>urn:uuid:5945caad-d403-4313-b743-bf61d916b785</KeyId>
+          <Hash>AHXPYrUbhc/qysi4G59D4r/ZRfg=</Hash>
+          <FrameRate>24 1</FrameRate>
+          <ScreenAspectRatio>1.85</ScreenAspectRatio>
+        </MainPicture>
+        <MainSound>
+          <Id>urn:uuid:87a16903-bcde-42f7-9654-2a968cf4c640</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>24664</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>24664</Duration>
+          <KeyId>urn:uuid:a803868e-0add-4587-bbd7-7181e35b7450</KeyId>
+          <Hash>GpCBAJWsV+sjfjAlO9Ypgr5bhXs=</Hash>
+        </MainSound>
+      </AssetList>
+    </Reel>
+    <Reel>
+      <Id>urn:uuid:426d4c79-6978-4228-ab83-f4112a5439ca</Id>
+      <AssetList>
+        <MainPicture>
+          <Id>urn:uuid:10fe973d-50f6-47d9-b276-5e4fef5bd34b</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>29115</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>29115</Duration>
+          <KeyId>urn:uuid:3caf7674-ec40-49b2-aa04-436c0522b21c</KeyId>
+          <Hash>oa4Lts8fYaOTNOrXwceplAko24Q=</Hash>
+          <FrameRate>24 1</FrameRate>
+          <ScreenAspectRatio>1.85</ScreenAspectRatio>
+        </MainPicture>
+        <MainSound>
+          <Id>urn:uuid:8b055c0c-0f63-496b-8605-e1fc65021880</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>29115</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>29115</Duration>
+          <KeyId>urn:uuid:5f82d266-dc62-4b0f-b889-5e7202a146d6</KeyId>
+          <Hash>5VOPnPhXd3I74qTa8xjp0/MAGbI=</Hash>
+        </MainSound>
+        <MainSubtitle>
+          <Id>urn:uuid:26419533-a555-43b1-bddb-aa1d9426bef5</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>29115</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>29115</Duration>
+          <Hash>7Xzw53+f7DsYdY2tXrqzXq2IWr4=</Hash>
+          <Language>fr</Language>
+        </MainSubtitle>
+      </AssetList>
+    </Reel>
+    <Reel>
+      <Id>urn:uuid:4aa37faa-d372-4f40-9175-4de26bba2349</Id>
+      <AssetList>
+        <MainPicture>
+          <Id>urn:uuid:da3768e5-1508-49df-8487-caaf8b9d5df3</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>11818</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>11818</Duration>
+          <KeyId>urn:uuid:98887a78-ecbe-4afb-80ba-46e510098dcc</KeyId>
+          <Hash>HwT4Of2q4bKiAV6gSp4TIVUGDNg=</Hash>
+          <FrameRate>24 1</FrameRate>
+          <ScreenAspectRatio>1.85</ScreenAspectRatio>
+        </MainPicture>
+        <MainSound>
+          <Id>urn:uuid:6bc9ef30-a4f9-44f2-a579-d74b3f1ab0b0</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>11818</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>11818</Duration>
+          <KeyId>urn:uuid:db5a3860-1dc5-4de3-b601-837cf04c1c95</KeyId>
+          <Hash>qlOR3Bri+ezMtCbh4/Dz1kubbHo=</Hash>
+        </MainSound>
+      </AssetList>
+    </Reel>
+  </ReelList>
+</CompositionPlaylist>
+<!-- Generated by orca_wrapping version 3.2.0 -->

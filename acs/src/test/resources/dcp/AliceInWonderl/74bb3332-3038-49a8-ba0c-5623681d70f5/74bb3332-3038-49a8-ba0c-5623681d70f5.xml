@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><DCSubtitle Version="1.1">
+<SubtitleID>74bb3332-3038-49a8-ba0c-5623681d70f5</SubtitleID>
+<MovieTitle>Alice in Wonderland 1951</MovieTitle>
+<ReelNumber>1</ReelNumber>
+<Language>fr</Language>
+<LoadFont Id="Font1" URI="Arial.ttf" />
+<Font Id="Font1" Color="ffffffff" Effect="border" EffectColor="ff000000" Italic="no" Script="normal" Size="42" Underlined="no" Weight="normal" AspectAdjust="1" Spacing="0em">
+<Subtitle SpotNumber="2" TimeIn="00:06:51:073" TimeOut="00:06:52:083">
+<Text HPosition="0" VAlign="bottom" VPosition="75">MARS</Text>
+</Subtitle>
+<Subtitle SpotNumber="3" TimeIn="00:07:52:240" TimeOut="00:07:54:240">
+<Text HPosition="0" VAlign="bottom" VPosition="10">RESTAURANT DE POISSON</Text>
+</Subtitle>
+<Subtitle SpotNumber="4" TimeIn="00:08:18:010" TimeOut="00:08:19:010">
+<Text HPosition="0" VAlign="bottom" VPosition="16">MENU</Text>
+<Text HPosition="0" VAlign="bottom" VPosition="10">HUÎTRES</Text>
+</Subtitle>
+<Subtitle SpotNumber="5" TimeIn="00:08:32:115" TimeOut="00:08:34:135">
+<Text HPosition="0" VAlign="bottom" VPosition="10">HUÎTRES DANS DEMI-COQUILLES</Text>
+</Subtitle>
+</Font>
+</DCSubtitle>

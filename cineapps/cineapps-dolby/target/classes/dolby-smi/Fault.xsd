@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This web service definition is protected under U.S. copyright laws as an unpublished work.
+  Do not copy.
+  Copyright 2009-$Date: 2009/03/20 $ by Dolby Laboratories Inc.
+  All rights reserved.
+-->
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault" 
+    xmlns:ns="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault" 
+    xmlns:com="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
+    
+    <xs:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+    
+    <!-- base fault type -->
+    
+	<xs:complexType name="Fault">
+	    <xs:sequence>
+		    <xs:element name="reason" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<!-- fault thrown when a component or device required for an operation is not connected -->
+	
+	<xs:complexType name="NotConnected">
+	    <xs:complexContent>
+	        <xs:extension base="ns:Fault">
+	            <xs:sequence>
+	                <xs:element name="component" type="xs:string"/>
+	            </xs:sequence>
+	        </xs:extension>
+	    </xs:complexContent>
+	</xs:complexType>
+
+    <!-- fault thrown when the server is still initializing and is not ready for Web Service clients -->
+    
+    <xs:complexType name="NotReady">
+        <xs:complexContent>
+            <xs:extension base="ns:Fault"/>
+        </xs:complexContent>
+    </xs:complexType>
+	
+    <!-- fault thrown when there was no asset with the specified uuid found -->
+	
+	<xs:complexType name="NotFound">
+	    <xs:complexContent>
+	        <xs:extension base="ns:Fault">
+	            <xs:sequence>
+	                <xs:element name="uuid" type="com:UUID"/>
+	            </xs:sequence>
+	        </xs:extension>
+	    </xs:complexContent>
+	</xs:complexType>
+	
+	<!-- fault thrown when there is missing content or a problem with the content -->
+	
+    <xs:complexType name="ContentFailure">
+	    <xs:complexContent>
+	        <xs:extension base="ns:Fault">
+	            <xs:sequence>
+	                <xs:element name="uuid" type="com:UUID" minOccurs="0"/>
+	            </xs:sequence>
+	        </xs:extension>
+	    </xs:complexContent>
+	</xs:complexType>
+	
+	<!-- fault thrown when there is a problem executing an operation with the specified content store -->
+		
+	<xs:complexType name="ContentStoreFailure">
+	    <xs:complexContent>
+	        <xs:extension base="ns:Fault">
+	            <xs:sequence>
+	                <xs:element name="contentStore" type="com:ContentStoreType"/>
+	            </xs:sequence>
+	        </xs:extension>
+	    </xs:complexContent>
+	</xs:complexType>
+
+    <!-- fault thrown when a device required for an operation reports an error -->
+
+    <xs:complexType name="DeviceComponentFailure">
+        <xs:complexContent>
+            <xs:extension base="ns:Fault">
+                <xs:sequence>
+                    <xs:element name="component" type="xs:string"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+
+    <!-- fault thrown when the value specified to the service is invalid -->
+	
+	<xs:complexType name="InvalidArgumentFailure">
+	    <xs:complexContent>
+	        <xs:extension base="ns:Fault">
+	            <xs:sequence>
+	                <xs:element name="operationName" type="xs:string"/>
+	            </xs:sequence>
+	        </xs:extension>
+	    </xs:complexContent>
+	</xs:complexType>
+	
+    <!-- fault thrown when there is no auditorium with the specified number -->
+	
+	<xs:complexType name="InvalidAuditorium">
+	    <xs:complexContent>
+	        <xs:extension base="ns:Fault">
+	            <xs:sequence>
+	                <xs:element name="number" type="xs:string"/>
+	            </xs:sequence>
+	        </xs:extension>
+	    </xs:complexContent>
+	</xs:complexType>
+	
+	<!-- fault thrown when an operation could not be performed due to the current transport state -->
+	
+	<xs:complexType name="InvalidTransportStateFailure">
+	    <xs:complexContent>
+	        <xs:extension base="ns:Fault">
+	            <xs:sequence>
+	                <xs:element name="transportState" type="com:TransportState"/>
+	            </xs:sequence>
+	        </xs:extension>
+	    </xs:complexContent>
+	</xs:complexType>
+	
+	<!-- fault thrown when an operation could not be performed because the system was busy 
+	     doing something else that is not transport related -->
+	     
+	<xs:complexType name="BusyFailure">
+	    <xs:complexContent>
+	        <xs:extension base="ns:Fault">
+	            <xs:sequence>
+	                <xs:element name="operationName" type="xs:string"/>
+	            </xs:sequence>
+	        </xs:extension>
+	    </xs:complexContent>
+	</xs:complexType>
+		
+	<!-- fault thrown when an operation with the provided arguments has yet to be implemented -->
+
+	<xs:complexType name="OperationNotImplemented">
+	    <xs:complexContent>
+	        <xs:extension base="ns:Fault">
+	            <xs:sequence>
+	                <xs:element name="operationName" type="xs:string"/>
+	            </xs:sequence>
+	        </xs:extension>
+	    </xs:complexContent>
+	</xs:complexType>	
+	
+	<!-- fault thrown when an operation failed for other reasons -->
+	
+    <xs:complexType name="OperationFailed">
+	    <xs:complexContent>
+	        <xs:extension base="ns:Fault"/>
+	    </xs:complexContent>
+	</xs:complexType>
+	
+	
+</xs:schema>

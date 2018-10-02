@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This web service definition is protected under U.S. copyright laws as an unpublished work.
+  Do not copy.
+  Copyright 2009-$Date: 2009/03/20 $ by Dolby Laboratories Inc.
+  All rights reserved.
+-->
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    xmlns:com="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"
+    targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/playbackcontrol" 
+    xmlns:ns="http://www.dolby.com/dcinema/ws/smi/v1/schemas/playbackcontrol" 
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
+    
+    <xs:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+    
+    <!-- Provides specifics of the content being played back. -->
+    
+    <xs:complexType name="ContentPlaybackState">
+      <xs:sequence>
+          <!-- The unique identifier of the selected content -->
+          <xs:element name="contentId" type="com:UUID"/>
+          <!-- The type of the selected content (eg, clip or show) -->
+          <xs:element name="contentType" type="com:PlayableContentType"/>
+          <!-- The rating of the selected content.  If the selected content is a SHOW then the either 
+               the rating set on the show will be used; or the most restrictive rating if it has not 
+               been set on the show -->
+          <xs:element name="contentRating" type="com:Rating"/>
+          <!-- The store in which the selected content is located on -->
+          <xs:element name="contentStore" type="com:ContentStoreType"/>
+          <!-- The current clip the playback position is contained within -->
+          <xs:element name="currentClipId" type="com:UUID"/>
+          <!-- The current clip index the playback position is contained within -->
+          <xs:element name="currentClipIndex" type="xs:integer"/>
+          <!-- The playback position of the current clip -->
+          <xs:element name="clipPosition" type="xs:duration"/>
+          <!-- The duration of the current clip -->
+          <xs:element name="clipDuration" type="xs:duration"/>
+          <!-- The playback position of the selected show.  Will only be present if content of type 
+               SHOW is selected -->
+          <xs:element name="showPosition" type="xs:duration" minOccurs="0"/>
+          <!-- The duration of the selected show.  Will only be present if content of type SHOW is 
+               selected -->
+          <xs:element name="showDuration" type="xs:duration" minOccurs="0"/>
+      </xs:sequence>
+   </xs:complexType>
+    
+    <!-- Indicates whether the show will automatically play off of the schedule -->
+	
+    <xs:simpleType name="ScheduleMode">
+		<xs:restriction base="xs:token">
+		    <!-- Scheduled shows will automatically select and play off of the schedule -->
+			<xs:enumeration value="FULL_AUTOMATIC"/>
+			<!-- Scheduled shows will automatically select off of the schedule -->
+			<xs:enumeration value="SELECT_AUTOMATIC"/>
+		    <!-- Scheduled shows will not automatically play off of the schedule -->
+			<xs:enumeration value="MANUAL"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!-- Indicates what 2D/3D mode the player is set to -->
+	
+	<xs:simpleType name="PlaybackMode">
+		<xs:restriction base="xs:token">
+		    <!-- Content will playback in 2D Mode -->
+			<xs:enumeration value="TWO_D"/>
+		    <!-- Content will playback in 3D Mode -->
+			<xs:enumeration value="THREE_D"/>
+			<!-- Content will playback in Dolby 3D Mode -->
+			<xs:enumeration value="DOLBY_3D"/>
+			<!-- If the playback mode value is unknown.  Possible when Decoder component is disconnected -->
+			<xs:enumeration value="UNKNOWN"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!-- Indicates what 2D/3D mode the player is set to; allowing for RealD 3D and other extension values -->
+	
+	<xs:complexType name="PlaybackMode2">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:PlaybackMode2Enum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="PlaybackMode2Enum">
+		<xs:restriction base="xs:token">
+		    <!-- Content will playback in 2D Mode -->
+			<xs:enumeration value="TWO_D"/>
+		    <!-- Content will playback in 3D Mode -->
+			<xs:enumeration value="THREE_D"/>
+			<!-- Content will playback in Dolby 3D Mode -->
+			<xs:enumeration value="DOLBY_3D"/>
+			<!-- Content will playback in Real D Mode -->
+			<xs:enumeration value="REAL_D"/>
+			<!-- If the playback mode value is unknown.  Possible when Decoder component is disconnected -->
+			<xs:enumeration value="UNKNOWN"/>
+			<!-- An extended enumeration value is provided.  See extension attribute -->
+			<xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+    <!-- PURGE_SUITE state: reflects the progress of projector log extraction -->
+
+    <!-- NOTE: CP850 devices use the projector log extraction mechanism to    -->
+    <!-- expose their secure logs.                                            -->
+
+    <xs:complexType name="PurgeSuiteState">
+        <xs:sequence>
+            <!-- The projector number -->
+            <xs:element name="projectorNumber" type="xs:integer"/>
+            <!-- Total number of connected projectors -->
+            <xs:element name="totalProjectors" type="xs:integer"/>
+            <!-- Projector series: 1 or 2 (or CP850) -->
+            <xs:element name="projectorSeries" type="xs:string"/>
+            <!-- Total number of extracted logs -->
+            <xs:element name="totalExtractedLogs" type="xs:integer"/>
+            <!-- Total number of logs to be extracted -->
+            <xs:element name="totalLogs" type="xs:integer"/>
+            <!-- The extraction operation status -->
+            <xs:element name="status" type="ns:ProjectorLogExtractionStatus"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!--  Projector log extraction status type -->
+
+    <xs:simpleType name="ProjectorLogExtractionStatus">
+        <xs:restriction base="xs:token">
+            <!-- The log extraction has been completed -->
+            <xs:enumeration value="DONE"/>
+            <!-- The log extraction is in progress -->
+            <xs:enumeration value="BUSY"/>
+            <!-- There was an error during log extraction -->
+            <xs:enumeration value="ERROR"/>
+            <!-- The log extraction progress is unknown -->
+            <xs:enumeration value="UNKNOWN"/>
+        </xs:restriction>
+    </xs:simpleType>
+	
+	<!-- Indicates what auto playback default mode player is set to use for 3D content -->
+	
+	<xs:simpleType name="AutoPlaybackMode">
+		<xs:restriction base="xs:token">
+		    <!-- playback mode will not change automatically -->
+			<xs:enumeration value="MANUAL"/>
+		    <!-- 3D content will be automatically played back in 3D mode -->
+			<xs:enumeration value="THREE_D"/>
+			<!-- 3D content will be automatically played back in Dolby 3D mode -->
+			<xs:enumeration value="DOLBY_3D"/>
+			<!-- If the 3D playback mode value is unknown.  Possible when ContentPlayer component is disconnected -->
+			<xs:enumeration value="UNKNOWN"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!-- Indicates what auto playback default mode player is set to use for 3D content; allowing for the RealD 3D
+	     value and other extensions -->
+	
+	<xs:complexType name="AutoPlaybackMode2">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:AutoPlaybackMode2Enum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="AutoPlaybackMode2Enum">
+		<xs:restriction base="xs:token">	
+		    <!-- playback mode will not change automatically -->
+			<xs:enumeration value="MANUAL"/>
+		    <!-- 3D content will be automatically played back in 3D mode -->
+			<xs:enumeration value="THREE_D"/>
+			<!-- 3D content will be automatically played back in Dolby 3D mode -->
+			<xs:enumeration value="DOLBY_3D"/>
+			<!-- 3D content will be automatically played back in REAL D mode -->
+			<xs:enumeration value="REAL_D"/>
+			<!-- If the 3D playback mode value is unknown.  Possible when ContentPlayer component is disconnected -->
+			<xs:enumeration value="UNKNOWN"/>
+			<!-- An extended enumeration value is provided.  See extension attribute -->
+			<xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!-- Indicates what input selection mechanism the decoder is using (eg, hdmi, hd-sdi) -->
+	
+	<xs:complexType name="InputSelectMode">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:InputSelectModeEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="InputSelectModeEnum">
+		<xs:restriction base="xs:token">
+		    <!-- Decoder should playback server DCP content. -->
+			<xs:enumeration value="SERVER"/>
+		    <!-- Decoder should playback from its HDMI 1 alternative input. -->
+			<xs:enumeration value="HDMI_1"/>
+			<!-- Decoder should playback from its HDMI 2 alternative input. -->
+			<xs:enumeration value="HDMI_2"/>
+			<!-- Decoder should playback from its HD-SDI alternative input. -->
+			<xs:enumeration value="HD_SDI"/>
+			<!-- If the input select mode value is unknown.  Possible when player component is disconnected -->
+			<xs:enumeration value="UNKNOWN"/>
+			<!-- An extended enumeration value is provided.  See extension attribute -->
+			<xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+	</xs:simpleType>
+				
+	<!-- Indicates the reason for a prep suite failure -->
+	
+    <xs:complexType name="PrepSuiteStatus">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:PrepSuiteStatusEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+		
+	<xs:simpleType name="PrepSuiteStatusEnum">
+		<xs:restriction base="xs:token">
+		    <!-- The last prep suite succeeded -->
+			<xs:enumeration value="SUCCESS"/>
+		    <!-- Validation has not started or it has not been completed -->
+			<xs:enumeration value="NOT_VALIDATED"/>
+			<!-- Prep suite validation is currently in progress -->
+			<xs:enumeration value="BUSY"/>
+			<!-- The CPL, ultimately the content, is not valid for the requested window of time for playback -->
+			<xs:enumeration value="NO_USAGE_RIGHTS"/>
+			<!-- Link Encryption is required and the link is not encrypted for the playout of this content -->
+			<xs:enumeration value="LINK_ENCRYPTION_REQUIRED"/>
+			<!-- There is a Trusted Device List (TDL) for the License of this content and the associated 
+			     projector is not on the TDL -->
+			<xs:enumeration value="PROJECTOR_NOT_TRUSTED"/>
+			<!-- This CPL requires licenses and no licenses were found -->
+			<xs:enumeration value="NO_LICENSES_FOUND"/>
+			<!-- Clip failed basic XML validation -->
+			<xs:enumeration value="INVALID_PARSE"/>
+			<!-- Clip failed XML validation per DCI requirements -->
+			<xs:enumeration value="INVALID_DCI_PARSE"/>
+			<!-- A DCI-compliant CPL is missing a content authenticator in its KDM -->
+			<xs:enumeration value="CA_ERROR"/>
+			<!-- There is a mismatch of key type (audio, video) to the assigned key -->
+			<xs:enumeration value="KEYTYPE_ERROR"/>
+			<!-- A license for this CPL is missing a key or keys -->
+			<xs:enumeration value="KEY_NOT_FOUND"/>
+			<!-- A CPL is missing a track file -->
+			<xs:enumeration value="TRACKFILE_MISSING"/>
+			<!-- A CPL has a bad track file hash -->
+			<xs:enumeration value="BAD_TRACKFILE_HASH"/>
+			<!-- A signer certificate for a CPL is missing or has an invalid Signer Role -->
+			<xs:enumeration value="SIGNER_ROLE_ERROR"/>
+			<!-- Unknown error has occurred -->
+			<xs:enumeration value="UNKNOWN_ERROR"/>
+			<!-- Prep suite status is unknown -->
+			<xs:enumeration value="UNKNOWN"/>			
+			<!-- An extended enumeration value is provided.  See extension attribute -->
+			<xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+	</xs:simpleType>
+    
+</xs:schema>

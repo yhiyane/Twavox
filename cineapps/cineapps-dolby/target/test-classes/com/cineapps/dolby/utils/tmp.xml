@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ShowPlaylist xmlns:ns2="a" xmlns="a">
+	<ns2:Id>urn:uuid:16583a43-0344-4b4f-85cc-921c49e57ae5</ns2:Id>
+	<ns2:ArrangementId EstimatedDuration="PT1H37M35.835S" Title="Test Twavox">urn:uuid:16583a43-0344-4b4f-85cc-921c49e57ae5</ns2:ArrangementId>
+	<ns2:AnnotationText language="en"></ns2:AnnotationText>
+	<ns2:CreateDate>2015-04-15T00:00:00.000+02:00</ns2:CreateDate>
+	<ns2:Creator language="en">ShowManager</ns2:Creator>
+	<ns2:Issuer language="en">ShowManager</ns2:Issuer>
+	<ns2:ShowTitleText language="en">Test Twavox</ns2:ShowTitleText>
+	<ns2:Show>
+		<ns2:Marker Title="Douser Open">
+			<ns2:Id>urn:uuid:492f33e6-375d-4f46-a91e-04f13337943b</ns2:Id>
+			<ns2:AnnotationText language="en">Douser Open</ns2:AnnotationText>
+			<ns2:Label scope="http://www.dolby.com/dcinema/ws/smi/v1/SPL#markers">Douser Open</ns2:Label>
+			<ns2:Offset EditRate="24 1" Kind="END">432</ns2:Offset>
+		</ns2:Marker>
+		<ns2:Marker Title="Lamp On">
+			<ns2:Id>urn:uuid:79945d12-3ff0-4bfc-aeb8-7e33648666a2</ns2:Id>
+			<ns2:AnnotationText language="en">Lamp On</ns2:AnnotationText>
+			<ns2:Label scope="http://www.dolby.com/dcinema/ws/smi/v1/SPL#markers">Lamp On</ns2:Label>
+			<ns2:Offset EditRate="24 1" Kind="START">24</ns2:Offset>
+		</ns2:Marker>
+		<ns2:Marker Title="Stagelights off,houselights half,sound mute">
+			<ns2:Id>urn:uuid:225254e3-da74-4fa2-b7c4-725749d97bc3</ns2:Id>
+			<ns2:AnnotationText language="en">Stagelights off,houselights half,sound mute</ns2:AnnotationText>
+			<ns2:Label scope="http://www.dolby.com/dcinema/ws/smi/v1/SPL#markers">Stagelights off,houselights half,sound mute</ns2:Label>
+			<ns2:Offset EditRate="24 1" Kind="START">120</ns2:Offset>
+		</ns2:Marker>
+		<ns2:Marker Title="FLAT">
+			<ns2:Id>urn:uuid:7326a00e-3a19-4f36-8409-0d6cea629677</ns2:Id>
+			<ns2:AnnotationText language="en">FLAT</ns2:AnnotationText>
+			<ns2:Label scope="http://www.dolby.com/dcinema/ws/smi/v1/SPL#markers">FLAT</ns2:Label>
+			<ns2:Offset EditRate="24 1" Kind="START">264</ns2:Offset>
+		</ns2:Marker>
+		<ns2:Marker Title="Sound preshow,houselights half">
+			<ns2:Id>urn:uuid:b89e8c7c-b7b8-449f-8eea-4cfdf7f8d132</ns2:Id>
+			<ns2:AnnotationText language="en">Sound preshow,houselights half</ns2:AnnotationText>
+			<ns2:Label scope="http://www.dolby.com/dcinema/ws/smi/v1/SPL#markers">Sound preshow,houselights half</ns2:Label>
+			<ns2:Offset EditRate="24 1" Kind="START">384</ns2:Offset>
+		</ns2:Marker>
+		<ns2:CompositionPlaylistId EstimatedDuration="PT20.042S" Title="JBF_BLACK_20SEC">urn:uuid:48660d9b-991e-4e5a-ad89-d5698199ae3f</ns2:CompositionPlaylistId>
+		<ns2:CompositionPlaylistId EstimatedDuration="PT7.000S" Title="CSI CARTON PANO ADV 2D 24 F FR XX FR XX 2K 20141021 KINEPOLIS IOP">urn:uuid:bd85fc41-7a68-4c6d-8005-7edcaa3c469b</ns2:CompositionPlaylistId>
+		<ns2:CompositionPlaylistId EstimatedDuration="PT17.125S" Title="KIN-ULTRABILLBOARDv1_ADV_2D_24_C_FR_XX_FR_51_2K_20150603_KINEPOLIS_IOP">urn:uuid:d25af4d6-c2bf-484c-a4ff-56a361f6e36d</ns2:CompositionPlaylistId>
+		<ns2:CompositionPlaylistId EstimatedDuration="PT13.250S" Title="75632CFABANQUES_ADV_F_FR_FR_51_2K_20150403_CCI">urn:uuid:1a61fbdb-7aa3-448e-a2f8-ef3f1d084536</ns2:CompositionPlaylistId>
+		<ns2:CompositionPlaylistId EstimatedDuration="PT1M16.042S" Title="LaFemmeAuTableau_TLR_F-239_FR-XX_FR_51_2K_20150524_ECL_IOP_OV">urn:uuid:c03ea2b7-135c-4978-9008-6a8d562b08a3</ns2:CompositionPlaylistId>
+		<ns2:Marker Title="SCOPE">
+			<ns2:Id>urn:uuid:34ee4a61-070f-4588-81a4-d4496905b9ed</ns2:Id>
+			<ns2:AnnotationText language="en">SCOPE</ns2:AnnotationText>
+			<ns2:Label scope="http://www.dolby.com/dcinema/ws/smi/v1/SPL#markers">SCOPE</ns2:Label>
+			<ns2:Offset EditRate="24 1" Kind="START">24</ns2:Offset>
+		</ns2:Marker>
+		<ns2:CompositionPlaylistId EstimatedDuration="PT3.042S" Title="JBF_BLACK_03SEC">urn:uuid:3af776c6-0807-494b-a097-bc5707579aed</ns2:CompositionPlaylistId>
+		<ns2:Marker Title="Sound digital low,houselights off,entrance closed">
+			<ns2:Id>urn:uuid:19d4660f-ed4d-41c9-a749-c21ba0082d28</ns2:Id>
+			<ns2:AnnotationText language="en">Sound digital low,houselights off,entrance closed</ns2:AnnotationText>
+			<ns2:Label scope="http://www.dolby.com/dcinema/ws/smi/v1/SPL#markers">Sound digital low,houselights off,entrance closed</ns2:Label>
+			<ns2:Offset EditRate="24 1" Kind="START">48</ns2:Offset>
+		</ns2:Marker>
+		<ns2:CompositionPlaylistId EstimatedDuration="PT3.042S" Title="JBF_BLACK_03SEC">urn:uuid:3af776c6-0807-494b-a097-bc5707579aed</ns2:CompositionPlaylistId>
+		<ns2:CompositionPlaylistId EstimatedDuration="PT1H35M13.250S" Title="Maggie_FTR_S_FR-FR-OCAP_FR_51_2K_20150505_TEF_IOP_OV">urn:uuid:47238196-8f74-4f8a-9c56-4cbd95ad43a8</ns2:CompositionPlaylistId>
+		<ns2:Marker Title="End show">
+			<ns2:Id>urn:uuid:2517e510-9e23-426b-a4b2-d8a470f7fcd3</ns2:Id>
+			<ns2:AnnotationText language="en">End show</ns2:AnnotationText>
+			<ns2:Label scope="http://www.dolby.com/dcinema/ws/smi/v1/SPL#markers">End show</ns2:Label>
+			<ns2:Offset EditRate="24 1" Kind="START">24</ns2:Offset>
+		</ns2:Marker>
+		<ns2:Marker Title="Douser Close">
+			<ns2:Id>urn:uuid:d92ebd75-10a4-4e80-84ed-9c5ae88ba992</ns2:Id>
+			<ns2:AnnotationText language="en">Douser Close</ns2:AnnotationText>
+			<ns2:Label scope="http://www.dolby.com/dcinema/ws/smi/v1/SPL#markers">Douser Close</ns2:Label>
+			<ns2:Offset EditRate="24 1" Kind="START">48</ns2:Offset>
+		</ns2:Marker>
+		<ns2:CompositionPlaylistId EstimatedDuration="PT3.042S" Title="JBF_BLACK_03SEC">urn:uuid:3af776c6-0807-494b-a097-bc5707579aed</ns2:CompositionPlaylistId>
+	</ns2:Show>
+</ns2:ShowPlaylist>

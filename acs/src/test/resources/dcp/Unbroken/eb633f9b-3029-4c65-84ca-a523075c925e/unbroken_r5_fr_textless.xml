@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DCSubtitle Version="1.0">
+  <SubtitleID>eb633f9b-3029-4c65-84ca-a523075c925e</SubtitleID>
+  <MovieTitle>Unbroken</MovieTitle>
+  <ReelNumber>5</ReelNumber>
+  <Language>French</Language>
+  <LoadFont Id="Font1" URI="Arial_UNBROKEN_OV_FrenchSubtitles_R05.ttf"/>
+  <Font Id="Font1" Color="FFFFFFFF" Effect="border" EffectColor="FF000000" Size="42" Weight="normal" Script="normal">
+    <Subtitle SpotNumber="1" TimeIn="00:00:35:000" TimeOut="00:00:36:052" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Bonsoir,</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="2" TimeIn="00:00:36:239" TimeOut="00:00:38:125" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">anciens prisonniers.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="3" TimeIn="00:00:40:031" TimeOut="00:00:41:062" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Bienvenue,</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="4" TimeIn="00:00:41:166" TimeOut="00:00:42:229" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">nouveaux arrivants.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="5" TimeIn="00:00:44:052" TimeOut="00:00:45:135" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Vous êtes</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="6" TimeIn="00:00:46:020" TimeOut="00:00:48:145" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">au camp de prisonniers d&#39;Omori.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="7" TimeIn="00:00:51:020" TimeOut="00:00:54:198" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Je suis le caporal Watanabe.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="8" TimeIn="00:00:59:156" TimeOut="00:01:00:177" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Vous êtes</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="9" TimeIn="00:01:01:156" TimeOut="00:01:02:229" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">des ennemis</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="10" TimeIn="00:01:03:125" TimeOut="00:01:04:187" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">du Japon.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="11" TimeIn="00:01:06:177" TimeOut="00:01:08:031" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Vous serez traités</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="12" TimeIn="00:01:09:156" TimeOut="00:01:10:218" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">en conséquence.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="13" TimeIn="00:01:48:218" TimeOut="00:01:49:187" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Regarde-moi.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="14" TimeIn="00:01:54:093" TimeOut="00:01:56:104" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Regarde-moi dans les yeux.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="15" TimeIn="00:02:34:000" TimeOut="00:02:35:020" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Regarde-moi !</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="16" TimeIn="00:02:50:052" TimeOut="00:02:51:187" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ne me regarde pas.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="17" TimeIn="00:02:53:239" TimeOut="00:02:55:156" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ne me regarde pas.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="18" TimeIn="00:03:06:177" TimeOut="00:03:08:031" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Nouveaux prisonniers,</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="19" TimeIn="00:03:09:020" TimeOut="00:03:10:145" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">vous pouvez disposer.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="20" TimeIn="00:03:12:031" TimeOut="00:03:13:229" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Vous serez placés en quarantaine.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="21" TimeIn="00:03:15:177" TimeOut="00:03:17:187" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Nous ne tolérerons aucune maladie</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="22" TimeIn="00:03:17:229" TimeOut="00:03:19:114" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">dans les baraquements.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="23" TimeIn="00:03:59:198" TimeOut="00:04:01:041" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Bonsoir, messieurs.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="24" TimeIn="00:04:01:177" TimeOut="00:04:03:177" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Tom Miller, chef de baraque.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="25" TimeIn="00:04:03:218" TimeOut="00:04:05:156" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">J&#39;attribue les couchettes.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="26" TimeIn="00:04:10:114" TimeOut="00:04:11:145" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Vous êtes là-haut.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="27" TimeIn="00:04:15:093" TimeOut="00:04:16:073" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">305.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="28" TimeIn="00:04:19:031" TimeOut="00:04:21:104" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">À côté de la Belle au bois dormant.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="29" TimeIn="00:04:21:218" TimeOut="00:04:23:000" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Asseyez-vous.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="30" TimeIn="00:04:24:104" TimeOut="00:04:26:031" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">307, ici.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="31" TimeIn="00:04:28:093" TimeOut="00:04:29:135" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Votre nom ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="32" TimeIn="00:04:30:010" TimeOut="00:04:31:010" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Frank Tinker.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="33" TimeIn="00:04:31:062" TimeOut="00:04:32:198" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Tinker, vous êtes en haut.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="34" TimeIn="00:04:37:062" TimeOut="00:04:38:093" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Vous avez croisé l&#39;Oiseau.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="35" TimeIn="00:04:44:114" TimeOut="00:04:47:083" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">- Pourquoi &#34;l&#39;Oiseau&#34; ?</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">- Parce qu&#39;il écoute.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="36" TimeIn="00:04:47:208" TimeOut="00:04:50:114" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Et s&#39;il entendait</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">des surnoms plus sincères,</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="37" TimeIn="00:04:50:156" TimeOut="00:04:51:177" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">il nous tuerait.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="38" TimeIn="00:04:52:093" TimeOut="00:04:54:031" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Il vient d&#39;une famille aisée.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="39" TimeIn="00:04:54:083" TimeOut="00:04:56:093" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Il se voyait officier.</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Sa famille aussi.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="40" TimeIn="00:04:57:166" TimeOut="00:04:59:000" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Il a échoué.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="41" TimeIn="00:04:59:052" TimeOut="00:05:01:093" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Apparemment, il l&#39;a mal digéré.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="42" TimeIn="00:05:01:198" TimeOut="00:05:05:135" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Bien sûr, rien de tout cela n&#39;explique</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">son côté lunatique.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="43" TimeIn="00:05:08:208" TimeOut="00:05:10:125" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Capitaine de frégate Fitzgerald.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="44" TimeIn="00:05:10:218" TimeOut="00:05:12:177" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Zamperini, commandant.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="45" TimeIn="00:05:18:187" TimeOut="00:05:20:198" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ils cherchaient des réponses.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="46" TimeIn="00:05:21:145" TimeOut="00:05:23:041" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ils n&#39;ont pas dû en obtenir.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="47" TimeIn="00:05:23:083" TimeOut="00:05:24:218" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Pas la moindre.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="48" TimeIn="00:05:28:125" TimeOut="00:05:29:166" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Vous devriez pioncer.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="49" TimeIn="00:05:30:198" TimeOut="00:05:31:229" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Oui, commandant.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="50" TimeIn="00:06:03:208" TimeOut="00:06:06:041" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Infirmerie, à droite !</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="51" TimeIn="00:06:06:166" TimeOut="00:06:08:000" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Rompez !</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="52" TimeIn="00:06:09:020" TimeOut="00:06:10:083" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Officiers.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="53" TimeIn="00:06:11:020" TimeOut="00:06:12:125" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">À droite !</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="54" TimeIn="00:06:13:031" TimeOut="00:06:14:125" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Rompez !</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="55" TimeIn="00:06:47:031" TimeOut="00:06:48:177" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Il y a du beau monde</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="56" TimeIn="00:06:49:114" TimeOut="00:06:50:218" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">au camp d&#39;Omori.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="57" TimeIn="00:06:53:093" TimeOut="00:06:55:000" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Nous avons un chanteur d&#39;opéra.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="58" TimeIn="00:06:56:125" TimeOut="00:06:58:010" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Qui est le chanteur d&#39;opéra ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="59" TimeIn="00:07:05:135" TimeOut="00:07:06:239" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Nous avons un chef,</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="60" TimeIn="00:07:07:145" TimeOut="00:07:10:010" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">venu de Sydney, en Australie.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="61" TimeIn="00:07:12:114" TimeOut="00:07:13:145" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Et...</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="62" TimeIn="00:07:14:083" TimeOut="00:07:16:114" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">nous avons un athlète olympique.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="63" TimeIn="00:07:19:041" TimeOut="00:07:21:073" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Qui est l&#39;athlète olympique ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="64" TimeIn="00:07:26:145" TimeOut="00:07:27:166" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Qui est</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="65" TimeIn="00:07:28:031" TimeOut="00:07:29:177" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">l&#39;athlète olympique ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="66" TimeIn="00:08:10:073" TimeOut="00:08:11:104" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Te relève pas.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="67" TimeIn="00:08:53:156" TimeOut="00:08:54:239" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Tu as échoué.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="68" TimeIn="00:08:57:156" TimeOut="00:08:59:010" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Tu n&#39;es rien.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="69" TimeIn="00:09:44:093" TimeOut="00:09:45:052" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Commandant ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="70" TimeIn="00:09:47:114" TimeOut="00:09:51:135" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Il recopie une carte,</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">avant qu&#39;on la rende aux Japs.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="71" TimeIn="00:09:51:177" TimeOut="00:09:54:093" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Il a répertorié</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">presque toutes les positions.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="72" TimeIn="00:09:58:166" TimeOut="00:10:00:218" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Nous avons envahi les îles Marshall.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="73" TimeIn="00:10:04:229" TimeOut="00:10:07:229" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Les États-Unis</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">ont envahi les îles Marshall.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="74" TimeIn="00:10:08:020" TimeOut="00:10:10:031" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Les Alliés gagnent du terrain.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="75" TimeIn="00:11:09:125" TimeOut="00:11:10:218" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">J&#39;ai remarqué un truc...</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="76" TimeIn="00:11:11:020" TimeOut="00:11:11:229" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Pitié.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="77" TimeIn="00:11:12:166" TimeOut="00:11:14:218" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">On bouffe rien,</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">mais on chie un max.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="78" TimeIn="00:11:17:145" TimeOut="00:11:18:208" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Dis donc.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="79" TimeIn="00:11:19:156" TimeOut="00:11:21:125" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Je crois que c&#39;est à moi.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="80" TimeIn="00:12:40:208" TimeOut="00:12:42:145" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ça te plaît, Saipan ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="81" TimeIn="00:13:10:239" TimeOut="00:13:12:125" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Je vais le tuer.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="82" TimeIn="00:13:13:229" TimeOut="00:13:15:177" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ils t&#39;abattront.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="83" TimeIn="00:13:15:218" TimeOut="00:13:18:000" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Rien à foutre. Qu&#39;ils m&#39;abattent.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="84" TimeIn="00:13:20:114" TimeOut="00:13:22:145" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">C&#39;est pas comme ça qu&#39;on les vaincra.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="85" TimeIn="00:13:23:073" TimeOut="00:13:26:229" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">On les vaincra en restant en vie</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">jusqu&#39;à la fin de la guerre.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="86" TimeIn="00:13:27:145" TimeOut="00:13:29:093" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Voilà comment on y arrivera.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="87" TimeIn="00:13:30:114" TimeOut="00:13:32:062" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Voilà notre revanche.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="88" TimeIn="00:13:34:093" TimeOut="00:13:36:177" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Si je tiens, c&#39;est gagné.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="89" TimeIn="00:13:39:031" TimeOut="00:13:40:114" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Exactement.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="90" TimeIn="00:13:41:041" TimeOut="00:13:45:000" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Mon frère Pete disait ça.</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Il pensait que je pouvais tout réussir.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="91" TimeIn="00:13:46:135" TimeOut="00:13:49:052" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Il me croyait meilleur que je ne suis.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="92" TimeIn="00:13:51:031" TimeOut="00:13:52:198" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Il avait peut-être raison.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="93" TimeIn="00:14:13:156" TimeOut="00:14:14:239" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">On se rapproche.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="94" TimeIn="00:15:24:218" TimeOut="00:15:26:239" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Pourquoi m&#39;obliges-tu à te frapper ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="95" TimeIn="00:15:39:125" TimeOut="00:15:40:218" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Vous êtes mort.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="96" TimeIn="00:15:44:073" TimeOut="00:15:46:083" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">En Amérique, ils disent</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="97" TimeIn="00:15:46:187" TimeOut="00:15:48:177" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">que Zamperini est mort.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="98" TimeIn="00:15:50:041" TimeOut="00:15:51:239" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ils ont dit à votre famille</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="99" TimeIn="00:15:52:031" TimeOut="00:15:54:073" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">que vous étiez mort au combat.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="100" TimeIn="00:15:54:187" TimeOut="00:15:56:125" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">NBC Radio a dit à l&#39;Amérique</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="101" TimeIn="00:15:56:218" TimeOut="00:15:58:156" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">que le célèbre coureur olympique</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="102" TimeIn="00:15:58:208" TimeOut="00:16:01:093" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Zamperini était mort.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="103" TimeIn="00:16:06:062" TimeOut="00:16:08:187" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Vous voulez dire à votre famille</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">que c&#39;est faux ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="104" TimeIn="00:16:10:020" TimeOut="00:16:11:083" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ces messieurs</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="105" TimeIn="00:16:12:073" TimeOut="00:16:14:093" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">travaillent pour Radio Tokyo.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="106" TimeIn="00:16:15:208" TimeOut="00:16:18:083" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Notre émission est retransmise</Text>
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">dans le monde entier.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="107" TimeIn="00:16:19:125" TimeOut="00:16:21:177" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Elle s&#39;appelle <Font Italic="yes">Postman Calls.</Font></Text>
+    </Subtitle>
+    <Subtitle SpotNumber="108" TimeIn="00:16:28:135" TimeOut="00:16:30:093" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">&#34;Bonjour, maman.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="109" TimeIn="00:16:31:031" TimeOut="00:16:32:239" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">C&#39;est ton fils qui te parle.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="110" TimeIn="00:16:33:198" TimeOut="00:16:36:010" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Maman, je t&#39;aime.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="111" TimeIn="00:16:36:229" TimeOut="00:16:38:166" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Je suis sain et sauf.&#34;</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="112" TimeIn="00:17:25:062" TimeOut="00:17:27:020" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Je ne dis que mes propres mots.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="113" TimeIn="00:17:27:062" TimeOut="00:17:28:083" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Bien sûr.</Text>
+    </Subtitle>
+  </Font>
+</DCSubtitle>

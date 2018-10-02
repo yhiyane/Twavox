@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This web service definition is protected under U.S. copyright laws as an unpublished work.
+  Do not copy.
+  Copyright 2009-$Date: 2009/03/20 $ by Dolby Laboratories Inc.
+  All rights reserved.
+-->
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/contentmanagement" 
+    xmlns:ns="http://www.dolby.com/dcinema/ws/smi/v1/schemas/contentmanagement" 
+    xmlns:com="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
+    
+    <xs:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+    
+    <!-- Brief information about a clip -->
+
+    <xs:complexType name="ClipInfo">
+      <xs:sequence>
+        <!-- The unique identifier of the clip -->
+        <xs:element name="clipId" type="com:UUID"/>
+        <!-- The title of the clip -->
+        <xs:element name="name" type="xs:string"/>
+        <!-- The type of clip -->
+        <xs:element name="clipType" type="ns:ClipType"/>
+        <!-- The size of the clip in MB -->
+        <xs:element name="size" type="xs:long"/>
+        <!-- The length of the clip -->
+        <xs:element name="duration" type="xs:duration"/>
+        <!-- Indicates if the clip requires a license for playback -->
+        <xs:element name="encrypted" type="xs:boolean"/>
+        <!-- Indicates if this clip is currently being transferred on this server -->
+        <xs:element name="transferring" type="xs:boolean"/>
+        <!-- Indicates if some files are corrupt for this clip -->
+        <xs:element name="corrupt" type="xs:boolean"/>
+        <!-- Indicates if some files are missing for this clip -->
+        <xs:element name="missingData" type="xs:boolean"/>
+        <!-- Indicates if this clip is licensed for playback -->
+        <xs:element name="licensed" type="com:LicenseState"/>
+        <!-- Indicates where this clip is located. Returns the auditorium number,
+         or "TMS" when the clip is on a TMS server not running in an auditorium-->
+        <xs:element name="location" type="xs:string"/>
+        <!-- Indicates if this clip may be selected and played -->
+        <xs:element name="playable" type="xs:boolean"/>
+        <!-- The rating of the clip -->
+        <xs:element name="rating" type="com:Rating"/>
+        <!-- The physical location of this clip.  Will not be returned if contentStore
+             is not MAINSTORE or EXTERNALSTORE or if this clip is in the transferring state -->
+        <xs:element name="url" type="xs:anyURI" minOccurs="0"/>
+        <!-- Additional key/value properties of the clip  -->
+		<!-- Notable ClipInfo properties: 
+		         atmosContent - If the clip contains a Dolby Atmos track.
+		         atmosLicensed - If the clip is licensed to playback Dolby Atmos content. -->
+        <xs:element name="properties" type="com:InfoPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+    <!-- Brief information about a package -->
+    
+    <xs:complexType name="PackageInfo">
+      <xs:sequence>    
+        <!-- The unique identifier of the package -->
+        <xs:element name="packageId" type="com:UUID"/>
+        <!-- The title of the package -->
+        <xs:element name="name" type="xs:string"/>
+        <!-- The content store containing the package -->
+        <xs:element name="contentStore" type="com:ContentStoreType"/>
+        <!-- The size of the package in MB -->
+        <xs:element name="size" type="xs:long"/>
+        <!-- Indicates where this package is located. Returns the auditorium number,
+         or "TMS" when the package is on a TMS server not running in an auditorium-->
+        <xs:element name="location" type="xs:string"/>
+        <!-- Indicates if this package is currently being transferred on this server -->
+        <xs:element name="transferring" type="xs:boolean"/>
+        <!-- Indicates if some files are missing or corrupt for this package -->
+        <xs:element name="corrupt" type="xs:boolean"/>
+        <!-- The individual assets of this package -->
+        <xs:element name="assets" type="ns:PackageAsset" maxOccurs="unbounded"/> 
+        <!-- Additional key/value properties of the package  -->
+        <xs:element name="properties" type="com:InfoPropertyType" minOccurs="0" maxOccurs="unbounded"/>  
+      </xs:sequence>
+    </xs:complexType>
+    
+    <!-- Describes an asset in a package -->
+    
+    <xs:complexType name="PackageAsset">
+      <xs:sequence>
+        <!-- The unique identifier of the asset -->
+        <xs:element name="assetId" type="com:UUID"/>
+        <!-- The size of the asset in MB -->
+        <xs:element name="size" type="xs:long"/>
+        <!-- The asset type -->
+        <xs:element name="type" type="com:ContentType"/>
+        <!-- Indicates if the asset is considered corrupt -->
+        <xs:element name="corrupt" type="xs:boolean"/>
+        <!-- Indicates if the asset has missing data -->
+        <xs:element name="missing" type="xs:boolean"/>
+        <!-- Additional key/value properties of the package asset  -->
+        <xs:element name="properties" type="com:InfoPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+    <!-- Clip categorization -->
+    
+    <xs:complexType name="ClipType">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:ClipTypeEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="ClipTypeEnum">
+		<xs:restriction base="xs:token">
+		   <!-- main presentation content -->
+		   <xs:enumeration value="FEATURE"/>
+		   <!-- trailer content -->
+		   <xs:enumeration value="TRAILER"/>
+		   <!-- advertisement content -->
+		   <xs:enumeration value="ADVERTISEMENT"/>
+		   <!-- policy content -->
+		   <xs:enumeration value="POLICY"/>
+		   <!-- test content -->
+		   <xs:enumeration value="TEST"/>
+		   <!-- Extremely short content (1 to 15 seconds) used to separate unrelated compositions -->
+		   <xs:enumeration value="TRANSITIONAL"/>
+		   <!-- Very short (less than 1 minute) content promoting an upcoming theatrical feature -->
+		   <xs:enumeration value="TEASER"/>
+		   <!-- Slate/still picture indicating the recommended age group permitted to view the content to
+                follow. This rating is generally unique per country -->
+		   <xs:enumeration value="RATING"/>
+		   <!-- Non advertising/promotional content (3 to 15 minutes) typically before a theatrical feature -->
+		   <xs:enumeration value="SHORT"/>
+		   <!-- Public service announcement -->
+		   <xs:enumeration value="PSA"/>
+		   <!-- unknown clip type -->
+		   <xs:enumeration value="UNKNOWN"/>
+		   <!-- An extended enumeration value is provided.  See extension attribute -->
+		   <xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+	</xs:simpleType>	    
+</xs:schema>
+    
+    

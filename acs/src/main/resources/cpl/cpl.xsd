@@ -1,0 +1,76 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.digicine.com/PROTO-ASDCP-CPL-20040511#" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CompositionPlaylist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="Id"/>
+        <xs:element type="xs:string" name="AnnotationText"/>
+        <xs:element type="xs:dateTime" name="IssueDate"/>
+        <xs:element type="xs:string" name="Issuer"/>
+        <xs:element type="xs:string" name="Creator"/>
+        <xs:element type="xs:string" name="ContentTitleText"/>
+        <xs:element type="xs:string" name="ContentKind"/>
+        <xs:element type="xs:string" name="RatingList"/>
+        <xs:element name="ReelList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Reel" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Id"/>
+                    <xs:element name="AssetList">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="MainPicture">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="Id"/>
+                                <xs:element type="xs:string" name="EditRate"/>
+                                <xs:element type="xs:short" name="IntrinsicDuration"/>
+                                <xs:element type="xs:short" name="EntryPoint"/>
+                                <xs:element type="xs:short" name="Duration"/>
+                                <xs:element type="xs:string" name="KeyId"/>
+                                <xs:element type="xs:string" name="Hash"/>
+                                <xs:element type="xs:string" name="FrameRate"/>
+                                <xs:element type="xs:float" name="ScreenAspectRatio"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="MainSound">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="Id"/>
+                                <xs:element type="xs:string" name="EditRate"/>
+                                <xs:element type="xs:short" name="IntrinsicDuration"/>
+                                <xs:element type="xs:short" name="EntryPoint"/>
+                                <xs:element type="xs:short" name="Duration"/>
+                                <xs:element type="xs:string" name="KeyId"/>
+                                <xs:element type="xs:string" name="Hash"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="MainSubtitle" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="Id"/>
+                                <xs:element type="xs:string" name="EditRate"/>
+                                <xs:element type="xs:short" name="IntrinsicDuration"/>
+                                <xs:element type="xs:byte" name="EntryPoint"/>
+                                <xs:element type="xs:short" name="Duration"/>
+                                <xs:element type="xs:string" name="Hash"/>
+                                <xs:element type="xs:string" name="Language" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<response version="2.1" status="OK">
+	<response_text>
+		<ShowPlaylist xmlns="http://www.smpte-ra.org/430-8/2006/SPL">
+			<Id>urn:uuid:09e0c062-64b6-4790-b743-28e1e690649f</Id>
+			<IssueDate>2010-11-19T15:05:42+08:00</IssueDate>
+			<Issuer>GDC</Issuer>
+			<Creator>SMS</Creator>
+			<ShowTitleText>SAMPLE_SPL_WITH_CUE</ShowTitleText>
+			<ContentVersion>
+				<Id>2d7795ea-9c32-4bdf-9617-282ec97e343f</Id>
+				<LabelText>GDC SPL</LabelText>
+			</ContentVersion>
+			<PackList>
+				<PlaylistPack>
+					<Id>urn:uuid:8fd1536e-080c-4be3-bf00-000000000000</Id>
+					<PlayTypeChoice>
+						<PlayCount>1</PlayCount>
+					</PlayTypeChoice>
+					<Playlist>
+						<CompositionPlaylistId>urn:uuid:4e7bed9d-ce38-4310-95e6-fefbbea8f7ad
+						</CompositionPlaylistId>
+					</Playlist>
+				</PlaylistPack>
+			</PackList>
+		</ShowPlaylist>
+	</response_text>
+</response>

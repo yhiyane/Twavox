@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:SPL="http://www.dolby.com/dcinema/ws/smi/v11/SPL" xmlns:CPL="http://www.dolby.com/dcinema/ws/smi/v11/SPL" targetNamespace="http://www.dolby.com/dcinema/ws/smi/v11/SPL" elementFormDefault="qualified" id="ShowPlaylist">
+	<xs:element name="ShowPlaylist" type="SPL:ShowPlaylistType"/>
+	<xs:complexType name="ShowPlaylistType">
+		<xs:sequence>
+		    <!-- Uniquely identifies the show play list -->
+			<xs:element name="Id" type="CPL:UUID"/>
+			<!-- Identifies the logical show play list that correlates a show play list with other revisions -->
+			<xs:element name="ArrangementId" type="SPL:UUIDType"/>
+			<!-- Free form human-readable annotation describing the show play list -->
+			<xs:element name="AnnotationText" type="CPL:UserText" minOccurs="0"/>
+			<!-- Time at which an application created the show play list -->
+			<xs:element name="CreateDate" type="xs:dateTime"/>
+			<!-- Free form human-readable annotation describing what application created the show play list -->
+			<xs:element name="Creator" type="CPL:UserText" minOccurs="0"/>
+			<!-- Free form human-readable annotation describing the entity which created the show play list -->
+			<xs:element name="Issuer" type="CPL:UserText" minOccurs="0"/>
+			<!-- Contains a human-readable title for the show -->
+			<xs:element name="ShowTitleText" type="CPL:UserText"/>
+			<!-- Label describing the audience the show is appropriate for -->
+			<xs:element name="Rating" type="SPL:RatingType" minOccurs="0"/>
+			<!-- The list of clips and markers that compose the show -->
+			<xs:element name="Show" type="SPL:ShowType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="UUIDType">
+		<xs:simpleContent>
+			<xs:extension base="CPL:UUID">
+			    <!-- Contains a human-readable title for the identified content -->
+				<xs:attribute name="Title" type="xs:string"/>
+				<!-- Duration for the identified content -->
+				<xs:attribute name="EstimatedDuration" type="xs:duration"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="RatingType">
+      <xs:sequence>
+        <!-- The label of the rating -->
+        <xs:element name="label" type="xs:string"/>
+        <!-- The agency that this rating label belongs to -->
+        <xs:element name="agency" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+	<xs:complexType name="ShowType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:choice>
+			    <!-- A clip to be played within a show -->
+				<xs:element name="CompositionPlaylistId" type="SPL:UUIDType"/>
+				<!-- A logical marker where cues may be fired within a show -->
+				<xs:element name="Marker" type="SPL:MarkerType"/>
+			</xs:choice>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MarkerType">
+		<xs:sequence>
+		    <!-- Uniquely identifies the marker within the show -->
+			<xs:element name="Id" type="CPL:UUID"/>
+			<!-- Free form human-readable text describing the marker -->
+			<xs:element name="AnnotationText" type="CPL:UserText" minOccurs="0"/>
+                        <!-- The Parameterized cue value -->
+                        <xs:element name="parameterizedValue" type="xs:string" minOccurs="0"/>
+			<!-- Textual representation of a unique marker --> 
+			<xs:element name="Label">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:token">
+							<xs:attribute name="scope" type="xs:anyURI" use="optional" default="http://www.smpte-ra.org/schemas/430-8/2007/SPL#standard-markers"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<!-- Distance from the position in the show play list where the marker is found. -->
+			<xs:element name="Offset" default="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:unsignedLong">
+						    <!-- Denotes that the position is relative to the start or the end of the associated element. -->
+							<xs:attribute name="Kind" type="xs:token" default="START"/>
+							<!-- Denotes the unit of measurement for the offset. -->
+							<xs:attribute name="EditRate" type="CPL:Rational" default="1 1"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<!-- Free form human-readable text annotation associated with the Marker -->
+		<xs:attribute name="Title" type="xs:string"/>
+	</xs:complexType>
+
+<!-- Uniquely identifies the associated element for management purposes -->
+<xs:simpleType name="UUID">
+    <xs:restriction base="xs:anyURI">
+        <xs:pattern value="urn:uuid:[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<!-- Type used for free-form human readable text -->
+<xs:complexType name="UserText">
+    <xs:simpleContent>
+        <xs:extension base="xs:string">
+            <xs:attribute name="language" type="xs:language" use="optional" default="en"/>
+        </xs:extension>
+    </xs:simpleContent>
+</xs:complexType>
+
+<!-- Type used to represent the ratio of two integers -->
+<xs:simpleType name="Rational">
+    <xs:restriction>
+        <xs:simpleType>
+            <xs:list itemType="xs:long"/>
+        </xs:simpleType>
+        <xs:length value="2"/>
+    </xs:restriction>
+</xs:simpleType>
+
+</xs:schema>

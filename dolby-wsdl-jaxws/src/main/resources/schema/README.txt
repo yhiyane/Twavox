@@ -1,0 +1,1 @@
+xjc -p com.cineapps.show ../resources/schema/show.xsd

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShowPlaylist>
+    <Id>urn:uuid:c23ab440-0294-11e4-9191-0800200c9a66</Id>
+    <AnnotationText>DEMO</AnnotationText>
+    <ShowTitleText>DEMO</ShowTitleText>
+    <PlaybackEnvironment>
+        <EnvironmentCapability>
+            <Capability>STEREOSCOPIC_CONTENT</Capability>
+        </EnvironmentCapability>
+    </PlaybackEnvironment>
+    <IssueDate>2009-10-21T19:43:34+0200</IssueDate>
+    <Creator>DVIDEA TMS</Creator>
+    <EventList>
+        <Event>
+            <Id>urn:uuid:e9b4a210-a9fc-4d1f-8b3c-3d104e6de884</Id>
+            <ElementList>
+                <MainElement>
+                    <Composition>
+                        <Id>urn:uuid:7d51bd5f-9ee2-4e07-b1eb-8e36fc7895d5</Id>
+                        <AnnotationText>%s_FTR_S_FR-XX_FR_51_2K_SPE_20090912_DUK_i3D-ngb</AnnotationText>
+                        <CompositionPlaylistId>urn:uuid:1bf53165-3138-4848-9f35-8e7435772286</CompositionPlaylistId>
+                        <EditRate>24 1</EditRate>
+                        <IntrinsicDuration>129576</IntrinsicDuration>
+                        <AudioChannel>0</AudioChannel>
+                    </Composition>
+                </MainElement>
+            </ElementList>
+        </Event>
+    </EventList>
+</ShowPlaylist>

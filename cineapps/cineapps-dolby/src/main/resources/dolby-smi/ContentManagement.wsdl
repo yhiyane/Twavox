@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This web service definition is protected under U.S. copyright laws as an unpublished work.
+  Do not copy.
+  Copyright 2009-$Date: 2009/03/20 $ by Dolby Laboratories Inc.
+  All rights reserved.
+-->
+<wsdl:definitions name="ContentManagement_v1"
+  targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1"
+  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+  xmlns:tns="http://www.dolby.com/dcinema/ws/smi/v1"
+  xmlns:con="http://www.dolby.com/dcinema/ws/smi/v1/schemas/contentmanagement"
+  xmlns:com="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"
+  xmlns:flt="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"
+  xmlns:v1_0="http://www.dolby.com/dcinema/ws/smi/v1_0" 
+  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Request/Response Schema Definitions -->
+  
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1_0">
+
+      <xsd:import schemaLocation="ContentManagement.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/contentmanagement"/>    
+      <xsd:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+      <xsd:import schemaLocation="Fault.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"/>
+        
+      <!-- getClips elements -->
+      
+      <xsd:element name="getClipsRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="contentStore" type="com:ContentStoreType" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    
+      <xsd:element name="getClipsResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="clipId" type="com:UUID" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+            
+      <!-- getClipInfos elements -->
+    
+      <xsd:element name="getClipInfosRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="clipId" type="com:UUID" minOccurs="0"/>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="contentStore" type="com:ContentStoreType" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="getClipInfosResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="clipInfo" type="con:ClipInfo" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      
+      <!-- getCPL elements -->
+    
+      <xsd:element name="getCPLRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="clipId" type="com:UUID"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="getCPLResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="clip" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      
+      <!-- getPackages elements -->
+
+      <xsd:element name="getPackagesRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    
+      <xsd:element name="getPackagesResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="packageId" type="com:UUID" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      
+      <!-- getPackageInfos elements -->
+    
+      <xsd:element name="getPackageInfosRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="packageId" type="com:UUID" minOccurs="0"/>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="getPackageInfosResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="packageInfo" type="con:PackageInfo" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- ingestContent elements -->
+      
+      <xsd:element name="ingestContentRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="contentId" type="com:UUID" maxOccurs="unbounded"/>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="contentType" type="com:ContentType" minOccurs="0"/>
+            <xsd:element name="sourceContentStore" type="com:ContentStoreType"/>
+            <xsd:element name="destinationContentStore" type="com:ContentStoreType"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="ingestContentResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="transferId" type="com:UUID" minOccurs="1" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- deleteContent elements -->
+      
+      <xsd:element name="deleteContentRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="contentId" type="com:UUID"/>
+            <xsd:element name="contentType" type="com:ContentType" minOccurs="0"/>
+            <xsd:element name="auditoriumNumber" type="xsd:string" minOccurs="0"/>
+            <xsd:element name="contentStore" type="com:ContentStoreType" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="deleteContentResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>   
+      
+      <!-- base fault type -->
+      
+      <xsd:element name="fault" type="flt:Fault"/>
+      
+    </xsd:schema>
+  </wsdl:types>
+  
+  <!-- Message Specification -->
+  
+  <wsdl:message name="getClipsRequest">
+    <wsdl:part element="v1_0:getClipsRequest" name="parameters"/>
+  </wsdl:message>   
+  <wsdl:message name="getClipsResponse">
+    <wsdl:part element="v1_0:getClipsResponse" name="result"/>
+  </wsdl:message>  
+  
+  <wsdl:message name="getClipInfosRequest">
+    <wsdl:part element="v1_0:getClipInfosRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getClipInfosResponse">
+    <wsdl:part element="v1_0:getClipInfosResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getCPLRequest">
+    <wsdl:part element="v1_0:getCPLRequest" name="parameters"/>
+  </wsdl:message>  
+  <wsdl:message name="getCPLResponse">
+    <wsdl:part element="v1_0:getCPLResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getPackagesRequest">
+    <wsdl:part element="v1_0:getPackagesRequest" name="parameters"/>
+  </wsdl:message>  
+  <wsdl:message name="getPackagesResponse">
+    <wsdl:part element="v1_0:getPackagesResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getPackageInfosRequest">
+    <wsdl:part element="v1_0:getPackageInfosRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getPackageInfosResponse">
+    <wsdl:part element="v1_0:getPackageInfosResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="ingestContentRequest">
+    <wsdl:part element="v1_0:ingestContentRequest" name="parameters"/>
+  </wsdl:message>  
+  <wsdl:message name="ingestContentResponse">
+    <wsdl:part element="v1_0:ingestContentResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="deleteContentRequest">
+    <wsdl:part element="v1_0:deleteContentRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="deleteContentResponse">
+    <wsdl:part element="v1_0:deleteContentResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="fault">
+    <wsdl:part element="v1_0:fault" name="fault"/>
+  </wsdl:message>
+  
+  <!-- Operation Specification -->
+  
+  <wsdl:portType name="ContentManagementService_v1_0">
+  
+    <!-- getClips Operation -->
+  
+    <wsdl:operation name="getClips">
+      <wsdl:documentation>
+          getClips Operation
+              Lists the unique clips on the system.
+
+		  Parameters:
+		      auditoriumNumber (optional) - The auditorium to retrieve the clips from.  Only 
+		          useful when calling the service on a TMS server.  If not specified on a 
+		          TMS server call then this will only retrieve the clips from the TMS server.
+                  If '*' is specified, then this will get clips regardless of location.
+		      contentStore (optional) - The content store to retrieve the clips from.  If not 
+		          specified then will return clips on all content stores.
+
+		  Response:
+		      clipId (many) - The array of clip identifiers.
+
+		  Exceptions:
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+
+          Related Services:
+		      getClipInfos - This service can be used to get brief information about the clips 
+		          that exist on the system.
+        </wsdl:documentation>
+      <wsdl:input message="tns:getClipsRequest"/>
+      <wsdl:output message="tns:getClipsResponse"/>
+      <wsdl:fault message="tns:fault" name="getClipsFault"/>
+    </wsdl:operation>
+  
+    <!-- getClipInfo Operation -->
+  
+    <wsdl:operation name="getClipInfos">
+      <wsdl:documentation>
+          getClipInfos Operation
+              Gets basic information about one or more clips that match all of the provided query 
+              criteria.  If no clip matches all of the provided query no clip information will be 
+              returned.
+
+		  Parameters:
+		      clipId (optional) - The unique identifier of the clip whose information to retrieved.
+		          If not specified then clip information will be returned regardless of their 
+		          unique identifier.
+		      auditoriumNumber (optional) - The auditorium to retrieve the clips information from.  
+		          Only useful when calling this service on a TMS server.  If not specified then
+		          clip information will be returned only from the TMS server. If '*' is specified,
+                  then this will get the clip information regardless of location.
+              contentStore (optional) - The content store containing the clip.  If not specified then
+		          clip information will be returned regardless of their content store.
+
+		  Response:
+		      clipInfo (many) - the clip information which matched all the specified query criteria.
+
+		  Exceptions:
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+
+          Related Services:
+		      getClips - This service can be used to easily detect what clips exist within the system.
+        </wsdl:documentation>
+      <wsdl:input message="tns:getClipInfosRequest"/>
+      <wsdl:output message="tns:getClipInfosResponse"/>
+      <wsdl:fault message="tns:fault" name="getClipInfosFault"/>
+    </wsdl:operation>
+    
+    <!-- getCPL Operation -->
+    
+    <wsdl:operation name="getCPL">
+      <wsdl:documentation>
+          getCPL Operation
+              Gets the clip SMPTE Composition PlayList (CPL).
+
+		  Parameters:
+		      clipId - The unique identifier of the clip whose composition playlist is being retrieved.
+
+		  Response:
+              clip - A string representing the XML SMPTE composition playlist.
+
+		  Exceptions:
+		      NotFound - If no clip with the matching uuid could be found on the MAINSTORE.
+		      NotConnected - If the ContentPlayer component(s) are not connected.
+
+          Related Services:
+		      getClips - This service can be used to easily detect what clips exist within the system.
+        </wsdl:documentation>
+      <wsdl:input message="tns:getCPLRequest"/>
+      <wsdl:output message="tns:getCPLResponse"/>
+      <wsdl:fault message="tns:fault" name="getCPLFault"/>
+    </wsdl:operation>
+    
+    <!-- getPackages Operation -->
+    
+    <wsdl:operation name="getPackages">
+      <wsdl:documentation>
+          getPackages Operation
+              Lists the unique packages on removable media.
+
+		  Parameters:
+		      auditoriumNumber (optional) - The auditorium to retrieve the packages from. 
+		          Only useful when calling the service on a TMS server.  If not specified then
+		          packages will be retrieved only from the TMS server. If the wildcard '*' is specified,
+                  then this will retrieve the packages regardless of location.
+
+		  Response:
+              packageId (many) - The array of package identifiers.
+
+		  Exceptions:
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      NotConnected - If the ContentPlayer component(s) are not connected.
+
+          Related Services:
+		      getPackageInfos - This service can be used to get brief information about the packages 
+		          that exist on the system.
+        </wsdl:documentation>
+      <wsdl:input message="tns:getPackagesRequest"/>
+      <wsdl:output message="tns:getPackagesResponse"/>
+      <wsdl:fault message="tns:fault" name="getPackagesFault"/>
+    </wsdl:operation>
+    
+    <!-- getPackageInfos Operation -->
+    
+    <wsdl:operation name="getPackageInfos">
+      <wsdl:documentation>
+          getPackageInfos Operation
+              Gets basic information about one or more packages on removable media that match all of 
+              the provided query criteria.  If no package matches all of the provided query no package 
+              information will be returned.
+
+		  Parameters:
+		      packageId (optional) - The unique identifier of the package information being retrieved.
+		          If not specified then package information will be returned regardless of their 
+		          unique identifier.
+		      auditoriumNumber (optional) - The auditorium to retrieve the package information from.  
+		          Only useful when calling the service on a TMS server. If not specified then specified
+      		      packages will be retrieved only from the TMS server. If the wildcard '*' is specified,
+                  then this will retrieve the packages regardless of location.
+
+		  Response:
+              packageInfo (many) - the package information which matched all the specified query criteria.
+
+		  Exceptions:
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      NotConnected - If the ContentPlayer component(s) are not connected.
+
+          Related Services:
+		      getPackages - This service can be used to easily detect what clips exist within the system.
+        </wsdl:documentation>
+      <wsdl:input message="tns:getPackageInfosRequest"/>
+      <wsdl:output message="tns:getPackageInfosResponse"/>
+      <wsdl:fault message="tns:fault" name="getPackageInfosFault"/>
+    </wsdl:operation>
+    
+    <!-- ingestContent Operation -->
+    
+    <wsdl:operation name="ingestContent">
+      <wsdl:documentation>
+          ingestContent Operation
+              Ingests one or more pieces of content from the removable drive or offloads content to the 
+              removable media.
+             
+		  Parameters:
+		      contentId (many) - One or more unique identifiers of content which is being ingested or 
+		          offloaded.
+		      auditoriumNumber (optional) - The auditorium to initiate content ingest.  Only useful 
+		          when calling the service on a TMS server.  If not specified on a TMS server
+		          call then this will ingest the specified content onto the TMS server.
+		      contentType (optional) - The type of content to transfer.  If specifying
+		         CLIP - The clip and all of its underlying assets will be ingested or offloaded.
+		         PKL - The package and all of its underlying assets will be ingested or offloaded.
+		         No other contentTypes are currently supported for content ingest/offload.  If no contentType is 
+		         specified, then the first piece of transferable content with the matching uuid will be 
+		         transferred.
+		      sourceContentStore - the content store where this content currently exists.
+		      destinationContentStore - the content store where this content should be copied to.
+
+		  Response:
+              transferId - the unique identifier of the ingest/offload job.
+
+		  Exceptions:
+		      ContentStoreFailure - If a specified content store is not available, one content store is not
+		          permanent media, or if the destination content store is not writable.
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      NotConnected - If the ContentPlayer component(s) are not connected.
+
+          Related Services:
+		      getClips/getClipInfos - These services can be used to determine what clips exist on 
+		          what content stores before and after initiating ingestContent.
+		      SystemManagement#getContentStores - This service is useful in determining the state of permanent 
+		          and removable media stores within the system.
+		      TransferManagement#getTransfers/getTransferInfos - These services can be used to get the status 
+		          of an ingestContent request.
+		      TransferManagement#cancelTransfer - This service can be used to cancel an ingestContent request.
+        </wsdl:documentation>
+      <wsdl:input message="tns:ingestContentRequest"/>
+      <wsdl:output message="tns:ingestContentResponse"/>
+      <wsdl:fault message="tns:fault" name="ingestContentFault"/>
+    </wsdl:operation>
+        
+    <!-- deleteContent Operation -->
+    
+    <wsdl:operation name="deleteContent">
+      <wsdl:documentation>
+          deleteContent Operation
+              Removes content from the specified content store.  Does nothing if the auditorium, 
+              content store or content does not exist.
+              
+		  Parameters:
+		      contentId - The unique identifier of the content being removed.
+		      contentType (optional) - the type of the content to remove.  Only implemented for CLIP.  
+		          No other contentTypes are currently supported for content deletion.  If no contentType is 
+		          specified, then the first piece of deletable content with the matching uuid will be 
+		          deleted.
+		      auditoriumNumber (optional) - The auditorium to initiate content deletion.  Only useful 
+		          when calling the service on a TMS server.  If not specified then
+		          this will delete the specified clip only from the TMS server. If the wildcard '*' is specified,
+                  then this will delete the clip regardless of location.
+		      contentStore (optional)- the content store that this content currently exists. If no store is specified,
+                  then this will delete the specified content in all stores.
+
+          Response:
+              None
+
+		  Exceptions:
+		      InvalidAuditorium - If no auditorium with the specified number exists.
+		      NotConnected - If the ContentPlayer component(s) are not connected.
+
+          Related Services:
+		      getClips/getClipInfos - These services can be used to determine what clips exist on 
+		          what content stores before and after the deleteContent request.
+        </wsdl:documentation>
+      <wsdl:input message="tns:deleteContentRequest"/>
+      <wsdl:output message="tns:deleteContentResponse"/>
+      <wsdl:fault message="tns:fault" name="deleteContentFault"/>
+    </wsdl:operation>
+    
+  </wsdl:portType>
+  
+  <!-- Binding Specification -->
+  
+  <wsdl:binding name="ContentManagementBinding_v1_0" type="tns:ContentManagementService_v1_0">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    
+    <wsdl:operation name="getClips">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getClips"/>
+      <wsdl:input name="getClipsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getClipsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getClipsFault">
+        <soap:fault name="getClipsFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>    
+    
+    <wsdl:operation name="getClipInfos">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getClipInfos"/>
+      <wsdl:input name="getClipInfosRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getClipInfosResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getClipInfosFault">
+        <soap:fault name="getClipInfosFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getCPL">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getCPL"/>
+      <wsdl:input name="getCPLRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getCPLResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getCPLFault">
+        <soap:fault name="getCPLFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getPackages">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPackages"/>
+      <wsdl:input name="getPackagesRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getPackagesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPackagesFault">
+        <soap:fault name="getPackagesFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getPackageInfos">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPackageInfos"/>
+      <wsdl:input name="getPackageInfosRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getPackageInfosResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPackageInfosFault">
+        <soap:fault name="getPackageInfosFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="ingestContent">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/ingestContent"/>
+      <wsdl:input name="ingestContentRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="ingestContentResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="ingestContentFault">
+        <soap:fault name="ingestContentFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>    
+        
+    <wsdl:operation name="deleteContent">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/deleteContent"/>
+      <wsdl:input name="deleteContentRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="deleteContentResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="deleteContentFault">
+        <soap:fault name="deleteContentFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+  </wsdl:binding>
+  
+  <!-- Address Specification -->
+  
+  <wsdl:service name="ContentManagement_v1_0">
+    <wsdl:port binding="tns:ContentManagementBinding_v1_0" name="ContentManagementService_v1_0">
+      <soap:address location="http://www.dolby.com:8080/dcinema/ws/smi/v1/ContentManagementService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

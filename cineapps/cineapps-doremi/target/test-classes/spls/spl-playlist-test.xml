@@ -1,0 +1,61 @@
+<ShowPlaylist xmlns:spl="http://doremilabs.com/schemas/1.0/SPL"
+              xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+	<Id>urn:uuid:b79d3e99-2224-4733-b67a-fef0e000e43d</Id>
+	<ShowTitleText>TEST</ShowTitleText>
+	<AnnotationText>TEST</AnnotationText>
+	<IssueDate>2015-02-10T08:19:18Z</IssueDate>
+	<Creator>Doremi Labs -- CineLister 2.6.3-0</Creator>
+	<ContentVersion>
+		<Id>urn:uuid:ba48298d-2ed1-4692-b0ff-b8ba5b284237</Id>
+		<LabelText>urn:uuid:ba48298d-2ed1-4692-b0ff-b8ba5b284237</LabelText>
+	</ContentVersion>
+	<PackList>
+		<Pack>
+			<Id>urn:uuid:8826c772-128c-49d4-b886-8fa3272d74ad</Id>
+			<EventList>
+				<Event>
+					<Id>urn:uuid:971adcf2-577e-45f4-9cad-1e92aae27399</Id>
+					<ElementList>
+						<MainElement>
+							<Composition>
+								<Id>urn:uuid:f882303b-f950-43f8-a792-6858f416ecf7</Id>
+								<CompositionPlaylistId>urn:uuid:45ea0ff1-15f6-4026-bc8e-3761e5dae81a</CompositionPlaylistId>
+								<AnnotationText>CARTON-IMAX-AOUT-DEC</AnnotationText>
+								<IntrinsicDuration>288</IntrinsicDuration>
+								<EditRate>24 1</EditRate>
+							</Composition>
+						</MainElement>
+					</ElementList>
+				</Event>
+				<Event>
+					<Id>urn:uuid:43962dfb-6004-4629-a664-26287196064f</Id>
+					<ElementList>
+						<MainElement>
+							<Composition>
+								<Id>urn:uuid:1d2b0928-11f7-48d5-9565-e33a5c6febb3</Id>
+								<CompositionPlaylistId>urn:uuid:b8c3f20c-d84e-463e-9684-fa7f0518c9aa</CompositionPlaylistId>
+								<AnnotationText>CARTON_SORTIES_IMAX_JUIN_AOUT</AnnotationText>
+								<IntrinsicDuration>240</IntrinsicDuration>
+								<EditRate>24 1</EditRate>
+							</Composition>
+						</MainElement>
+					</ElementList>
+				</Event>
+				<Event>
+					<Id>urn:uuid:4f89dec4-5b97-4c9b-ae78-2d096a980b07</Id>
+					<ElementList>
+						<MainElement>
+							<Composition>
+								<Id>urn:uuid:5114cff9-b475-4954-836e-5d2b31430bc8</Id>
+								<CompositionPlaylistId>urn:uuid:c77e9072-d32e-4b75-a178-3f391269183e</CompositionPlaylistId>
+								<AnnotationText>LaFamilleBelier_FTR_F_FR-FR_FR_51-VI_2K_MARS_20141022_ECL_IOP_OV</AnnotationText>
+								<IntrinsicDuration>152232</IntrinsicDuration>
+								<EditRate>24 1</EditRate>
+							</Composition>
+						</MainElement>
+					</ElementList>
+				</Event>
+			</EventList>
+		</Pack>
+	</PackList>
+</ShowPlaylist>

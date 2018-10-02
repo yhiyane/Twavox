@@ -1,0 +1,7 @@
+XSD GENERATION :
+	- use online xsd generation
+	
+JAVA GENERATION :
+	- go to src/main/java directory
+	- xjc -p com.cineapps.model.cpl ../resources/cpl/cpl.xsd
+	- comment package-info namespace 

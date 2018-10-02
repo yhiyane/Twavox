@@ -1,0 +1,22 @@
+<SMSMessage>
+	<MessageHeader>
+		<Type>DeviceStatusList</Type>
+	</MessageHeader>
+	<MessageBody>
+		<DeviceStatusList>
+			<DeviceStatus>
+				<Device>PRJ</Device>
+				<ComponentFamilyStatusList>
+					<ComponentFamilyStatus>
+						<ComponentStatusList>
+							<ComponentStatus>
+								<Component>COMPONENT</Component>
+								<Status>NORMAL</Status>
+							</ComponentStatus>
+						</ComponentStatusList>
+					</ComponentFamilyStatus>
+				</ComponentFamilyStatusList>
+			</DeviceStatus>
+		</DeviceStatusList>
+	</MessageBody>
+</SMSMessage>

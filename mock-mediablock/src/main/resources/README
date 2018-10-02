@@ -1,0 +1,49 @@
+### Presentation
+
+This is a small project that simulate a mediablock server :
+- Play a video using Node.js
+- Run a mediablock server synchronized with the video
+
+### Requirement
+
+- Make sure to have a proper 'xxx.properties' file.
+
+### Properties
+
+Prepare xxx.properties :
+	# The port number of the doremi server
+	server.port=11730
+	
+	# The name of the subtitle folder that will be loaded by the Acs 
+	st.folder=DEMO-Hobbit
+	
+	# Type of mediablock [DOREMI,DOLBY,GDC,SONY]
+	server.type=DOREMI
+	
+	# The OS type of the machine running this application [MAC,WINDOWS,LINUX]
+	system.type=MAC
+	
+### Run 
+
+	java -jar mock-mediablock.jar path/to/config/file
+
+### Generate Dolby server side with Apache 
+
+	- Go to Desktop
+
+	- ./apache-cxf-3.1.1/bin/wsdl2java -all -wsdlLocation /dolby-smi/PlaybackControl.wsdl
+	 	~/dev/java/dolby-wsdl/src/main/resources/dolby-smi/PlaybackControl.wsdl
+	
+	- ./apache-cxf-3.1.1/bin/wsdl2java -all -wsdlLocation /dolby-smi/ShowManagement.wsdl
+	 	~/dev/java/dolby-wsdl/src/main/resources/dolby-smi/ShowManagement.wsdl
+	 	
+	- The 'com' directory is created. Import it into 'dolby-wsdl' and 'mock-mediablock' projects
+	 
+### Change Java version on mac
+
+	export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
+
+### Generate template to marchall/unmarshall xml to objects
+
+	- create a .xsd from .xml sample
+	- xjc -p com.cineapps.show ../resources/schema/show.xsd

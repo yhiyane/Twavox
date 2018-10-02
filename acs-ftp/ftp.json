@@ -1,0 +1,17 @@
+{
+	"subtitlesDirPath":"/Users/macbookproapple/Desktop/subtitles/",
+	"ftps": [
+		{
+			"host":"localhost",
+			"user":"macbookproapple",
+			"password":"jcchrun",
+			"path":"Documents/library/small"
+		}, 
+		{
+			"host":"localhost",
+			"user":"macbookproapple",
+			"password":"jcchrun",
+			"path":"Documents/library/small2"
+		}
+	]
+}

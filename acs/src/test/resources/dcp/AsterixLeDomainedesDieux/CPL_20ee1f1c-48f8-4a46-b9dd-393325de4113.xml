@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompositionPlaylist xmlns="http://www.digicine.com/PROTO-ASDCP-CPL-20040511#">
+  <Id>urn:uuid:20ee1f1c-48f8-4a46-b9dd-393325de4113</Id>
+  <AnnotationText>AsterixLeDomainedesDieux_FTR-3D_F_FR-fr_FR_51_2K_SND_20141114_ECL_IOP_OV</AnnotationText>
+  <IssueDate>2014-11-15T01:17:43+01:00</IssueDate>
+  <Issuer>Doremi Labs, Inc.</Issuer>
+  <Creator>orca_wrapping 3.2.0</Creator>
+  <ContentTitleText>AsterixLeDomainedesDieux_FTR-3D_F_FR-fr_FR_51_2K_SND_20141114_ECL_IOP_OV</ContentTitleText>
+  <ContentKind>Feature</ContentKind>
+  <RatingList/>
+  <ReelList>
+    <Reel>
+      <Id>urn:uuid:fb4f1286-0f5e-49c5-9a8f-c132cc29d501</Id>
+      <AssetList>
+        <MainSound>
+          <Id>urn:uuid:9bd43f97-1ec3-435c-91f2-295353311fee</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>29495</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>29495</Duration>
+          <KeyId>urn:uuid:ccea8525-a966-444d-b9fd-2743e6f3e08d</KeyId>
+          <Hash>KWa636ujAR4+CvdbnalaF68TQPg=</Hash>
+        </MainSound>
+        <msp-cpl:MainStereoscopicPicture xmlns:msp-cpl="http://www.digicine.com/schemas/437-Y/2007/Main-Stereo-Picture-CPL">
+          <Id>urn:uuid:2a30a980-9097-4033-bd67-33257c8b5997</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>29495</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>29495</Duration>
+          <KeyId>urn:uuid:0390c052-22ca-42ae-9a62-9f19de4f88f9</KeyId>
+          <Hash>G/1o4Bs/GACTlGdkEgQ06uwCL4I=</Hash>
+          <FrameRate>48 1</FrameRate>
+          <ScreenAspectRatio>1.85</ScreenAspectRatio>
+        </msp-cpl:MainStereoscopicPicture>
+      </AssetList>
+    </Reel>
+    <Reel>
+      <Id>urn:uuid:b6060de5-269b-4a25-91b3-79fd1baaa760</Id>
+      <AssetList>
+        <MainSound>
+          <Id>urn:uuid:0535fad4-369a-4ce8-95e4-4af26defe9bd</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>28017</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>28017</Duration>
+          <KeyId>urn:uuid:47c7356c-3d9b-4fcf-8395-6c4b662bdd61</KeyId>
+          <Hash>96n6ghx/mDX/LPb8CtPybltTkgY=</Hash>
+        </MainSound>
+        <msp-cpl:MainStereoscopicPicture xmlns:msp-cpl="http://www.digicine.com/schemas/437-Y/2007/Main-Stereo-Picture-CPL">
+          <Id>urn:uuid:c4ca1a0c-44d0-4b27-8f05-d1526f2bb57e</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>28017</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>28017</Duration>
+          <KeyId>urn:uuid:5dc47196-89bb-4498-8a06-3bb37ae19964</KeyId>
+          <Hash>6kmuErl4+WWXWHnoBcDgROPwRjU=</Hash>
+          <FrameRate>48 1</FrameRate>
+          <ScreenAspectRatio>1.85</ScreenAspectRatio>
+        </msp-cpl:MainStereoscopicPicture>
+      </AssetList>
+    </Reel>
+    <Reel>
+      <Id>urn:uuid:2472e5c0-bd19-45c9-ae1f-748848d6426f</Id>
+      <AssetList>
+        <MainSound>
+          <Id>urn:uuid:326a6731-925d-4546-bab0-c6360fb507fe</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>24664</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>24664</Duration>
+          <KeyId>urn:uuid:f9ade79b-09a7-41a7-bb80-9a8a409c6618</KeyId>
+          <Hash>H0wXoNk78D+JJJ3FFtrOJ0s7d4M=</Hash>
+        </MainSound>
+        <msp-cpl:MainStereoscopicPicture xmlns:msp-cpl="http://www.digicine.com/schemas/437-Y/2007/Main-Stereo-Picture-CPL">
+          <Id>urn:uuid:789fad03-7467-4b38-8e21-3937b2381013</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>24664</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>24664</Duration>
+          <KeyId>urn:uuid:6f5e644e-f113-4add-801d-27272dd87aae</KeyId>
+          <Hash>3iLkULl/nBqWh4xmC33KoHrWh9c=</Hash>
+          <FrameRate>48 1</FrameRate>
+          <ScreenAspectRatio>1.85</ScreenAspectRatio>
+        </msp-cpl:MainStereoscopicPicture>
+      </AssetList>
+    </Reel>
+    <Reel>
+      <Id>urn:uuid:3787016e-3fa2-4617-a185-0a58424faad3</Id>
+      <AssetList>
+        <MainSound>
+          <Id>urn:uuid:52dd86ec-932f-4965-bbb9-748f3a092a23</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>29115</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>29115</Duration>
+          <KeyId>urn:uuid:090bb24f-75ae-47d0-9e62-32ac74ff68ab</KeyId>
+          <Hash>P0ItoVY17Af5barj084vwSs6H4c=</Hash>
+        </MainSound>
+        <msp-cpl:MainStereoscopicPicture xmlns:msp-cpl="http://www.digicine.com/schemas/437-Y/2007/Main-Stereo-Picture-CPL">
+          <Id>urn:uuid:a99ff745-58ce-4193-ace8-bb8b1b6f906a</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>29115</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>29115</Duration>
+          <KeyId>urn:uuid:20d8ee2c-f844-4f6b-b4ea-d132622d5bdc</KeyId>
+          <Hash>YUJngTfEVpA5GP8o/iBQm7+W7eU=</Hash>
+          <FrameRate>48 1</FrameRate>
+          <ScreenAspectRatio>1.85</ScreenAspectRatio>
+        </msp-cpl:MainStereoscopicPicture>
+      </AssetList>
+    </Reel>
+    <Reel>
+      <Id>urn:uuid:0c2d5e88-cc89-4294-ab6f-8d586a4afd18</Id>
+      <AssetList>
+        <MainSound>
+          <Id>urn:uuid:23eb369d-6b00-45f6-884d-681c3d111cc0</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>11818</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>11818</Duration>
+          <KeyId>urn:uuid:f0c5e780-3285-4be6-b22a-1977a50256c3</KeyId>
+          <Hash>dSUCAnd87kTa9lTq6GQqwFXRsFw=</Hash>
+        </MainSound>
+        <msp-cpl:MainStereoscopicPicture xmlns:msp-cpl="http://www.digicine.com/schemas/437-Y/2007/Main-Stereo-Picture-CPL">
+          <Id>urn:uuid:7ed6a20a-88dd-4018-ad81-eb188512d12a</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>11818</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>11818</Duration>
+          <KeyId>urn:uuid:a8be3df7-6eeb-4f65-bde6-33c3495fa84d</KeyId>
+          <Hash>dHgM9JZUkVVeoOwS06ruDvQq7ks=</Hash>
+          <FrameRate>48 1</FrameRate>
+          <ScreenAspectRatio>1.85</ScreenAspectRatio>
+        </msp-cpl:MainStereoscopicPicture>
+      </AssetList>
+    </Reel>
+  </ReelList>
+</CompositionPlaylist>
+<!-- Generated by orca_wrapping version 3.2.0 -->

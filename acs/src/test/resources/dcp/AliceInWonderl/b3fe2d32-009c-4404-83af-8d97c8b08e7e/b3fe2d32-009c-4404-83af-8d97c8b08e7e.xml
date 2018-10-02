@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><DCSubtitle Version="1.1">
+<SubtitleID>b3fe2d32-009c-4404-83af-8d97c8b08e7e</SubtitleID>
+<MovieTitle>Alice in Wonderland 1951</MovieTitle>
+<ReelNumber>1</ReelNumber>
+<Language>fr</Language>
+<LoadFont Id="Font1" URI="Arial.ttf" />
+<Font Id="Font1" Color="ffffffff" Effect="border" EffectColor="ff000000" Italic="no" Script="normal" Size="42" Underlined="no" Weight="normal" AspectAdjust="1" Spacing="0em">
+<Subtitle SpotNumber="7" TimeIn="00:07:05:135" TimeOut="00:07:10:208">
+<Text HPosition="0" VAlign="bottom" VPosition="10">HAUT</Text>
+</Subtitle>
+<Subtitle SpotNumber="8" TimeIn="00:07:10:229" TimeOut="00:07:12:063">
+<Text HPosition="0" VAlign="bottom" VPosition="81">LÀ-BAS</Text>
+<Text HPosition="0" VAlign="bottom" VPosition="73">DERRIÈRE</Text>
+</Subtitle>
+<Subtitle SpotNumber="9" TimeIn="00:07:12:083" TimeOut="00:07:13:198">
+<Text HPosition="0" VAlign="bottom" VPosition="81">PAR ICI</Text>
+<Text HPosition="0" VAlign="bottom" VPosition="73">PAR LÀ</Text>
+</Subtitle>
+<Subtitle SpotNumber="10" TimeIn="00:09:23:063" TimeOut="00:09:24:031">
+<Text HPosition="0" VAlign="bottom" VPosition="10">CHAPELIER TOQUÉ</Text>
+</Subtitle>
+</Font>
+</DCSubtitle>

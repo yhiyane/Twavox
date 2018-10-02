@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ShowPlaylist xmlns="http://www.smpte-ra.org/430-8/2006/SPL">
+	<Id>urn:uuid:09e0c062-64b6-4790-b743-28e1e690649f</Id>
+	<IssueDate>2010-11-19T15:05:42+08:00</IssueDate>
+	<Issuer>GDC</Issuer>
+	<Creator>SMS</Creator>
+	<ShowTitleText>SAMPLE_SPL_WITH_CUE</ShowTitleText>
+	<ContentVersion>
+		<Id>2d7795ea-9c32-4bdf-9617-282ec97e343f</Id>
+		<LabelText>GDC SPL</LabelText>
+	</ContentVersion>
+	<PackList>
+		<PlaylistPack>
+			<Id>urn:uuid:8fd1536e-080c-4be3-bf00-000000000000</Id>
+			<PlayTypeChoice>
+				<PlayCount>1</PlayCount>
+			</PlayTypeChoice>
+			<Playlist>
+				<PlaylistMarker>
+					<Id>urn:uuid:a3523707-255c-4e32-ba8c-1c19fd20f82b</Id>
+					<Label>OnProjector</Label>
+					<AnnotationText>OnProjector</AnnotationText>
+				</PlaylistMarker>
+				<PlaylistMarker>
+					<Id>urn:uuid:6e7a735b-2e72-4057-b030-27b6578e6a30</Id>
+					<Label>OpenDowser</Label>
+					<AnnotationText>OpenDowser</AnnotationText>
+				</PlaylistMarker>
+				<CompositionPlaylistId>urn:uuid:4e7bed9d-ce38-4310-95e6-fefbbea8f7ad</CompositionPlaylistId>
+				<CompositionPlaylistId>urn:uuid:c5839d1b-b4e8-1c46-8b5e-4f0d16c6b125</CompositionPlaylistId>
+				<PlaylistMarker>
+					<Id>urn:uuid:6fcd6be9-5386-479f-846e-58601a00ada3</Id>
+					<Label>CloseDowser</Label>
+					<AnnotationText>CloseDowser</AnnotationText>
+					<Offset EditRate="24 1">2879</Offset>
+				</PlaylistMarker>
+				<PlaylistMarker>
+					<Id>urn:uuid:f61c1b70-5b73-48c1-8106-5334bdfe8a55</Id>
+					<Label>OffProjector</Label>
+					<AnnotationText>OffProjector</AnnotationText>
+					<Offset EditRate="24 1">2879</Offset>
+				</PlaylistMarker>
+				<CompositionPlaylistId>urn:uuid:109016bf-0000-4000-8000-000000000000</CompositionPlaylistId>
+			</Playlist>
+		</PlaylistPack>
+	</PackList>
+</ShowPlaylist>

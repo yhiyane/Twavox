@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- *** Digital Cinema XML Subtitle File *** -->
+<!-- *** Created by Deluxe Digital London - GC *** -->
+<!-- *** 02 September 2014 *** -->
+<DCSubtitle Version="1.1">
+<SubtitleID>2677ee39-d002-42ea-b9a7-cc61e6574c1f</SubtitleID>
+<MovieTitle>MazeRunner</MovieTitle>
+<ReelNumber>R7</ReelNumber>
+<Language>FR</Language>
+<LoadFont Id="Arial" URI="MazeRunner_FR_R7.ttf" />
+<Font Id="Arial"  Color="FFFFFFFF" Effect="shadow" EffectColor="FF000000" Italic="no" Size="42" Script="normal" Underlined="no" Weight="normal">
+<Subtitle SpotNumber="1" TimeIn="00:00:02:000" TimeOut="00:00:04:000" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Adaptation : Marc Girard-Igor</Text></Subtitle>
+<Subtitle SpotNumber="2" TimeIn="00:00:04:031" TimeOut="00:00:06:031" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">Sous-titrage TITRA FILM Paris</Text></Subtitle>
+</Font></DCSubtitle>

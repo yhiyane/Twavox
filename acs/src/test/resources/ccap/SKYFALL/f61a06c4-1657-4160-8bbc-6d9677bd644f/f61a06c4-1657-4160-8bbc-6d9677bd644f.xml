@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SubtitleReel xmlns="http://www.smpte-ra.org/schemas/428-7/2007/DCST">
+  <Id>urn:uuid:2e0e92b9-cdf2-4aa4-ade5-870278647ec1</Id>
+  <ContentTitleText>fr_skyfall_trlc_dc_v1.xml</ContentTitleText>
+  <IssueDate>2012-10-06T01:45:48+00:00</IssueDate>
+  <ReelNumber>1</ReelNumber>
+  <Language>French</Language>
+  <EditRate>24 1</EditRate>
+  <TimeCodeRate>24</TimeCodeRate>
+  <StartTime>00:00:00:00</StartTime>
+  <LoadFont ID="arial">urn:uuid:d8a6f3b2-28da-5976-a8c3-191dfaf027e1</LoadFont>
+  <SubtitleList>
+    <Font Color="FFFFFFFF" Effect="border" EffectColor="FF000000" Size="42" Weight="bold" ID="arial">
+      <Subtitle SpotNumber="0001" TimeIn="00:00:04:03" TimeOut="00:00:05:17" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Que dire d'un homme pareil ?</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0002" TimeIn="00:00:05:20" TimeOut="00:00:07:01" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">COMMANDANT JAMES BOND</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">NECROLOGIE</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0003" TimeIn="00:00:07:12" TimeOut="00:00:10:17" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="24.00" Halign="center" Hposition="0.00">Il y a trois mois,</Text>
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">vous avez égaré le disque</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">dur contenant l'identité</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0004" TimeIn="00:00:10:20" TimeOut="00:00:14:19" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="24.00" Halign="center" Hposition="0.00">de tous les agents infiltrés</Text>
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">dans les groupes terroristes</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">du monde entier.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0005" TimeIn="00:00:14:22" TimeOut="00:00:16:12" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">J'ai fait le nécessaire.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0006" TimeIn="00:00:17:17" TimeOut="00:00:18:22" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">La route s'arrête !</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0007" TimeIn="00:00:20:10" TimeOut="00:00:21:15" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Tirez, bon Dieu !</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0008" TimeIn="00:00:27:03" TimeOut="00:00:28:05" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">MEDITEZ VOS PECHES</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0009" TimeIn="00:00:35:05" TimeOut="00:00:37:03" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">007 au rapport.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0010" TimeIn="00:00:37:08" TimeOut="00:00:38:12" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Où étiez-vous fourré ?</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0011" TimeIn="00:00:38:15" TimeOut="00:00:40:03" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Je profitais de ma mort.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0012" TimeIn="00:00:41:08" TimeOut="00:00:44:05" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">Je n'ai qu'une question.</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Pourquoi ne pas rester mort ?</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0013" TimeIn="00:00:44:08" TimeOut="00:00:46:08" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">Vous avez perdu la main,</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">avouez-le.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0014" TimeIn="00:00:47:03" TimeOut="00:00:49:13" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">- Je suis votre nouvel armurier.</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">- Vous plaisantez ?</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0015" TimeIn="00:00:49:17" TimeOut="00:00:52:00" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Walther PPK/S 9mm Short.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0016" TimeIn="00:00:52:17" TimeOut="00:00:55:08" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">Encodé avec vos empreintes.</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Vous seul pouvez l'utiliser.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0017" TimeIn="00:00:55:12" TimeOut="00:00:58:20" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="24.00" Halign="center" Hposition="0.00">C'est moins</Text>
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">une machine de guerre</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">qu'un accessoire personnel.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0018" TimeIn="00:00:59:22" TimeOut="00:01:01:15" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">- Q.</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">- 007.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0019" TimeIn="00:01:04:12" TimeOut="00:01:05:22" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Je veux rencontrer votre patron.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0020" TimeIn="00:01:06:03" TimeOut="00:01:07:17" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Certains souhaits se réalisent.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0021" TimeIn="00:01:07:22" TimeOut="00:01:09:08" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">- Monsieur ?</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">- Bond.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0022" TimeIn="00:01:12:15" TimeOut="00:01:13:20" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">James Bond.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0023" TimeIn="00:01:14:12" TimeOut="00:01:16:12" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Que savez-vous de la peur ?</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0024" TimeIn="00:01:17:07" TimeOut="00:01:18:07" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Tout ce qu'il y a à savoir.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0025" TimeIn="00:01:18:10" TimeOut="00:01:19:13" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Pas celle-là.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0026" TimeIn="00:01:20:07" TimeOut="00:01:21:10" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Pas avec lui.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0027" TimeIn="00:01:23:05" TimeOut="00:01:25:17" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">Tu t'es vu,</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">à chasser les espions !</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0028" TimeIn="00:01:27:20" TimeOut="00:01:29:22" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">L'Angleterre, l'empire...</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0029" TimeIn="00:01:31:22" TimeOut="00:01:33:05" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">le MI6...</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0030" TimeIn="00:01:35:15" TimeOut="00:01:37:05" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">C'est vieux jeu.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0031" TimeIn="00:01:38:17" TimeOut="00:01:40:22" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">Elle t'a envoyé,</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">sachant que tu n'étais pas prêt</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0032" TimeIn="00:01:41:01" TimeOut="00:01:42:12" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">et que tu allais mourir.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0033" TimeIn="00:01:42:15" TimeOut="00:01:44:22" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Maman a été très méchante.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0034" TimeIn="00:01:47:03" TimeOut="00:01:49:15" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="17.00" Halign="center" Hposition="0.00">On est des durs à cuire.</Text>
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Voilà ce qu'elle a fait de nous.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0035" TimeIn="00:01:50:05" TimeOut="00:01:51:15" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">On a tous besoin d'un hobby.</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0036" TimeIn="00:01:51:19" TimeOut="00:01:53:03" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">Quel est le tien ?</Text>
+      </Subtitle>
+      <Subtitle SpotNumber="0037" TimeIn="00:01:53:07" TimeOut="00:01:54:12" FadeUpTime="00:00:00:02" FadeDownTime="00:00:00:02">
+        <Text Valign="bottom" Vposition="10.00" Halign="center" Hposition="0.00">La résurrection.</Text>
+      </Subtitle>
+    </Font>
+  </SubtitleList>
+</SubtitleReel>

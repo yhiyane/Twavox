@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompositionPlaylist xmlns="http://www.digicine.com/PROTO-ASDCP-CPL-20040511#">
+	<Id>urn:uuid:1bf53165-3138-4848-9f35-8e7435772286</Id>
+	<AnnotationText>DEMO_S_FR-XX_FR_51_2K_SPE_20090912_DUK_i3D-ngb</AnnotationText>
+	<IssueDate>2014-02-04T21:21:13+01:00</IssueDate>
+	<Issuer>FILM FACTORY</Issuer>
+	<Creator>FILM FACTORY</Creator>
+	<ContentTitleText>%s_FTR_S_FR-XX_FR_51_2K_SPE_20090912_DUK_i3D-ngb</ContentTitleText>
+	<ContentKind>feature</ContentKind>
+	<RatingList/>
+	<ReelList>
+		<Reel>
+			<Id>urn:uuid:79ed1a1e-0842-4227-9dc9-e4eeafb3fb04</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:1c4d8b24-6c6e-4034-8399-84a5c8e07072</Id>
+					<AnnotationText>BOB1_TEMP_086400.dpx</AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>139968</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>139968</Duration>
+					<KeyId>urn:uuid:a8da4bb8-75c7-469c-b6a5-63bebdefe4a8</KeyId>
+					<Hash>iO8P+ywxIt4xA0fIxyayLszHZlw=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>1.85</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:33c4f79b-a2ed-4ab3-ac32-ad1c7f103bb4</Id>
+					<AnnotationText></AnnotationText>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>139968</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>139968</Duration>
+					<Hash>K0mMYdUEj10BIS2cFbM0pAczQVc=</Hash>
+				</MainSound>
+			</AssetList>
+		</Reel>
+		
+	</ReelList>
+</CompositionPlaylist>
+<!--Created by Fraunhofer IIS easyDCP Creator Version 2.2.1-->

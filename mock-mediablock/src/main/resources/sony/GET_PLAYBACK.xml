@@ -1,0 +1,19 @@
+<SMSMessage>
+	<MessageHeader>
+		<Type>ShowStatus</Type>
+	</MessageHeader>
+	<MessageBody>
+		<ShowStatus>
+			<PlayBackMode>MANUAL</PlayBackMode>
+			<PlayState>%s</PlayState>
+			<ShowStatusDetail>
+				<Type>SPL</Type>
+				<Id>%s</Id>
+				<RemainingTime>%d</RemainingTime>
+				<ElapsedTime>%d</ElapsedTime>
+				<CurrentEventId>%s</CurrentEventId>
+				<CurrentEventType>CPL</CurrentEventType>
+			</ShowStatusDetail>
+		</ShowStatus>
+	</MessageBody>
+</SMSMessage>

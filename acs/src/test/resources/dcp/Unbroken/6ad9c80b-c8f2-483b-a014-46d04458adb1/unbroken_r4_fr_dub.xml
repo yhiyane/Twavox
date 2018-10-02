@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<DCSubtitle Version="1.0">
+  <SubtitleID>6ad9c80b-c8f2-483b-a014-46d04458adb1</SubtitleID>
+  <MovieTitle>Unbroken</MovieTitle>
+  <ReelNumber>4</ReelNumber>
+  <Language>French</Language>
+  <LoadFont Id="Font1" URI="Arial_UNBROKEN_FV_FrenchSubtitles_R04.ttf"/>
+  <Font Size="42" Weight="normal" Script="normal" Underlined="no" Id="Font1" Color="FFFFFFFF" Effect="border" EffectColor="FF000000">
+    <Font Italic="yes">
+      <Subtitle SpotNumber="1" TimeIn="00:04:50:239" TimeOut="00:04:53:208" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="18" VAlign="bottom" VPosition="21.0">45e jour</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="2" TimeIn="00:07:47:135" TimeOut="00:07:51:010" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="13.0">9 marines laissés sur l&#39;île de Makin</Text>
+        <Text Direction="horizontal" HAlign="left" HPosition="7.9" VAlign="bottom" VPosition="7.0">le 18 août 1942</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="3" TimeIn="00:10:50:073" TimeOut="00:10:53:020" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="13.0">Louie Zamperini,</Text>
+        <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">tombé dans le Pacifique en mai 1943</Text>
+      </Subtitle>
+    </Font>
+  </Font>
+</DCSubtitle>

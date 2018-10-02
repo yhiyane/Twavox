@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DCSubtitle Version="1.0">
+	<SubtitleID>1d8dbae9-e926-441f-b6c3-6e0e978a2951</SubtitleID>
+	<MovieTitle>Prince_R1</MovieTitle>
+	<ReelNumber>1</ReelNumber>
+	<Language>fr</Language>
+	<LoadFont Id="Arial" URI="arial_princ_loc_fre_r1.ttf" />
+	<Font Id="Arial" Color="ffffffff" Effect="border" EffectColor="ff000000"
+		Italic="no" Script="normal" Size="42" Underlined="no" Weight="normal"
+		AspectAdjust="1" Spacing="0em">
+		<Subtitle SpotNumber="33" TimeIn="00:00:22:073" TimeOut="00:00:23:146"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Cham.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="34" TimeIn="00:00:24:177" TimeOut="00:00:25:104"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Que fais-tu ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="35" TimeIn="00:00:26:115" TimeOut="00:00:27:198"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Elle est jolie.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="36" TimeIn="00:00:29:240" TimeOut="00:00:31:052"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Tu vois les autres
+				?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="37" TimeIn="00:00:32:063" TimeOut="00:00:33:156"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Plantées dans la
+				terre.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="38" TimeIn="00:00:34:042" TimeOut="00:00:35:104"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">C&apos;est leur
+				place.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="39" TimeIn="00:00:36:229" TimeOut="00:00:38:146"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Il y a une raison
+				à cela.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="40" TimeIn="00:00:38:198" TimeOut="00:00:40:031"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Elles poussent.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="41" TimeIn="00:00:40:229" TimeOut="00:00:42:021"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Elles fleurissent.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="42" TimeIn="00:00:42:063" TimeOut="00:00:44:240"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="15.74">Le vent emporte
+				les graines</Text>
+			<Text HPosition="0" VAlign="bottom" VPosition="10">et les multiplie.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="43" TimeIn="00:00:45:125" TimeOut="00:00:47:240"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Nous cueillons le
+				strict nécessaire.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="44" TimeIn="00:00:48:125" TimeOut="00:00:49:188"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Tu comprends ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="45" TimeIn="00:01:10:135" TimeOut="00:01:11:052"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Sem.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="46" TimeIn="00:01:12:156" TimeOut="00:01:13:156"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Cham.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="47" TimeIn="00:01:14:240" TimeOut="00:01:16:052"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Allons-y.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="48" TimeIn="00:01:27:146" TimeOut="00:01:28:104"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Des hommes.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="49" TimeIn="00:01:28:146" TimeOut="00:01:29:177"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Cachez-vous.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="50" TimeIn="00:01:30:031" TimeOut="00:01:31:031"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Vite.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="51" TimeIn="00:02:15:115" TimeOut="00:02:16:240"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Tu as trouvé notre
+				proie.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="52" TimeIn="00:02:17:083" TimeOut="00:02:18:198"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">C&apos;est une
+				chance.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="53" TimeIn="00:02:19:104" TimeOut="00:02:21:104"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Mais peut-être pas
+				pour toi.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="54" TimeIn="00:02:25:104" TimeOut="00:02:27:021"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">On ne mange plus à
+				notre faim.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="55" TimeIn="00:02:28:083" TimeOut="00:02:30:083"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Les bêtes se font
+				rares.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="56" TimeIn="00:02:32:177" TimeOut="00:02:33:198"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Du calme.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="57" TimeIn="00:02:49:240" TimeOut="00:02:50:219"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Que veux-tu ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="58" TimeIn="00:02:54:021" TimeOut="00:02:55:052"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">La justice.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="59" TimeIn="00:03:04:010" TimeOut="00:03:05:073"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Pourquoi ils
+				l&apos;ont tué ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="60" TimeIn="00:03:05:135" TimeOut="00:03:06:104"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Pour manger.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="61" TimeIn="00:03:09:135" TimeOut="00:03:10:167"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Pourquoi ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="62" TimeIn="00:03:15:094" TimeOut="00:03:17:021"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Ils croient que ça
+				rend fort.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="63" TimeIn="00:03:18:063" TimeOut="00:03:19:083"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">C&apos;est vrai ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="64" TimeIn="00:03:21:042" TimeOut="00:03:22:115"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Ils ont oublié.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="65" TimeIn="00:03:22:188" TimeOut="00:03:24:177"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">La force vient du
+				Créateur.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="66" TimeIn="00:03:46:052" TimeOut="00:03:47:042"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Maman !</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="67" TimeIn="00:03:58:031" TimeOut="00:03:59:042"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Tu as vu tes
+				frères ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="68" TimeIn="00:04:31:073" TimeOut="00:04:32:167"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Cham a vu des
+				chasseurs.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="69" TimeIn="00:04:33:115" TimeOut="00:04:34:240"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Ils se
+				rapprochent.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="70" TimeIn="00:04:37:063" TimeOut="00:04:38:083"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Comment a-t-il
+				réagi ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="71" TimeIn="00:04:40:042" TimeOut="00:04:41:208"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Ça
+				l&apos;intéresse un peu trop.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="72" TimeIn="00:04:44:167" TimeOut="00:04:46:063"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Il devait voir ça
+				un jour.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="73" TimeIn="00:04:51:177" TimeOut="00:04:53:083"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">J&apos;ai vu autre
+				chose.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="74" TimeIn="00:04:56:031" TimeOut="00:04:57:094"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Une fleur.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="75" TimeIn="00:04:58:094" TimeOut="00:04:59:229"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Surgie de nulle
+				part.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="76" TimeIn="00:05:10:156" TimeOut="00:05:11:115"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Repose-toi.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="77" TimeIn="00:05:20:208" TimeOut="00:05:22:198"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Peut-être
+				qu&apos;Il arrangera tout.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="78" TimeIn="00:06:10:208" TimeOut="00:06:12:031"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Mathusalem.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="79" TimeIn="00:07:04:198" TimeOut="00:07:06:104"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Il t&apos;a parlé
+				?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="80" TimeIn="00:07:07:083" TimeOut="00:07:08:156"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Je crois.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="81" TimeIn="00:07:20:083" TimeOut="00:07:21:146"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Nous aidera-t-Il ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="82" TimeIn="00:07:24:198" TimeOut="00:07:26:167"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Il va détruire le
+				monde.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="83" TimeIn="00:07:33:094" TimeOut="00:07:36:052"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="15.74">Ce voyage est long
+				et dangereux</Text>
+			<Text HPosition="0" VAlign="bottom" VPosition="10">pour nos fils.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="84" TimeIn="00:07:37:146" TimeOut="00:07:39:240"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="15.74">Sais-tu si ton
+				grand-père</Text>
+			<Text HPosition="0" VAlign="bottom" VPosition="10">vit encore ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="85" TimeIn="00:07:40:031" TimeOut="00:07:40:219"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Non.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="86" TimeIn="00:07:41:188" TimeOut="00:07:43:021"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Mais j&apos;ai vu
+				sa montagne.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="87" TimeIn="00:07:43:229" TimeOut="00:07:46:115"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="15.74">Peut-être sait-il</Text>
+			<Text HPosition="0" VAlign="bottom" VPosition="10">ce que nous devons
+				faire.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="88" TimeIn="00:07:46:156" TimeOut="00:07:47:094"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Sem.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="89" TimeIn="00:07:47:135" TimeOut="00:07:49:010"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Tu viens
+				m&apos;aider ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="90" TimeIn="00:07:54:094" TimeOut="00:07:56:240"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">On pourrait se
+				cacher.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="91" TimeIn="00:08:03:104" TimeOut="00:08:05:010"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Pas question de se
+				cacher.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="92" TimeIn="00:08:06:219" TimeOut="00:08:08:146"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Nous devrions déjà
+				être partis.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="93" TimeIn="00:08:14:219" TimeOut="00:08:16:073"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Je vais te
+				montrer.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="94" TimeIn="00:08:16:177" TimeOut="00:08:17:188"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Mets-le au fond.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="95" TimeIn="00:08:17:229" TimeOut="00:08:21:083"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="15.74">A notre retour, on
+				sait qu&apos;on pourra</Text>
+			<Text HPosition="0" VAlign="bottom" VPosition="10">retrouver toutes
+				ces choses.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="96" TimeIn="00:08:28:010" TimeOut="00:08:29:167"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Il y a des cités,
+				là-bas.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="97" TimeIn="00:08:30:021" TimeOut="00:08:31:229"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Nous resterons à
+				distance.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="98" TimeIn="00:08:56:177" TimeOut="00:08:58:135"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">C&apos;est une
+				mine de tzohar ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="99" TimeIn="00:08:58:177" TimeOut="00:09:00:167"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Oui. Les hommes
+				l&apos;ont épuisée.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="100" TimeIn="00:09:02:021" TimeOut="00:09:03:156"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">On doit la
+				contourner ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="101" TimeIn="00:09:06:135" TimeOut="00:09:07:063"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Non.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="102" TimeIn="00:09:21:208" TimeOut="00:09:23:021"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Ils sont tous
+				morts ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="103" TimeIn="00:09:24:240" TimeOut="00:09:26:073"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">On dirait.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="104" TimeIn="00:09:27:000" TimeOut="00:09:28:125"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Ils cherchaient de
+				quoi se nourrir.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="105" TimeIn="00:09:29:042" TimeOut="00:09:30:135"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Ils ont servi de
+				gibier.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="106" TimeIn="00:09:32:219" TimeOut="00:09:33:219"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Papa !</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="107" TimeIn="00:09:39:073" TimeOut="00:09:40:125"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Ne vous éloignez
+				pas.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="108" TimeIn="00:09:58:156" TimeOut="00:09:59:135"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Père !</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="109" TimeIn="00:09:59:198" TimeOut="00:10:00:198"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Par ici.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="110" TimeIn="00:10:12:042" TimeOut="00:10:12:208"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Je peux ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="111" TimeIn="00:10:15:146" TimeOut="00:10:16:156"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Doucement.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="112" TimeIn="00:10:26:042" TimeOut="00:10:27:115"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Quel est ton nom ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="113" TimeIn="00:10:29:063" TimeOut="00:10:30:156"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Tu as un nom ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="114" TimeIn="00:10:30:198" TimeOut="00:10:31:177"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Ila.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="115" TimeIn="00:10:32:031" TimeOut="00:10:34:000"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Je m&apos;appelle
+				Ila.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="116" TimeIn="00:10:36:052" TimeOut="00:10:37:167"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Tout ira bien,
+				Ila.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="117" TimeIn="00:10:39:219" TimeOut="00:10:40:198"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Lui, c&apos;est
+				Sem.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="118" TimeIn="00:10:41:146" TimeOut="00:10:43:031"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Il va serrer ta
+				main très fort</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="119" TimeIn="00:10:43:073" TimeOut="00:10:44:188"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">et ne la lâchera
+				pas.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="120" TimeIn="00:10:49:021" TimeOut="00:10:51:052"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Là-bas !
+				Dépêchez-vous !</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="121" TimeIn="00:10:52:010" TimeOut="00:10:53:010"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Il faut partir.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="122" TimeIn="00:10:53:135" TimeOut="00:10:54:052"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Tout de suite.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="123" TimeIn="00:10:57:177" TimeOut="00:10:58:219"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Sur la colline,
+				vite.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="124" TimeIn="00:11:08:115" TimeOut="00:11:10:000"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">On ne peut pas
+				aller là.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="125" TimeIn="00:11:13:198" TimeOut="00:11:15:063"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">On n&apos;a pas le
+				choix.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="126" TimeIn="00:11:15:115" TimeOut="00:11:16:135"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Vite !</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="127" TimeIn="00:11:34:219" TimeOut="00:11:36:031"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Arrêtez-vous !</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="128" TimeIn="00:11:36:073" TimeOut="00:11:37:073"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Les géants !</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="129" TimeIn="00:11:38:031" TimeOut="00:11:40:010"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="15.74">- Revenez !</Text>
+			<Text HPosition="0" VAlign="bottom" VPosition="10">- Ils vous
+				tueront.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="130" TimeIn="00:11:42:104" TimeOut="00:11:43:031"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Sem !</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="131" TimeIn="00:11:45:167" TimeOut="00:11:47:031"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Protège ta mère,
+				avant tout.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="132" TimeIn="00:11:48:125" TimeOut="00:11:49:104"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Je t&apos;aime.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="133" TimeIn="00:11:50:063" TimeOut="00:11:51:021"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Cours.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="134" TimeIn="00:12:03:177" TimeOut="00:12:05:031"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Noé !</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="135" TimeIn="00:12:23:094" TimeOut="00:12:24:042"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Noé.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="136" TimeIn="00:12:25:177" TimeOut="00:12:26:177"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Ça va ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="137" TimeIn="00:12:56:125" TimeOut="00:12:58:094"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Nous venons voir
+				Mathusalem.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="138" TimeIn="00:12:58:135" TimeOut="00:12:59:208"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Mon grand-père.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="139" TimeIn="00:13:00:000" TimeOut="00:13:02:083"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Un fils de
+				l&apos;Ancien.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="140" TimeIn="00:13:04:083" TimeOut="00:13:05:135"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Tu aurais dû les
+				tuer !</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="141" TimeIn="00:13:07:063" TimeOut="00:13:08:052"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Mais Samyaza...</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="142" TimeIn="00:13:08:094" TimeOut="00:13:09:229"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">C&apos;est un
+				homme, Og.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="143" TimeIn="00:13:10:063" TimeOut="00:13:12:219"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="15.74">Oublies-tu</Text>
+			<Text HPosition="0" VAlign="bottom" VPosition="10">qu&apos;ils ont
+				trahi le Créateur ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="144" TimeIn="00:13:13:177" TimeOut="00:13:15:021"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">C&apos;est Lui qui
+				nous envoie.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="145" TimeIn="00:13:17:188" TimeOut="00:13:19:063"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Mensonge !</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="146" TimeIn="00:13:20:125" TimeOut="00:13:23:031"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Laissez-les
+				pourrir là.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="147" TimeIn="00:13:40:198" TimeOut="00:13:41:188"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Qui sont-ils ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="148" TimeIn="00:13:42:156" TimeOut="00:13:43:115"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Les Veilleurs.</Text>
+		</Subtitle>
+	</Font>
+</DCSubtitle>

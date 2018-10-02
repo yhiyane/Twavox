@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompositionPlaylist xmlns="http://www.digicine.com/PROTO-ASDCP-CPL-20040511#">
+	<Id>urn:uuid:8fe1fe3f-7a45-455f-8643-bfc9fe3ce1a6</Id>
+	<AnnotationText>JurassicWorld_FTR-2-2D_F-20_EN-FR_FR_51-DBOX_2K_UP_20150523_DUK_IOP_VF
+	</AnnotationText>
+	<IssueDate>2015-05-23T12:29:16+01:00</IssueDate>
+	<Issuer>Doremi Labs, Inc.</Issuer>
+	<Creator>orca_wrapping 3.8.3-0</Creator>
+	<ContentTitleText>JurassicWorld_FTR-2-2D_F-20_EN-FR_FR_51-DBOX_2K_UP_20150523_DUK_IOP_VF
+	</ContentTitleText>
+	<ContentKind>feature</ContentKind>
+	<RatingList />
+	<ReelList>
+		<Reel>
+			<Id>urn:uuid:ccde4ee5-4d1c-4adf-baa5-b6245ac04aa1</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:6a95a589-27ae-4a9a-8f2b-c0ba44a54612</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>23425</IntrinsicDuration>
+					<EntryPoint>192</EntryPoint>
+					<Duration>6127</Duration>
+					<KeyId>urn:uuid:4aac9f44-5dc3-4287-a898-c7801a6b8bc7</KeyId>
+					<Hash>YHCpVX/VzKpcD9ukoJ1byoDVid0=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>1.85</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:aa37acb9-f346-481e-a56e-ab6b6c70b780</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>23329</IntrinsicDuration>
+					<EntryPoint>192</EntryPoint>
+					<Duration>6127</Duration>
+					<KeyId>urn:uuid:57e3465a-a572-4c23-a800-49d4486dd4c0</KeyId>
+					<Hash>IEE8VtRZDSugjcLsCBNOKPJJtEo=</Hash>
+				</MainSound>
+				<MainSubtitle
+					xmlns:tt-cpl="http://www.smpte-ra.org/schemas/429-12/2008/TT">
+					<Id>urn:uuid:fd6dd096-eaac-4d2b-beb1-b6feeb8174b3</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>3560</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>3560</Duration>
+					<Hash>qDuysh33VpduSeJKTeR1x2xjBqE=</Hash>
+					<Language>pt</Language>
+				</MainSubtitle>
+				<MainSubtitle
+					xmlns:tt-cpl="http://www.smpte-ra.org/schemas/429-12/2008/TT">
+					<Id>urn:uuid:75dfdb93-d838-471c-a5f6-9d5aa5ce6f80</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>3560</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>3560</Duration>
+					<Hash>bXUQla3mejOnG27LWQLxUuCEm04=</Hash>
+					<Language>nl</Language>
+				</MainSubtitle>
+				<MainSubtitle
+					xmlns:tt-cpl="http://www.smpte-ra.org/schemas/429-12/2008/TT">
+					<Id>urn:uuid:f61a06c4-1657-4160-8bbc-6d9677bd644f</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>3560</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>3560</Duration>
+					<Hash>f3fHVBoFAm6Wh5gz88IZSSDOujY=</Hash>
+					<Language>fr</Language>
+				</MainSubtitle>
+				<MainSubtitle
+					xmlns:tt-cpl="http://www.smpte-ra.org/schemas/429-12/2008/TT">
+					<Id>urn:uuid:f50cbf25-bc17-4f11-8e16-bab427a4c477</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>3560</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>3560</Duration>
+					<Hash>GUoEeya4H+QH1NWEhYrg/3ehmyI=</Hash>
+					<Language>es</Language>
+				</MainSubtitle>
+				<MainSubtitle
+					xmlns:tt-cpl="http://www.smpte-ra.org/schemas/429-12/2008/TT">
+					<Id>urn:uuid:c136217b-a769-419b-8f7b-6e5dac0b5fdc</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>3560</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>3560</Duration>
+					<Hash>juivqLugAM5VGgZhGHd6gWYhbfs=</Hash>
+					<Language>de</Language>
+				</MainSubtitle>
+				<MainSubtitle
+					xmlns:tt-cpl="http://www.smpte-ra.org/schemas/429-12/2008/TT">
+					<Id>urn:uuid:8c18acef-3a39-4f5c-8427-4a86f8651693</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>3560</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>3560</Duration>
+					<Hash>Ceeb1PrMj5xC6v4YDvN6r4vEpAA=</Hash>
+					<Language>en</Language>
+				</MainSubtitle>
+			</AssetList>
+		</Reel>
+		<Reel>
+			<Id>urn:uuid:a74cd3d1-4684-45d6-b72f-89a4c180d392</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:ff4cdced-8fa0-4681-a6b8-27cbbf1da656</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>18277</IntrinsicDuration>
+					<EntryPoint>192</EntryPoint>
+					<Duration>17989</Duration>
+					<KeyId>urn:uuid:c5be634e-f633-4ea9-afce-49456a08a66c</KeyId>
+					<Hash>LWdCGm+JEbcINCUQTMmVT3iMu9A=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>1.85</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:967c5111-a082-46e0-a14d-5b456097b2ca</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>28800</IntrinsicDuration>
+					<EntryPoint>192</EntryPoint>
+					<Duration>17989</Duration>
+					<KeyId>urn:uuid:7fe1f71a-cb53-4c87-85d1-73e0e498a114</KeyId>
+					<Hash>1HDi2RCVqpZC5dkUPW599QOw2uI=</Hash>
+				</MainSound>
+				<MainSubtitle>
+					<Id>urn:uuid:2ef779a0-62d4-48cf-9663-b94ee844762d</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>17989</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>17989</Duration>
+					<Hash>bzvtgwWtQD66EsQBwDoC0bNyKck=</Hash>
+				</MainSubtitle>
+			</AssetList>
+		</Reel>
+	</ReelList>
+</CompositionPlaylist>

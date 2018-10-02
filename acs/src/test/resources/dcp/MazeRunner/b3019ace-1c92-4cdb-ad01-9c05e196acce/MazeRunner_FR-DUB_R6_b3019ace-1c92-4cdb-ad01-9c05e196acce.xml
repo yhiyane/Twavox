@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- *** Digital Cinema XML Subtitle File *** -->
+<!-- *** Created by Deluxe Digital Cinema EMEA - BG *** -->
+<!-- *** 30 July 2014 *** -->
+<DCSubtitle Version="1.1">
+<SubtitleID>b3019ace-1c92-4cdb-ad01-9c05e196acce</SubtitleID>
+<MovieTitle>MazeRunner</MovieTitle>
+<ReelNumber>R6</ReelNumber>
+<Language>FR-DUB</Language>
+<LoadFont Id="Arial" URI="MazeRunner_FR-DUB_R6.ttf" />
+<Font Id="Arial"  Color="FFFFFFFF" Effect="shadow" EffectColor="FF000000" Italic="no" Size="42" Script="normal" Underlined="no" Weight="normal">
+<Subtitle SpotNumber="1" TimeIn="00:00:22:156" TimeOut="00:00:24:031" FadeUpTime="020" FadeDownTime="020">
+<Text VAlign="bottom" VPosition="08.00">SORTIE</Text></Subtitle>
+</Font></DCSubtitle>

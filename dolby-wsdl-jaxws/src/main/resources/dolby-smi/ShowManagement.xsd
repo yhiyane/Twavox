@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This web service definition is protected under U.S. copyright laws as an unpublished work.
+  Do not copy.
+  Copyright 2009-$Date: 2009/03/20 $ by Dolby Laboratories Inc.
+  All rights reserved.
+-->
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/showmanagement" 
+    xmlns:ns="http://www.dolby.com/dcinema/ws/smi/v1/schemas/showmanagement" 
+    xmlns:com="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"
+    xmlns:flt="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
+    
+    <xs:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+    <xs:import schemaLocation="Fault.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"/>
+
+    <!-- Brief information about a show -->
+    
+    <xs:complexType name="ShowInfo">
+      <xs:sequence>    
+        <!-- The unique identifier of the show -->
+        <xs:element name="showId" type="com:UUID"/>
+        <!-- The title of the show -->
+        <xs:element name="name" type="xs:string"/>
+        <!-- The length of the show -->
+        <xs:element name="duration" type="xs:duration"/>
+        <!-- Indicates if any clips for this show are encrypted -->
+        <xs:element name="encrypted" type="xs:boolean"/>
+        <!-- Indicates if any content within this Show is transferring -->
+        <xs:element name="transferring" type="xs:boolean"/>
+        <!-- Indicates if any clips for this show have missing files -->
+        <xs:element name="missingData" type="xs:boolean"/>
+        <!-- Indicates if any clips for this show have corrupt files -->
+        <xs:element name="corrupt" type="xs:boolean"/>
+        <!-- Indicates if this show is licensed for playback -->
+        <xs:element name="licensed" type="com:LicenseState"/>
+        <!-- Indicates whether this show is playable.  If received in the context of a TMS 
+             server where the auditorium number is not specified then returns false -->
+        <xs:element name="playable" type="xs:boolean"/>
+        <!-- The rating of the show.  Will either be the set rating for the Show if available, or 
+             the most restrictive rating of its underlying clips. -->
+        <xs:element name="rating" type="com:Rating"/>
+        <!-- Additional key/value properties of the show -->
+		<!-- Notable ShowInfo properties: 
+		         atmosContent - If the show contains a Dolby Atmos track.
+		         atmosLicensed - If the show is licensed to playback Dolby Atmos content. -->
+        <xs:element name="properties" type="com:InfoPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+    <!-- A scheduled show -->
+
+    <xs:complexType name="ShowTimeRequest">
+      <xs:sequence>   
+        <!-- The unique identifier of the show time to be created.  A unique identifier will be assigned 
+             by the server if this is not specified. -->
+        <xs:element name="showTimeId" type="com:UUID" minOccurs="0"/> 
+        <!-- The unique identifier of the show to be scheduled -->
+        <xs:element name="showId" type="com:UUID"/>
+        <!-- The start time of the scheduled show -->
+        <xs:element name="startTime" type="xs:dateTime"/>
+        <!-- The auditorium to schedule the show time.  Only necessary if a service on the
+             TMS server is called. -->
+        <xs:element name="auditoriumNumber" type="xs:string" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>    
+
+    <xs:complexType name="ShowTimeResponse">
+      <xs:sequence>
+        <!-- The unique identifier of the show time that was created. If the show time creation
+         failed, the identifier will be null. See fault for more information about the nature of
+         the failure. -->
+        <xs:element name="showTimeId" type="com:UUID" nillable="true"/>
+        <!-- In case of error creating the show time, the actual fault that occurred. -->
+        <xs:element name="fault" type="flt:Fault" nillable="true"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ShowTimeInfo">
+      <xs:sequence>    
+        <!-- The unique identifier of the show time -->
+        <xs:element name="showTimeId" type="com:UUID"/>
+        <!-- The unique identifier of the scheduled show -->
+        <xs:element name="showId" type="com:UUID"/>
+        <!-- The auditorium number that the show time is scheduled within -->
+        <xs:element name="auditoriumNumber" type="xs:string"/>
+        <!-- The start time of the scheduled show -->
+        <xs:element name="startTime" type="xs:dateTime"/>
+        <!-- Indicates if this show is licensed for playback at the scheduled time -->
+        <xs:element name="licensed" type="com:LicenseState"/>
+        <!-- The length of the scheduled show -->
+        <xs:element name="duration" type="xs:duration"/>
+        <!-- Indicates if this show time will be automatically played off of the schedule -->
+        <xs:element name="playable" type="xs:boolean"/>
+        <!-- Indicates if the start time of this show time overlaps with any other show times -->
+        <xs:element name="overlap" type="xs:boolean"/>
+        <!-- Additional key/value properties of the show time  -->
+        <xs:element name="properties" type="com:InfoPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+    <!-- Brief information about a cue -->
+    
+    <xs:complexType name="CueInfo">
+      <xs:sequence>    
+        <!-- The unique identifier of the cue -->
+        <xs:element name="cueId" type="com:UUID"/>
+        <!-- The name of the cue -->
+        <xs:element name="name" type="xs:string"/>
+        <!-- The type of the cue -->
+        <xs:element name="cueType" type="ns:CueType"/>
+        <!-- The type of device the cue came from -->
+        <xs:element name="deviceComponentType" type="com:DeviceComponentType"/>
+        <!-- The auditorium number the cue is configured within -->
+        <xs:element name="auditoriumNumber" type="xs:string"/>
+        <!-- Indicates if the cue is parameterized -->
+        <xs:element name="parameterized" type="xs:boolean"/>
+        <!-- Indicates if the cue is an output or input cue -->
+        <xs:element name="isOutput" type="xs:boolean"/>
+        <!-- Additional key/value properties of the cue  -->
+        <xs:element name="properties" type="com:InfoPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+	<!-- Types of cues within the system -->
+    
+    <xs:complexType name="CueType">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:CueTypeEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="CueTypeEnum">
+		<xs:restriction base="xs:token">
+		   <!-- Lights cue type -->
+		   <xs:enumeration value="LIGHTS"/>
+		   <!-- Audio volume cue type  -->
+		   <xs:enumeration value="VOLUME"/>
+		   <!-- Audio mute/unmute cue type -->
+		   <xs:enumeration value="MUTE"/>
+		   <!-- Audio format setting cue type -->
+		   <xs:enumeration value="AUDIO_PRESET"/>
+		   <!-- Audio adapter cue type -->
+		   <xs:enumeration value="AUDIO_ADAPTER"/>
+		   <!-- General audio cue type -->
+		   <xs:enumeration value="AUDIO"/>
+		   <!-- Projector cue type -->
+		   <xs:enumeration value="PROJECTOR"/>
+		   <!-- Filter controller cue type -->
+		   <xs:enumeration value="FILTER"/>
+		   <!-- General player cue type -->
+		   <xs:enumeration value="PLAYER"/>
+		   <!-- uncategorized cue type -->
+		   <xs:enumeration value="OTHER"/>
+		   <!-- unknown component -->
+		   <xs:enumeration value="UNKNOWN"/>
+		   <!-- An extended enumeration value is provided.  See extension attribute -->
+		   <xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

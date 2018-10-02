@@ -1,0 +1,3163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This web service definition is protected under U.S. copyright laws as an unpublished work.
+  Do not copy.
+  Copyright 2009-$Date: 2009/03/20 $ by Dolby Laboratories Inc.
+  All rights reserved.
+-->
+<wsdl:definitions name="PlaybackControl_v1"
+  targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1"
+  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+  xmlns:tns="http://www.dolby.com/dcinema/ws/smi/v1"
+  xmlns:pla="http://www.dolby.com/dcinema/ws/smi/v1/schemas/playbackcontrol"
+  xmlns:com="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"
+  xmlns:flt="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"
+  xmlns:v1_0="http://www.dolby.com/dcinema/ws/smi/v1_0"
+  xmlns:v1_1="http://www.dolby.com/dcinema/ws/smi/v1_1"
+  xmlns:v1_2="http://www.dolby.com/dcinema/ws/smi/v1_2"
+  xmlns:v1_3="http://www.dolby.com/dcinema/ws/smi/v1_3"
+  xmlns:v1_4="http://www.dolby.com/dcinema/ws/smi/v1_4"
+  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Request/Response Schema Definitions -->
+
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1_0">
+
+      <xsd:import schemaLocation="PlaybackControl.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/playbackcontrol"/>
+      <xsd:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+      <xsd:import schemaLocation="Fault.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/fault"/>
+
+      <!-- getPlaybackState elements -->
+
+      <xsd:element name="getPlaybackStateRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="getPlaybackStateResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="transportState" type="com:TransportState"/>
+            <xsd:element name="contentPlaybackState" type="pla:ContentPlaybackState" minOccurs="0"/>
+          </xsd:sequence>
+          <xsd:attribute name="playbackMode" type="pla:PlaybackMode"/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- selectContent elements -->
+
+      <xsd:element name="selectContentRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="contentId" type="com:UUID"/>
+            <xsd:element name="playableContentType" type="com:PlayableContentType" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="selectContentResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- play elements -->
+
+      <xsd:element name="playRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="playResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- stop elements -->
+
+      <xsd:element name="stopRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="stopResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- pause elements -->
+
+      <xsd:element name="pauseRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="pauseResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- previous elements -->
+
+      <xsd:element name="previousRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="previousResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- next elements -->
+
+      <xsd:element name="nextRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="nextResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- getScheduleMode elements -->
+
+      <xsd:element name="getScheduleModeRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="getScheduleModeResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="scheduleMode" type="pla:ScheduleMode"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- setScheduleMode elements -->
+
+      <xsd:element name="setScheduleModeRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="scheduleMode" type="pla:ScheduleMode"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="setScheduleModeResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- setPlaybackMode elements -->
+
+      <xsd:element name="setPlaybackModeRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="playbackMode" type="pla:PlaybackMode"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="setPlaybackModeResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- goToPosition elements -->
+
+      <xsd:element name="goToPositionRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="position" type="xsd:duration"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="goToPositionResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <!-- base fault type -->
+
+      <xsd:element name="fault" type="flt:Fault"/>
+
+    </xsd:schema>
+
+    <xsd:schema targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1_1">
+
+      <xsd:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+      <xsd:import schemaLocation="PlaybackControl.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/playbackcontrol"/>
+      
+      <!-- fireCue elements -->
+
+      <xsd:element name="fireCueRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="cueId" type="com:UUID"/>
+            <xsd:element name="parameterizedValue" type="xsd:string" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="fireCueResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getPurgeSuiteState elements -->
+
+      <xsd:element name="getPurgeSuiteStateRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="getPurgeSuiteStateResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="purgeSuiteState" type="pla:PurgeSuiteState"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+     <!-- getAutoPlaybackMode elements -->
+      
+      <xsd:element name="getAutoPlaybackModeRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+    
+      <xsd:element name="getAutoPlaybackModeResponse">
+        <xsd:complexType>
+          <xsd:attribute name="autoPlaybackMode" type="pla:AutoPlaybackMode"/>
+        </xsd:complexType>
+      </xsd:element>
+      
+     <!-- setAutoPlaybackMode elements -->
+
+      <xsd:element name="setAutoPlaybackModeRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="autoPlaybackMode" type="pla:AutoPlaybackMode"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="setAutoPlaybackModeResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      
+    </xsd:schema>
+    
+    <xsd:schema targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1_2">
+
+      <xsd:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+      <xsd:import schemaLocation="PlaybackControl.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/playbackcontrol"/>
+      
+      <!-- getPrepSuiteState elements -->
+
+      <xsd:element name="getPrepSuiteStateRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="getPrepSuiteStateResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="prepSuiteStatus" type="pla:PrepSuiteStatus"/>
+            <xsd:element name="clipId" type="com:UUID" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+    </xsd:schema>
+  
+    <xsd:schema targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1_3">
+
+      <xsd:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+      <xsd:import schemaLocation="PlaybackControl.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/playbackcontrol"/>
+      
+      <!-- getPlaybackState2 elements -->
+
+      <xsd:element name="getPlaybackState2Request">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="getPlaybackState2Response">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="transportState" type="com:TransportState"/>
+            <xsd:element name="playbackMode" type="pla:PlaybackMode2"/>
+            <xsd:element name="contentPlaybackState" type="pla:ContentPlaybackState" minOccurs="0"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- setPlaybackMode2 elements -->
+
+      <xsd:element name="setPlaybackMode2Request">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="playbackMode" type="pla:PlaybackMode2"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="setPlaybackMode2Response">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getAutoPlaybackMode2 elements -->
+      
+      <xsd:element name="getAutoPlaybackMode2Request">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+    
+      <xsd:element name="getAutoPlaybackMode2Response">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="autoPlaybackMode" type="pla:AutoPlaybackMode2"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- setAutoPlaybackMode2 elements -->
+
+      <xsd:element name="setAutoPlaybackMode2Request">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="autoPlaybackMode" type="pla:AutoPlaybackMode2"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="setAutoPlaybackMode2Response">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      
+    </xsd:schema>
+    
+    <xsd:schema targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1_4">
+
+      <xsd:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+      <xsd:import schemaLocation="PlaybackControl.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/playbackcontrol"/>
+      
+      <!-- inputSelect elements -->
+      
+      <xsd:element name="inputSelectRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="inputSelectMode" type="pla:InputSelectMode"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    
+      <xsd:element name="inputSelectResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getInputSelect elements -->
+
+      <xsd:element name="getInputSelectRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="getInputSelectResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="inputSelectMode" type="pla:InputSelectMode"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getInputContentProperties elements -->
+
+      <xsd:element name="getInputContentPropertiesRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="getInputContentPropertiesResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="contentProperties" type="com:InfoPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <!-- getAutoInputSelect elements -->
+
+      <xsd:element name="getAutoInputSelectRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      
+      <xsd:element name="getAutoInputSelectResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="autoInputSelectMode" type="pla:InputSelectMode"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      
+       <!-- autoInputSelect elements -->
+      
+      <xsd:element name="autoInputSelectRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="autoInputSelectMode" type="pla:InputSelectMode"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    
+      <xsd:element name="autoInputSelectResponse">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      
+    </xsd:schema>      
+    
+  </wsdl:types>
+  
+  <!-- Message Specification -->
+  
+  <wsdl:message name="getPlaybackStateRequest">
+    <wsdl:part element="v1_0:getPlaybackStateRequest" name="parameters"/>
+  </wsdl:message> 
+  <wsdl:message name="getPlaybackStateResponse">
+    <wsdl:part element="v1_0:getPlaybackStateResponse" name="result"/>
+  </wsdl:message>  
+  
+  <wsdl:message name="selectContentRequest">
+    <wsdl:part element="v1_0:selectContentRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="selectContentResponse">
+    <wsdl:part element="v1_0:selectContentResponse" name="result"/>
+  </wsdl:message> 
+  
+  <wsdl:message name="playRequest">
+    <wsdl:part element="v1_0:playRequest" name="parameters"/>
+  </wsdl:message>  
+  <wsdl:message name="playResponse">
+    <wsdl:part element="v1_0:playResponse" name="result"/>
+  </wsdl:message> 
+  
+  <wsdl:message name="stopRequest">
+    <wsdl:part element="v1_0:stopRequest" name="parameters"/>
+  </wsdl:message> 
+  <wsdl:message name="stopResponse">
+    <wsdl:part element="v1_0:stopResponse" name="result"/>
+  </wsdl:message> 
+  
+  <wsdl:message name="pauseRequest">
+    <wsdl:part element="v1_0:pauseRequest" name="parameters"/>
+  </wsdl:message> 
+  <wsdl:message name="pauseResponse">
+    <wsdl:part element="v1_0:pauseResponse" name="result"/>
+  </wsdl:message> 
+  
+  <wsdl:message name="nextRequest">
+    <wsdl:part element="v1_0:nextRequest" name="parameters"/>
+  </wsdl:message> 
+  <wsdl:message name="nextResponse">
+    <wsdl:part element="v1_0:nextResponse" name="result"/>
+  </wsdl:message> 
+  
+  <wsdl:message name="previousRequest">
+    <wsdl:part element="v1_0:previousRequest" name="parameters"/>
+  </wsdl:message> 
+  <wsdl:message name="previousResponse">
+    <wsdl:part element="v1_0:previousResponse" name="result"/>
+  </wsdl:message> 
+
+  <wsdl:message name="getScheduleModeRequest">
+    <wsdl:part element="v1_0:getScheduleModeRequest" name="parameters"/>
+  </wsdl:message>  
+  <wsdl:message name="getScheduleModeResponse">
+    <wsdl:part element="v1_0:getScheduleModeResponse" name="result"/>
+  </wsdl:message>  
+  
+  <wsdl:message name="setScheduleModeRequest">
+    <wsdl:part element="v1_0:setScheduleModeRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="setScheduleModeResponse">
+    <wsdl:part element="v1_0:setScheduleModeResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="setPlaybackModeRequest">
+    <wsdl:part element="v1_0:setPlaybackModeRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="setPlaybackModeResponse">
+    <wsdl:part element="v1_0:setPlaybackModeResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="goToPositionRequest">
+    <wsdl:part element="v1_0:goToPositionRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="goToPositionResponse">
+    <wsdl:part element="v1_0:goToPositionResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="fireCueRequest">
+    <wsdl:part element="v1_1:fireCueRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="fireCueResponse">
+    <wsdl:part element="v1_1:fireCueResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getPurgeSuiteStateRequest">
+    <wsdl:part element="v1_1:getPurgeSuiteStateRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getPurgeSuiteStateResponse">
+    <wsdl:part element="v1_1:getPurgeSuiteStateResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getAutoPlaybackModeRequest">
+    <wsdl:part element="v1_1:getAutoPlaybackModeRequest" name="parameters"/>
+  </wsdl:message> 
+  <wsdl:message name="getAutoPlaybackModeResponse">
+    <wsdl:part element="v1_1:getAutoPlaybackModeResponse" name="result"/>
+  </wsdl:message>  
+  
+  <wsdl:message name="setAutoPlaybackModeRequest">
+    <wsdl:part element="v1_1:setAutoPlaybackModeRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="setAutoPlaybackModeResponse">
+    <wsdl:part element="v1_1:setAutoPlaybackModeResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getPrepSuiteStateRequest">
+    <wsdl:part element="v1_2:getPrepSuiteStateRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getPrepSuiteStateResponse">
+    <wsdl:part element="v1_2:getPrepSuiteStateResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getPlaybackState2Request">
+    <wsdl:part element="v1_3:getPlaybackState2Request" name="parameters"/>
+  </wsdl:message> 
+  <wsdl:message name="getPlaybackState2Response">
+    <wsdl:part element="v1_3:getPlaybackState2Response" name="result"/>
+  </wsdl:message>  
+  
+  <wsdl:message name="setPlaybackMode2Request">
+    <wsdl:part element="v1_3:setPlaybackMode2Request" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="setPlaybackMode2Response">
+    <wsdl:part element="v1_3:setPlaybackMode2Response" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getAutoPlaybackMode2Request">
+    <wsdl:part element="v1_3:getAutoPlaybackMode2Request" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getAutoPlaybackMode2Response">
+    <wsdl:part element="v1_3:getAutoPlaybackMode2Response" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="setAutoPlaybackMode2Request">
+    <wsdl:part element="v1_3:setAutoPlaybackMode2Request" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="setAutoPlaybackMode2Response">
+    <wsdl:part element="v1_3:setAutoPlaybackMode2Response" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="inputSelectRequest">
+    <wsdl:part element="v1_4:inputSelectRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="inputSelectResponse">
+    <wsdl:part element="v1_4:inputSelectResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getInputSelectRequest">
+    <wsdl:part element="v1_4:getInputSelectRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getInputSelectResponse">
+    <wsdl:part element="v1_4:getInputSelectResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="getInputContentPropertiesRequest">
+    <wsdl:part element="v1_4:getInputContentPropertiesRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getInputContentPropertiesResponse">
+    <wsdl:part element="v1_4:getInputContentPropertiesResponse" name="result"/>
+  </wsdl:message>
+  
+   <wsdl:message name="getAutoInputSelectRequest">
+    <wsdl:part element="v1_4:getAutoInputSelectRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="getAutoInputSelectResponse">
+    <wsdl:part element="v1_4:getAutoInputSelectResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="autoInputSelectRequest">
+    <wsdl:part element="v1_4:autoInputSelectRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="autoInputSelectResponse">
+    <wsdl:part element="v1_4:autoInputSelectResponse" name="result"/>
+  </wsdl:message>
+  
+  <wsdl:message name="fault">
+    <wsdl:part element="v1_0:fault" name="fault"/>
+  </wsdl:message>
+  
+  <!-- Operation Specification -->
+  
+  <wsdl:portType name="PlaybackControlService_v1_0">
+  
+    <!-- getPlaybackState Operation -->
+  
+    <wsdl:operation name="getPlaybackState">
+      <wsdl:documentation>
+          getPlaybackState Operation
+              Gets the current playback state.
+
+		  Parameters:
+		      None
+
+		  Response:
+		      transportState - Indicates the current state of the transport.
+		      contentPlaybackState (optional) - Indicates the state of the currently selected
+		          content.  Will only be present if content is selected.
+			  scheduleMode - Indicates whether content will automatically play off of the schedule.
+			  playbackMode - Indicates what mode the player will play in (2D, 3D, Dolby 3D).
+
+		  Exceptions:
+		      NotConnected - If the ContentPlayer component is not connected.
+
+		  Related Services:
+		      None
+      </wsdl:documentation>
+      <wsdl:input message="tns:getPlaybackStateRequest"/>
+      <wsdl:output message="tns:getPlaybackStateResponse"/>
+      <wsdl:fault message="tns:fault" name="getPlaybackStateFault"/>
+    </wsdl:operation>
+  
+    <!-- selectContent Operation -->
+  
+    <wsdl:operation name="selectContent">
+      <wsdl:documentation>
+          selectContent Operation
+              Selects the content (eg, clip or show) for future playback.
+
+		  Parameters:
+		      contentId - The unique identifer of the content to be selected.  If null or an empty string
+		          is specified the selected content will be unselected.
+			  playableContentType (optional) - The type of the content (eg, clip or show) to be played.  If
+			      not specified, the first playable content with the matching uuid will be selected.
+			      Search order is show then clip.
+
+		  Response:
+              None
+
+		  Exceptions:
+		  	  InvalidTransportStateFailure - If the TransportState is PLAYING while a new selection is being made.
+		      NotFound - If no playable content with the matching uuid could be found for the
+		          specified content type.
+		      NotConnected - If the ContentPlayer component is not connected.
+
+		  Related Services:
+		      getPlaybackState - Successfully initiating selectContent indicates that the request succeeded.
+		         The service getPlaybackState should be used to ensure that the playable content has been selected.
+      </wsdl:documentation>
+      <wsdl:input message="tns:selectContentRequest"/>
+      <wsdl:output message="tns:selectContentResponse"/>
+      <wsdl:fault message="tns:fault" name="selectContentFault"/>
+    </wsdl:operation>
+    
+    <!-- play Operation -->
+    
+    <wsdl:operation name="play">
+      <wsdl:documentation>
+          play Operation
+              Plays the currently selected content at the current playback position.  Does nothing
+              if content is already playing.
+
+		  Parameters:
+		      None
+
+		  Response:
+              None
+
+		  Exceptions:
+		      ContentFailure - If there is no content that is selected.
+		      InvalidTransportStateFailure - If the TransportState is UNAVAILABLE.
+		      NotConnected - If the ContentPlayer component is not connected.
+
+		  Related Services:
+		      getPlaybackState - Successfully initiating play indicates that the request succeeded.
+		         The service getPlaybackState should be used to ensure that playback is occurring.
+      </wsdl:documentation>
+      <wsdl:input message="tns:playRequest"/>
+      <wsdl:output message="tns:playResponse"/>
+      <wsdl:fault message="tns:fault" name="playFault"/>
+    </wsdl:operation>
+
+    <!-- stop Operation -->
+
+    <wsdl:operation name="stop">
+      <wsdl:documentation>
+          stops Operation
+              Stops the currently playing content at the current playback position and displays black
+              on screen.  Does nothing if content is already stopped.
+
+		  Parameters:
+		      None
+
+		  Response:
+              None
+
+		  Exceptions:
+		      InvalidTransportStateFailure - If the TransportState is not in the READY, PLAYING, PAUSED or STOPPED state.
+		      NotConnected - If the ContentPlayer component is not connected.
+
+		  Related Services:
+		      getPlaybackState - Successfully initiating stop indicates that the request succeeded.
+		         The service getPlaybackState should be used to ensure the desired transport state.
+      </wsdl:documentation>
+      <wsdl:input message="tns:stopRequest"/>
+      <wsdl:output message="tns:stopResponse"/>
+      <wsdl:fault message="tns:fault" name="stopFault"/>
+    </wsdl:operation>
+
+    <!-- pause Operation -->
+
+    <wsdl:operation name="pause">
+      <wsdl:documentation>
+          pause Operation
+              Pauses the currently selected content at the current playback position and freezes the
+              current image on screen.  Does nothing if the content is already stopped or paused.
+
+		  Parameters:
+		      None
+
+		  Response:
+              None
+
+		  Exceptions:
+		      InvalidTransportStateFailure - If the TransportState is not in the READY, PLAYING, STOPPED, or PAUSED state.
+		      NotConnected - If the ContentPlayer component is not connected.
+
+		  Related Services:
+		      getPlaybackState - Successfully initiating pause indicates that the request succeeded.
+		         The service getPlaybackState should be used to ensure the desired transport state.
+      </wsdl:documentation>
+      <wsdl:input message="tns:pauseRequest"/>
+      <wsdl:output message="tns:pauseResponse"/>
+      <wsdl:fault message="tns:fault" name="pauseFault"/>
+    </wsdl:operation>
+
+    <!-- next Operation -->
+
+    <wsdl:operation name="next">
+      <wsdl:documentation>
+          next Operation
+              Advances the playback position to the beginning of the next reel.  This operation will do
+              nothing if you are already on the last reel.
+
+		  Parameters:
+		      None
+
+		  Response:
+              None
+
+		  Exceptions:
+		      InvalidTransportStateFailure - If the TransportState is not in the READY, PLAYING, STOPPED or PAUSED state.
+		      NotConnected - If the ContentPlayer component is not connected.
+
+		  Related Services:
+		      getPlaybackState - Successfully initiating next indicates that the request succeeded.
+		         The service getPlaybackState should be used to ensure the desired transport position.
+      </wsdl:documentation>
+      <wsdl:input message="tns:nextRequest"/>
+      <wsdl:output message="tns:nextResponse"/>
+      <wsdl:fault message="tns:fault" name="nextFault"/>
+    </wsdl:operation>
+
+    <!-- previous Operation -->
+
+    <wsdl:operation name="previous">
+      <wsdl:documentation>
+          previous Operation
+              Moves the playback position to the beginning of the current reel or to the beginning of the
+              previous reel if the playback position is within 3 seconds from the beginning of the current reel.
+              This operation will do nothing if you are already at the beginning of the first reel.
+
+		  Parameters:
+		      None
+
+		  Response:
+              None
+
+		  Exceptions:
+		      InvalidTransportStateFailure - If the TransportState is not in the READY, PLAYING, STOPPED or PAUSED state.
+		      NotConnected - If the ContentPlayer component is not connected.
+
+		  Related Services:
+		      getPlaybackState - Successfully initiating previous indicates that the request succeeded.
+		         The service getPlaybackState should be used to ensure the desired transport position.
+      </wsdl:documentation>
+      <wsdl:input message="tns:previousRequest"/>
+      <wsdl:output message="tns:previousResponse"/>
+      <wsdl:fault message="tns:fault" name="previousFault"/>
+    </wsdl:operation>
+
+    <!-- getScheduleMode Operation -->
+
+    <wsdl:operation name="getScheduleMode">
+      <wsdl:documentation>
+          getScheduleMode Operation
+              Indicates whether the system should automatically be played from the schedule or if
+              playback should be controlled explicitly via playback commands.
+
+		  Parameters:
+		      None
+
+		  Response:
+              scheduleMode - Indicates if and how the system should utilize the schedule for
+                  playback purposes.
+
+		  Exceptions:
+		      NotConnected - If the ContentPlayer component is not connected.
+
+		  Related Services:
+      </wsdl:documentation>
+      <wsdl:input message="tns:getScheduleModeRequest"/>
+      <wsdl:output message="tns:getScheduleModeResponse"/>
+      <wsdl:fault message="tns:fault" name="getScheduleModeFault"/>
+    </wsdl:operation>
+
+    <!-- setScheduleMode Operation -->
+
+    <wsdl:operation name="setScheduleMode">
+      <wsdl:documentation>
+          setScheduleMode Operation
+              Sets whether the system should automatically be played from the schedule or if
+              playback should be controlled explicitly via playback commands.
+
+		  Parameters:
+              scheduleMode - Indicates if and how the system should utilize the schedule for
+                  playback purposes.
+
+		  Response:
+              None
+
+		  Exceptions:
+		      NotConnected - If the ContentPlayer component is not connected.
+
+		  Related Services:
+		      getScheduleMode - Successfully initiating setScheduleMode indicates that the request succeeded.
+		         The service getScheduleMode should be used to ensure the desired schedule mode.
+      </wsdl:documentation>
+      <wsdl:input message="tns:setScheduleModeRequest"/>
+      <wsdl:output message="tns:setScheduleModeResponse"/>
+      <wsdl:fault message="tns:fault" name="setScheduleModeFault"/>
+    </wsdl:operation>
+
+    <!-- setPlaybackMode Operation -->
+
+    <wsdl:operation name="setPlaybackMode">
+      <wsdl:documentation>
+          setPlaybackMode Operation
+              Sets the playback mode (2D, 3D, Dolby 3D) of the player.
+
+		  Parameters:
+		      playbackMode - The new playback mode of the player.
+
+		  Response:
+              None
+
+		  Exceptions:
+		      NotConnected - If the Decoder component is not connected.
+		      OperationFailed - if the playback mode cannot be changed because autoPlaybackMode is not set to MANUAL.
+
+		  Related Services:
+		      getPlaybackState - Successfully initiating setPlaybackMode indicates that the request succeeded.
+		         The service getPlaybackState should be used to ensure the desired playback mode.
+      </wsdl:documentation>
+      <wsdl:input message="tns:setPlaybackModeRequest"/>
+      <wsdl:output message="tns:setPlaybackModeResponse"/>
+      <wsdl:fault message="tns:fault" name="setPlaybackModeFault"/>
+    </wsdl:operation>
+
+    <!-- goToPosition Operation -->
+
+    <wsdl:operation name="goToPosition">
+      <wsdl:documentation>
+          goToPosition Operation
+              Goes to the specified position within the selected content.  This operation will
+              cause the transport state to change but the ending transport state will be the
+              same as when the operation was performed.  Does nothing if the position is
+              outside of the boundary of the selected content.
+
+		  Parameters:
+		      position - The position within the selected content to move the playback position to.
+
+		  Response:
+              None
+
+		  Exceptions:
+		      ContentFailure - If there is no content that is selected.
+		      InvalidTransportStateFailure - If the TransportState is UNAVAILABLE.
+		      NotConnected - If the ContentPlayer component is not connected.
+
+		  Related Services:
+		      getPlaybackState - Successfully initiating goToPosition indicates that the request succeeded.
+		         The service getPlaybackState should be used to ensure the desired position.
+      </wsdl:documentation>
+      <wsdl:input message="tns:goToPositionRequest"/>
+      <wsdl:output message="tns:goToPositionResponse"/>
+      <wsdl:fault message="tns:fault" name="goToPositionFault"/>
+    </wsdl:operation>
+
+  </wsdl:portType>
+
+  <wsdl:portType name="PlaybackControlService_v1_1">
+
+    <!-- getPlaybackState Operation -->
+
+    <wsdl:operation name="getPlaybackState">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getPlaybackStateRequest"/>
+      <wsdl:output message="tns:getPlaybackStateResponse"/>
+      <wsdl:fault message="tns:fault" name="getPlaybackStateFault"/>
+    </wsdl:operation>
+
+    <!-- selectContent Operation -->
+
+    <wsdl:operation name="selectContent">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:selectContentRequest"/>
+      <wsdl:output message="tns:selectContentResponse"/>
+      <wsdl:fault message="tns:fault" name="selectContentFault"/>
+    </wsdl:operation>
+
+    <!-- play Operation -->
+
+    <wsdl:operation name="play">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:playRequest"/>
+      <wsdl:output message="tns:playResponse"/>
+      <wsdl:fault message="tns:fault" name="playFault"/>
+    </wsdl:operation>
+
+    <!-- stop Operation -->
+
+    <wsdl:operation name="stop">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:stopRequest"/>
+      <wsdl:output message="tns:stopResponse"/>
+      <wsdl:fault message="tns:fault" name="stopFault"/>
+    </wsdl:operation>
+
+    <!-- pause Operation -->
+
+    <wsdl:operation name="pause">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:pauseRequest"/>
+      <wsdl:output message="tns:pauseResponse"/>
+      <wsdl:fault message="tns:fault" name="pauseFault"/>
+    </wsdl:operation>
+
+    <!-- next Operation -->
+
+    <wsdl:operation name="next">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:nextRequest"/>
+      <wsdl:output message="tns:nextResponse"/>
+      <wsdl:fault message="tns:fault" name="nextFault"/>
+    </wsdl:operation>
+
+    <!-- previous Operation -->
+
+    <wsdl:operation name="previous">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:previousRequest"/>
+      <wsdl:output message="tns:previousResponse"/>
+      <wsdl:fault message="tns:fault" name="previousFault"/>
+    </wsdl:operation>
+
+    <!-- getScheduleMode Operation -->
+
+    <wsdl:operation name="getScheduleMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getScheduleModeRequest"/>
+      <wsdl:output message="tns:getScheduleModeResponse"/>
+      <wsdl:fault message="tns:fault" name="getScheduleModeFault"/>
+    </wsdl:operation>
+
+    <!-- setScheduleMode Operation -->
+
+    <wsdl:operation name="setScheduleMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:setScheduleModeRequest"/>
+      <wsdl:output message="tns:setScheduleModeResponse"/>
+      <wsdl:fault message="tns:fault" name="setScheduleModeFault"/>
+    </wsdl:operation>
+
+    <!-- setPlaybackMode Operation -->
+
+    <wsdl:operation name="setPlaybackMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:setPlaybackModeRequest"/>
+      <wsdl:output message="tns:setPlaybackModeResponse"/>
+      <wsdl:fault message="tns:fault" name="setPlaybackModeFault"/>
+    </wsdl:operation>
+
+    <!-- goToPosition Operation -->
+
+    <wsdl:operation name="goToPosition">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:goToPositionRequest"/>
+      <wsdl:output message="tns:goToPositionResponse"/>
+      <wsdl:fault message="tns:fault" name="goToPositionFault"/>
+    </wsdl:operation>
+
+    <!-- fireCue Operation -->
+
+    <wsdl:operation name="fireCue">
+      <wsdl:documentation>
+          fireCue Operation
+              fires an advertised cue to the appropriate device.
+
+		  Parameters:
+              cueId - The UUID of the cue to fire.
+              parameterizedValue (optional) - The value to send to a parameterized cue.  Ignored for cues
+                  that are not parameterized.
+
+		  Response:
+		      None
+
+		  Exceptions:
+		      NotFound - If no cue with the matching uuid could be found.
+		      NotConnected - If the device for this cue is not connected.
+		      InvalidArgumentFailure - If no value is specified for a parameterized cue.
+
+		  Related Services:
+		      getCueInfos - This service can be used to determine what cues are available.
+        </wsdl:documentation>
+      <wsdl:input message="tns:fireCueRequest"/>
+      <wsdl:output message="tns:fireCueResponse"/>
+      <wsdl:fault message="tns:fault" name="fireCueFault"/>
+    </wsdl:operation>
+
+      <wsdl:operation name="getPurgeSuiteState">
+          <wsdl:documentation>
+              getPurgeSuiteState Operation
+              retrieves the state of PURGE_SUITE transport state
+
+              Parameters:
+              None
+
+              Response:
+              purgeSuiteState - the PURGE_SUITE state, which includes the progress information
+                for secure logs extraction
+
+              Exceptions:
+              NotConnected - If the Decoder component is not connected
+
+              Related Services:
+              getPlaybackState - This service can be used to determine current playback and transport states
+          </wsdl:documentation>
+          <wsdl:input message="tns:getPurgeSuiteStateRequest"/>
+          <wsdl:output message="tns:getPurgeSuiteStateResponse"/>
+          <wsdl:fault message="tns:fault" name="getPurgeSuiteStateFault"/>
+      </wsdl:operation>
+
+   <!-- getAutoPlaybackMode Operation -->
+  
+    <wsdl:operation name="getAutoPlaybackMode">
+      <wsdl:documentation>
+           getAutoPlaybackMode Operation
+              Gets the current auto playback mode.
+
+		  Parameters:
+		      None
+
+		  Response:
+			  autoPlaybackMode - Indicates what playback mode the player will use for playing 3D content.
+			                     3D content may be played back in 2D mode if MANUAL is selected.
+
+		  Related Services:
+		      setAutoPlaybackMode - Used to set the current auto playback mode.
+      </wsdl:documentation>
+      <wsdl:input message="tns:getAutoPlaybackModeRequest"/>
+      <wsdl:output message="tns:getAutoPlaybackModeResponse"/>
+      <wsdl:fault message="tns:fault" name="getAutoPlaybackModeFault"/>
+    </wsdl:operation>
+    
+    <!-- setAutoPlaybackMode Operation -->
+    
+    <wsdl:operation name="setAutoPlaybackMode">
+      <wsdl:documentation>
+          setAutoPlaybackMode Operation
+              Sets the auto playback mode (Manual, 3D, Dolby 3D) of the player.
+              
+		  Parameters:
+		      autoPlaybackMode - The new auto playback mode of the player.
+
+		  Response:
+              None
+
+		  Related Services:
+		      getAutoPlaybackMode - Used to obtain the current auto playback mode. 
+      </wsdl:documentation>
+      <wsdl:input message="tns:setAutoPlaybackModeRequest"/>
+      <wsdl:output message="tns:setAutoPlaybackModeResponse"/>
+      <wsdl:fault message="tns:fault" name="setAutoPlaybackModeFault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  
+  <wsdl:portType name="PlaybackControlService_v1_2">
+
+    <!-- getPlaybackState Operation -->
+
+    <wsdl:operation name="getPlaybackState">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getPlaybackStateRequest"/>
+      <wsdl:output message="tns:getPlaybackStateResponse"/>
+      <wsdl:fault message="tns:fault" name="getPlaybackStateFault"/>
+    </wsdl:operation>
+
+    <!-- selectContent Operation -->
+
+    <wsdl:operation name="selectContent">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:selectContentRequest"/>
+      <wsdl:output message="tns:selectContentResponse"/>
+      <wsdl:fault message="tns:fault" name="selectContentFault"/>
+    </wsdl:operation>
+
+    <!-- play Operation -->
+
+    <wsdl:operation name="play">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:playRequest"/>
+      <wsdl:output message="tns:playResponse"/>
+      <wsdl:fault message="tns:fault" name="playFault"/>
+    </wsdl:operation>
+
+    <!-- stop Operation -->
+
+    <wsdl:operation name="stop">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:stopRequest"/>
+      <wsdl:output message="tns:stopResponse"/>
+      <wsdl:fault message="tns:fault" name="stopFault"/>
+    </wsdl:operation>
+
+    <!-- pause Operation -->
+
+    <wsdl:operation name="pause">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:pauseRequest"/>
+      <wsdl:output message="tns:pauseResponse"/>
+      <wsdl:fault message="tns:fault" name="pauseFault"/>
+    </wsdl:operation>
+
+    <!-- next Operation -->
+
+    <wsdl:operation name="next">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:nextRequest"/>
+      <wsdl:output message="tns:nextResponse"/>
+      <wsdl:fault message="tns:fault" name="nextFault"/>
+    </wsdl:operation>
+
+    <!-- previous Operation -->
+
+    <wsdl:operation name="previous">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:previousRequest"/>
+      <wsdl:output message="tns:previousResponse"/>
+      <wsdl:fault message="tns:fault" name="previousFault"/>
+    </wsdl:operation>
+
+    <!-- getScheduleMode Operation -->
+
+    <wsdl:operation name="getScheduleMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getScheduleModeRequest"/>
+      <wsdl:output message="tns:getScheduleModeResponse"/>
+      <wsdl:fault message="tns:fault" name="getScheduleModeFault"/>
+    </wsdl:operation>
+
+    <!-- setScheduleMode Operation -->
+
+    <wsdl:operation name="setScheduleMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:setScheduleModeRequest"/>
+      <wsdl:output message="tns:setScheduleModeResponse"/>
+      <wsdl:fault message="tns:fault" name="setScheduleModeFault"/>
+    </wsdl:operation>
+
+    <!-- setPlaybackMode Operation -->
+
+    <wsdl:operation name="setPlaybackMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:setPlaybackModeRequest"/>
+      <wsdl:output message="tns:setPlaybackModeResponse"/>
+      <wsdl:fault message="tns:fault" name="setPlaybackModeFault"/>
+    </wsdl:operation>
+
+    <!-- goToPosition Operation -->
+
+    <wsdl:operation name="goToPosition">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:goToPositionRequest"/>
+      <wsdl:output message="tns:goToPositionResponse"/>
+      <wsdl:fault message="tns:fault" name="goToPositionFault"/>
+    </wsdl:operation>
+
+    <!-- fireCue Operation -->
+
+    <wsdl:operation name="fireCue">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_1
+      </wsdl:documentation>
+      <wsdl:input message="tns:fireCueRequest"/>
+      <wsdl:output message="tns:fireCueResponse"/>
+      <wsdl:fault message="tns:fault" name="fireCueFault"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="getPurgeSuiteState">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_1
+      </wsdl:documentation>
+      <wsdl:input message="tns:getPurgeSuiteStateRequest"/>
+      <wsdl:output message="tns:getPurgeSuiteStateResponse"/>
+      <wsdl:fault message="tns:fault" name="getPurgeSuiteStateFault"/>
+    </wsdl:operation>
+
+   <!-- getAutoPlaybackMode Operation -->
+  
+    <wsdl:operation name="getAutoPlaybackMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_1
+      </wsdl:documentation>
+      <wsdl:input message="tns:getAutoPlaybackModeRequest"/>
+      <wsdl:output message="tns:getAutoPlaybackModeResponse"/>
+      <wsdl:fault message="tns:fault" name="getAutoPlaybackModeFault"/>
+    </wsdl:operation>
+    
+    <!-- setAutoPlaybackMode Operation -->
+    
+    <wsdl:operation name="setAutoPlaybackMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_1
+      </wsdl:documentation>
+      <wsdl:input message="tns:setAutoPlaybackModeRequest"/>
+      <wsdl:output message="tns:setAutoPlaybackModeResponse"/>
+      <wsdl:fault message="tns:fault" name="setAutoPlaybackModeFault"/>
+    </wsdl:operation>
+    
+    <!-- getPrepSuiteState Operation -->
+    
+    <wsdl:operation name="getPrepSuiteState">
+      <wsdl:documentation>
+          getPrepSuiteState Operation
+              Indicates the last prep suite state.
+              
+		  Parameters:
+		      None
+
+		  Response:
+              prepSuiteStatus - The status of the last prep suite
+              clipId - The UUID of the clip which corresponds to last prep suite. (optional)
+              
+          Exceptions:
+              NotConnected - If the ContentPlayer or Decoder component is not connected
+
+		  Related Services:
+		      getPlaybackState - The current transport state.  The transport will transition 
+		      to TransportStateTypeEnum#UNSELECTED if a prep suite failure occurs.
+      </wsdl:documentation>
+      <wsdl:input message="tns:getPrepSuiteStateRequest"/>
+      <wsdl:output message="tns:getPrepSuiteStateResponse"/>
+      <wsdl:fault message="tns:fault" name="getPrepSuiteStateFault"/>
+    </wsdl:operation>
+        
+  </wsdl:portType>
+  
+  <wsdl:portType name="PlaybackControlService_v1_3">
+
+    <!-- getPlaybackState Operation -->
+
+    <wsdl:operation name="getPlaybackState">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getPlaybackStateRequest"/>
+      <wsdl:output message="tns:getPlaybackStateResponse"/>
+      <wsdl:fault message="tns:fault" name="getPlaybackStateFault"/>
+    </wsdl:operation>
+
+    <!-- selectContent Operation -->
+
+    <wsdl:operation name="selectContent">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:selectContentRequest"/>
+      <wsdl:output message="tns:selectContentResponse"/>
+      <wsdl:fault message="tns:fault" name="selectContentFault"/>
+    </wsdl:operation>
+
+    <!-- play Operation -->
+
+    <wsdl:operation name="play">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:playRequest"/>
+      <wsdl:output message="tns:playResponse"/>
+      <wsdl:fault message="tns:fault" name="playFault"/>
+    </wsdl:operation>
+
+    <!-- stop Operation -->
+
+    <wsdl:operation name="stop">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:stopRequest"/>
+      <wsdl:output message="tns:stopResponse"/>
+      <wsdl:fault message="tns:fault" name="stopFault"/>
+    </wsdl:operation>
+
+    <!-- pause Operation -->
+
+    <wsdl:operation name="pause">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:pauseRequest"/>
+      <wsdl:output message="tns:pauseResponse"/>
+      <wsdl:fault message="tns:fault" name="pauseFault"/>
+    </wsdl:operation>
+
+    <!-- next Operation -->
+
+    <wsdl:operation name="next">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:nextRequest"/>
+      <wsdl:output message="tns:nextResponse"/>
+      <wsdl:fault message="tns:fault" name="nextFault"/>
+    </wsdl:operation>
+
+    <!-- previous Operation -->
+
+    <wsdl:operation name="previous">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:previousRequest"/>
+      <wsdl:output message="tns:previousResponse"/>
+      <wsdl:fault message="tns:fault" name="previousFault"/>
+    </wsdl:operation>
+
+    <!-- getScheduleMode Operation -->
+
+    <wsdl:operation name="getScheduleMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getScheduleModeRequest"/>
+      <wsdl:output message="tns:getScheduleModeResponse"/>
+      <wsdl:fault message="tns:fault" name="getScheduleModeFault"/>
+    </wsdl:operation>
+
+    <!-- setScheduleMode Operation -->
+
+    <wsdl:operation name="setScheduleMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:setScheduleModeRequest"/>
+      <wsdl:output message="tns:setScheduleModeResponse"/>
+      <wsdl:fault message="tns:fault" name="setScheduleModeFault"/>
+    </wsdl:operation>
+
+    <!-- setPlaybackMode Operation -->
+
+    <wsdl:operation name="setPlaybackMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:setPlaybackModeRequest"/>
+      <wsdl:output message="tns:setPlaybackModeResponse"/>
+      <wsdl:fault message="tns:fault" name="setPlaybackModeFault"/>
+    </wsdl:operation>
+
+    <!-- goToPosition Operation -->
+
+    <wsdl:operation name="goToPosition">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:goToPositionRequest"/>
+      <wsdl:output message="tns:goToPositionResponse"/>
+      <wsdl:fault message="tns:fault" name="goToPositionFault"/>
+    </wsdl:operation>
+
+    <!-- fireCue Operation -->
+
+    <wsdl:operation name="fireCue">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_1
+      </wsdl:documentation>
+      <wsdl:input message="tns:fireCueRequest"/>
+      <wsdl:output message="tns:fireCueResponse"/>
+      <wsdl:fault message="tns:fault" name="fireCueFault"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="getPurgeSuiteState">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_1
+      </wsdl:documentation>
+      <wsdl:input message="tns:getPurgeSuiteStateRequest"/>
+      <wsdl:output message="tns:getPurgeSuiteStateResponse"/>
+      <wsdl:fault message="tns:fault" name="getPurgeSuiteStateFault"/>
+    </wsdl:operation>
+
+   <!-- getAutoPlaybackMode Operation -->
+  
+    <wsdl:operation name="getAutoPlaybackMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_1
+      </wsdl:documentation>
+      <wsdl:input message="tns:getAutoPlaybackModeRequest"/>
+      <wsdl:output message="tns:getAutoPlaybackModeResponse"/>
+      <wsdl:fault message="tns:fault" name="getAutoPlaybackModeFault"/>
+    </wsdl:operation>
+    
+    <!-- setAutoPlaybackMode Operation -->
+    
+    <wsdl:operation name="setAutoPlaybackMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_1
+      </wsdl:documentation>
+      <wsdl:input message="tns:setAutoPlaybackModeRequest"/>
+      <wsdl:output message="tns:setAutoPlaybackModeResponse"/>
+      <wsdl:fault message="tns:fault" name="setAutoPlaybackModeFault"/>
+    </wsdl:operation>
+    
+    <!-- getPrepSuiteState Operation -->
+    
+    <wsdl:operation name="getPrepSuiteState">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_2
+      </wsdl:documentation>
+      <wsdl:input message="tns:getPrepSuiteStateRequest"/>
+      <wsdl:output message="tns:getPrepSuiteStateResponse"/>
+      <wsdl:fault message="tns:fault" name="getPrepSuiteStateFault"/>
+    </wsdl:operation>
+    
+    <!-- getPlaybackState2 Operation -->
+  
+    <wsdl:operation name="getPlaybackState2">
+      <wsdl:documentation>
+          getPlaybackState2 Operation
+              Gets the current playback state; allowing for the return of PlaybackMode2
+
+		  Parameters:
+		      None
+
+		  Response:
+		      transportState - Indicates the current state of the transport.
+		      contentPlaybackState (optional) - Indicates the state of the currently selected
+		          content.  Will only be present if content is selected.
+			  scheduleMode - Indicates whether content will automatically play off of the schedule.
+			  playbackMode - Indicates what mode the player will play in (2D, 3D, Dolby 3D, Real D).
+
+		  Exceptions:
+		      NotConnected - If the ContentPlayer component is not connected.
+
+		  Related Services:
+		      None
+      </wsdl:documentation>
+      <wsdl:input message="tns:getPlaybackState2Request"/>
+      <wsdl:output message="tns:getPlaybackState2Response"/>
+      <wsdl:fault message="tns:fault" name="getPlaybackState2Fault"/>
+    </wsdl:operation>
+    
+    <!-- setPlaybackMode2 Operation -->
+
+    <wsdl:operation name="setPlaybackMode2">
+      <wsdl:documentation>
+          setPlaybackMode2 Operation
+              Sets the playback mode (2D, 3D, Dolby 3D, RealD) of the player.
+
+		  Parameters:
+		      playbackMode - The new playback mode of the player.
+
+		  Response:
+              None
+
+		  Exceptions:
+		      NotConnected - If the Decoder component is not connected.
+		      OperationFailed - if the playback mode cannot be changed because autoPlaybackMode is not set to MANUAL.
+
+		  Related Services:
+		      getPlaybackState2 - Successfully initiating setPlaybackMode2 indicates that the request succeeded.
+		         The service getPlaybackState2 should be used to ensure the desired playback mode.
+      </wsdl:documentation>
+      <wsdl:input message="tns:setPlaybackMode2Request"/>
+      <wsdl:output message="tns:setPlaybackMode2Response"/>
+      <wsdl:fault message="tns:fault" name="setPlaybackMode2Fault"/>
+    </wsdl:operation>
+    
+    <!-- getAutoPlaybackMode2 Operation -->
+  
+    <wsdl:operation name="getAutoPlaybackMode2">
+      <wsdl:documentation>
+           getAutoPlaybackMode2 Operation
+              Gets the current auto playback mode; allowing for RealD 3D mode and other extension values.
+
+		  Parameters:
+		      None
+
+		  Response:
+			  autoPlaybackMode - Indicates what playback mode the player will use for playing 3D content.
+			                     3D content may be played back in 2D mode if MANUAL is selected.
+
+		  Related Services:
+		      setAutoPlaybackMode2 - Used to set the current auto playback mode.
+      </wsdl:documentation>
+      <wsdl:input message="tns:getAutoPlaybackMode2Request"/>
+      <wsdl:output message="tns:getAutoPlaybackMode2Response"/>
+      <wsdl:fault message="tns:fault" name="getAutoPlaybackMode2Fault"/>
+    </wsdl:operation>
+    
+    <!-- setAutoPlaybackMode2 Operation -->
+    
+    <wsdl:operation name="setAutoPlaybackMode2">
+      <wsdl:documentation>
+          setAutoPlaybackMode2 Operation
+              Sets the auto playback mode (Manual, 3D, Dolby 3D, RealD) of the player.
+              
+		  Parameters:
+		      autoPlaybackMode - The new auto playback mode of the player.
+
+		  Response:
+              None
+
+		  Related Services:
+		      getAutoPlaybackMode2 - Used to obtain the current auto playback mode. 
+      </wsdl:documentation>
+      <wsdl:input message="tns:setAutoPlaybackMode2Request"/>
+      <wsdl:output message="tns:setAutoPlaybackMode2Response"/>
+      <wsdl:fault message="tns:fault" name="setAutoPlaybackMode2Fault"/>
+    </wsdl:operation>
+        
+  </wsdl:portType>
+  
+  <wsdl:portType name="PlaybackControlService_v1_4">
+
+    <!-- getPlaybackState Operation -->
+
+    <wsdl:operation name="getPlaybackState">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getPlaybackStateRequest"/>
+      <wsdl:output message="tns:getPlaybackStateResponse"/>
+      <wsdl:fault message="tns:fault" name="getPlaybackStateFault"/>
+    </wsdl:operation>
+
+    <!-- selectContent Operation -->
+
+    <wsdl:operation name="selectContent">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:selectContentRequest"/>
+      <wsdl:output message="tns:selectContentResponse"/>
+      <wsdl:fault message="tns:fault" name="selectContentFault"/>
+    </wsdl:operation>
+
+    <!-- play Operation -->
+
+    <wsdl:operation name="play">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:playRequest"/>
+      <wsdl:output message="tns:playResponse"/>
+      <wsdl:fault message="tns:fault" name="playFault"/>
+    </wsdl:operation>
+
+    <!-- stop Operation -->
+
+    <wsdl:operation name="stop">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:stopRequest"/>
+      <wsdl:output message="tns:stopResponse"/>
+      <wsdl:fault message="tns:fault" name="stopFault"/>
+    </wsdl:operation>
+
+    <!-- pause Operation -->
+
+    <wsdl:operation name="pause">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:pauseRequest"/>
+      <wsdl:output message="tns:pauseResponse"/>
+      <wsdl:fault message="tns:fault" name="pauseFault"/>
+    </wsdl:operation>
+
+    <!-- next Operation -->
+
+    <wsdl:operation name="next">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:nextRequest"/>
+      <wsdl:output message="tns:nextResponse"/>
+      <wsdl:fault message="tns:fault" name="nextFault"/>
+    </wsdl:operation>
+
+    <!-- previous Operation -->
+
+    <wsdl:operation name="previous">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:previousRequest"/>
+      <wsdl:output message="tns:previousResponse"/>
+      <wsdl:fault message="tns:fault" name="previousFault"/>
+    </wsdl:operation>
+
+    <!-- getScheduleMode Operation -->
+
+    <wsdl:operation name="getScheduleMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:getScheduleModeRequest"/>
+      <wsdl:output message="tns:getScheduleModeResponse"/>
+      <wsdl:fault message="tns:fault" name="getScheduleModeFault"/>
+    </wsdl:operation>
+
+    <!-- setScheduleMode Operation -->
+
+    <wsdl:operation name="setScheduleMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:setScheduleModeRequest"/>
+      <wsdl:output message="tns:setScheduleModeResponse"/>
+      <wsdl:fault message="tns:fault" name="setScheduleModeFault"/>
+    </wsdl:operation>
+
+    <!-- setPlaybackMode Operation -->
+
+    <wsdl:operation name="setPlaybackMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:setPlaybackModeRequest"/>
+      <wsdl:output message="tns:setPlaybackModeResponse"/>
+      <wsdl:fault message="tns:fault" name="setPlaybackModeFault"/>
+    </wsdl:operation>
+
+    <!-- goToPosition Operation -->
+
+    <wsdl:operation name="goToPosition">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_0
+      </wsdl:documentation>
+      <wsdl:input message="tns:goToPositionRequest"/>
+      <wsdl:output message="tns:goToPositionResponse"/>
+      <wsdl:fault message="tns:fault" name="goToPositionFault"/>
+    </wsdl:operation>
+
+    <!-- fireCue Operation -->
+
+    <wsdl:operation name="fireCue">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_1
+      </wsdl:documentation>
+      <wsdl:input message="tns:fireCueRequest"/>
+      <wsdl:output message="tns:fireCueResponse"/>
+      <wsdl:fault message="tns:fault" name="fireCueFault"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="getPurgeSuiteState">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_1
+      </wsdl:documentation>
+      <wsdl:input message="tns:getPurgeSuiteStateRequest"/>
+      <wsdl:output message="tns:getPurgeSuiteStateResponse"/>
+      <wsdl:fault message="tns:fault" name="getPurgeSuiteStateFault"/>
+    </wsdl:operation>
+
+   <!-- getAutoPlaybackMode Operation -->
+  
+    <wsdl:operation name="getAutoPlaybackMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_1
+      </wsdl:documentation>
+      <wsdl:input message="tns:getAutoPlaybackModeRequest"/>
+      <wsdl:output message="tns:getAutoPlaybackModeResponse"/>
+      <wsdl:fault message="tns:fault" name="getAutoPlaybackModeFault"/>
+    </wsdl:operation>
+    
+    <!-- setAutoPlaybackMode Operation -->
+    
+    <wsdl:operation name="setAutoPlaybackMode">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_1
+      </wsdl:documentation>
+      <wsdl:input message="tns:setAutoPlaybackModeRequest"/>
+      <wsdl:output message="tns:setAutoPlaybackModeResponse"/>
+      <wsdl:fault message="tns:fault" name="setAutoPlaybackModeFault"/>
+    </wsdl:operation>
+    
+    <!-- getPrepSuiteState Operation -->
+    
+    <wsdl:operation name="getPrepSuiteState">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_2
+      </wsdl:documentation>
+      <wsdl:input message="tns:getPrepSuiteStateRequest"/>
+      <wsdl:output message="tns:getPrepSuiteStateResponse"/>
+      <wsdl:fault message="tns:fault" name="getPrepSuiteStateFault"/>
+    </wsdl:operation>
+    
+    <!-- getPlaybackState2 Operation -->
+  
+    <wsdl:operation name="getPlaybackState2">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_3
+      </wsdl:documentation>
+      <wsdl:input message="tns:getPlaybackState2Request"/>
+      <wsdl:output message="tns:getPlaybackState2Response"/>
+      <wsdl:fault message="tns:fault" name="getPlaybackState2Fault"/>
+    </wsdl:operation>
+    
+    <!-- setPlaybackMode2 Operation -->
+
+    <wsdl:operation name="setPlaybackMode2">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_3
+      </wsdl:documentation>
+      <wsdl:input message="tns:setPlaybackMode2Request"/>
+      <wsdl:output message="tns:setPlaybackMode2Response"/>
+      <wsdl:fault message="tns:fault" name="setPlaybackMode2Fault"/>
+    </wsdl:operation>
+    
+    <!-- getAutoPlaybackMode2 Operation -->
+  
+    <wsdl:operation name="getAutoPlaybackMode2">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_3
+      </wsdl:documentation>
+      <wsdl:input message="tns:getAutoPlaybackMode2Request"/>
+      <wsdl:output message="tns:getAutoPlaybackMode2Response"/>
+      <wsdl:fault message="tns:fault" name="getAutoPlaybackMode2Fault"/>
+    </wsdl:operation>
+    
+    <!-- setAutoPlaybackMode2 Operation -->
+    
+    <wsdl:operation name="setAutoPlaybackMode2">
+      <wsdl:documentation>
+          @see portType PlaybackControlService_v1_3
+      </wsdl:documentation>
+      <wsdl:input message="tns:setAutoPlaybackMode2Request"/>
+      <wsdl:output message="tns:setAutoPlaybackMode2Response"/>
+      <wsdl:fault message="tns:fault" name="setAutoPlaybackMode2Fault"/>
+    </wsdl:operation>
+    
+    <!-- inputSelect Operation -->
+  
+    <wsdl:operation name="inputSelect">
+      <wsdl:documentation>
+           inputSelect Operation
+              Sets the input selection mechanism the decoder is using (eg, hdmi, hd-sdi).
+
+		  Parameters:
+			  inputSelectMode - The new input selection mechanism that the decoder should use (eg, hdmi, hd-sdi).
+
+		  Response:
+              None
+
+		  Related Services:
+		      getInputSelect - Used to get the input selection mechanism the decoder is using (eg, hdmi, hd-sdi).
+		      getInputContentProperties - Used to get the content properties that is being input into the decoder.
+      </wsdl:documentation>
+      <wsdl:input message="tns:inputSelectRequest"/>
+      <wsdl:output message="tns:inputSelectResponse"/>
+      <wsdl:fault message="tns:fault" name="inputSelectFault"/>
+    </wsdl:operation>
+    
+    <!-- getInputSelect Operation -->
+    
+    <wsdl:operation name="getInputSelect">
+      <wsdl:documentation>
+          getInputSelect Operation
+              Get the input selection mechanism the decoder is using (eg, hdmi, hd-sdi).
+              
+		  Parameters:
+              None
+
+		  Response:
+			  inputSelectMode - Indicates what input selection mechanism the decoder is using (eg, hdmi, hd-sdi).
+
+		  Related Services:
+		      inputSelect - Used to set the input selection mechanism the decoder is using (eg, hdmi, hd-sdi).
+		      getInputContentProperties - Used to get the content properties that is being input into the decoder.
+      </wsdl:documentation>
+      <wsdl:input message="tns:getInputSelectRequest"/>
+      <wsdl:output message="tns:getInputSelectResponse"/>
+      <wsdl:fault message="tns:fault" name="getInputSelectFault"/>
+    </wsdl:operation>
+    
+    <!-- getContentProperties Operation -->
+    
+    <wsdl:operation name="getInputContentProperties">
+      <wsdl:documentation>
+          getInputContentProperties Operation
+              Get the content properties that is being input into the decoder.
+              
+		  Parameters:
+              None
+
+		  Response:
+			  contentProperties (many) - The properties of the content that is being input into the decoder.
+
+		  Related Services:
+              None
+      </wsdl:documentation>
+      <wsdl:input message="tns:getInputContentPropertiesRequest"/>
+      <wsdl:output message="tns:getInputContentPropertiesResponse"/>
+      <wsdl:fault message="tns:fault" name="getInputContentPropertiesFault"/>
+    </wsdl:operation>
+        
+        <!-- getAutoInputSelect Operation -->
+    
+    <wsdl:operation name="getAutoInputSelect">
+      <wsdl:documentation>
+          getAutoInputSelect Operation
+              Get the input selection mechanism that the decoder will automatically revert to upon playback completion.
+              
+		  Parameters:
+              None
+
+		  Response:
+			  autoInputSelectMode - Indicates what input selection mechanism that the decoder will automatically revert to upon playback completion.
+
+		  Related Services:
+		      autoInputSelect - Used to set the input selection mechanism that the decoder will automatically revert to upon playback completion.
+		     
+      </wsdl:documentation>
+      <wsdl:input message="tns:getAutoInputSelectRequest"/>
+      <wsdl:output message="tns:getAutoInputSelectResponse"/>
+      <wsdl:fault message="tns:fault" name="getAutoInputSelectFault"/>
+    </wsdl:operation>
+    
+    <!-- autoInputSelect Operation -->
+  
+    <wsdl:operation name="autoInputSelect">
+      <wsdl:documentation>
+           autoInputSelect Operation
+              Sets the auto input selection mechanism that the decoder will automatically revert to upon playback completion.
+
+		  Parameters:
+			  autoInputSelectMode - The new input selection mechanism that the decoder will automatically revert to upon playback completion.
+
+		  Response:
+              None
+
+		  Related Services:
+		      getAutoInputSelect - Used to get the input selection mechanism that the decoder will automatically revert to upon playback completion.
+		      
+      </wsdl:documentation>
+      <wsdl:input message="tns:autoInputSelectRequest"/>
+      <wsdl:output message="tns:autoInputSelectResponse"/>
+      <wsdl:fault message="tns:fault" name="autoInputSelectFault"/>
+    </wsdl:operation>
+    
+  </wsdl:portType>
+
+  <!-- Binding Specification -->
+
+  <wsdl:binding name="PlaybackControlBinding_v1_0" type="tns:PlaybackControlService_v1_0">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+    <wsdl:operation name="getPlaybackState">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPlaybackState"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPlaybackStateFault">
+        <soap:fault name="getPlaybackStateFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="selectContent">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/selectContent"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="selectContentFault">
+        <soap:fault name="selectContentFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="play">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/play"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="playFault">
+        <soap:fault name="playFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="stop">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/stop"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="stopFault">
+        <soap:fault name="stopFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="pause">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/pause"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="pauseFault">
+        <soap:fault name="pauseFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="next">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/next"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="nextFault">
+        <soap:fault name="nextFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="previous">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/previous"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="previousFault">
+        <soap:fault name="previousFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getScheduleMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getScheduleMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getScheduleModeFault">
+        <soap:fault name="getScheduleModeFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="setScheduleMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setScheduleMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setScheduleModeFault">
+        <soap:fault name="setScheduleModeFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="setPlaybackMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setPlaybackMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setPlaybackModeFault">
+        <soap:fault name="setPlaybackModeFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="goToPosition">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/goToPosition"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="goToPositionFault">
+        <soap:fault name="goToPositionFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+  </wsdl:binding>
+
+  <wsdl:binding name="PlaybackControlBinding_v1_1" type="tns:PlaybackControlService_v1_1">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+    <wsdl:operation name="getPlaybackState">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPlaybackState"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPlaybackStateFault">
+        <soap:fault name="getPlaybackStateFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="selectContent">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/selectContent"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="selectContentFault">
+        <soap:fault name="selectContentFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="play">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/play"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="playFault">
+        <soap:fault name="playFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="stop">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/stop"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="stopFault">
+        <soap:fault name="stopFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="pause">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/pause"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="pauseFault">
+        <soap:fault name="pauseFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="next">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/next"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="nextFault">
+        <soap:fault name="nextFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="previous">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/previous"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="previousFault">
+        <soap:fault name="previousFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getScheduleMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getScheduleMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getScheduleModeFault">
+        <soap:fault name="getScheduleModeFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="setScheduleMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setScheduleMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setScheduleModeFault">
+        <soap:fault name="setScheduleModeFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="setPlaybackMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setPlaybackMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setPlaybackModeFault">
+        <soap:fault name="setPlaybackModeFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="goToPosition">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/goToPosition"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="goToPositionFault">
+        <soap:fault name="goToPositionFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="fireCue">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/fireCue"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fireCueFault">
+        <soap:fault name="fireCueFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getPurgeSuiteState">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPurgeSuiteState"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPurgeSuiteStateFault">
+        <soap:fault name="getPurgeSuiteStateFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+      
+    <wsdl:operation name="getAutoPlaybackMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getAutoPlaybackMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getAutoPlaybackModeFault">
+        <soap:fault name="getAutoPlaybackModeFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation> 
+     
+    <wsdl:operation name="setAutoPlaybackMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setAutoPlaybackMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setAutoPlaybackModeFault">
+        <soap:fault name="setAutoPlaybackModeFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation> 
+
+  </wsdl:binding>
+  
+  <wsdl:binding name="PlaybackControlBinding_v1_2" type="tns:PlaybackControlService_v1_2">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+    <wsdl:operation name="getPlaybackState">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPlaybackState"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPlaybackStateFault">
+        <soap:fault name="getPlaybackStateFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="selectContent">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/selectContent"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="selectContentFault">
+        <soap:fault name="selectContentFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="play">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/play"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="playFault">
+        <soap:fault name="playFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="stop">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/stop"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="stopFault">
+        <soap:fault name="stopFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="pause">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/pause"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="pauseFault">
+        <soap:fault name="pauseFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="next">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/next"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="nextFault">
+        <soap:fault name="nextFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="previous">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/previous"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="previousFault">
+        <soap:fault name="previousFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getScheduleMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getScheduleMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getScheduleModeFault">
+        <soap:fault name="getScheduleModeFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="setScheduleMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setScheduleMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setScheduleModeFault">
+        <soap:fault name="setScheduleModeFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="setPlaybackMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setPlaybackMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setPlaybackModeFault">
+        <soap:fault name="setPlaybackModeFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="goToPosition">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/goToPosition"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="goToPositionFault">
+        <soap:fault name="goToPositionFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="fireCue">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/fireCue"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fireCueFault">
+        <soap:fault name="fireCueFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getPurgeSuiteState">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPurgeSuiteState"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPurgeSuiteStateFault">
+        <soap:fault name="getPurgeSuiteStateFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+      
+    <wsdl:operation name="getAutoPlaybackMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getAutoPlaybackMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getAutoPlaybackModeFault">
+        <soap:fault name="getAutoPlaybackModeFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation> 
+     
+    <wsdl:operation name="setAutoPlaybackMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setAutoPlaybackMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setAutoPlaybackModeFault">
+        <soap:fault name="setAutoPlaybackModeFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation> 
+    
+    <wsdl:operation name="getPrepSuiteState">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPrepSuiteState"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPrepSuiteStateFault">
+        <soap:fault name="getPrepSuiteStateFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation> 
+
+  </wsdl:binding>
+  
+  <wsdl:binding name="PlaybackControlBinding_v1_3" type="tns:PlaybackControlService_v1_3">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+    <wsdl:operation name="getPlaybackState">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPlaybackState"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPlaybackStateFault">
+        <soap:fault name="getPlaybackStateFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="selectContent">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/selectContent"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="selectContentFault">
+        <soap:fault name="selectContentFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="play">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/play"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="playFault">
+        <soap:fault name="playFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="stop">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/stop"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="stopFault">
+        <soap:fault name="stopFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="pause">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/pause"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="pauseFault">
+        <soap:fault name="pauseFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="next">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/next"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="nextFault">
+        <soap:fault name="nextFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="previous">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/previous"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="previousFault">
+        <soap:fault name="previousFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getScheduleMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getScheduleMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getScheduleModeFault">
+        <soap:fault name="getScheduleModeFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="setScheduleMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setScheduleMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setScheduleModeFault">
+        <soap:fault name="setScheduleModeFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="setPlaybackMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setPlaybackMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setPlaybackModeFault">
+        <soap:fault name="setPlaybackModeFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="goToPosition">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/goToPosition"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="goToPositionFault">
+        <soap:fault name="goToPositionFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="fireCue">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/fireCue"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fireCueFault">
+        <soap:fault name="fireCueFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getPurgeSuiteState">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPurgeSuiteState"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPurgeSuiteStateFault">
+        <soap:fault name="getPurgeSuiteStateFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+      
+    <wsdl:operation name="getAutoPlaybackMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getAutoPlaybackMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getAutoPlaybackModeFault">
+        <soap:fault name="getAutoPlaybackModeFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation> 
+     
+    <wsdl:operation name="setAutoPlaybackMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setAutoPlaybackMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setAutoPlaybackModeFault">
+        <soap:fault name="setAutoPlaybackModeFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation> 
+        
+    <wsdl:operation name="getPrepSuiteState">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPrepSuiteState"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPrepSuiteStateFault">
+        <soap:fault name="getPrepSuiteStateFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getPlaybackState2">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPlaybackState2"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPlaybackState2Fault">
+        <soap:fault name="getPlaybackState2Fault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="setPlaybackMode2">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setPlaybackMode2"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setPlaybackMode2Fault">
+        <soap:fault name="setPlaybackMode2Fault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getAutoPlaybackMode2">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getAutoPlaybackMode2"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getAutoPlaybackMode2Fault">
+        <soap:fault name="getAutoPlaybackMode2Fault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation> 
+     
+    <wsdl:operation name="setAutoPlaybackMode2">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setAutoPlaybackMode2"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setAutoPlaybackMode2Fault">
+        <soap:fault name="setAutoPlaybackMode2Fault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation> 
+
+  </wsdl:binding>
+  
+  <wsdl:binding name="PlaybackControlBinding_v1_4" type="tns:PlaybackControlService_v1_4">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+    <wsdl:operation name="getPlaybackState">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPlaybackState"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPlaybackStateFault">
+        <soap:fault name="getPlaybackStateFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="selectContent">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/selectContent"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="selectContentFault">
+        <soap:fault name="selectContentFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="play">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/play"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="playFault">
+        <soap:fault name="playFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="stop">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/stop"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="stopFault">
+        <soap:fault name="stopFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="pause">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/pause"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="pauseFault">
+        <soap:fault name="pauseFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="next">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/next"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="nextFault">
+        <soap:fault name="nextFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="previous">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/previous"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="previousFault">
+        <soap:fault name="previousFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getScheduleMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getScheduleMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getScheduleModeFault">
+        <soap:fault name="getScheduleModeFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="setScheduleMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setScheduleMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setScheduleModeFault">
+        <soap:fault name="setScheduleModeFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="setPlaybackMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setPlaybackMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setPlaybackModeFault">
+        <soap:fault name="setPlaybackModeFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="goToPosition">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/goToPosition"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="goToPositionFault">
+        <soap:fault name="goToPositionFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="fireCue">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/fireCue"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="fireCueFault">
+        <soap:fault name="fireCueFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+
+    <wsdl:operation name="getPurgeSuiteState">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPurgeSuiteState"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPurgeSuiteStateFault">
+        <soap:fault name="getPurgeSuiteStateFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+      
+    <wsdl:operation name="getAutoPlaybackMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getAutoPlaybackMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getAutoPlaybackModeFault">
+        <soap:fault name="getAutoPlaybackModeFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation> 
+     
+    <wsdl:operation name="setAutoPlaybackMode">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setAutoPlaybackMode"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setAutoPlaybackModeFault">
+        <soap:fault name="setAutoPlaybackModeFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation> 
+        
+    <wsdl:operation name="getPrepSuiteState">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPrepSuiteState"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPrepSuiteStateFault">
+        <soap:fault name="getPrepSuiteStateFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getPlaybackState2">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getPlaybackState2"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPlaybackState2Fault">
+        <soap:fault name="getPlaybackState2Fault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="setPlaybackMode2">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setPlaybackMode2"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setPlaybackMode2Fault">
+        <soap:fault name="setPlaybackMode2Fault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getAutoPlaybackMode2">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getAutoPlaybackMode2"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getAutoPlaybackMode2Fault">
+        <soap:fault name="getAutoPlaybackMode2Fault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation> 
+     
+    <wsdl:operation name="setAutoPlaybackMode2">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/setAutoPlaybackMode2"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="setAutoPlaybackMode2Fault">
+        <soap:fault name="setAutoPlaybackMode2Fault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="inputSelect">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/inputSelect"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="inputSelectFault">
+        <soap:fault name="inputSelectFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getInputSelect">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getInputSelect"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getInputSelectFault">
+        <soap:fault name="getInputSelectFault" use="literal"/>    
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="getInputContentProperties">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getInputContentProperties"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getInputContentPropertiesFault">
+        <soap:fault name="getInputContentPropertiesFault" use="literal"/>    
+      </wsdl:fault>
+    </wsdl:operation> 
+
+    <wsdl:operation name="getAutoInputSelect">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/getAutoInputSelect"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getAutoInputSelectFault">
+        <soap:fault name="getAutoInputSelectFault" use="literal"/>    
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    <wsdl:operation name="autoInputSelect">
+      <soap:operation soapAction="http://www.dolby.com/dcinema/ws/smi/v1/autoInputSelect"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="autoInputSelectFault">
+        <soap:fault name="autoInputSelectFault" use="literal"/>      
+      </wsdl:fault>
+    </wsdl:operation>
+    
+    
+   </wsdl:binding>
+
+  <!-- Address Specification -->
+
+  <wsdl:service name="PlaybackControl_v1_0">
+    <wsdl:port binding="tns:PlaybackControlBinding_v1_0" name="PlaybackControlService_v1_0">
+      <soap:address location="http://www.dolby.com:8080/dcinema/ws/smi/v1/PlaybackControlService"/>
+    </wsdl:port>
+  </wsdl:service>
+
+  <wsdl:service name="PlaybackControl_v1_1">
+    <wsdl:port binding="tns:PlaybackControlBinding_v1_1" name="PlaybackControlService_v1_1">
+      <soap:address location="http://www.dolby.com:8080/dcinema/ws/smi/v1/PlaybackControlService"/>
+    </wsdl:port>
+  </wsdl:service>
+
+  <wsdl:service name="PlaybackControl_v1_2">
+    <wsdl:port binding="tns:PlaybackControlBinding_v1_2" name="PlaybackControlService_v1_2">
+      <soap:address location="http://www.dolby.com:8080/dcinema/ws/smi/v1/PlaybackControlService"/>
+    </wsdl:port>
+  </wsdl:service>
+  
+  <wsdl:service name="PlaybackControl_v1_3">
+    <wsdl:port binding="tns:PlaybackControlBinding_v1_3" name="PlaybackControlService_v1_3">
+      <soap:address location="http://www.dolby.com:8080/dcinema/ws/smi/v1/PlaybackControlService"/>
+    </wsdl:port>
+  </wsdl:service>
+  
+  <wsdl:service name="PlaybackControl_v1_4">
+    <wsdl:port binding="tns:PlaybackControlBinding_v1_4" name="PlaybackControlService_v1_4">
+      <soap:address location="http://www.dolby.com:8080/dcinema/ws/smi/v1/PlaybackControlService"/>
+    </wsdl:port>
+  </wsdl:service>
+
+</wsdl:definitions>

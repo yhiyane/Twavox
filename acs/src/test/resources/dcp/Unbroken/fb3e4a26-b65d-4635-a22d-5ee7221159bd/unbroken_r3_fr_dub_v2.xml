@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<DCSubtitle Version="1.0">
+  <SubtitleID>fb3e4a26-b65d-4635-a22d-5ee7221159bd</SubtitleID>
+  <MovieTitle>Unbroken</MovieTitle>
+  <ReelNumber>3</ReelNumber>
+  <Language>French</Language>
+  <LoadFont Id="Font1" URI="Arial_UNBROKEN_FV_FrenchSubtitles_R03.ttf"/>
+  <Font Size="42" Weight="normal" Script="normal" Underlined="no" Id="Font1" Color="FFFFFFFF" Effect="border" EffectColor="FF000000">
+    <Font Italic="yes">
+      <Subtitle SpotNumber="1" TimeIn="00:03:45:010" TimeOut="00:03:48:031" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="18" VAlign="bottom" VPosition="21.0">3e jour</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="2" TimeIn="00:09:14:156" TimeOut="00:09:18:114" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="right" HPosition="18" VAlign="bottom" VPosition="21.0">18e jour</Text>
+      </Subtitle>
+    </Font>
+    <Font Italic="yes">
+      <Subtitle SpotNumber="3" TimeIn="00:14:18:114" TimeOut="00:14:21:073" FadeUpTime="20" FadeDownTime="20">
+        <Text Direction="horizontal" HAlign="left" HPosition="14" VAlign="bottom" VPosition="27.0">27e jour</Text>
+      </Subtitle>
+    </Font>
+  </Font>
+</DCSubtitle>

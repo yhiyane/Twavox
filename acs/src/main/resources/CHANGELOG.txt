@@ -1,0 +1,28 @@
+=== Version 3.1 (24/11/2015) ===
+
+* Support playlist with multiple FTR contents (process with the last)
+* Update the monitoring data structure to add more indicators (wifi, vi, st)
+
+=== Version 3.0 (28/08/2015) ===
+
+* Update Sony dependency
+* Feature #7 : CCAP compatibility
+* Feature #21 : Available subtitles by web service
+* Feature #22 : New License format with the price for optional subtitles
+
+=== Version 2.8 (27/07/2015) ===
+
+* Bug #18 : Subtitles unsynchronized due to duplication of subtitles files in the dcp
+* Bug #17 : Dolby compatibility validated on site
+
+=== Version 2.7 (02/07/2015) ===
+
+* Set the application version in the log
+* Feature #13 : Compatibility with Dolby servers
+* Bug #12 : The duration is now stored in Int (4 bytes) instead of Short (2 bytes)
+
+=== Version 2.6 (02/06/2015) ===
+
+* Bug #11 : Subtitles is now displayed on HTC smartphones (Android)
+* Feature #9 : Compatibility with dcp HOH (Hard of Hearing)
+* Bug #8 : Compatibility with new dcp structure (with small reels between two main reels)

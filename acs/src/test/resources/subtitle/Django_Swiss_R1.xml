@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- *** Digital Cinema XML Subtitle File *** -->
+<!-- *** Created by Deluxe Digital London - KF *** -->
+<!-- *** Friday, December 07, 2012 *** -->
+<DCSubtitle Version="1.0">
+	<SubtitleID>D084EC6F-B789-422E-8FE0-E4176381366F</SubtitleID>
+	<MovieTitle>Django</MovieTitle>
+	<ReelNumber>R1</ReelNumber>
+	<Language>Swiss</Language>
+	<LoadFont Id="Arial" URI="arial.ttf" />
+	<Font Id="Arial" Color="FFFFFFFF" Effect="shadow" EffectColor="FF000000"
+		Italic="no" Size="42" Script="normal" Underlined="no" Weight="normal">
+		<Subtitle SpotNumber="1" TimeIn="00:03:40:072" TimeOut="00:03:43:218"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text HPosition="-24.00" VAlign="bottom" VPosition="32.00">
+				<Font Italic="yes">Zwei Jahre vor dem Bürgerkrieg</Font>
+			</Text>
+			<Text HPosition="-24.00" VAlign="bottom" VPosition="26.00">
+				<Font Italic="yes">Deux ans avant la guerre de Sécession</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="2" TimeIn="00:03:45:093" TimeOut="00:03:49:010"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text HPosition="03.00" VAlign="bottom" VPosition="27.00">
+				<Font Italic="yes">irgendwo in Texas</Font>
+			</Text>
+			<Text HPosition="03.00" VAlign="bottom" VPosition="21.00">
+				<Font Italic="yes">quelque part dans le Texas</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="3" TimeIn="00:04:18:135" TimeOut="00:04:21:125"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Wer stolpert da im Dunkeln
+				herum?</Text>
+			<Text VAlign="bottom" VPosition="08.00">Qui se trimballe dans le noir?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="4" TimeIn="00:04:21:197" TimeOut="00:04:23:093"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Geben Sie Ihre Absichten bekannt
+				oder machen</Text>
+			<Text VAlign="bottom" VPosition="08.00">Déclarez vos intentions</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="5" TimeIn="00:04:23:135" TimeOut="00:04:25:125"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Sie sich auf einen Streifschuss
+				gefasst!</Text>
+			<Text VAlign="bottom" VPosition="08.00">ou préparez-vous à un tir!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="6" TimeIn="00:04:26:000" TimeOut="00:04:28:114"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Immer mit der Ruhe, meine
+				Herren.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Calmez-vous, Messieurs.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="7" TimeIn="00:04:28:145" TimeOut="00:04:30:093"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Ich habe keine bösen Absichten.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Je ne vous veux aucun mal.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="8" TimeIn="00:04:31:052" TimeOut="00:04:33:187"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Ich bin bloss ein erschöpfter
+				Reisender.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Je suis juste un voyageur
+				fatigué.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="9" TimeIn="00:04:33:229" TimeOut="00:04:35:197"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Brr, Junge!</Text>
+			<Text VAlign="bottom" VPosition="08.00">Halte, garçon!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="10" TimeIn="00:04:37:083" TimeOut="00:04:38:229"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Einen guten kalten Abend, die
+				Herren.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Bonne froide soirée, Messieurs.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="11" TimeIn="00:04:39:062" TimeOut="00:04:40:166"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Ich suche zwei Sklavenhändler,</Text>
+			<Text VAlign="bottom" VPosition="08.00">Je cherche deux marchands</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="12" TimeIn="00:04:40:208" TimeOut="00:04:43:062"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">bekannt als Gebrüder Speck.</Text>
+			<Text VAlign="bottom" VPosition="08.00">d'esclaves: les Frères Speck.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="13" TimeIn="00:04:43:135" TimeOut="00:04:44:229"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Könnten Sie das sein?</Text>
+			<Text VAlign="bottom" VPosition="08.00">Ça pourrait être vous?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="14" TimeIn="00:04:46:145" TimeOut="00:04:47:177"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Wer fragt?</Text>
+			<Text VAlign="bottom" VPosition="08.00">Qui demande?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="15" TimeIn="00:04:48:114" TimeOut="00:04:49:062"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Nun, ich.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Eh bien, moi.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="16" TimeIn="00:04:49:145" TimeOut="00:04:52:031"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Dr. King Schultz. Das ist mein
+				Pferd, Fritz.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Dr King Schultz. Voici mon
+				cheval, Fritz.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="17" TimeIn="00:04:53:052" TimeOut="00:04:56:031"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Doktor auf welchem Gebiet? -
+				Zahnarzt.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Quel genre de docteur? -
+				Dentiste.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="18" TimeIn="00:04:56:177" TimeOut="00:04:58:229"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Gebrüder Speck? Haben Sie diese
+				Männer auf</Text>
+			<Text VAlign="bottom" VPosition="08.00">Frères Speck? Avez-vous acheté
+				ces</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="19" TimeIn="00:04:59:020" TimeOut="00:05:01:020"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">der Greenville-Sklavenauktion
+				erstanden?</Text>
+			<Text VAlign="bottom" VPosition="08.00">hommes aux enchères de
+				Greenville?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="20" TimeIn="00:05:01:062" TimeOut="00:05:03:229"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Ja, und? - Ich wünsche zu
+				negoziieren.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Et? - J'aimerais parlementer
+				avec vous.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="21" TimeIn="00:05:04:031" TimeOut="00:05:04:229"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Sprechen Sie Englisch.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Parlez anglais.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="22" TimeIn="00:05:05:197" TimeOut="00:05:07:062"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Tut mir leid.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Je m'excuse.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="23" TimeIn="00:05:07:135" TimeOut="00:05:09:177"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Verzeihen Sie. Es ist eine
+				Zweitsprache.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Pardon. C'est ma seconde langue.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="24" TimeIn="00:05:10:020" TimeOut="00:05:11:093"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Ich habe Veranlassung zu
+				glauben,</Text>
+			<Text VAlign="bottom" VPosition="08.00">Je crois que parmi</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="25" TimeIn="00:05:11:125" TimeOut="00:05:13:062"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">dass sich in Ihrem Bestand ein
+				Exemplar</Text>
+			<Text VAlign="bottom" VPosition="08.00">votre inventaire se trouve</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="26" TimeIn="00:05:13:135" TimeOut="00:05:15:145"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">befindet, auf dessen Erwerb ich
+				erpicht bin.</Text>
+			<Text VAlign="bottom" VPosition="08.00">un spécimen que j'aimerais
+				acquérir.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="27" TimeIn="00:05:15:229" TimeOut="00:05:17:062"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Hallo, ihr armen Teufel!</Text>
+			<Text VAlign="bottom" VPosition="08.00">Bonjour, pauvres diables!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="28" TimeIn="00:05:18:177" TimeOut="00:05:21:114"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Befindet sich unter euch ein
+				einstiger</Text>
+			<Text VAlign="bottom" VPosition="08.00">Y a-t-il parmi vous un ancien
+				résident</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="29" TimeIn="00:05:21:145" TimeOut="00:05:24:020"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Bewohner der Carrucan-Plantage?</Text>
+			<Text VAlign="bottom" VPosition="08.00">de la plantation Carrucan?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="30" TimeIn="00:05:25:145" TimeOut="00:05:27:145"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Ich bin von der
+				Carrucan-Plantage.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Je suis de la plantation
+				Carrucan.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="31" TimeIn="00:05:29:145" TimeOut="00:05:30:197"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Wer hat das gesagt?</Text>
+			<Text VAlign="bottom" VPosition="08.00">Qui a dit ça?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="32" TimeIn="00:06:17:208" TimeOut="00:06:19:031"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Wie heisst du?</Text>
+			<Text VAlign="bottom" VPosition="08.00">Comment t'appelles-tu?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="33" TimeIn="00:06:23:145" TimeOut="00:06:24:197"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="08.00">Django.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="34" TimeIn="00:06:25:166" TimeOut="00:06:28:020"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Dann bist du genau der, den ich
+				suche.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Alors, tu es celui que je
+				cherche.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="35" TimeIn="00:06:30:000" TimeOut="00:06:32:031"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Weisst du, wer die Gebrüder
+				Brittle sind?</Text>
+			<Text VAlign="bottom" VPosition="08.00">Tu sais qui sont les Frères
+				Brittle?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="36" TimeIn="00:06:36:000" TimeOut="00:06:36:208"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Wer sind sie?</Text>
+			<Text VAlign="bottom" VPosition="08.00">Qui sont-ils?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="37" TimeIn="00:06:39:114" TimeOut="00:06:40:145"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="08.00">Big John.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="38" TimeIn="00:06:41:177" TimeOut="00:06:42:177"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="08.00">Ellis.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="39" TimeIn="00:06:44:114" TimeOut="00:06:45:135"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="08.00">Roger.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="40" TimeIn="00:06:45:208" TimeOut="00:06:48:062"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Manchmal auch Little Raj
+				genannt.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Parfois appelé Little Raj.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="41" TimeIn="00:06:49:177" TimeOut="00:06:51:208"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Sie waren Aufseher auf Carrucan.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Ils étaient superviseurs à la
+				plantation.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="42" TimeIn="00:06:52:062" TimeOut="00:06:53:031"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Nicht mehr.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Plus maintenant.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="43" TimeIn="00:06:56:114" TimeOut="00:06:57:072"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Sag,</Text>
+			<Text VAlign="bottom" VPosition="08.00">Dis-moi,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="44" TimeIn="00:06:58:000" TimeOut="00:07:02:020"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">würdest du die Herren wieder
+				erkennen?</Text>
+			<Text VAlign="bottom" VPosition="08.00">reconnaîtrais-tu ces trois
+				hommes?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="45" TimeIn="00:07:03:208" TimeOut="00:07:06:062"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Hör auf, so mit ihm zu reden. -
+				Wie?</Text>
+			<Text VAlign="bottom" VPosition="08.00">Arrêtez de lui parler ainsi. -
+				Comment?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="46" TimeIn="00:07:06:177" TimeOut="00:07:07:145"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">So.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Ainsi.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="47" TimeIn="00:07:08:000" TimeOut="00:07:10:083"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Guter Mann, ich versuche zu
+				eruieren ...</Text>
+			<Text VAlign="bottom" VPosition="08.00">Mon bon Monsieur, je veux
+				établir ...</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="48" TimeIn="00:07:10:145" TimeOut="00:07:12:062"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Sprechen Sie Englisch, verdammt!</Text>
+			<Text VAlign="bottom" VPosition="08.00">Parlez anglais, bon sang!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="49" TimeIn="00:07:12:166" TimeOut="00:07:14:166"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Beruhigen Sie sich.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Tout le monde se calme.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="50" TimeIn="00:07:14:208" TimeOut="00:07:16:083"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Ich bin lediglich ein Kunde mit</Text>
+			<Text VAlign="bottom" VPosition="08.00">Je suis juste un client</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="51" TimeIn="00:07:16:125" TimeOut="00:07:18:093"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Interesse an einem
+				Handelsgeschäft.</Text>
+			<Text VAlign="bottom" VPosition="08.00">essayant de faire affaires.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="52" TimeIn="00:07:18:166" TimeOut="00:07:21:125"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Mich kaufen Sie nicht. Scheren
+				Sie sich weg!</Text>
+			<Text VAlign="bottom" VPosition="08.00">Je m'en fiche. Rien à vendre.
+				Partez!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="53" TimeIn="00:07:22:093" TimeOut="00:07:24:135"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Aber die sind zu verkaufen,
+				hören Sie auf!</Text>
+			<Text VAlign="bottom" VPosition="08.00">Enfin, bien sûr qu'ils sont à
+				vendre!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="54" TimeIn="00:07:25:145" TimeOut="00:07:26:208"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Weg hier!</Text>
+			<Text VAlign="bottom" VPosition="08.00">Déguerpissez!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="55" TimeIn="00:07:27:083" TimeOut="00:07:29:125"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Mein guter Mann, haben Sie nur</Text>
+			<Text VAlign="bottom" VPosition="08.00">Mon bon Monsieur, vous êtes vous</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="56" TimeIn="00:07:29:166" TimeOut="00:07:32:010"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Ihre dramatische Geste
+				übertrieben,</Text>
+			<Text VAlign="bottom" VPosition="08.00">juste emportés avec ce geste
+				théâtral?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="57" TimeIn="00:07:32:052" TimeOut="00:07:33:177"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">oder richten Sie Ihre Waffe</Text>
+			<Text VAlign="bottom" VPosition="08.00">Ou pointez-vous votre arme sur</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="58" TimeIn="00:07:33:218" TimeOut="00:07:35:208"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">mit tödlicher Absicht auf mich?</Text>
+			<Text VAlign="bottom" VPosition="08.00">moi avec des intentions
+				mortelles?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="59" TimeIn="00:07:37:083" TimeOut="00:07:38:208"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Letzte Chance, Herr Kontenance!</Text>
+			<Text VAlign="bottom" VPosition="08.00">Dernière chance, M. Arrogance!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="60" TimeIn="00:07:40:125" TimeOut="00:07:42:000"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Na schön.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Très bien.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="61" TimeIn="00:08:11:125" TimeOut="00:08:13:229"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Die Kugel auf Ihr Tier tut mir
+				leid,</Text>
+			<Text VAlign="bottom" VPosition="08.00">Pardon d'abattre votre bête,
+				mais je ne</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="62" TimeIn="00:08:14:020" TimeOut="00:08:15:208"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">aber ich wollte verhindern, dass
+				Sie</Text>
+			<Text VAlign="bottom" VPosition="08.00">voulais pas que vous fassiez un
+				geste</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="63" TimeIn="00:08:16:052" TimeOut="00:08:18:093"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">unüberlegt handeln, ehe Sie bei
+				Sinnen seid.</Text>
+			<Text VAlign="bottom" VPosition="08.00">brusque avant de retrouver vos
+				sens.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="64" TimeIn="00:08:18:177" TimeOut="00:08:22:000"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Du verdammter Hurensohn!</Text>
+			<Text VAlign="bottom" VPosition="08.00">Sale fils de pute!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="65" TimeIn="00:08:22:093" TimeOut="00:08:23:197"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Du hast Roscoe niedergestreckt!</Text>
+			<Text VAlign="bottom" VPosition="08.00">Tu as tiré sur Roscoe!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="66" TimeIn="00:08:23:229" TimeOut="00:08:24:208"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Na ja ...</Text>
+			<Text VAlign="bottom" VPosition="08.00">Eh bien ...</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="67" TimeIn="00:08:25:062" TimeOut="00:08:26:125"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Und du hast Ace getötet!</Text>
+			<Text VAlign="bottom" VPosition="08.00">Et tu as tué Ace!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="68" TimeIn="00:08:26:187" TimeOut="00:08:29:156"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Ich schoss auf ihn, als er
+				drohte.</Text>
+			<Text VAlign="bottom" VPosition="08.00">J'ai tiré sur votre frère car il
+				m'a menacé.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="69" TimeIn="00:08:30:010" TimeOut="00:08:31:072"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Und ich glaube, ich habe ...</Text>
+			<Text VAlign="bottom" VPosition="08.00">Et je crois que j'ai ...</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="70" TimeIn="00:08:31:156" TimeOut="00:08:32:208"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">einen, zwei, drei, vier ...</Text>
+			<Text VAlign="bottom" VPosition="08.00">un, deux, trois, quatre ...</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="71" TimeIn="00:08:33:041" TimeOut="00:08:35:187"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">fünf Zeugen, die das bestätigen.</Text>
+			<Text VAlign="bottom" VPosition="08.00">cinq témoins pour en attester.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="72" TimeIn="00:08:36:041" TimeOut="00:08:37:145"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Das verdammte Bein ist kaputt!</Text>
+			<Text VAlign="bottom" VPosition="08.00">Cette foutue jambe est cassée!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="73" TimeIn="00:08:37:218" TimeOut="00:08:38:187"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Zweifellos.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Sans aucun doute.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="74" TimeIn="00:08:39:031" TimeOut="00:08:41:041"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Könnten Sie Ihr Katzengeschrei
+				auf ein Minimum</Text>
+			<Text VAlign="bottom" VPosition="08.00">Pouvez-vous réduire votre
+				miaulement au</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="75" TimeIn="00:08:41:083" TimeOut="00:08:43:093"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">reduzieren? Ich möchte die
+				Befragung</Text>
+			<Text VAlign="bottom" VPosition="08.00">minimum? J'aimerais finir de
+				demander</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="76" TimeIn="00:08:43:156" TimeOut="00:08:45:072"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">von Jung Django zu Ende führen.</Text>
+			<Text VAlign="bottom" VPosition="08.00">des renseignements à Django.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="77" TimeIn="00:08:49:010" TimeOut="00:08:50:187"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Gott verdammt!</Text>
+			<Text VAlign="bottom" VPosition="08.00">Putain de merde!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="78" TimeIn="00:08:51:031" TimeOut="00:08:53:104"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Wie gesagt, wenn du die Gebrüder
+				Brittle</Text>
+			<Text VAlign="bottom" VPosition="08.00">Je disais que, si tu voyais à
+				nouveau</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="79" TimeIn="00:08:53:187" TimeOut="00:08:56:072"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">sehen würdest, würdest du sie
+				erkennen?</Text>
+			<Text VAlign="bottom" VPosition="08.00">les Frères Brittle, tu les
+				reconnaîtrais?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="80" TimeIn="00:08:57:031" TimeOut="00:08:58:010"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Ja.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Oui.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="81" TimeIn="00:08:59:010" TimeOut="00:09:00:010"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Amerikaner verkauft!</Text>
+			<Text VAlign="bottom" VPosition="08.00">Américain vendu!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="82" TimeIn="00:09:00:104" TimeOut="00:09:01:093"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Also, Mr. Speck?</Text>
+			<Text VAlign="bottom" VPosition="08.00">Alors, M. Speck?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="83" TimeIn="00:09:01:156" TimeOut="00:09:04:062"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Mr. Speck, wie viel für Jung
+				Django?</Text>
+			<Text VAlign="bottom" VPosition="08.00">M. Speck, combien pour le jeune
+				Django?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="84" TimeIn="00:09:09:187" TimeOut="00:09:12:072"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Dieses Eisen ist ganz gemein.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Ces fers sont une sale affaire.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="85" TimeIn="00:09:17:125" TimeOut="00:09:19:156"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Könntest du das kurz halten?</Text>
+			<Text VAlign="bottom" VPosition="08.00">Tu peux tenir ça une minute?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="86" TimeIn="00:09:21:187" TimeOut="00:09:22:145"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Danke.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Merci.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="87" TimeIn="00:09:22:218" TimeOut="00:09:25:072"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Django, steig auf das Pferd.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Django, monte sur ce cheval.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="88" TimeIn="00:09:25:156" TimeOut="00:09:27:010"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Wenn ich du wäre,</Text>
+			<Text VAlign="bottom" VPosition="08.00">Et si j'étais toi,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="89" TimeIn="00:09:27:104" TimeOut="00:09:29:072"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">würde ich den Wintermantel
+				nehmen, den</Text>
+			<Text VAlign="bottom" VPosition="08.00">je prendrais le manteau d'hiver</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="90" TimeIn="00:09:29:114" TimeOut="00:09:31:145"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">der teure, verschiedene Speck da
+				liess.</Text>
+			<Text VAlign="bottom" VPosition="08.00">que le regretté Speck a laissé.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="91" TimeIn="00:09:45:125" TimeOut="00:09:47:125"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Neger, du rührst den Mantel</Text>
+			<Text VAlign="bottom" VPosition="08.00">Négro! Ne touche pas</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="92" TimeIn="00:09:47:166" TimeOut="00:09:49:041"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">meines Bruders nicht an!</Text>
+			<Text VAlign="bottom" VPosition="08.00">le manteau de mon frère!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="93" TimeIn="00:10:00:187" TimeOut="00:10:02:177"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Verdammt noch mal!</Text>
+			<Text VAlign="bottom" VPosition="08.00">Bordel de merde!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="94" TimeIn="00:10:07:041" TimeOut="00:10:09:156"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="08.00">100, 10 ...</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="95" TimeIn="00:10:10:072" TimeOut="00:10:11:156"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="08.00">20 ...</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="96" TimeIn="00:10:12:062" TimeOut="00:10:13:156"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">und 5 ...</Text>
+			<Text VAlign="bottom" VPosition="08.00">et 5 ...</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="97" TimeIn="00:10:14:218" TimeOut="00:10:16:062"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">für Jung Django.</Text>
+			<Text VAlign="bottom" VPosition="08.00">pour le jeune Django.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="98" TimeIn="00:10:16:125" TimeOut="00:10:18:145"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Und da Ihr Bruder seinen Gaul
+				nicht mehr</Text>
+			<Text VAlign="bottom" VPosition="08.00">Et comme il n'en aura plus
+				besoin,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="99" TimeIn="00:10:18:218" TimeOut="00:10:21:031"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">braucht, würde ich ihn gerne
+				kaufen.</Text>
+			<Text VAlign="bottom" VPosition="08.00">j'achète le canasson de votre
+				frère.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="100" TimeIn="00:10:22:010" TimeOut="00:10:24:000"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Ausserdem, Mr. Speck,</Text>
+			<Text VAlign="bottom" VPosition="08.00">D'autre part, M. Speck,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="101" TimeIn="00:10:24:072" TimeOut="00:10:26:197"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">bedarf ich leider einer
+				Kaufurkunde.</Text>
+			<Text VAlign="bottom" VPosition="08.00">j'ai besoin d'un acte de vente.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="102" TimeIn="00:10:26:239" TimeOut="00:10:28:010"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Haben Sie eine?</Text>
+			<Text VAlign="bottom" VPosition="08.00">En avez-vous un?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="103" TimeIn="00:10:28:187" TimeOut="00:10:31:062"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Fahr zur Hölle, Zahnarzt!</Text>
+			<Text VAlign="bottom" VPosition="08.00">Va en enfer, dentiste!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="104" TimeIn="00:10:32:062" TimeOut="00:10:33:145"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Also nicht? Dachte ich mir.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Je pensais bien que non.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="105" TimeIn="00:10:34:041" TimeOut="00:10:37:072"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Keine Sorge. Ich bin
+				vorbereitet.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Aucun problème. J'ai tout prévu.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="106" TimeIn="00:10:41:218" TimeOut="00:10:42:218"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Danke.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Merci.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="107" TimeIn="00:10:43:156" TimeOut="00:10:47:072"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Das eignet sich gut als
+				Kaufurkunde.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Ça servira bien d'acte de vente.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="108" TimeIn="00:11:04:208" TimeOut="00:11:08:041"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Nun zu euch, ihr armen Teufel.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Maintenant, à vous, pauvres
+				diables.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="109" TimeIn="00:11:08:145" TimeOut="00:11:10:072"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">So, wie ich es sehe,</Text>
+			<Text VAlign="bottom" VPosition="08.00">A mon avis,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="110" TimeIn="00:11:10:145" TimeOut="00:11:13:093"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">bestehen bei der Frage, wie es
+				weitergeht,</Text>
+			<Text VAlign="bottom" VPosition="08.00">en ce qui concerne l'action à
+				prendre,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="111" TimeIn="00:11:13:156" TimeOut="00:11:16:093"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">zwei Möglichkeiten für euch
+				Herren.</Text>
+			<Text VAlign="bottom" VPosition="08.00">vous avez deux possibilités,
+				Messieurs.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="112" TimeIn="00:11:16:156" TimeOut="00:11:18:187"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Erstens: Wenn ich weg bin,
+				könntet ihr</Text>
+			<Text VAlign="bottom" VPosition="08.00">Une: quand je serai parti, vous
+				pourrez</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="113" TimeIn="00:11:19:041" TimeOut="00:11:21:229"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">das Vieh von Specks Überresten
+				hieven</Text>
+			<Text VAlign="bottom" VPosition="08.00">dégager les restes de Speck de
+				la bête et</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="114" TimeIn="00:11:22:010" TimeOut="00:11:23:156"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">und ihn in die nächste Stadt
+				tragen.</Text>
+			<Text VAlign="bottom" VPosition="08.00">les porter jusqu'à la prochaine
+				ville.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="115" TimeIn="00:11:24:000" TimeOut="00:11:25:229"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Was 60 km zurück in die Richtung
+				wäre,</Text>
+			<Text VAlign="bottom" VPosition="08.00">Au moins à 60 km de là</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="116" TimeIn="00:11:26:052" TimeOut="00:11:27:125"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">aus der ihr kommt.</Text>
+			<Text VAlign="bottom" VPosition="08.00">d'où vous venez.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="117" TimeIn="00:11:27:208" TimeOut="00:11:28:218"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Oder zweitens:</Text>
+			<Text VAlign="bottom" VPosition="08.00">Ou deux:</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="118" TimeIn="00:11:29:218" TimeOut="00:11:31:208"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Ihr könntet euch befreien,</Text>
+			<Text VAlign="bottom" VPosition="08.00">Vous pourriez vous libérer,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="119" TimeIn="00:11:32:041" TimeOut="00:11:33:072"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">ihm mit dem Gewehr</Text>
+			<Text VAlign="bottom" VPosition="08.00">prendre ce fusil,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="120" TimeIn="00:11:33:156" TimeOut="00:11:36:062"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">eine Kugel in den Kopf jagen,
+				beide begraben</Text>
+			<Text VAlign="bottom" VPosition="08.00">lui tirer dans la tête, enterrer
+				les deux</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="121" TimeIn="00:11:36:125" TimeOut="00:11:38:072"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">und euch in eine aufgeklärtere
+				Gegend</Text>
+			<Text VAlign="bottom" VPosition="08.00">et aller dans une région du pays</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="122" TimeIn="00:11:38:114" TimeOut="00:11:39:156"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">dieses Landes durchschlagen.</Text>
+			<Text VAlign="bottom" VPosition="08.00">plus éclairée.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="123" TimeIn="00:11:40:218" TimeOut="00:11:41:218"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Ihr entscheidet.</Text>
+			<Text VAlign="bottom" VPosition="08.00">A vous de choisir.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="124" TimeIn="00:11:42:062" TimeOut="00:11:44:052"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Und für den unwahrscheinlichen
+				Fall, dass</Text>
+			<Text VAlign="bottom" VPosition="08.00">Et dans le cas improbable où
+				l'un de vous</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="125" TimeIn="00:11:44:093" TimeOut="00:11:46:145"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">unter euch
+				Astronomie-Aficionados sind,</Text>
+			<Text VAlign="bottom" VPosition="08.00">serait un passionné
+				d'astronomie,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="126" TimeIn="00:11:46:187" TimeOut="00:11:49:093"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">der Polarstern ist der dort.</Text>
+			<Text VAlign="bottom" VPosition="08.00">l'étoile polaire est celle-ci.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="127" TimeIn="00:11:51:041" TimeOut="00:11:51:218"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Auf Wiedersehen.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Au revoir.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="128" TimeIn="00:12:09:062" TimeOut="00:12:12:187"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Moment, Jungs. Lasst uns darüber
+				reden.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Attendez, les amis. Parlons-en.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="129" TimeIn="00:12:16:187" TimeOut="00:12:18:229"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">In einer solchen Situation</Text>
+			<Text VAlign="bottom" VPosition="08.00">Il faut être raisonnable</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="130" TimeIn="00:12:19:010" TimeOut="00:12:20:072"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">ist Vernunft gefragt.</Text>
+			<Text VAlign="bottom" VPosition="08.00">dans une telle situation.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="131" TimeIn="00:12:21:156" TimeOut="00:12:22:218"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Ich bin kein schlechter Kerl.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Je ne suis pas mauvais.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="132" TimeIn="00:12:23:010" TimeOut="00:12:24:156"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Ich tue nur meine Pflicht.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Je fais juste mon boulot.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="133" TimeIn="00:12:25:000" TimeOut="00:12:26:125"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Blueberry, habe ich dir</Text>
+			<Text VAlign="bottom" VPosition="08.00">Blueberry, ne t'ai-je pas</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="134" TimeIn="00:12:26:156" TimeOut="00:12:28:093"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">nicht meinen letzten Apfel
+				gegeben?</Text>
+			<Text VAlign="bottom" VPosition="08.00">donné ma dernière pomme?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="135" TimeIn="00:12:28:156" TimeOut="00:12:29:187"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Ich sage euch etwas, Jungs.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Je vais vous dire, les gars:</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="136" TimeIn="00:12:30:031" TimeOut="00:12:31:145"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Bringt mich zum Doc in El Paso,</Text>
+			<Text VAlign="bottom" VPosition="08.00">Amenez-moi au doc à El Paso</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="137" TimeIn="00:12:31:218" TimeOut="00:12:33:156"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">und ich schenke euch eure
+				Freiheit.</Text>
+			<Text VAlign="bottom" VPosition="08.00">et je vous donnerai votre
+				liberté.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="138" TimeIn="00:12:34:072" TimeOut="00:12:35:187"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Nein. Nein, bitte.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Non. Non, pitié.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="139" TimeIn="00:12:52:187" TimeOut="00:12:57:072"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="21.00">
+				<Font Italic="yes">Daughtrey, Texas</Font>
+			</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="140" TimeIn="00:13:23:010" TimeOut="00:13:24:062"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Also.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Alors.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="141" TimeIn="00:13:24:145" TimeOut="00:13:26:156"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Nehmt bitte zwei davon heute
+				Abend</Text>
+			<Text VAlign="bottom" VPosition="08.00">Prenez-en deux ce soir</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="142" TimeIn="00:13:27:062" TimeOut="00:13:28:177"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">und morgen früh ...</Text>
+			<Text VAlign="bottom" VPosition="08.00">et demain matin ...</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="143" TimeIn="00:13:31:041" TimeOut="00:13:32:177"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Ein Neger auf einem Pferd!</Text>
+			<Text VAlign="bottom" VPosition="08.00">Un nègre sur un cheval!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="144" TimeIn="00:13:58:104" TimeOut="00:14:00:031"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Was starren die alle so?</Text>
+			<Text VAlign="bottom" VPosition="08.00">Qu'est-ce qu'ils fixent tous?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="145" TimeIn="00:14:00:104" TimeOut="00:14:02:187"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Sie sahen noch nie einen Neger
+				zu Pferd.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Ils n'ont jamais vu de nègre à
+				cheval.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="146" TimeIn="00:14:26:062" TimeOut="00:14:28:072"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Guten Morgen, Gastwirt!</Text>
+			<Text VAlign="bottom" VPosition="08.00">Bonjour, aubergiste!</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="147" TimeIn="00:14:29:156" TimeOut="00:14:31:218"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Zwei Bier für zwei erschöpfte
+				Reisende.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Deux bières pour deux voyageurs
+				fatigués.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="148" TimeIn="00:14:32:072" TimeOut="00:14:34:010"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Es ist noch etwas früh.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Il est encore un peu tôt.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="149" TimeIn="00:14:34:104" TimeOut="00:14:36:125"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Wir machen erst in einer Stunde
+				auf.</Text>
+			<Text VAlign="bottom" VPosition="08.00">On n'ouvre pas avant une heure.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="150" TimeIn="00:14:36:187" TimeOut="00:14:38:125"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Dann servieren wir Frühstück.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Et on servira le petit déjeuner.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="151" TimeIn="00:14:42:000" TimeOut="00:14:43:218"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Was denkst du dir dabei?</Text>
+			<Text VAlign="bottom" VPosition="08.00">Que crois-tu faire, garçon?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="152" TimeIn="00:14:44:072" TimeOut="00:14:46:031"
+			FadeUpTime="20" FadeDownTime="20">
+			<Text VAlign="bottom" VPosition="14.00">Schaff den Neger hier raus.</Text>
+			<Text VAlign="bottom" VPosition="08.00">Fais sortir ce nègre d'ici!</Text>
+		</Subtitle>
+	</Font>
+</DCSubtitle>

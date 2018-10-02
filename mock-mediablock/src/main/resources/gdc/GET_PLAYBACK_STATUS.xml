@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<response version="2.1" status="OK">
+	<status state="PLAYING" error_description="">
+		<show_uuid>urn:uuid:0b49d1a0-6bdd-48cb-ba94-76764af965ba</show_uuid>
+		<show_position total_duration="360" played_duration="165" />
+		<show_name>Show</show_name>
+		<cpl_uuid>urn:uuid:1b79d1a0-6bdd-48cb-ba94-76764af965ba</cpl_uuid>
+		<cpl_name>Clip</cpl_name>
+		<cpl_position cpl_index="3" total_duration="120" played_duration="45"/>
+	</status>
+</response>

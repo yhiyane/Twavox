@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DCSubtitle Version="1.0">
+	<SubtitleID>35d37d80-82a0-4b90-9a5d-1d7d3be61bfd</SubtitleID>
+	<MovieTitle>Prince_R1</MovieTitle>
+	<ReelNumber>1</ReelNumber>
+	<Language>fr</Language>
+	<LoadFont Id="Arial" URI="arial_princ_loc_fre_r1.ttf" />
+	<Font Id="Arial" Color="ffffffff" Effect="border" EffectColor="ff000000"
+		Italic="no" Script="normal" Size="42" Underlined="no" Weight="normal"
+		AspectAdjust="1" Spacing="0em">
+		<Subtitle SpotNumber="1" TimeIn="00:02:04:052" TimeOut="00:02:05:177"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">D&apos;Adam à
+				Seth.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="2" TimeIn="00:02:05:208" TimeOut="00:02:08:010"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">De Seth à Enosh.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="3" TimeIn="00:02:08:052" TimeOut="00:02:10:021"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">D&apos;Enosh à
+				Caïnan.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="4" TimeIn="00:02:10:063" TimeOut="00:02:12:083"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">De Caïnan à
+				Mahalalel.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="5" TimeIn="00:02:12:188" TimeOut="00:02:15:073"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Jusqu&apos;à mon
+				père, Mathusalem.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="6" TimeIn="00:02:15:115" TimeOut="00:02:16:146"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Et jusqu&apos;à
+				moi.</Text>
+		</Subtitle>
+	</Font>
+</DCSubtitle>

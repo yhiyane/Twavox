@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DCSubtitle Version="1.0">
+	<SubtitleID>91f90a7e-4153-4551-85d7-2e32b886f0e5</SubtitleID>
+	<MovieTitle>Prince_R7</MovieTitle>
+	<ReelNumber>7</ReelNumber>
+	<Language>fr</Language>
+	<LoadFont Id="Arial" URI="arial_princ_loc_fre_r7.ttf" />
+	<Font Id="Arial" Color="ffffffff" Effect="border" EffectColor="ff000000"
+		Italic="no" Script="normal" Size="42" Underlined="no" Weight="normal"
+		AspectAdjust="1" Spacing="0em">
+		<Subtitle SpotNumber="1" TimeIn="00:00:31:094" TimeOut="00:00:32:135"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Reviendra-t-il ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="2" TimeIn="00:00:37:031" TimeOut="00:00:39:031"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Il y a des choses
+				cassées à jamais.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="3" TimeIn="00:00:47:229" TimeOut="00:00:49:073"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Je dois savoir.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="4" TimeIn="00:00:51:156" TimeOut="00:00:53:094"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Pourquoi les as-tu
+				épargnées ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="5" TimeIn="00:00:55:104" TimeOut="00:00:57:188"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">J&apos;ai regardé
+				ces deux fillettes,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="6" TimeIn="00:00:58:177" TimeOut="00:01:00:146"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">et mon cœur était
+				empli d&apos;amour.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="7" TimeIn="00:01:04:094" TimeOut="00:01:05:156"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Alors, que fais-tu
+				seul ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="8" TimeIn="00:01:07:156" TimeOut="00:01:09:219"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Pourquoi es-tu
+				séparé de ta famille ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="9" TimeIn="00:01:11:229" TimeOut="00:01:13:010"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Je Lui ai failli.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="10" TimeIn="00:01:15:010" TimeOut="00:01:17:000"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Et j&apos;ai
+				failli à vous tous.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="11" TimeIn="00:01:21:063" TimeOut="00:01:22:104"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Crois-tu ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="12" TimeIn="00:01:28:042" TimeOut="00:01:30:094"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Il avait une
+				raison de te choisir.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="13" TimeIn="00:01:31:052" TimeOut="00:01:33:167"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Il t&apos;a montré
+				la méchanceté de l&apos;homme</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="14" TimeIn="00:01:33:208" TimeOut="00:01:36:063"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">sachant que tu ne
+				te déroberais pas.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="15" TimeIn="00:01:37:208" TimeOut="00:01:40:000"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Puis tu as vu de
+				la bonté.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="16" TimeIn="00:01:41:052" TimeOut="00:01:42:000"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Le choix,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="17" TimeIn="00:01:42:042" TimeOut="00:01:45:052"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">c&apos;est Lui qui
+				te l&apos;a donné.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="18" TimeIn="00:01:46:073" TimeOut="00:01:49:208"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="15.74">Il voulait que tu
+				décides</Text>
+			<Text HPosition="0" VAlign="bottom" VPosition="10">si nous méritions
+				d&apos;être sauvés.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="19" TimeIn="00:01:52:073" TimeOut="00:01:53:146"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Et tu as choisi</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="20" TimeIn="00:01:54:031" TimeOut="00:01:55:115"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">la clémence.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="21" TimeIn="00:01:58:125" TimeOut="00:01:59:219"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Tu as choisi
+				l&apos;amour.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="22" TimeIn="00:02:04:156" TimeOut="00:02:07:021"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Il nous donne une
+				deuxième chance.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="23" TimeIn="00:02:08:177" TimeOut="00:02:10:021"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Sois un père.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="24" TimeIn="00:02:12:031" TimeOut="00:02:13:219"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Sois un
+				grand-père.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="25" TimeIn="00:02:16:010" TimeOut="00:02:18:115"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Aide-nous à faire
+				mieux cette fois.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="26" TimeIn="00:02:21:094" TimeOut="00:02:23:031"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Aide-nous à
+				recommencer.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="27" TimeIn="00:04:33:125" TimeOut="00:04:34:240"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Le Créateur</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="28" TimeIn="00:04:35:208" TimeOut="00:04:37:167"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">fit Adam à Son
+				image.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="29" TimeIn="00:04:38:104" TimeOut="00:04:40:083"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Il lui confia le
+				monde.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="30" TimeIn="00:04:41:104" TimeOut="00:04:42:229"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Ce droit
+				d&apos;aînesse</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="31" TimeIn="00:04:44:198" TimeOut="00:04:46:042"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">nous a été
+				transmis.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="32" TimeIn="00:04:50:021" TimeOut="00:04:50:219"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">A mon père,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="33" TimeIn="00:04:51:177" TimeOut="00:04:52:219"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">à moi,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="34" TimeIn="00:04:53:052" TimeOut="00:04:54:208"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">et à mes fils.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="35" TimeIn="00:04:56:052" TimeOut="00:04:57:000"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Sem,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="36" TimeIn="00:05:01:083" TimeOut="00:05:02:031"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Japhet</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="37" TimeIn="00:05:05:219" TimeOut="00:05:07:052"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">et Cham.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="38" TimeIn="00:05:15:104" TimeOut="00:05:17:229"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="15.74">A présent,</Text>
+			<Text HPosition="0" VAlign="bottom" VPosition="10">je transmets ce
+				droit d&apos;aînesse</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="39" TimeIn="00:05:19:177" TimeOut="00:05:20:198"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">à nos
+				petits-enfants.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="40" TimeIn="00:05:25:188" TimeOut="00:05:27:146"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Ce sera votre
+				labeur</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="41" TimeIn="00:05:31:000" TimeOut="00:05:32:208"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">et votre
+				responsabilité.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="42" TimeIn="00:05:33:156" TimeOut="00:05:35:052"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Ainsi, je vous le
+				dis,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="43" TimeIn="00:05:36:063" TimeOut="00:05:37:135"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">croissez</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="44" TimeIn="00:05:38:073" TimeOut="00:05:39:198"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">et multipliez,</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="45" TimeIn="00:05:41:094" TimeOut="00:05:43:042"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">et repeuplez la
+				terre.</Text>
+		</Subtitle>
+	</Font>
+</DCSubtitle>

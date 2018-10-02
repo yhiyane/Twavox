@@ -1,0 +1,12 @@
+/home/youssef/Documents/Code_Source_ Twavox_Java/java/cineapps/cineapps-core/src/main/java/com/cineapps/mediablock/plugin/MediablockPlugin.java
+/home/youssef/Documents/Code_Source_ Twavox_Java/java/cineapps/cineapps-core/src/main/java/com/cineapps/mediablock/core/utils/Pair.java
+/home/youssef/Documents/Code_Source_ Twavox_Java/java/cineapps/cineapps-core/src/main/java/com/cineapps/mediablock/core/dcinema/SPLInfos.java
+/home/youssef/Documents/Code_Source_ Twavox_Java/java/cineapps/cineapps-core/src/main/java/com/cineapps/mediablock/core/connection/ProtocolError.java
+/home/youssef/Documents/Code_Source_ Twavox_Java/java/cineapps/cineapps-core/src/main/java/com/cineapps/mediablock/core/utils/Utils.java
+/home/youssef/Documents/Code_Source_ Twavox_Java/java/cineapps/cineapps-core/src/main/java/com/cineapps/mediablock/core/dcinema/SPLElement.java
+/home/youssef/Documents/Code_Source_ Twavox_Java/java/cineapps/cineapps-core/src/main/java/com/cineapps/mediablock/core/connection/IntelligentSocketConnection.java
+/home/youssef/Documents/Code_Source_ Twavox_Java/java/cineapps/cineapps-core/src/main/java/com/cineapps/mediablock/core/logging/ErrorCommunicationLogger.java
+/home/youssef/Documents/Code_Source_ Twavox_Java/java/cineapps/cineapps-core/src/main/java/com/cineapps/mediablock/core/connection/ConnectionException.java
+/home/youssef/Documents/Code_Source_ Twavox_Java/java/cineapps/cineapps-core/src/main/java/com/cineapps/mediablock/core/dcinema/PluginStatus.java
+/home/youssef/Documents/Code_Source_ Twavox_Java/java/cineapps/cineapps-core/src/main/java/com/cineapps/mediablock/core/connection/ProtocolException.java
+/home/youssef/Documents/Code_Source_ Twavox_Java/java/cineapps/cineapps-core/src/main/java/com/cineapps/mediablock/core/dcinema/Rate.java

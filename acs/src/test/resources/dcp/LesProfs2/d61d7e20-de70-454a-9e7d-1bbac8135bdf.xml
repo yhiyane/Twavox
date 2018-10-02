@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompositionPlaylist xmlns="http://www.digicine.com/PROTO-ASDCP-CPL-20040511#">
+  <Id>urn:uuid:d61d7e20-de70-454a-9e7d-1bbac8135bdf</Id>
+  <AnnotationText>LesProfs2_FTR_S_FR-XX_FR_51-HI-VI_2K_UGC_20150617_ECL_IOP_OV</AnnotationText>
+  <IssueDate>2015-06-17T16:59:31+02:00</IssueDate>
+  <Issuer>Doremi Labs, Inc.</Issuer>
+  <Creator>orca_wrapping 3.2.0</Creator>
+  <ContentTitleText>LesProfs2_FTR_S_FR-XX_FR_51-HI-VI_2K_UGC_20150617_ECL_IOP_OV</ContentTitleText>
+  <ContentKind>Feature</ContentKind>
+  <RatingList/>
+  <ReelList>
+    <Reel>
+      <Id>urn:uuid:e34da9e5-bed7-455b-9e9f-466e3e963f19</Id>
+      <AssetList>
+        <MainPicture>
+          <Id>urn:uuid:e49c7e9a-a277-442f-9e78-6f4f53f17b4d</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>28348</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>28348</Duration>
+          <KeyId>urn:uuid:e21445fe-c26f-4fcb-b23f-12f20b49f7aa</KeyId>
+          <Hash>c5yfoq8UQ4m+Gy/XI1GVueaM7Bk=</Hash>
+          <FrameRate>24 1</FrameRate>
+          <ScreenAspectRatio>2.39</ScreenAspectRatio>
+        </MainPicture>
+        <MainSound>
+          <Id>urn:uuid:b79cd0d4-d6b4-4f1a-a45d-2853e2fd1fd5</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>28348</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>28348</Duration>
+          <KeyId>urn:uuid:86c04c81-5df0-4aa4-b775-fe6aefcce100</KeyId>
+          <Hash>xzeTVAfTsrCXHzR/Kt+b8Z47U94=</Hash>
+        </MainSound>
+      </AssetList>
+    </Reel>
+    <Reel>
+      <Id>urn:uuid:398107c2-82d8-4403-a9a0-f1bb346591ed</Id>
+      <AssetList>
+        <MainPicture>
+          <Id>urn:uuid:d81c12d9-7c70-4ef3-abfa-33806c756a0f</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>27368</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>27368</Duration>
+          <KeyId>urn:uuid:45032266-8d9c-447c-8207-9d57446d4edd</KeyId>
+          <Hash>FDQkfUSMVOctQ7ltgU9pxFN6ee4=</Hash>
+          <FrameRate>24 1</FrameRate>
+          <ScreenAspectRatio>2.39</ScreenAspectRatio>
+        </MainPicture>
+        <MainSound>
+          <Id>urn:uuid:ea552156-0404-4b17-af6c-0c8691c649eb</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>27368</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>27368</Duration>
+          <KeyId>urn:uuid:b5b78149-04c7-4ff7-9cc6-0b763de89614</KeyId>
+          <Hash>eD1ynkwk3QgY1pkUp4cWhthETe0=</Hash>
+        </MainSound>
+      </AssetList>
+    </Reel>
+    <Reel>
+      <Id>urn:uuid:b5f1b3a9-08d1-4f3e-a546-1aa64c94e78e</Id>
+      <AssetList>
+        <MainPicture>
+          <Id>urn:uuid:bfaa2704-7eff-4b69-92dc-0735ccfb9aed</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>26622</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>26622</Duration>
+          <KeyId>urn:uuid:12e7e3eb-62d5-4a1e-b4f6-d28045d5737c</KeyId>
+          <Hash>qryErPVTxJIzgFGmXRbDOx7CUBY=</Hash>
+          <FrameRate>24 1</FrameRate>
+          <ScreenAspectRatio>2.39</ScreenAspectRatio>
+        </MainPicture>
+        <MainSound>
+          <Id>urn:uuid:577eff88-4738-4429-8182-d58b99825bca</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>26622</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>26622</Duration>
+          <KeyId>urn:uuid:cbb310dd-966d-49be-b62f-f3f1a2688c62</KeyId>
+          <Hash>rRQvZqMpyAjvwIuSvHH9ZasHdxw=</Hash>
+        </MainSound>
+      </AssetList>
+    </Reel>
+    <Reel>
+      <Id>urn:uuid:0c681f0a-4ef4-4cc3-99b1-b677bc9b3c2a</Id>
+      <AssetList>
+        <MainPicture>
+          <Id>urn:uuid:937799ea-75ef-4ddf-9b35-a3bdf171327e</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>27133</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>27133</Duration>
+          <KeyId>urn:uuid:5be47dc5-69a7-4d16-961c-5fe11d622ced</KeyId>
+          <Hash>ERNsGT0QBbt39lFxZt3nZbaVj1c=</Hash>
+          <FrameRate>24 1</FrameRate>
+          <ScreenAspectRatio>2.39</ScreenAspectRatio>
+        </MainPicture>
+        <MainSound>
+          <Id>urn:uuid:453caf4a-6d03-4627-8e43-4bb316104acc</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>27133</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>27133</Duration>
+          <KeyId>urn:uuid:faf0aa5c-4bf1-4fb3-9dad-2b853dbb06ef</KeyId>
+          <Hash>M0jiYKEvrn5styPCk7BflEoy/fc=</Hash>
+        </MainSound>
+      </AssetList>
+    </Reel>
+    <Reel>
+      <Id>urn:uuid:68e32948-7a0f-4760-aec7-a3bee40a36b7</Id>
+      <AssetList>
+        <MainPicture>
+          <Id>urn:uuid:94178de8-4897-456f-8b88-76ccc8690e32</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>23874</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>23874</Duration>
+          <KeyId>urn:uuid:9008c1a5-f9e3-4ebf-83f1-db7e31decfa6</KeyId>
+          <Hash>oibjmsPXDyqyiC3QbqSO4FGAExs=</Hash>
+          <FrameRate>24 1</FrameRate>
+          <ScreenAspectRatio>2.39</ScreenAspectRatio>
+        </MainPicture>
+        <MainSound>
+          <Id>urn:uuid:ad495750-2848-4d61-adbe-9c1415f768dd</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>23874</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>23874</Duration>
+          <KeyId>urn:uuid:59e055d5-dd7f-4e23-b78a-ea0904aaa247</KeyId>
+          <Hash>ILUP7LtVln7iPbkUDaaelYjoQaY=</Hash>
+        </MainSound>
+      </AssetList>
+    </Reel>
+  </ReelList>
+</CompositionPlaylist>
+<!-- Generated by orca_wrapping version 3.2.0 -->

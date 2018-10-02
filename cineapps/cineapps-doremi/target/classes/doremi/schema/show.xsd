@@ -1,0 +1,126 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ShowPlaylist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="Id"/>
+        <xs:element type="xs:string" name="ShowTitleText"/>
+        <xs:element type="xs:string" name="AnnotationText"/>
+        <xs:element type="xs:dateTime" name="IssueDate"/>
+        <xs:element type="xs:string" name="Issuer"/>
+        <xs:element type="xs:string" name="Creator"/>
+        <xs:element name="PackList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Pack">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Id"/>
+                    <xs:element name="EventList">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Event" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="Id"/>
+                                <xs:element name="ElementList">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="MainElement">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="Composition">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element type="xs:string" name="Id"/>
+                                                  <xs:element type="xs:string" name="CompositionPlaylistId"/>
+                                                  <xs:element type="xs:string" name="AnnotationText"/>
+                                                  <xs:element type="xs:int" name="IntrinsicDuration"/>
+                                                  <xs:element type="xs:string" name="EditRate"/>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EventList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Event" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Id"/>
+                    <xs:element name="ElementList">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="MainElement">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Composition" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="Id"/>
+                                      <xs:element type="xs:string" name="CompositionPlaylistId"/>
+                                      <xs:element type="xs:string" name="AnnotationText"/>
+                                      <xs:element type="xs:int" name="IntrinsicDuration"/>
+                                      <xs:element type="xs:string" name="EditRate"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Pattern" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="Id"/>
+                                      <xs:element type="xs:string" name="AnnotationText"/>
+                                      <xs:element type="xs:byte" name="Duration"/>
+                                      <xs:element type="xs:string" name="EditRate"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="AutomationCue" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="Id"/>
+                                <xs:element type="xs:string" name="Action"/>
+                                <xs:element name="Offset">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:int">
+                                        <xs:attribute type="xs:string" name="Kind" use="optional"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

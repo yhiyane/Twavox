@@ -1,0 +1,13 @@
+<ShowPlaylist>
+	<Id>urn:uuid:c23ab440-0294-11e4-9191-0800200c9a66</Id>
+	<Metadata>
+		<Title>%s</Title>
+	</Metadata>
+	<Content>
+		<CPLEvent>
+			<Id>%s</Id>
+			<Duration>%s</Duration>
+			<Offset>%s</Offset>
+		</CPLEvent>
+	</Content>
+</ShowPlaylist>

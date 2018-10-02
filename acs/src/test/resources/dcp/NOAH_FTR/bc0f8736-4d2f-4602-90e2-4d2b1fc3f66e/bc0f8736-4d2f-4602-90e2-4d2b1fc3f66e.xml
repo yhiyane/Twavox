@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DCSubtitle Version="1.0">
+	<SubtitleID>bc0f8736-4d2f-4602-90e2-4d2b1fc3f66e</SubtitleID>
+	<MovieTitle>Prince_R1</MovieTitle>
+	<ReelNumber>1</ReelNumber>
+	<Language>fr</Language>
+	<LoadFont Id="Arial" URI="arial_princ_loc_fre_r1.ttf" />
+	<Font Id="Arial" Color="ffffffff" Effect="border" EffectColor="ff000000"
+		Italic="no" Script="normal" Size="42" Underlined="no" Weight="normal"
+		AspectAdjust="1" Spacing="0em">
+		<Subtitle SpotNumber="7" TimeIn="00:00:00:167" TimeOut="00:00:03:063"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Je te transmets ce
+				droit d&apos;aînesse.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="8" TimeIn="00:00:04:146" TimeOut="00:00:05:115"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Noé.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="9" TimeIn="00:00:06:000" TimeOut="00:00:07:094"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Mon fils.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="10" TimeIn="00:00:20:042" TimeOut="00:00:22:156"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Le Créateur fit
+				Adam à Son image.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="11" TimeIn="00:00:22:198" TimeOut="00:00:25:115"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="15.74">Il lui confia le
+				soin</Text>
+			<Text HPosition="0" VAlign="bottom" VPosition="10">de veiller sur le
+				monde.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="12" TimeIn="00:00:26:094" TimeOut="00:00:29:083"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="15.74">C&apos;est ton
+				labeur, à présent.</Text>
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Ta responsabilité.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="13" TimeIn="00:00:33:083" TimeOut="00:00:36:021"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Puisses-tu marcher
+				au côté du Créateur</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="14" TimeIn="00:00:36:063" TimeOut="00:00:37:094"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">dans la droiture.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="15" TimeIn="00:00:43:146" TimeOut="00:00:45:042"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Ainsi, je te le
+				dis...</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="16" TimeIn="00:00:45:135" TimeOut="00:00:46:229"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Le sanctuaire de
+				Seth.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="17" TimeIn="00:00:47:115" TimeOut="00:00:48:188"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Des hommes.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="18" TimeIn="00:00:49:083" TimeOut="00:00:50:115"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Cache-toi.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="19" TimeIn="00:00:58:156" TimeOut="00:01:00:063"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Nous allons
+				creuser ici.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="20" TimeIn="00:01:03:188" TimeOut="00:01:06:063"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">La terre regorge
+				de tzohar.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="21" TimeIn="00:01:08:031" TimeOut="00:01:10:031"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">C&apos;est la
+				terre du Créateur.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="22" TimeIn="00:01:10:073" TimeOut="00:01:11:083"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Que fais-tu ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="23" TimeIn="00:01:13:094" TimeOut="00:01:14:167"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Le Créateur ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="24" TimeIn="00:01:15:000" TimeOut="00:01:17:010"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Mes mines se
+				tarissent.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="25" TimeIn="00:01:17:052" TimeOut="00:01:19:208"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Ma cité dépérit,
+				la nourriture manque.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="26" TimeIn="00:01:20:000" TimeOut="00:01:21:240"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Et Lui, que
+				fait-Il ?</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="27" TimeIn="00:01:23:167" TimeOut="00:01:27:115"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="15.74">Il nous a
+				condamnés à survivre</Text>
+			<Text HPosition="0" VAlign="bottom" VPosition="10">à la sueur de
+				notre front.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="28" TimeIn="00:01:27:219" TimeOut="00:01:31:219"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="15.74">Que je sois damné</Text>
+			<Text HPosition="0" VAlign="bottom" VPosition="10">si je ne fais pas
+				tout pour cela.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="29" TimeIn="00:01:34:042" TimeOut="00:01:37:125"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="15.74">Que je sois damné</Text>
+			<Text HPosition="0" VAlign="bottom" VPosition="10">si je ne prends
+				pas ce que je veux.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="30" TimeIn="00:01:45:208" TimeOut="00:01:49:021"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="15.74">Cette relique
+				appartient</Text>
+			<Text HPosition="0" VAlign="bottom" VPosition="10">aux descendants de
+				Caïn, à présent.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="31" TimeIn="00:01:49:240" TimeOut="00:01:51:240"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="10">La lignée de Seth
+				s&apos;éteint ici.</Text>
+		</Subtitle>
+		<Subtitle SpotNumber="32" TimeIn="00:01:59:031" TimeOut="00:02:01:052"
+			FadeUpTime="021" FadeDownTime="021">
+			<Text HPosition="0" VAlign="bottom" VPosition="15.74">La terre est à
+				nous.</Text>
+			<Text HPosition="0" VAlign="bottom" VPosition="10">Creusez.</Text>
+		</Subtitle>
+	</Font>
+</DCSubtitle>

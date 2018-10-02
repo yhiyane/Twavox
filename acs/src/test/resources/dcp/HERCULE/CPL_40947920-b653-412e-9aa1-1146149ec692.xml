@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompositionPlaylist xmlns="http://www.digicine.com/PROTO-ASDCP-CPL-20040511#">
+	<Id>urn:uuid:33947920-b653-412e-9aa1-1146149ec692</Id>
+	<AnnotationText>Hercule_FTR-2D_S_FR-EN_FR_51-VI_2K_20140305_TEF_IOP_OV5</AnnotationText>
+	<IssueDate>2014-03-05T16:03:29+01:00</IssueDate>
+	<Issuer>Doremi Labs, Inc.</Issuer>
+	<Creator>orca_wrapping 1.2.52</Creator>
+	<ContentTitleText>Hercule_FTR-2D_S_FR-EN_FR_51-VI_2K_20140305_TEF_IOP_OV5</ContentTitleText>
+	<ContentKind>feature</ContentKind>
+	<RatingList />
+	<ReelList>
+		<Reel>
+			<Id>urn:uuid:58adf687-870c-46c7-91d4-efae0eaf2b6e</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:d1b36e8e-5a2b-4499-a776-5c5df528e659</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>294</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>294</Duration>
+					<KeyId>urn:uuid:68608ed8-5038-41cb-bc36-c220b8c98bde</KeyId>
+					<Hash>n1gAN51NlO9cbWSJNIxvdDsDdqk=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>2.39</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:eb91b220-1e03-4212-984c-ecbadb0b9567</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>305</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>294</Duration>
+					<KeyId>urn:uuid:48dafb36-ffc6-4e7b-b06f-eed898ce1d47</KeyId>
+					<Hash>GvvUd5lwvRSFqiZxg4QjCjiIAWU=</Hash>
+				</MainSound>
+			</AssetList>
+		</Reel>
+		<Reel>
+			<Id>urn:uuid:e6df2e28-6c17-4451-9863-354c7dbd8dd9</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:a7796d82-0654-440d-90f6-aa0150908039</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>24825</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>24825</Duration>
+					<KeyId>urn:uuid:c8ae87d3-d5b9-4bdd-833a-cd153ded4ad4</KeyId>
+					<Hash>75gAnAdDv0N9yq+g5yM3GLnoujM=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>2.39</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:74cce9e3-047d-4149-80c2-e443db40af64</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>25064</IntrinsicDuration>
+					<EntryPoint>192</EntryPoint>
+					<Duration>24825</Duration>
+					<KeyId>urn:uuid:95d72e50-b051-457c-8ec8-af4198465b60</KeyId>
+					<Hash>rLm7MFXXBGcso9zfLeZnDuVM1ig=</Hash>
+				</MainSound>
+				<MainSubtitle>
+					<Id>urn:uuid:9bbeda71-7590-4919-b43a-338d792fb326</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>24825</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>24825</Duration>
+					<Hash>lyr4XfGFSZ7OFRf8V8wSIK6XUzY=</Hash>
+				</MainSubtitle>
+			</AssetList>
+		</Reel>
+		<Reel>
+			<Id>urn:uuid:57454a7e-b536-42bc-9c54-3ec9b35fe233</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:76bcf4d4-cc90-4af0-9c0a-011df782e38c</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>23995</IntrinsicDuration>
+					<EntryPoint>192</EntryPoint>
+					<Duration>23755</Duration>
+					<KeyId>urn:uuid:a93607d7-6bb9-4028-85ec-fa0f2c7fdfd3</KeyId>
+					<Hash>0aT2zjczirrUnTZy5N1vb/H8LYg=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>2.39</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:8d9de369-1e87-42dc-bf58-5179dc61807e</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>23995</IntrinsicDuration>
+					<EntryPoint>192</EntryPoint>
+					<Duration>23755</Duration>
+					<KeyId>urn:uuid:ecef8715-849f-4db5-a7e7-8b6b3f4776bd</KeyId>
+					<Hash>+RY7+PSf6hcln7EAEzAYAorQAm0=</Hash>
+				</MainSound>
+				<MainSubtitle>
+					<Id>urn:uuid:5483609d-7ac5-4dc6-b234-6ea49513bc29</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>23755</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>23755</Duration>
+					<Hash>VMae7BiEHTCqEUNrrE3DYhKf7XI=</Hash>
+				</MainSubtitle>
+			</AssetList>
+		</Reel>
+		<Reel>
+			<Id>urn:uuid:60077ea7-13ee-4277-9bb6-efcee4ce7739</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:6c6fae48-d2ea-4b9d-a323-e73d2a96691d</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>26462</IntrinsicDuration>
+					<EntryPoint>192</EntryPoint>
+					<Duration>26222</Duration>
+					<KeyId>urn:uuid:e1965f7b-6968-4ddc-b6ff-e5410eb70dd6</KeyId>
+					<Hash>HCLhRPCI7NLDaxOXklyIy1H5lz8=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>2.39</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:70b32f4f-4f1c-495a-96a1-7bfc503601e6</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>26462</IntrinsicDuration>
+					<EntryPoint>192</EntryPoint>
+					<Duration>26222</Duration>
+					<KeyId>urn:uuid:96230c0f-255d-49af-87f7-b14384eb3702</KeyId>
+					<Hash>IUf5U7+72p0sd4GYywFqlsd7du8=</Hash>
+				</MainSound>
+				<MainSubtitle>
+					<Id>urn:uuid:6c48cc3e-85b5-44f7-b8a1-44be0cf8c072</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>26222</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>26222</Duration>
+					<Hash>CXZxWT9/N+VgT2RXVRGXKlRRzOk=</Hash>
+				</MainSubtitle>
+			</AssetList>
+		</Reel>
+		<Reel>
+			<Id>urn:uuid:7eb08374-734b-4943-85e8-76bba4200567</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:c95e229d-a052-4b1b-b35a-82be7f57ccc5</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>23191</IntrinsicDuration>
+					<EntryPoint>192</EntryPoint>
+					<Duration>22951</Duration>
+					<KeyId>urn:uuid:cf2bd353-bd5f-44f6-ad97-461275014a09</KeyId>
+					<Hash>AlAW+5Wndu8EOKdGr5Uj7lEat7Y=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>2.39</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:1fb34c1f-d4af-4688-9d93-6ebcd57a71d6</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>23191</IntrinsicDuration>
+					<EntryPoint>192</EntryPoint>
+					<Duration>22951</Duration>
+					<KeyId>urn:uuid:8a872d9a-5f8e-4458-badf-ed80cf746bc0</KeyId>
+					<Hash>xNq1pKMe6AU42ZMwjlvon1+AnHs=</Hash>
+				</MainSound>
+				<MainSubtitle>
+					<Id>urn:uuid:0a8529fe-b5fb-4c38-8d08-ff4f7b57c1c9</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>22951</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>22951</Duration>
+					<Hash>RxynFE7RRCbMaY8jDLgNyL/Zcy0=</Hash>
+				</MainSubtitle>
+			</AssetList>
+		</Reel>
+		<Reel>
+			<Id>urn:uuid:675ba525-8c33-42f4-bc0d-82489483c525</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:a6aab65b-f954-433f-8d27-3158d0ed83b1</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>15595</IntrinsicDuration>
+					<EntryPoint>192</EntryPoint>
+					<Duration>15355</Duration>
+					<KeyId>urn:uuid:42eb15c0-bbf3-4203-887a-7b40867ce945</KeyId>
+					<Hash>r6y4A3b+b5w779TimEqr+JDDMH4=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>2.39</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:a74b523f-74f4-4a28-953f-1fbce37eeca4</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>15595</IntrinsicDuration>
+					<EntryPoint>192</EntryPoint>
+					<Duration>15355</Duration>
+					<KeyId>urn:uuid:512f7000-a197-43f8-af89-d3e6e7dfe5c3</KeyId>
+					<Hash>iRodFLEYOO7vXUYBnbfpkFjQq20=</Hash>
+				</MainSound>
+				<MainSubtitle>
+					<Id>urn:uuid:45bf931a-9878-4a36-adef-df408523e314</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>15355</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>15355</Duration>
+					<Hash>uWHTjhByCYisc4uBUlma63cQU/U=</Hash>
+				</MainSubtitle>
+			</AssetList>
+		</Reel>
+		<Reel>
+			<Id>urn:uuid:e1354cf5-5762-46da-9d48-0efc09511e52</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:4f385efd-b30b-4133-88f5-a9d98df84b3f</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>29020</IntrinsicDuration>
+					<EntryPoint>192</EntryPoint>
+					<Duration>28803</Duration>
+					<KeyId>urn:uuid:a509abfb-8cb9-4944-bca6-bc438ba69d6f</KeyId>
+					<Hash>Nip4BmGGBbOVecH6TzvCNiow0Qo=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>2.39</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:809f4850-16df-4bf9-b909-2067b28202fd</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>30432</IntrinsicDuration>
+					<EntryPoint>192</EntryPoint>
+					<Duration>28803</Duration>
+					<KeyId>urn:uuid:d661792c-fa2a-47b2-bb8e-1aae7017f695</KeyId>
+					<Hash>FLiC4QICL0kn5FxTZ44os/M04rY=</Hash>
+				</MainSound>
+				<MainSubtitle>
+					<Id>urn:uuid:23c1c8a4-2cc5-4803-b904-fc66058ccb3c</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>28803</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>28803</Duration>
+					<Hash>gC0OphQ9XEej8J5hVDOBdjlk+5g=</Hash>
+				</MainSubtitle>
+			</AssetList>
+		</Reel>
+		<Reel>
+			<Id>urn:uuid:fdfbf73a-d3e6-4da0-8e42-9dcc3f9fbd63</Id>
+			<AssetList>
+				<MainPicture>
+					<Id>urn:uuid:5e071e9f-2f2f-4d09-a4e8-9ae9fbb7767b</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>169</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>169</Duration>
+					<KeyId>urn:uuid:67b5b2fe-ebdd-4bb1-b0b2-6fcf88909b8d</KeyId>
+					<Hash>VJcJV7+hjuNNjMEgJE5Me76kxhg=</Hash>
+					<FrameRate>24 1</FrameRate>
+					<ScreenAspectRatio>2.39</ScreenAspectRatio>
+				</MainPicture>
+				<MainSound>
+					<Id>urn:uuid:b5e426c5-eb0f-4ddd-a1b6-d4c9b2bbf2a7</Id>
+					<EditRate>24 1</EditRate>
+					<IntrinsicDuration>240</IntrinsicDuration>
+					<EntryPoint>0</EntryPoint>
+					<Duration>169</Duration>
+					<KeyId>urn:uuid:adb75e04-a752-4989-af6c-b63aa8de6969</KeyId>
+					<Hash>FXA5b9E+EmD1n8vJo2tmLRrfUhg=</Hash>
+				</MainSound>
+			</AssetList>
+		</Reel>
+	</ReelList>
+	<Signer xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		<ds:X509Data>
+			<ds:X509IssuerSerial>
+				<ds:X509IssuerName>dnQualifier=\+LLvuYNO4YBJSp9Jjmlv8oippzQ=,CN=.DC.DMS.DC2.SMPTE,OU=DC.DOREMILABS.COM,O=DC2.SMPTE.DOREMILABS.COM</ds:X509IssuerName>
+				<ds:X509SerialNumber>168</ds:X509SerialNumber>
+			</ds:X509IssuerSerial>
+			<ds:X509SubjectName>dnQualifier=U7X0JoVSxOkca6qDhtpfR7w6amE=,CN=CS.DMSJP2K-70044.DC.DC2.SMPTE,OU=DC.DOREMILABS.COM,O=DC2.SMPTE.DOREMILABS.COM</ds:X509SubjectName>
+		</ds:X509Data>
+	</Signer>
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		<ds:SignedInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+			<ds:CanonicalizationMethod
+				Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+			<ds:Reference URI="">
+				<ds:Transforms>
+					<ds:Transform
+						Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<ds:DigestValue>nUrgkEtrjT1RTKGRzWCdWHfUtwY=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>TYinfzeY82TamhWIZwB7YYOtP+5O9E3TbA2F8osLk09YU8EQ
+			ikQJ+hZVaHSHCS+6z+8z3NDMONE8OFodWihozi03Pe5wBvAvDk6qtFg+3nxGqUSV3OpJ+9Uh
+			z26iO5+EQqYTKE4FtZKHsZMfhfaBoYnXfei/hfhgDkAjZCT3SBnQfZqS9FBkjs6V2BvNvZ8Y
+			4nIqpky5s7TkJmnl3kVj7Mag22+5rRfx7MmNlSqNRE+ITxyI0gDxVV2Prp+EeFARF7lA7miy
+			yWneWF8lUWNUa1WEXsn8L6vJcI6+nL4Jk8cjNUnsHKKFZsUOYUnNgqb+AIoF0yvOWM2tgoBg
+			Jy524w==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:X509Data>
+				<ds:X509IssuerSerial>
+					<ds:X509IssuerName>dnQualifier=\+LLvuYNO4YBJSp9Jjmlv8oippzQ=,CN=.DC.DMS.DC2.SMPTE,OU=DC.DOREMILABS.COM,O=DC2.SMPTE.DOREMILABS.COM</ds:X509IssuerName>
+					<ds:X509SerialNumber>168</ds:X509SerialNumber>
+				</ds:X509IssuerSerial>
+				<ds:X509Certificate>MIIEejCCA2KgAwIBAgICAKgwDQYJKoZIhvcNAQELBQAwgYIx
+					ITAfBgNVBAoTGERDMi5TTVBURS5ET1JFTUlMQUJTLkNPTTEaMBgGA1UECxMRREMuRE9SRU1JTEFC
+					Uy5DT00xGjAYBgNVBAMTES5EQy5ETVMuREMyLlNNUFRFMSUwIwYDVQQuExwrTEx2dVlOTzRZQkpT
+					cDlKam1sdjhvaXBwelE9MB4XDTA3MDEwMTAwMDAwMFoXDTI1MTIzMTIzNTk1OVowgY4xITAfBgNV
+					BAoTGERDMi5TTVBURS5ET1JFTUlMQUJTLkNPTTEaMBgGA1UECxMRREMuRE9SRU1JTEFCUy5DT00x
+					JjAkBgNVBAMTHUNTLkRNU0pQMkstNzAwNDQuREMuREMyLlNNUFRFMSUwIwYDVQQuExxVN1gwSm9W
+					U3hPa2NhNnFEaHRwZlI3dzZhbUU9MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAspUl
+					sc2XbwySmuZuXvZ5F+vk7Io7CGdPkFW9RG9FHkYFPZlkOKHq36PVvDUK3PooLMW1MtQ8qoxOBhT/
+					Wg+pZzLrk4rdQBOurQl7zD47ORi4w1ktgfpgfjME6/XxCbnwbqnFC5zvzF/JqV//j6nxIlV5uyGF
+					ZnoNP5S8XdAaWYmiGqRx2s3N2F5UcWmHmc39TERojD3rfVF50fr9k2vss5sbBavV/dVvHyNaeKnO
+					Xlaafxav+FFIcZVeiAj8trOsUF3Xcky7FPznro0vat8avOHNa8O/F+vagDM9Ipgw4v6LPq8SoGC/
+					WErlNIo+dvU4pNhsLc94RuU1ci7uaErnbQIDAQABo4HrMIHoMAwGA1UdEwEB/wQCMAAwCwYDVR0P
+					BAQDAgSwMB0GA1UdDgQWBBRTtfQmhVLE6RxrqoOG2l9HvDpqYTCBqwYDVR0jBIGjMIGggBT4su+5
+					g07hgElKn0mOaW/yiKmnNKGBhKSBgTB/MSEwHwYDVQQKExhEQzIuU01QVEUuRE9SRU1JTEFCUy5D
+					T00xGjAYBgNVBAsTEURDLkRPUkVNSUxBQlMuQ09NMRcwFQYDVQQDEw4uRE1TLkRDMi5TTVBURTEl
+					MCMGA1UELhMcUlEvNTNSbXVMc2J6Z2ZQWEdsUlltSnJ1d01zPYIBAjANBgkqhkiG9w0BAQsFAAOC
+					AQEAYxSI4qKos2LmQu0vETqjVZzXBq9H0FPB7Dx116K0C44sxIWyTcIV6XZHJr9n7KoFAVBuG2/9
+					xQ+RwToP8Ks/T1dBq0g9ZhFs3U5+1CCndNdZvUNojNSuLh4Fek/FbFcEf21EY5muGFyg99xJpRwy
+					juTppVVOczRLGnAL3Dqg88znOoSkyTxVK6XAQt0oRTCGfypq/PiE3Egx4vekUugNgXI/jdHtXSx8
+					ilHPWDm1YFE9mC2lIV/EGN1FunwRiQVYCbAuSWoueudr9jOkQI4tD9jh57VmycImpktCjl+2Jr5B
+					ogiaaXnWmRau8L+OyP7Y2sl6ncOC29kMvcSSAKcpBw==</ds:X509Certificate>
+			</ds:X509Data>
+			<ds:X509Data>
+				<ds:X509IssuerSerial>
+					<ds:X509IssuerName>dnQualifier=RQ/53RmuLsbzgfPXGlRYmJruwMs=,CN=.DMS.DC2.SMPTE,OU=DC.DOREMILABS.COM,O=DC2.SMPTE.DOREMILABS.COM</ds:X509IssuerName>
+					<ds:X509SerialNumber>2</ds:X509SerialNumber>
+				</ds:X509IssuerSerial>
+				<ds:X509Certificate>MIIEdjCCA16gAwIBAgIBAjANBgkqhkiG9w0BAQsFADB/MSEw
+					HwYDVQQKExhEQzIuU01QVEUuRE9SRU1JTEFCUy5DT00xGjAYBgNVBAsTEURDLkRPUkVNSUxBQlMu
+					Q09NMRcwFQYDVQQDEw4uRE1TLkRDMi5TTVBURTElMCMGA1UELhMcUlEvNTNSbXVMc2J6Z2ZQWEds
+					UlltSnJ1d01zPTAeFw0wNzAxMDEwMDAwMDBaFw0yNTEyMzEyMzU5NTlaMIGCMSEwHwYDVQQKExhE
+					QzIuU01QVEUuRE9SRU1JTEFCUy5DT00xGjAYBgNVBAsTEURDLkRPUkVNSUxBQlMuQ09NMRowGAYD
+					VQQDExEuREMuRE1TLkRDMi5TTVBURTElMCMGA1UELhMcK0xMdnVZTk80WUJKU3A5SmptbHY4b2lw
+					cHpRPTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMUyBakS7Eb79G3ZFMZ4zOOn/cZ3
+					qJcck+MAMwjwV8LkK303uBv51cXYNWxalMQQ6h1iPAu6si9RR9XNLGqakHFLUfjt0eC8VJ5/YaC+
+					DvVq1j9iM5/Jz+CjSqkOlrzXbX92HyMNE0hjCGa4WU6oyRCzFvPZclOI5a2LDKOxC/ngD0LomWjo
+					MDP7BSkUUzqQnZ2fRuXdOgAfzWm+hBxruWcyEqSGwmV93YBnoHB2WpxVfD+Ztinnp/NJKCadiKf/
+					sSQpPoqe4j97gY+Zw2DtgT6wddx97ZtCf10QASF5hXgKyCku6O7IlGLroM4TUOldrTClNjR2xSGc
+					THxcxOltUQcCAwEAAaOB+DCB9TATBgNVHRMBAf8ECTAHAQH/AgIA7TALBgNVHQ8EBAMCAQYwHQYD
+					VR0OBBYEFPiy77mDTuGASUqfSY5pb/KIqac0MIGxBgNVHSMEgakwgaaAFEUP+d0Zri7G84Hz1xpU
+					WJia7sDLoYGKpIGHMIGEMSEwHwYDVQQKExhEQzIuU01QVEUuRE9SRU1JTEFCUy5DT00xGjAYBgNV
+					BAsTEURDLkRPUkVNSUxBQlMuQ09NMRwwGgYDVQQDExMuUFJPRFVDVFMuREMyLlNNUFRFMSUwIwYD
+					VQQuExxwa0NCOWo1S3JBam5kaGNCa2MzZk9kZkwvQlE9ggEEMA0GCSqGSIb3DQEBCwUAA4IBAQCd
+					l6G6uFf9+waSrTQqG946Ff1t0b1ANkI6IQQo2sq15aArKjehmrCJzctBfFm3vQj1KlRBI191Mj2m
+					5Oh/sxcwtG40bSzFeyGZPg9zKA2Cd8oRdw35/8ZLnP96Z/rCxoGNVJAmy9EP8jP9AT/bOk50KvZ/
+					wo//VN/pscoDrDCaZVLNPAkTdsMNWy+YpV9cnzUGx73jK/iMao++GQ/SEWssBHhjxn3oHWiZi4Xt
+					ykib8XQqQjyKu4c66jDwu6Ct+MVqUd7ZFPTFListIamu55RnpTXhDKkoN8fIunBsWOs9Kbqbxglx
+					4zsyE0AGuj2nDstRBWLRy+5SlCByTIKp/PL/</ds:X509Certificate>
+			</ds:X509Data>
+			<ds:X509Data>
+				<ds:X509IssuerSerial>
+					<ds:X509IssuerName>dnQualifier=pkCB9j5KrAjndhcBkc3fOdfL/BQ=,CN=.PRODUCTS.DC2.SMPTE,OU=DC.DOREMILABS.COM,O=DC2.SMPTE.DOREMILABS.COM</ds:X509IssuerName>
+					<ds:X509SerialNumber>4</ds:X509SerialNumber>
+				</ds:X509IssuerSerial>
+				<ds:X509Certificate>MIIEdDCCA1ygAwIBAgIBBDANBgkqhkiG9w0BAQsFADCBhDEh
+					MB8GA1UEChMYREMyLlNNUFRFLkRPUkVNSUxBQlMuQ09NMRowGAYDVQQLExFEQy5ET1JFTUlMQUJT
+					LkNPTTEcMBoGA1UEAxMTLlBST0RVQ1RTLkRDMi5TTVBURTElMCMGA1UELhMccGtDQjlqNUtyQWpu
+					ZGhjQmtjM2ZPZGZML0JRPTAeFw0wNzAxMDEwMDAwMDBaFw0yNTEyMzEyMzU5NTlaMH8xITAfBgNV
+					BAoTGERDMi5TTVBURS5ET1JFTUlMQUJTLkNPTTEaMBgGA1UECxMRREMuRE9SRU1JTEFCUy5DT00x
+					FzAVBgNVBAMTDi5ETVMuREMyLlNNUFRFMSUwIwYDVQQuExxSUS81M1JtdUxzYnpnZlBYR2xSWW1K
+					cnV3TXM9MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuqXUXsGFKhmSNFaqAMHloGUp
+					vTFkFlnjHwRYxUv1JhQjKmysUhyqvXRf7jnx54zsRKdvOXUw3HfGrX9R9gPODL8uVbME406OTqD1
+					fhhhZ0co02TgXPpaYxkQZlgv9Ygz3pHA51+qXOaMRbPU364gTMPVgXyqljIlDKknZTXeiqp8KB1N
+					iTdslrn3IajOxm3pd1Mh2kq2/FyC9qAyZJPbgdcSfm4ZWkxgvllikZ4HQGEuT+P31xmN3K7SQrpk
+					3jRS1PgFHvUUnCeyQh1jtRlepy2Im4SPpWh1sY+hiR2dakqZCFNKB11wEyZOX3nCqOeDfJL60BNm
+					9RKgSwPVh6SSywIDAQABo4H0MIHxMBMGA1UdEwEB/wQJMAcBAf8CAgDuMAsGA1UdDwQEAwIBBjAd
+					BgNVHQ4EFgQURQ/53RmuLsbzgfPXGlRYmJruwMswga0GA1UdIwSBpTCBooAUpkCB9j5KrAjndhcB
+					kc3fOdfL/BShgYakgYMwgYAxITAfBgNVBAoTGERDMi5TTVBURS5ET1JFTUlMQUJTLkNPTTEaMBgG
+					A1UECxMRREMuRE9SRU1JTEFCUy5DT00xGDAWBgNVBAMTDy5ST09ULkRDMi5TTVBURTElMCMGA1UE
+					LhMcYS93VUlITHVGVzdSS1hwTlFHbVE5NjZ4T3Y4PYIBAjANBgkqhkiG9w0BAQsFAAOCAQEAXgI7
+					+4euCqODivtBpzIunWJBGr+v5jojDLFp6e3fBDznYEY6p4R4B741C7HZ6qE39vV6ZqcBmDjDi7cE
+					fOa9QmC7Mj0MUM/XXrVlLvHmIRwVcOoZdxz/5JSfQkwPGyXT2MTmgGyTAqeB/NXazjR6YzCOcoqm
+					CcFRgvubRscN4V5GFC2k7JdvP/s9QeU5cGBePy09sUTm54aFS9MbdQGZa+hqCoNetMvjEGhuUxpe
+					twOLhXUca9KMT2ikxoA4bNc1P5Ekma8HqX0Dv/BKXtz7YTYUUN2YE12PMaqFLonjvl/mB/n9CHc/
+					AAVM+A/J+q+14LJqcElnzHkvNTv2Qvp5+g==</ds:X509Certificate>
+			</ds:X509Data>
+			<ds:X509Data>
+				<ds:X509IssuerSerial>
+					<ds:X509IssuerName>dnQualifier=a/wUIHLuFW7RKXpNQGmQ966xOv8=,CN=.ROOT.DC2.SMPTE,OU=DC.DOREMILABS.COM,O=DC2.SMPTE.DOREMILABS.COM</ds:X509IssuerName>
+					<ds:X509SerialNumber>2</ds:X509SerialNumber>
+				</ds:X509IssuerSerial>
+				<ds:X509Certificate>MIIEdjCCA16gAwIBAgIBAjANBgkqhkiG9w0BAQsFADCBgDEh
+					MB8GA1UEChMYREMyLlNNUFRFLkRPUkVNSUxBQlMuQ09NMRowGAYDVQQLExFEQy5ET1JFTUlMQUJT
+					LkNPTTEYMBYGA1UEAxMPLlJPT1QuREMyLlNNUFRFMSUwIwYDVQQuExxhL3dVSUhMdUZXN1JLWHBO
+					UUdtUTk2NnhPdjg9MB4XDTA3MDEwMTAwMDAwMFoXDTI1MTIzMTIzNTk1OVowgYQxITAfBgNVBAoT
+					GERDMi5TTVBURS5ET1JFTUlMQUJTLkNPTTEaMBgGA1UECxMRREMuRE9SRU1JTEFCUy5DT00xHDAa
+					BgNVBAMTEy5QUk9EVUNUUy5EQzIuU01QVEUxJTAjBgNVBC4THHBrQ0I5ajVLckFqbmRoY0JrYzNm
+					T2RmTC9CUT0wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDTXmBvZYW1jYsr8GaPzJeD
+					zeWN+Vus/RDVdaWQ9hLXKw2nLjNFNX+RYB76QiugCGUwBZ71kOL0RQ6kSAkz9FBQGYca9sh2imTc
+					pEuw/qjbHxClO7DNyd0af5oYtZdopBBy71ksrUWOIFeKgfa1C3iLKJWVeTDZll4s78Xzo0hdQVwF
+					oFyVRiQRkyr2urj0euMMcykBD5KD+hjKNpxZukzxu8VKKBSJwjifL4SsmV+zsTDJH/nRaySnhLCB
+					L+aO7MF6d4DF+ANKcD5LX6CQW3NIqPHhdPFC+lAol2/6sPBkbnFEfbWiHbDHS34LJaWaLkqJ3tt/
+					/ETe6FZe761vkeUbAgMBAAGjgfQwgfEwEwYDVR0TAQH/BAkwBwEB/wICAO8wCwYDVR0PBAQDAgEG
+					MB0GA1UdDgQWBBSmQIH2PkqsCOd2FwGRzd8518v8FDCBrQYDVR0jBIGlMIGigBRr/BQgcu4VbtEp
+					ek1AaZD3rrE6/6GBhqSBgzCBgDEhMB8GA1UEChMYREMyLlNNUFRFLkRPUkVNSUxBQlMuQ09NMRow
+					GAYDVQQLExFEQy5ET1JFTUlMQUJTLkNPTTEYMBYGA1UEAxMPLlJPT1QuREMyLlNNUFRFMSUwIwYD
+					VQQuExxhL3dVSUhMdUZXN1JLWHBOUUdtUTk2NnhPdjg9ggEBMA0GCSqGSIb3DQEBCwUAA4IBAQCd
+					sDTq1a3Q96o8ShsyKmEKVUCNnX6ez5XcVg5LXb8QJxXzLD+ffbf15Jj201iElpPQCNU9QHNOOoR9
+					IoObGZBOLi5ekMhfpfffcpwkwmq3nmb3h6WPLU7PAxLYcE3nNZdbv5QocblNs3e4Ecc3nK2bIS0K
+					9/e+75UT6wfOCWWCF+AHQt+1Uej6G2f2yZJ5aWqeOv3mqXEtWV8W/iiUEhz6pONdb8Vs0Bhn6FMa
+					jjTkpSVaC/w7W38htkG0Nk9T5Lf/TdIQHjoALB12suLTZymj8hq53PVxIN+aa0cboVE0PEtwYI5J
+					tIY/GaHgNIVKoTRvgq7YXTVnvGqgolL1zwDx</ds:X509Certificate>
+			</ds:X509Data>
+			<ds:X509Data>
+				<ds:X509IssuerSerial>
+					<ds:X509IssuerName>dnQualifier=a/wUIHLuFW7RKXpNQGmQ966xOv8=,CN=.ROOT.DC2.SMPTE,OU=DC.DOREMILABS.COM,O=DC2.SMPTE.DOREMILABS.COM</ds:X509IssuerName>
+					<ds:X509SerialNumber>1</ds:X509SerialNumber>
+				</ds:X509IssuerSerial>
+				<ds:X509Certificate>MIIEcjCCA1qgAwIBAgIBATANBgkqhkiG9w0BAQsFADCBgDEh
+					MB8GA1UEChMYREMyLlNNUFRFLkRPUkVNSUxBQlMuQ09NMRowGAYDVQQLExFEQy5ET1JFTUlMQUJT
+					LkNPTTEYMBYGA1UEAxMPLlJPT1QuREMyLlNNUFRFMSUwIwYDVQQuExxhL3dVSUhMdUZXN1JLWHBO
+					UUdtUTk2NnhPdjg9MB4XDTA3MDEwMTAwMDAwMFoXDTI1MTIzMTIzNTk1OVowgYAxITAfBgNVBAoT
+					GERDMi5TTVBURS5ET1JFTUlMQUJTLkNPTTEaMBgGA1UECxMRREMuRE9SRU1JTEFCUy5DT00xGDAW
+					BgNVBAMTDy5ST09ULkRDMi5TTVBURTElMCMGA1UELhMcYS93VUlITHVGVzdSS1hwTlFHbVE5NjZ4
+					T3Y4PTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ/xde0jhq2qV0aBlsyv8Cl4vH1+
+					RRiAl7DyBwKFk0riupyj+/8naVxcWG0Mx9zkWNyDJKowhMqMAMzNzssphxJoFGTOSVDM+WDlS3JZ
+					BEgdIrvyTjERWMea32nC3uUu8I6JdEhuiUZBHb2FmQBVsp6S3ss9m0iV5zo/zf3Ev2J0j7mDxcp3
+					Q68zcpmIeik48qpgtfez+svz2tX9eI1mYZW77v9oQiMRZXMGlaiwNlXp3FqkBjAD6MTEWGInEp6b
+					OtjksVXwZPbFlHlke+wK1wlWMB0wPFAwGsTfeUbTlaaonSHz0JAf0MORYW49cIbInKJffdrZMRBR
+					tPmsmNDvlIMCAwEAAaOB9DCB8TATBgNVHRMBAf8ECTAHAQH/AgIA8DALBgNVHQ8EBAMCAQYwHQYD
+					VR0OBBYEFGv8FCBy7hVu0Sl6TUBpkPeusTr/MIGtBgNVHSMEgaUwgaKAFGv8FCBy7hVu0Sl6TUBp
+					kPeusTr/oYGGpIGDMIGAMSEwHwYDVQQKExhEQzIuU01QVEUuRE9SRU1JTEFCUy5DT00xGjAYBgNV
+					BAsTEURDLkRPUkVNSUxBQlMuQ09NMRgwFgYDVQQDEw8uUk9PVC5EQzIuU01QVEUxJTAjBgNVBC4T
+					HGEvd1VJSEx1Rlc3UktYcE5RR21ROTY2eE92OD2CAQEwDQYJKoZIhvcNAQELBQADggEBAH+n8SDy
+					Hs9JItFnOOgdxKY9/d8iZUJh5GFWdDpInaW6XRoz5dV6vdXPGAiQwvZuKDniWgg4yhrBbesp4RU4
+					64p2jzL+YUqnUPews7ZT+u2YVbSfh+fO011kSHZLdzTkdA8BWQCVM0e0rCVLRZMw4VPQpwYmnkeM
+					gheqKfNSyGKiafhuKGqTnqDrr/74/gIq8ZGl/doidoF/DBiiQlYR7eqlMCsTDam+C9E2cpwBN3A1
+					5yeuD8d+foFVYVmIR71pHFrJ6tRzuRDwqWdVNQa6/kk3pS1Lut7AWpmNirjIhKWJgDW57KlDGIsw
+					Bw/YZzykpHYmuzBxLriBb5TYsWziILI=</ds:X509Certificate>
+			</ds:X509Data>
+		</ds:KeyInfo>
+	</ds:Signature>
+</CompositionPlaylist>
+<!-- Generated by orca_wrapping version 1.2.52 -->

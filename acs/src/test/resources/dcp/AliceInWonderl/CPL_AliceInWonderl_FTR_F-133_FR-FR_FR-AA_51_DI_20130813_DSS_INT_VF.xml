@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><CompositionPlaylist xmlns="http://www.digicine.com/PROTO-ASDCP-CPL-20040511#">
+<Id>urn:uuid:a87e171d-0d48-4214-8399-c7783e51d181</Id>
+<AnnotationText>AliceInWonderl_FTR_F-133_FR-FR_FR-AA_51_DI_20130813_DSS_INT_VF</AnnotationText>
+<IssueDate>2013-08-13T16:35:00-00:00</IssueDate>
+<Issuer>DISNEY DIGITAL STUDIO SERVICES</Issuer>
+<Creator>ClipsterDCI 5.5.0.5</Creator>
+<ContentTitleText>AliceInWonderl_FTR_F-133_FR-FR_FR-AA_51_DI_20130813_DSS_INT_VF</ContentTitleText>
+<ContentKind>feature</ContentKind>
+<RatingList/>
+<ReelList>
+<Reel>
+<Id>urn:uuid:e330ffa4-8123-4904-be56-83ed47e88ded</Id>
+<AssetList>
+<MainPicture>
+<Id>urn:uuid:b2c39107-f45d-41d2-817c-bc2633fd2f96</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>14979</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>14979</Duration>
+<KeyId>urn:uuid:de3acfef-7f39-4f70-b6db-3e965bf1aaa1</KeyId>
+<Hash>cCfX07xu0JvqXbRoEMwXZEhNcU4=</Hash>
+<FrameRate>24 1</FrameRate>
+<ScreenAspectRatio>1.85</ScreenAspectRatio></MainPicture>
+<MainSound>
+<Id>urn:uuid:5924d504-a04f-4be2-bce6-b5572d036ef4</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>14979</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>14979</Duration>
+<KeyId>urn:uuid:8e393b98-48ec-4540-88d4-48f5ed234ff0</KeyId>
+<Hash>Ebwg/FD4vtDVl03QWhZ3V56geeA=</Hash>
+<Language>fr</Language></MainSound>
+<MainSubtitle>
+<Id>urn:uuid:7335822c-7d1a-4d76-8019-b132af04c126</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>14979</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>14979</Duration>
+<Hash>vb+h3jHDPMeqOdu5rBx23ktpL7c=</Hash>
+<Language>fr</Language></MainSubtitle></AssetList></Reel>
+<Reel>
+<Id>urn:uuid:7921784d-6581-4afe-ac03-5e3f390aaaf0</Id>
+<AssetList>
+<MainPicture>
+<Id>urn:uuid:985c6f1d-9554-4599-a2a7-fdf42c457ef7</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>15051</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>15051</Duration>
+<KeyId>urn:uuid:ddb50e95-fe4c-41bb-9aab-5a0c021d234a</KeyId>
+<Hash>8NFNCIQdjY92pEWZIvixQCfkheY=</Hash>
+<FrameRate>24 1</FrameRate>
+<ScreenAspectRatio>1.85</ScreenAspectRatio></MainPicture>
+<MainSound>
+<Id>urn:uuid:fa35247a-8166-4477-ab57-64cb57079545</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>15051</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>15051</Duration>
+<KeyId>urn:uuid:00f650d8-3af7-4422-b3c3-3793c32583b7</KeyId>
+<Hash>7PCMfrvRenjR5ZC1IqgrRyRU2rI=</Hash>
+<Language>fr</Language></MainSound>
+<MainSubtitle>
+<Id>urn:uuid:74bb3332-3038-49a8-ba0c-5623681d70f5</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>15051</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>15051</Duration>
+<Hash>gzToCiAfRMIq8eKg2Czd47Ha8hI=</Hash>
+<Language>fr</Language></MainSubtitle></AssetList></Reel>
+<Reel>
+<Id>urn:uuid:b3c021cb-cfc3-40ff-8c39-038a90385c32</Id>
+<AssetList>
+<MainPicture>
+<Id>urn:uuid:19090add-85e5-4c7c-98d8-b519eafebff1</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>192</IntrinsicDuration>
+<EntryPoint>43</EntryPoint>
+<Duration>32</Duration>
+<KeyId>urn:uuid:a44603b9-40f9-4a91-9afd-59813fc4f6bc</KeyId>
+<Hash>ciodhMuHHVtQqQPPXBjNlt4qyWo=</Hash>
+<FrameRate>24 1</FrameRate>
+<ScreenAspectRatio>1.85</ScreenAspectRatio></MainPicture>
+<MainSound>
+<Id>urn:uuid:fc4fe884-d882-478d-8b1d-6a1d2a5b4485</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>32</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>32</Duration>
+<KeyId>urn:uuid:1fa52e9a-677a-4ddb-9c00-67a764924a38</KeyId>
+<Hash>aRguUVjgwia7yuyD/yYKJyA2qrk=</Hash>
+<Language>fr</Language></MainSound></AssetList></Reel>
+<Reel>
+<Id>urn:uuid:e4df662b-8af9-42dc-b22e-83f1f517836a</Id>
+<AssetList>
+<MainPicture>
+<Id>urn:uuid:356ed864-3ba5-4e5a-95ec-2c2eb396c097</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>15094</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>15094</Duration>
+<KeyId>urn:uuid:2a3dd7c7-51c8-4ff8-8435-5935135275c0</KeyId>
+<Hash>FzEM7dvnoNWhhiaSPjTDU04aDSI=</Hash>
+<FrameRate>24 1</FrameRate>
+<ScreenAspectRatio>1.85</ScreenAspectRatio></MainPicture>
+<MainSound>
+<Id>urn:uuid:f7538661-84d8-4bff-8a4c-e5a56e11bbf7</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>15094</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>15094</Duration>
+<KeyId>urn:uuid:36ac979d-15da-4dbc-bc63-b28f31b32d29</KeyId>
+<Hash>waoVITieZaP3bydJjJF3M28/5ws=</Hash>
+<Language>fr</Language></MainSound>
+<MainSubtitle>
+<Id>urn:uuid:0828ce30-7820-4238-9dda-a7bb139f604f</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>15094</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>15094</Duration>
+<Hash>FfyAUF9Nbqg0lKj8OPwy462MSl8=</Hash>
+<Language>fr</Language></MainSubtitle></AssetList></Reel>
+<Reel>
+<Id>urn:uuid:b409a04f-7039-4adf-a4ba-1450cfe77a89</Id>
+<AssetList>
+<MainPicture>
+<Id>urn:uuid:f4c78569-f5bb-488f-aad0-59559098f120</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>14500</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>14500</Duration>
+<KeyId>urn:uuid:525b9c54-0d23-417a-a35c-7700a3ce1fd4</KeyId>
+<Hash>CN0XDHwNHF/pFJmfugsmRTO0rY8=</Hash>
+<FrameRate>24 1</FrameRate>
+<ScreenAspectRatio>1.85</ScreenAspectRatio></MainPicture>
+<MainSound>
+<Id>urn:uuid:9c9aacb0-bacf-4617-b690-71d63428d129</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>14500</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>14500</Duration>
+<KeyId>urn:uuid:1cf05d95-482a-4e45-a25b-e6a6653d5ccf</KeyId>
+<Hash>j+DC7iGS9ZjB3PKeRp8Q9A1TKG8=</Hash>
+<Language>fr</Language></MainSound>
+<MainSubtitle>
+<Id>urn:uuid:b3fe2d32-009c-4404-83af-8d97c8b08e7e</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>14500</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>14500</Duration>
+<Hash>8q3QNuOCkzf7e7K5X4NR/98snkQ=</Hash>
+<Language>fr</Language></MainSubtitle></AssetList></Reel>
+<Reel>
+<Id>urn:uuid:e01df888-3475-4582-8f33-9f1da79729e2</Id>
+<AssetList>
+<MainPicture>
+<Id>urn:uuid:56729adf-3481-4949-99cf-4169c0e9c7dc</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>12263</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>12263</Duration>
+<KeyId>urn:uuid:3504faa5-0f35-45c1-b1f6-b9482d8a3b83</KeyId>
+<Hash>2TwBPnkPjsuNMCtSFVNpkBAaViw=</Hash>
+<FrameRate>24 1</FrameRate>
+<ScreenAspectRatio>1.85</ScreenAspectRatio></MainPicture>
+<MainSound>
+<Id>urn:uuid:52ee9144-7a1e-4a3f-b48e-9e6d0a7bbba2</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>12263</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>12263</Duration>
+<KeyId>urn:uuid:c7a5af38-5100-42fb-bb62-8f2cc01a2558</KeyId>
+<Hash>mZQemlBkqQZZLzqZOikpqjiBcks=</Hash>
+<Language>fr</Language></MainSound></AssetList></Reel>
+<Reel>
+<Id>urn:uuid:de377d84-f94c-44f7-b023-b87423dfc642</Id>
+<AssetList>
+<MainPicture>
+<Id>urn:uuid:e140be49-fe45-430b-8257-ad628f75c673</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>10290</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>10290</Duration>
+<KeyId>urn:uuid:1492082b-d33e-46b4-ad66-e3927095201e</KeyId>
+<Hash>IjxkwVO444vGeHm6TVC8GBthsWE=</Hash>
+<FrameRate>24 1</FrameRate>
+<ScreenAspectRatio>1.85</ScreenAspectRatio></MainPicture>
+<MainSound>
+<Id>urn:uuid:c3edfa18-83fb-494a-b958-38bf2efb9cae</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>10290</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>10290</Duration>
+<KeyId>urn:uuid:8512c871-4dd7-4292-b5d5-48666d9623f0</KeyId>
+<Hash>E22RjSrH/hvC3lxOyE/UpoX6YiM=</Hash>
+<Language>fr</Language></MainSound>
+<MainSubtitle>
+<Id>urn:uuid:8a9528a0-c9db-458c-97a5-e24d2512e195</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>10290</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>10290</Duration>
+<Hash>sDZ3BLYXSLf2t8CgbGRLkdqAJu8=</Hash>
+<Language>fr</Language></MainSubtitle></AssetList></Reel>
+<Reel>
+<Id>urn:uuid:0fbaef9e-2eab-449f-a373-2b9038fb7aec</Id>
+<AssetList>
+<MainPicture>
+<Id>urn:uuid:726122ca-acc1-4999-8a22-91228c47d3c2</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>205</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>205</Duration>
+<KeyId>urn:uuid:0b95b313-9e25-4509-ad17-c25d17f6f781</KeyId>
+<Hash>PQevWhESRgDE9PJsXk/vCtwyyek=</Hash>
+<FrameRate>24 1</FrameRate>
+<ScreenAspectRatio>1.85</ScreenAspectRatio></MainPicture>
+<MainSound>
+<Id>urn:uuid:6bed521a-3bc2-429f-96de-7b7b74ee7fc9</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>205</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>205</Duration>
+<KeyId>urn:uuid:a896af03-c8df-40e1-921f-3db985476236</KeyId>
+<Hash>S6xU3b3/xGijgCIXOwHrgS0AGKE=</Hash>
+<Language>fr</Language></MainSound></AssetList></Reel>
+<Reel>
+<Id>urn:uuid:ad8df640-7bd0-47ba-963d-bd70cfacac91</Id>
+<AssetList>
+<MainPicture>
+<Id>urn:uuid:cb42c994-5847-472e-91a0-5f1b9bad23e6</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>13371</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>13371</Duration>
+<KeyId>urn:uuid:d73d3de0-143a-4606-ba87-0de1230465ea</KeyId>
+<Hash>K+9h8551D5+9dhvw9PnMDlBu9mQ=</Hash>
+<FrameRate>24 1</FrameRate>
+<ScreenAspectRatio>1.85</ScreenAspectRatio></MainPicture>
+<MainSound>
+<Id>urn:uuid:cf8f9dc1-a0a7-410e-b74d-5ae12e5b6341</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>13371</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>13371</Duration>
+<KeyId>urn:uuid:e94ef492-5720-406d-8d61-c8e70fae56b9</KeyId>
+<Hash>ZGc0n2M9t9Op47XrK88rrOmdTlU=</Hash>
+<Language>fr</Language></MainSound></AssetList></Reel>
+<Reel>
+<Id>urn:uuid:3e1907be-0216-4956-a964-fbd5f4752d07</Id>
+<AssetList>
+<MainPicture>
+<Id>urn:uuid:10c77a0a-31d6-4a2d-bbdb-a0ae2e15dbba</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>12312</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>12312</Duration>
+<KeyId>urn:uuid:9f3bc2d4-cd34-493a-9770-2e7ac09de14f</KeyId>
+<Hash>GQRRbGaBMNkEXX730waliY3L+/4=</Hash>
+<FrameRate>24 1</FrameRate>
+<ScreenAspectRatio>1.85</ScreenAspectRatio></MainPicture>
+<MainSound>
+<Id>urn:uuid:c7b1356f-01fb-463f-81da-f539b949d3c0</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>12312</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>12312</Duration>
+<KeyId>urn:uuid:08a7a2ac-02f7-41a9-a848-75e6948d5704</KeyId>
+<Hash>jdBz0nYCPo+HOxRVTIsfpqjCDPs=</Hash>
+<Language>fr</Language></MainSound>
+<MainSubtitle>
+<Id>urn:uuid:9a124007-1edf-48ab-b784-d421491f64fb</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>12312</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>12312</Duration>
+<Hash>iaS6qjm/uETV/indkaVOER3fwIY=</Hash>
+<Language>fr</Language></MainSubtitle></AssetList></Reel>
+<Reel>
+<Id>urn:uuid:bae3ff6f-6a43-498b-b090-f26c195d139e</Id>
+<AssetList>
+<MainPicture>
+<Id>urn:uuid:7d3e73b2-d908-484f-9d16-ec44a34cec1c</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>428</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>428</Duration>
+<KeyId>urn:uuid:1fea98cc-2e8e-4830-a34f-5cf2ffa9e0ec</KeyId>
+<Hash>LW3gXQqWgWVWE1ztKmrCkAXST+c=</Hash>
+<FrameRate>24 1</FrameRate>
+<ScreenAspectRatio>1.85</ScreenAspectRatio></MainPicture>
+<MainSound>
+<Id>urn:uuid:6a431fc9-8a75-4d00-9c7b-c0fe27cef0fc</Id>
+<EditRate>24 1</EditRate>
+<IntrinsicDuration>428</IntrinsicDuration>
+<EntryPoint>0</EntryPoint>
+<Duration>428</Duration>
+<KeyId>urn:uuid:39e653f9-dfad-4d60-a5fc-6c460d2c598f</KeyId>
+<Hash>bgIgioUg+RNOSmjHiQXC09eq530=</Hash>
+<Language>fr</Language></MainSound></AssetList></Reel></ReelList>
+<Signer xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509IssuerSerial>
+<ds:X509IssuerName>dnQualifier=spxf\+Et2A8uZQHsTK0D0mtq5S2I=,OU=.DVS Test Signing Intermediate,O=.DVS Digital Video Systems AG.DVS Test Signing Root,CN=.Do Not Use For Security Applications</ds:X509IssuerName>
+<ds:X509SerialNumber>3</ds:X509SerialNumber>
+</ds:X509IssuerSerial>
+</ds:X509Data></Signer><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>xaxNgrxnEmbIGbw4RHCq00I6HzU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>WwSKUWGuK7g9NRAj464h3MHdDIPeFbudaK8UWj0ibwAgGEAOAIkF+fQ6aLRoHIlC
+DwsaCrGTSb86cpjdqxp2XZmQkdWFzvD+ybtnrU2oUjeJXD0FIoj7cChtMPHJu3VX
+RnUia6KvbOnsMAUMMgI4Zr0j/fSMmI3gs3HKg9sFdQuvAiFPKaRIfqur3dJXsk1q
+QW7gclE8WeN+7/2Po8YUvr4lg6X97YqGZqMT9mBx5mnP5InxaZSWn+bdKNfSjlxH
+Tr0Wn7QCkcLoofVUiKRoTnYPBUgSux73/Zu5vMf8lcM/PNP+/1P16ta+XjkymAFi
+ldBWMVGqOlSDyXBtBRB0Mw==</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509IssuerSerial>
+<ds:X509IssuerName>dnQualifier=spxf\+Et2A8uZQHsTK0D0mtq5S2I=,OU=.DVS Test Signing Intermediate,O=.DVS Digital Video Systems AG.DVS Test Signing Root,CN=.Do Not Use For Security Applications</ds:X509IssuerName>
+<ds:X509SerialNumber>3</ds:X509SerialNumber>
+</ds:X509IssuerSerial>
+<ds:X509Certificate>MIIFGTCCBAGgAwIBAgIBAzANBgkqhkiG9w0BAQsFADCBvjEuMCwGA1UEAxMlLkRv
+IE5vdCBVc2UgRm9yIFNlY3VyaXR5IEFwcGxpY2F0aW9uczE8MDoGA1UEChMzLkRW
+UyBEaWdpdGFsIFZpZGVvIFN5c3RlbXMgQUcuRFZTIFRlc3QgU2lnbmluZyBSb290
+MScwJQYDVQQLEx4uRFZTIFRlc3QgU2lnbmluZyBJbnRlcm1lZGlhdGUxJTAjBgNV
+BC4THHNweGYrRXQyQTh1WlFIc1RLMEQwbXRxNVMyST0wHhcNMDgwNTE1MTIxNzUy
+WhcNMjUwMTAxMDAwMDAwWjCBuDEwMC4GA1UEAxMnQ1MuRG8gTm90IFVzZSBGb3Ig
+U2VjdXJpdHkgQXBwbGljYXRpb25zMTwwOgYDVQQKEzMuRFZTIERpZ2l0YWwgVmlk
+ZW8gU3lzdGVtcyBBRy5EVlMgVGVzdCBTaWduaW5nIFJvb3QxHzAdBgNVBAsTFi5E
+VlMgVGVzdCBTaWduaW5nIExlYWYxJTAjBgNVBC4THE81NlFySDhZMUdDUldZVlpX
+ZzN2SUlFSHhNQT0wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC9PMXH
+tFAQ3+152qYYqml98Z/IV6/QDVrg9FAD+nvoShbBP+ANUUw2mq1ISjhdu8/R5rSK
+uop7gnE8oGZAKzyDgImf1EGk8hFDxwnoHFZF2UZ8ALv02dDcscFmRme/CtStNDaD
+vaL3lWxRzLVbuGhlndyxblEVS3b2PLPGmgBw7FY7mGU/09Z9NSLMRXrKG/KdOKKE
+KrNjt/UPfoNYs2TmcZZONpulwVrLzvfn4xfSjqGYI7XwPuW/jLnsC94gSFUmCteY
+utGTl5lkho5+ZXKRnYMoGmAbx2TtbzRvJQ2wExwdI3SCnE3L1Cr1mhsZLki8l/34
+EMgm53DuiMKVWWUXAgMBAAGjggEkMIIBIDAMBgNVHRMBAf8EAjAAMAsGA1UdDwQE
+AwIFoDAdBgNVHQ4EFgQUO56QrH8Y1GCRWYVZWg3vIIEHxMAwgeMGA1UdIwSB2zCB
+2IAUspxf+Et2A8uZQHsTK0D0mtq5S2KhgbykgbkwgbYxLjAsBgNVBAMTJS5EbyBO
+b3QgVXNlIEZvciBTZWN1cml0eSBBcHBsaWNhdGlvbnMxPDA6BgNVBAoTMy5EVlMg
+RGlnaXRhbCBWaWRlbyBTeXN0ZW1zIEFHLkRWUyBUZXN0IFNpZ25pbmcgUm9vdDEf
+MB0GA1UECxMWLkRWUyBUZXN0IFNpZ25pbmcgUm9vdDElMCMGA1UELhMcSWNZV1Fy
+SlNVbFhJWVpJRGtvdlNYcm5xWkt3PYIBAjANBgkqhkiG9w0BAQsFAAOCAQEAbvgD
+dxOiqnwAMpEHuKGh0UZe7ltdk9KZa6i7ViLWcjxmJ31BcfAKTwKkzLk9O1hhdVcb
+fyfc8gcqnpB9BucPk7qKBrLSRKYgcL4p9Sb4rvJDKM/kAI+snS62oAqsXXtWhnxk
+gwFSinu7nlIZPwoW3WE3mwx5qZ8yaYH5IWBN/GYerAhqDXW+ree20pbXWFM4V2QJ
+Ss1UnbXKCsdPJ+wt66NS/EcuAuhwA2smyDpvaQ54pSeBcvrVGBi9l+SaMgjAmwhY
+LhZRJJCPYWSwDv/DjFzgTydqxpW9bpOjOhwFxRFGh3RGJ3oe8A3VbpNYpuQX6Yzt
+rrsmHfNac5U7qP20Pw==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:X509Data>
+<ds:X509IssuerSerial>
+<ds:X509IssuerName>dnQualifier=IcYWQrJSUlXIYZIDkovSXrnqZKw=,OU=.DVS Test Signing Root,O=.DVS Digital Video Systems AG.DVS Test Signing Root,CN=.Do Not Use For Security Applications</ds:X509IssuerName>
+<ds:X509SerialNumber>2</ds:X509SerialNumber>
+</ds:X509IssuerSerial>
+<ds:X509Certificate>MIIFHTCCBAWgAwIBAgIBAjANBgkqhkiG9w0BAQsFADCBtjEuMCwGA1UEAxMlLkRv
+IE5vdCBVc2UgRm9yIFNlY3VyaXR5IEFwcGxpY2F0aW9uczE8MDoGA1UEChMzLkRW
+UyBEaWdpdGFsIFZpZGVvIFN5c3RlbXMgQUcuRFZTIFRlc3QgU2lnbmluZyBSb290
+MR8wHQYDVQQLExYuRFZTIFRlc3QgU2lnbmluZyBSb290MSUwIwYDVQQuExxJY1lX
+UXJKU1VsWElZWklEa292U1hybnFaS3c9MB4XDTA4MDUxNTEyMTc1MloXDTI1MDEw
+MTAwMDAwMFowgb4xLjAsBgNVBAMTJS5EbyBOb3QgVXNlIEZvciBTZWN1cml0eSBB
+cHBsaWNhdGlvbnMxPDA6BgNVBAoTMy5EVlMgRGlnaXRhbCBWaWRlbyBTeXN0ZW1z
+IEFHLkRWUyBUZXN0IFNpZ25pbmcgUm9vdDEnMCUGA1UECxMeLkRWUyBUZXN0IFNp
+Z25pbmcgSW50ZXJtZWRpYXRlMSUwIwYDVQQuExxzcHhmK0V0MkE4dVpRSHNUSzBE
+MG10cTVTMkk9MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0T8IZEuo
+E0BT1rJdzb7WK29nc2WOBax25EK+ieCZ9op+P7n+MxdYZd95+jHkyLzyJTMguwdw
+sB+LELQ65cIV6JofHZzVrTFx14yLH/sKk2UdPeKCSUYzSQ1Rr9+/WXOBtZa7r8Ej
+4fQtIxp0CmVzR3cKJb16vc7fB5ZHrqaOKsxVLnNAO6ZxYiRPNzWZeqB5QxEEAahE
+IBX+yOcQy1PFskYTzbsPbc0J+MmkPpq/fD1Mm5aiTMPOmKC3PTfTTvJ2ZWZyoSMw
+XTAmsSpcpoEHZyzEe3YgL84vl1YTBE8WEn4rcQrGToBL0aIlkzcihBI5T1laoAOr
+XIPSZO8WUPwEawIDAQABo4IBKjCCASYwEgYDVR0TAQH/BAgwBgEB/wIBAjALBgNV
+HQ8EBAMCAgQwHQYDVR0OBBYEFLKcX/hLdgPLmUB7EytA9JrauUtiMIHjBgNVHSME
+gdswgdiAFCHGFkKyUlJVyGGSA5KL0l656mSsoYG8pIG5MIG2MS4wLAYDVQQDEyUu
+RG8gTm90IFVzZSBGb3IgU2VjdXJpdHkgQXBwbGljYXRpb25zMTwwOgYDVQQKEzMu
+RFZTIERpZ2l0YWwgVmlkZW8gU3lzdGVtcyBBRy5EVlMgVGVzdCBTaWduaW5nIFJv
+b3QxHzAdBgNVBAsTFi5EVlMgVGVzdCBTaWduaW5nIFJvb3QxJTAjBgNVBC4THElj
+WVdRckpTVWxYSVlaSURrb3ZTWHJucVpLdz2CAQEwDQYJKoZIhvcNAQELBQADggEB
+AODP+xq8ebCUm6RfYHC2eTtYWpiVYIPchf+KeWWSrB2BasXxbPI/TEMfgM2rsn5Y
+vdIlQNv+5i7BXcpIrse6QNCApWKtIJr3mM+ikn8i/mU00Ck0qcgWF9rZTmI7NKvR
+N+XvA4eIUu64GsO0Z6XgdQ1ylxbZJDgd4+FUdlk2Be2LeVRsvGRRhDjKaV5utP7t
+mQ1ICT1VDOmH95MrzX8bQtEkWRL6pwx9NzxMfE8yNw5IZAJZStQWTt0i6GWeMmjb
+lNPUOeXhJYojMAftgXzPSrtGFrQOS0GFoWDuxuDMDu7SOH0M1dM57TuRuz+zy9Zr
+ja6bZtx9tMekqFC/vZew4gg=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:X509Data>
+<ds:X509IssuerSerial>
+<ds:X509IssuerName>dnQualifier=IcYWQrJSUlXIYZIDkovSXrnqZKw=,OU=.DVS Test Signing Root,O=.DVS Digital Video Systems AG.DVS Test Signing Root,CN=.Do Not Use For Security Applications</ds:X509IssuerName>
+<ds:X509SerialNumber>1</ds:X509SerialNumber>
+</ds:X509IssuerSerial>
+<ds:X509Certificate>MIIFFTCCA/2gAwIBAgIBATANBgkqhkiG9w0BAQsFADCBtjEuMCwGA1UEAxMlLkRv
+IE5vdCBVc2UgRm9yIFNlY3VyaXR5IEFwcGxpY2F0aW9uczE8MDoGA1UEChMzLkRW
+UyBEaWdpdGFsIFZpZGVvIFN5c3RlbXMgQUcuRFZTIFRlc3QgU2lnbmluZyBSb290
+MR8wHQYDVQQLExYuRFZTIFRlc3QgU2lnbmluZyBSb290MSUwIwYDVQQuExxJY1lX
+UXJKU1VsWElZWklEa292U1hybnFaS3c9MB4XDTA4MDUxNTEyMTc1MloXDTI1MDEw
+MTAwMDAwMFowgbYxLjAsBgNVBAMTJS5EbyBOb3QgVXNlIEZvciBTZWN1cml0eSBB
+cHBsaWNhdGlvbnMxPDA6BgNVBAoTMy5EVlMgRGlnaXRhbCBWaWRlbyBTeXN0ZW1z
+IEFHLkRWUyBUZXN0IFNpZ25pbmcgUm9vdDEfMB0GA1UECxMWLkRWUyBUZXN0IFNp
+Z25pbmcgUm9vdDElMCMGA1UELhMcSWNZV1FySlNVbFhJWVpJRGtvdlNYcm5xWkt3
+PTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOE+wDAWwexvPS9aUDCz
+/l9ZenfU5OLNwxqCHHNd77JFzqYmgLehgJ/GjZrrYS5DhAG6LieybHuyMM0lLjdQ
+rjBRIB3gNC95NErlY/CYldpU/t+N8xxDOA+7BYmctySDR3ljPEpOsnNlhkwR5430
+wraJKtdDt0lw+S7vFCsZu0Yr1XNJEyAtow3oc2cd1+89yt/SC63adG72Xzpli3zr
+WC9Wf/JBAqwZK80hGIIRe0zZ1cJn28suyfEYOyVo2Wk8bz+inZcM6b/sQA71h6F0
+EX4SapVjMEd5cCDyBvXoYEszmmRifUXce0SJEBCf6tx/kRzsstrIujxE7CI6VHPu
+QY8CAwEAAaOCASowggEmMBIGA1UdEwEB/wQIMAYBAf8CAQMwCwYDVR0PBAQDAgIE
+MB0GA1UdDgQWBBQhxhZCslJSVchhkgOSi9JeuepkrDCB4wYDVR0jBIHbMIHYgBQh
+xhZCslJSVchhkgOSi9JeuepkrKGBvKSBuTCBtjEuMCwGA1UEAxMlLkRvIE5vdCBV
+c2UgRm9yIFNlY3VyaXR5IEFwcGxpY2F0aW9uczE8MDoGA1UEChMzLkRWUyBEaWdp
+dGFsIFZpZGVvIFN5c3RlbXMgQUcuRFZTIFRlc3QgU2lnbmluZyBSb290MR8wHQYD
+VQQLExYuRFZTIFRlc3QgU2lnbmluZyBSb290MSUwIwYDVQQuExxJY1lXUXJKU1Vs
+WElZWklEa292U1hybnFaS3c9ggEBMA0GCSqGSIb3DQEBCwUAA4IBAQA7nHjHwswB
+ZHi0gQsiNW6ziD/udFYvNjUq3Fwlc0Ii98NKipXcxv++Azq3QtIO3fOyKPPJ3a2X
+iIWqt9UvVrD5utcuq2qjBK1UIKovWkAlEup82Y65eqtBw6aq6hkovvghfOQw+pVL
+32PWrGfjjorvqwS+FjYfxbrJOeLlDNodUsh4deF6pkSpD8mELXx4YwI8QPmA7JTI
+eN/iElV1uEUHK7Mm76CakUn1C0ciiORD3TzmHh5c2n2DtiiZxiKl0OUX6gIx+5S5
+iFFZIjyzv/huPfBTlOrI0Me/ojPZBIhrIu2aqy/EtSQ3uaJsO0kK/rb7Qs8raC1P
+/UbCTuJNeMlj
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+</CompositionPlaylist>

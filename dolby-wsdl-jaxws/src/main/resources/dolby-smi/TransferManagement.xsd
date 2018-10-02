@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This web service definition is protected under U.S. copyright laws as an unpublished work.
+  Do not copy.
+  Copyright 2009-$Date: 2009/03/20 $ by Dolby Laboratories Inc.
+  All rights reserved.
+-->
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    targetNamespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/transfermanagement" 
+    xmlns:ns="http://www.dolby.com/dcinema/ws/smi/v1/schemas/transfermanagement" 
+    xmlns:com="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
+    
+    <xs:import schemaLocation="Common.xsd" namespace="http://www.dolby.com/dcinema/ws/smi/v1/schemas/common"/>
+    
+	<!-- Information about a transfer -->
+	
+	<xs:complexType name="TransferInfo">
+      <xs:sequence>
+          <!-- The unique identifier of the transfer -->
+          <xs:element name="transferId" type="com:UUID"/>
+          <!-- A string describing the content being transferred. The content UUID when available. -->
+          <xs:element name="transferDescription" type="xs:string"/>
+          <!-- The percentage of the transfer that has completed -->
+          <xs:element name="percentageComplete" type="com:Percentage"/>
+          <!-- The destination content store type -->
+          <xs:element name="destinationStore" type="com:ContentStoreType"/>
+          <!-- The source content store type -->
+          <xs:element name="sourceStore" type="com:ContentStoreType"/>
+          <!-- Status of the transfer -->
+          <xs:element name="transferStatus" type="ns:TransferStatus"/>
+          <!-- Reason for the transfer error -->
+          <xs:element name="transferStatusReason" type="ns:TransferStatusErrorReason" minOccurs="0"/>
+          <!-- Indicates how content is being put onto this server -->
+          <xs:element name="transferType" type="ns:TransferType"/>
+          <!-- Indicates the mechanism in which content is being put on this server -->
+          <xs:element name="transferProtocolType" type="ns:TransferProtocolType"/>
+          <!-- The type of content to transfer -->
+          <xs:element name="contentType" type="com:ContentType"/>
+          <!-- The location of the content to transfer.
+               Not returned when the transfer is local or when the request URL was invalid. -->
+          <xs:element name="url" type="xs:anyURI" minOccurs="0"/>
+          <!-- Indicates the destination of the transfer. Returns the auditorium number,
+           or "TMS" when the transfer is to a TMS server not running in an auditorium-->
+         <xs:element name="location" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>	
+		
+	<!-- Types of network transfers. -->
+	
+    <xs:complexType name="NetworkTransferType">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:NetworkTransferTypeEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="NetworkTransferTypeEnum">
+	   <xs:restriction base="xs:token">
+		   <!-- Indicates that the server should obtain content from the specified uri -->
+		   <xs:enumeration value="PULL"/>
+		   <!-- An extended enumeration value is provided.  See extension attribute -->
+		   <xs:enumeration value="EXTENSION"/>
+	   </xs:restriction>
+	</xs:simpleType>
+	
+	<!-- Types of transfers (network and local) -->
+	
+    <xs:complexType name="TransferType">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:TransferTypeEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="TransferTypeEnum">
+		<xs:restriction base="xs:token">
+		   <!-- Indicates that the server should obtain content from the specified uri -->
+		   <xs:enumeration value="PULL"/>
+		   <!-- Indicates that the transfer is being ingested from or offloaded to 
+		        removable media -->
+		   <xs:enumeration value="LOCAL"/>
+		   <!-- An extended enumeration value is provided.  See extension attribute -->
+		   <xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!-- Mechanisms in which network transfers may occur -->
+	
+    <xs:complexType name="TransferProtocolType">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:TransferProtocolTypeEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+    <xs:simpleType name="TransferProtocolTypeEnum">
+        <xs:restriction base="xs:token">
+            <!-- Indicates that the FTP will be used to transfer the content -->
+            <xs:enumeration value="FTP"/>
+            <!-- Indicates that the transfer is local -->
+            <xs:enumeration value="LOCAL"/>
+            <!-- An extended enumeration value is provided.  See extension attribute -->
+            <xs:enumeration value="EXTENSION"/>
+        </xs:restriction>
+	</xs:simpleType>
+	
+	<!-- Transfer status -->
+	
+	<xs:complexType name="TransferStatus">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:TransferStatusEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="TransferStatusEnum">
+		<xs:restriction base="xs:token">
+		   <!-- Indicates that the transfer state is not available. -->
+		   <xs:enumeration value="NOT_AVAILABLE"/>
+		   <!-- Indicates that the transfer is pending. -->
+		   <xs:enumeration value="PENDING"/>
+		   <!-- Indicates that the content is being copied to the destination. -->
+		   <xs:enumeration value="IN_PROGRESS"/>
+		   <!-- Indicates that the transfer has been paused. -->
+		   <xs:enumeration value="PAUSED"/>
+		   <!-- Indicates that the copy is done, and verification is pending. -->
+		   <xs:enumeration value="AWAITING_VERIFICATION"/>
+		   <!-- Indicates that the content is verifying. -->
+		   <xs:enumeration value="VERIFYING"/>
+		   <!-- Indicates that the transfer has been finished. -->
+		   <xs:enumeration value="FINISHED"/>
+		   <!-- Indicates that the transfer will be cancelled when the current file is transferred. -->
+		   <xs:enumeration value="CANCELLATION_PENDING"/>
+		   <!-- Indicates that the transfer was cancelled. -->
+		   <xs:enumeration value="CANCELLED"/>
+		   <!-- Indicates that there was an error copying to the destination. -->
+		   <xs:enumeration value="ERROR"/>		   
+		   <!-- unknown transfer status -->
+		   <xs:enumeration value="UNKNOWN"/>
+		   <!-- An extended enumeration value is provided.  See extension attribute -->
+		   <xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="TransferStatusErrorReason">
+	    <xs:simpleContent>
+	        <xs:extension base="ns:TransferStatusErrorReasonEnum">
+	            <xs:attribute name="extension" type="xs:string"/>
+	        </xs:extension>
+	    </xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="TransferStatusErrorReasonEnum">
+		<xs:restriction base="xs:token">
+		   <!-- Indicates that there was an error with the disk. -->
+		   <xs:enumeration value="DISK_ERROR"/>
+		   <!-- Indicates that there was an error with the network. -->
+		   <xs:enumeration value="NETWORK"/>
+		   <!-- Indicates that there is an error with the content. -->
+		   <xs:enumeration value="CONTENT"/>
+            <!--Indicates that the content manager is busy. -->
+            <xs:enumeration value="CONTENT_MANAGER_BUSY"/>
+           <!-- Indicates that the content already exists on the destination. -->
+		   <xs:enumeration value="CONTENT_EXISTS"/>
+		   <!-- Indicates that there is no space on the disk. -->
+		   <xs:enumeration value="DISK_FULL"/>
+		   <!-- Indicates that the disk is not writable. -->
+		   <xs:enumeration value="DISK_NOT_WRITABLE"/>
+		   <!-- Indicates that the content was not verified. -->
+		   <xs:enumeration value="COULD_NOT_VERIFY"/>
+		   <!-- Indicates that the content was selected for playback. -->
+		   <xs:enumeration value="WAS_SELECTED"/>
+		   <!-- Indicates that the host was not found. -->
+		   <xs:enumeration value="HOST_NOT_FOUND"/>
+		   <!-- Indicates that a source file could not be found. -->
+		   <xs:enumeration value="FILE_NOT_FOUND"/>
+		   <!-- Indicates that the remote connection was closed. -->
+		   <xs:enumeration value="CONNECTION_CLOSED"/>
+		   <!-- Indicates that the transfer failed as a transfer of this content is in progress. -->
+		   <xs:enumeration value="DUPLICATE_TRANSFER"/>
+		   <!-- Indicates that the transfer failed as a transfer of this content is pending. -->
+		   <xs:enumeration value="DUPLICATE_PENDING_TRANSFER"/>
+		   <!-- Indicates that the transfer failed as the player can not accept any new transfers 
+		        because the maximum number of concurrent transfers has been reached. -->
+           <xs:enumeration value="MAX_NUMBER_EXCEEDED"/>
+           <!-- Indicates the information about the transfer is not yet available. -->
+           <xs:enumeration value="NOT_AVAILABLE"/>
+            <!--  Indicates that a package level transfer failed because either the ASSETMAP or CPL
+                  could not be found on the source. -->
+            <xs:enumeration value="PACKAGE_MISSING"/>
+		   <!-- Indicates that a package level transfer failed because either the ASSETMAP or CPL 
+		        transferred from the source could not be parsed. -->
+		   <xs:enumeration value="PACKAGE_BROKEN"/>		   
+		   <!-- unknown content transfer error status reason -->
+		   <xs:enumeration value="UNKNOWN"/>
+		   <!-- An extended enumeration value is provided.  See extension attribute -->
+		   <xs:enumeration value="EXTENSION"/>
+		</xs:restriction>
+	</xs:simpleType>
+    
+</xs:schema>
+    

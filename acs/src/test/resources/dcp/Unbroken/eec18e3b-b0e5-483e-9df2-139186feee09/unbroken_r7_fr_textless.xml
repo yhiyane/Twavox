@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DCSubtitle Version="1.0">
+  <SubtitleID>eec18e3b-b0e5-483e-9df2-139186feee09</SubtitleID>
+  <MovieTitle>Unbroken</MovieTitle>
+  <ReelNumber>7</ReelNumber>
+  <Language>French</Language>
+  <LoadFont Id="Font1" URI="Arial_UNBROKEN_OV_FrenchSubtitles_R07.ttf"/>
+  <Font Id="Font1" Color="FFFFFFFF" Effect="border" EffectColor="FF000000" Size="42" Weight="normal" Script="normal">
+    <Subtitle SpotNumber="1" TimeIn="00:00:01:073" TimeOut="00:00:03:031" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Vous pouvez dormir ici.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="2" TimeIn="00:00:07:010" TimeOut="00:00:08:114" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Vous deux, là-bas.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="3" TimeIn="00:00:15:031" TimeOut="00:00:16:166" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">C&#39;est la fin, les mecs.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="4" TimeIn="00:00:17:198" TimeOut="00:00:19:145" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Personne sait que vous êtes ici.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="5" TimeIn="00:00:21:062" TimeOut="00:00:23:166" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Résignez-vous à votre sort.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="6" TimeIn="00:02:02:093" TimeOut="00:02:03:166" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Votre président,</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="7" TimeIn="00:02:04:041" TimeOut="00:02:05:125" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Roosevelt,</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="8" TimeIn="00:02:08:031" TimeOut="00:02:09:073" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">est mort.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="9" TimeIn="00:03:27:073" TimeOut="00:03:28:093" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Louie ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="10" TimeIn="00:03:37:229" TimeOut="00:03:39:052" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Tu tiens le coup ?</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="11" TimeIn="00:05:03:093" TimeOut="00:05:04:145" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Prends !</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="12" TimeIn="00:05:40:073" TimeOut="00:05:41:073" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Soulève.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="13" TimeIn="00:05:44:062" TimeOut="00:05:45:104" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Soulève-la !</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="14" TimeIn="00:06:16:031" TimeOut="00:06:17:145" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Au-dessus de la tête.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="15" TimeIn="00:06:43:041" TimeOut="00:06:44:145" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">S&#39;il la lâche,</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="16" TimeIn="00:06:45:104" TimeOut="00:06:46:114" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">tuez-le.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="17" TimeIn="00:08:43:114" TimeOut="00:08:44:239" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Tiens bon, Louie.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="18" TimeIn="00:08:46:073" TimeOut="00:08:47:135" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Courage, mon gars.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="19" TimeIn="00:08:52:218" TimeOut="00:08:54:052" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Allez, Louie.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="20" TimeIn="00:09:53:177" TimeOut="00:09:55:041" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ne me regarde pas.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="21" TimeIn="00:09:57:145" TimeOut="00:09:59:062" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ne me regarde pas.</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="22" TimeIn="00:10:16:145" TimeOut="00:10:17:187" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">Ne me...</Text>
+    </Subtitle>
+    <Subtitle SpotNumber="23" TimeIn="00:10:18:104" TimeOut="00:10:20:010" FadeUpTime="20" FadeDownTime="20">
+      <Text Direction="horizontal" HAlign="center" HPosition="0.0" VAlign="bottom" VPosition="7.0">regarde pas !</Text>
+    </Subtitle>
+  </Font>
+</DCSubtitle>
